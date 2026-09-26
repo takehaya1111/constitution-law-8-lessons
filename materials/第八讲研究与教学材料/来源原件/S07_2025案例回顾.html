@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title> 2017年以来中国十大宪法事例涉及备案审查工作的情况_中国人大网</title>
+<meta name="keywords" content=""/>
+<link type="text/css" href="../../../images/common_content.css" rel="stylesheet" />
+<link type="text/css" href="../../../images/secondlevel.css" rel="stylesheet" />
+<script src="../../../images/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<!-- 引入video.js相关文件 -->
+        <link href="/npcVideo/video.js/video-js.min.css" rel="stylesheet">
+        <script src="/npcVideo/video.js/ie8/videojs-ie8.min.js" type="text/javascript"></script>
+        <script src="/npcVideo/video.js/video.min.js" type="text/javascript"></script>
+        <script src="/npcVideo/video.js/lang/zh-CN.js" type="text/javascript"></script>
+
+        <!-- 引入audio.js相关文件 -->
+        <script src="/npcVideo/audio.js/audio.min.js" type="text/javascript"></script>
+        <script src="/npcVideo/audio.js/audioplayer.min.js" type="text/javascript"></script>
+
+        <!-- 增加一个样式，用于初始隐藏WCM生成的播放代码，可加到网站主样式表 -->
+        <style type="text/css">
+            .video_hide {
+                display: none;
+            }
+            .audio_hide {
+                display: none;
+            }
+             .video-js {background:none!important;width: 100%!important;}
+        </style>
+
+        <script type="text/javascript">
+            //判断是否是移动设备
+            var isMobile = {
+                Android: function() {
+                    return navigator.userAgent.match(/Android/i) ? true : false;
+                },
+                BlackBerry: function() {
+                    return navigator.userAgent.match(/BlackBerry/i) ? true : false;
+                },
+                iOS: function() {
+                    return navigator.userAgent.match(/iPhone|iPad|iPod/i) ? true : false;
+                },
+                Windows: function() {
+                    return navigator.userAgent.match(/IEMobile/i) ? true : false;
+                },
+                any: function() {
+                    return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows());
+                }
+            };
+
+            $(document).ready(function() {
+                //设置flash播放器的地址，如果浏览器不支持html5，会用这个flash播放器播放
+                videojs.options.flash.swf = "video.js/video-js.swf";
+
+                //遍历WCM生成的视频播放代码
+                $("embed[mediatype=video]").each(function(index, el) {
+                    //从原始标签中获取播放属性（高宽、自动播放、循环播放、显示控制条等）
+                    //loop属性通过HTML属性获取，用jquery获取有误
+                    var loop = $(this)[0].getAttribute('loop') == 1;
+                    var autoplay = $(this).attr('autostart') == 1;
+                    var controls = $(this).attr('menu') == 1;
+                    var options = {
+                        "controls": controls,
+                        "autoplay": autoplay,
+                        "loop": loop,
+                        "width": $(this).attr('width'),
+                        "height": $(this).attr('height'),
+                        "language": "zh-CN"
+                    };
+                    //生成video标签
+                    var video = $('<video>').addClass('video-js vjs-default-skin vjs-big-play-centered')
+                        .attr('id', 'videojs_' + index)
+                        .append($('<source>').attr({
+                            'type': 'video/mp4',
+                            'src': $(this).attr('src')
+                        }));
+                    //将原播放标签替换
+                    $(this).replaceWith(video);
+                    //初始化播放代码
+                    var myPlayer = videojs("videojs_" + index, options);
+                });
+
+                //遍历WCM生成的音频播放代码
+                $("embed[mediatype=audio]").each(function(index, el) {
+                    //从原始标签中获取播放属性（自动播放、循环播放）
+                    //loop属性通过HTML属性获取，用jquery获取有误
+                    var loop = $(this)[0].getAttribute('loop') == 1;
+                    var autoplay = $(this).attr('autostart') == 1;
+                    //生成audio标签
+                    var audio = $('<audio>')
+                        .attr('controls', 'controls')
+                        .attr('preload', 'auto')
+                        .attr('src', $(this).attr('src'));
+                    if (loop) audio.attr('loop', 'loop');
+                    if (autoplay) audio.attr('autoplay', 'autoplay');
+                    //将原播放标签替换
+                    $(this).replaceWith(audio);
+                    
+                });
+                //根据不同的设备（PC/移动）调用不同的显示方式
+                if (!isMobile.any()) {
+                    //$('<script>').attr('src', 'audio.js/audio.min.js').appendTo('body');
+                    var as = audiojs.createAll();
+                } else {
+                    //$('<script>').attr('src', 'audio.js/audioplayer.min.js').appendTo('body');
+                    $('<link>').attr('href', 'audio.js/audioplayer.css').attr('rel', 'stylesheet').appendTo('body');
+                    $('audio').audioPlayer();
+                }
+            });
+        </script>
+</head>
+<body>
+<a name="top1" id="top1"></a> 
+
+<div class="wrap01"><iframe id="headIfr" src="../../../c191/c12481/c12451/" width="100%" height="209" frameborder="0" scrolling="no" marginheight="0"></iframe></div>
+
+<div class="wrapper">
+<div class="content">
+<div class="article-crumbs">当前位置：<a href="../../../" title="首页" class="CurrChnlCls">首页</a></div>
+
+<div class="fl w680">
+<div class="tit"><h2></h2>
+<h1>2017年以来中国十大宪法事例涉及备案审查工作的情况</h1>
+<h3></h3>
+<p></p>
+<p></p>
+</div>
+
+<div class="fontsize"> 来源： 中国人大网&nbsp;&nbsp;浏览字号： <a href="#" onclick="Zoom.style.fontSize='24px';">大</a> <a href="#" onclick="Zoom.style.fontSize='16px';">中</a> <a href="#" onclick="Zoom.style.fontSize='12px';">小</a>
+<span class="fr" id="zzrq"></span>  
+  </div>
+<script type="text/javascript">
+    $(function(){
+        var fbrq = "2025年02月07日 16:57"
+        if($('#zzrq').html() == ''){
+            $('#zzrq').html(fbrq);
+        }
+    })
+</script>
+<div id="Zoom">
+<div class=TRS_Editor><style type="text/css">
+
+.TRS_Editor P{}.TRS_Editor DIV{}.TRS_Editor TD{}.TRS_Editor TH{}.TRS_Editor SPAN{}.TRS_Editor FONT{}.TRS_Editor UL{}.TRS_Editor LI{}.TRS_Editor A{}</style>
+<div class="TRS_Editor"><style type="text/css">
+
+.TRS_Editor P{}.TRS_Editor DIV{}.TRS_Editor TD{}.TRS_Editor TH{}.TRS_Editor SPAN{}.TRS_Editor FONT{}.TRS_Editor UL{}.TRS_Editor LI{}.TRS_Editor A{}</style>
+<div>　　2025年1月4日，中国人民大学公法研究中心发布了2024年度十大宪法事例。自2006年起，中国人民大学公法研究中心每年联合部分高等院校、科研机构、新闻媒体等举办年度中国十大宪法事例评选活动。2017年全国人大常委会首次听取和审议法工委备案审查工作情况报告以来发布的8批中国十大宪法事例中共有16件涉及备案审查工作和历年备案审查工作情况报告中披露的事例案例。这反映了备案审查工作情况报告制度建立以来，备案审查工作日益受到社会各界的关注，在弘扬宪法精神、维护宪法权威以及促进宪法学研究等方面取得积极成效，社会影响力持续扩大，备案审查工作获得学术界、有关媒体和公众的广泛认可。</div>
+<div>　　<font face="黑体">一、2017年度中国十大宪法事例涉及备案审查工作的内容</font></div>
+<div>　　1．潘洪斌等就有关规范性文件提请全国人大常委会审查</div>
+<div>　　2015年10月，杭州市市民潘洪斌的一辆电动自行车被杭州交警依据《杭州市道路交通安全管理条例》扣留。潘洪斌认为，该条例增设了扣留非机动车并托运回原籍的行政强制手段，涉嫌违法，于2016年4月致信全国人大常委会提出审查建议。全国人大常委会法工委后向潘洪斌进行了书面反馈。2017年3月杭州市人大常委会决定将《杭州市道路交通安全管理条例》的修改列入2017年立法计划。</div>
+<div>　　2017年5月，上海财经大学法学院教授王全兴等4名劳动法专家向全国人大常委会提请审查广东、云南等省地方立法中关于“超生即辞退”的规定。2017年9月26日，全国人大常委会向广东、云南等5省发出建议函，请根据本省实际情况对相关条例适时作出修改。</div>
+<div>　　2017年12月，全国人大常委会法工委发布了5起由公民、组织提起的审查建议典型案例。全国人大常委会法工委主任沈春耀在作相关情况工作报告时透露，十二届全国人大以来，法制工作委员会共收到公民、组织提出的各类审查建议1527件，属于全国人大常委会备案审查范围的有1206件，其中建议对行政法规进行审查的24件，占2.0%；建议对地方性法规进行审查的66件，占5.5%；建议对司法解释进行审查的1116件，占92.5%。</div>
+<div>　　<font face="黑体">二、2018年度中国十大宪法事例涉及备案审查工作的内容</font></div>
+<div>　　2．全国人大常委会审查浙江高院制定的“非法行医”解释文件</div>
+<div>　　法学家李步云于2018年初向全国人大常委会法工委法规备案审查室就浙江省高院对非法行医罪进行解释提出了审查建议，指出地方法院越权制定司法解释性质文件。2018年7月18日，全国人大常委会法工委法规备案审查室予以复函。根据反馈的情况，浙江省高级人民法院表示所涉解释属于应当清理的带有司法解释性质的文件，省人民检察院、省公安厅将停止执行相关条款，共同研究妥善处理正在审理的案件及生效案件，并将于近期通知辖区法院停止执行意见中有关非医学需要鉴定胎儿性别行为以非法行医罪处罚的决定。</div>
+<div>　　<font face="黑体">三、2019年度中国十大宪法事例涉及备案审查工作的内容</font></div>
+<div>　　3．全国人大常委会审查处理省级人大常委会关于授权交警检查通讯记录的规范性文件</div>
+<div>　　《甘肃省道路交通安全条例》规定，因调查交通事故案件需要，公安机关交通管理部门可以查阅或者复制交通事故当事人通讯记录。《内蒙古自治区实施〈中华人民共和国道路交通安全法〉办法》也作了同样的规定。全国人大常委会法工委针对包括上述地方性法规在内的道路交通管理地方性法规、部门规章集中开展了一次专项审查研究。全国人大常委会法工委经研究认为，上述规定涉及公民通信自由及通信秘密，缺乏法律依据，并于2019年2月向两地人大常委会发出审查意见以督促纠正。</div>
+<div>　　4．福建县级人大常委会审查纠正本级政府关于因超生开除公职的规范性文件</div>
+<div>　　2019年，福建某县人大常委会法工委根据公民审查建议对该县人民政府颁布的《XX县贯彻〈福建省计划生育条例〉实施办法》进行了审查。经审查，该县人大常委会认为，随着社会的发展，我国的计划生育政策已进行了重大调整。《福建省计划生育条例》历经多次修正，根据2016年2月19日《福建省人大常委会关于修改〈福建省人口与计划生育条例〉的决定》，现已全面实施两孩政策，该文件与上位法律法规相抵触，已经不再适用，应当予以清理。2019年，县政府法制办已按照该县人大常委会的相关建议开展清理修订工作。</div>
+<div>　　类似的案例还有上海市人大常委会审查处理下级人大常委会关于限定常委会工作机构组成人员资格的规范性文件、北京市区级人大常委会审查纠正本级政府关于规范共享自行车管理的规范性文件等。</div>
+<div>　　5．全国人大常委会决定废止有关收容教育法律规定和制度</div>
+<div>　　2019年12月28日，全国人大常委会审议通过了关于废止有关收容教育法律规定和制度的决定。该决定废止了《全国人民代表大会常务委员会关于严禁卖淫嫖娼的决定》第四条第二款、第四款，以及据此实行的收容教育制度。在收容教育制度废止前，依法作出的收容教育决定有效；收容教育制度废止后，对正在被依法执行收容教育的人员，解除收容教育，剩余期限不再执行。</div>
+<div>　　<font face="黑体">四、2021年度中国十大宪法事例涉及备案审查工作的内容</font></div>
+<div>　　6．公民对婚前医学检查相关法律法规提出备案审查建议</div>
+<div>　　2021年12月21日，第十三届全国人民代表大会常务委员会第三十二次会议审议的《全国人民代表大会常务委员会法制工作委员会关于2021年备案审查工作情况的报告》提出：“国务院《婚姻登记条例》规定的办理结婚登记应出具的证明材料中，不包括婚前医学检查证明。有公民对此规定提出审查建议，认为该规定与母婴保健法关于结婚登记应当持有婚前医学检查证明的规定不一致。我们审查认为，自2003年10月《婚姻登记条例》实施以来，婚前医学检查事实上已成为公民的自愿行为；2021年1月实施的民法典规定了婚前重大疾病的告知义务，将一方隐瞒重大疾病作为另一方可以请求撤销婚姻的情形予以规定，没有再将‘患有医学上认为不应当结婚的疾病’规定为禁止结婚的情形。我们与国务院有关部门沟通，推动根据民法典精神适时统筹修改完善有关法律法规制度。”</div>
+<div>　　7．地方性法规中的特种行业从业人员终身禁业规定被废止</div>
+<div>　　2021年12月21日，第十三届全国人民代表大会常务委员会第三十二次会议审议的《全国人民代表大会常务委员会法制工作委员会关于2021年备案审查工作情况的报告》提出：“有的地方性法规规定，开锁、公章刻制、信托寄卖、金银首饰加工、废旧金属收购等特种行业从业人员利用该行业便利进行违法活动受过行政或刑事处罚的，终身不得从事该行业。有公民对此规定提出审查建议。我们审查认为，地方性法规对某些特种行业设定较为严格的从业资格条件，对维护公共安全有积极作用，但在法律、行政法规没有规定从业限制的领域，地方性法规作出相关从业限制规定时，不宜规定‘终身禁止’，建议制定机关调整完善相关规定。经沟通，制定机关已对相关规定作出修改调整。”</div>
+<div>　　8．民族自治地方民族教育条例有关通用语言文字教育教学规定被废止</div>
+<div>　　2021年12月21日，第十三届全国人民代表大会常务委员会第三十二次会议审议的《全国人民代表大会常务委员会法制工作委员会关于2021年备案审查工作情况的报告》提出：“国务院有关主管部门对有的民族自治地方民族教育条例等法规提出合宪性审查建议，认为条例中的有关规定存在合宪性问题，不利于促进民族交往交流交融。我们审查认为，宪法和有关法律已对推广普及国家通用语言文字作出明确规定，包括民族地区在内的全国各地区应当全面推行国家通用语言文字教育教学，有关法规中的相关内容应予纠正。经沟通，制定机关已废止有关法规。”</div>
+<div>　　9．地方计生法规中的强制性亲子鉴定规定被废止</div>
+<div>　　2021年12月21日，第十三届全国人民代表大会常务委员会第三十二次会议审议的《全国人民代表大会常务委员会法制工作委员会关于2021年备案审查工作情况的报告》提出：“有的地方性法规规定，有关行政部门为调查计划生育违法事实，可以要求当事人进行亲子鉴定；对拒不配合的，处以一万元以上五万元以下罚款。有公民对上述规定提出审查建议。我们审查认为，亲子关系涉及公民人格尊严、身份、隐私和家庭关系和谐稳定，属于公民基本权益，受宪法法律保护，地方性法规不宜规定强制性亲子鉴定的内容，也不应对此设定相应的行政处罚、处分、处理措施。经沟通，制定机关已对相关规定作出修改。”</div>
+<div>　　<font face="黑体">五、2022年度中国十大宪法事例涉及备案审查工作的内容</font></div>
+<div>　　10．全国人大常委会法工委推动深度开展涉及计划生育内容规范性文件清理工作</div>
+<div>　　据《法治日报》2022年9月20日报道，根据全国人大常委会部署，法工委继续推进涉及计划生育内容的法规、规章、规范性文件专项清理后续工作，于近日向国家卫生健康委员会、国家医保局、司法部以及31个省、自治区、直辖市地方人大常委会发函，组织对法规、规章、规范性文件中关于享受生育保险待遇的不当限制性规定等进行集中清理。此前，2021年6月，《中共中央 国务院关于优化生育政策促进人口长期均衡发展的决定》印发，同年8月，十三届全国人大常委会第三十次会议通过了关于修改《中华人民共和国人口与计划生育法》的决定。此外，在《全国人民代表大会年鉴2021年卷》中，法工委对修改人口与计划生育法涉及宪法问题发布了研究意见。</div>
+<div>　　<font face="黑体">六、2023年度中国十大宪法事例涉及备案审查工作的内容</font></div>
+<div>　　11．法工委就涉罪人员近亲属受限制规范进行合宪性审查</div>
+<div>　　全国人大常委会法工委在2023年备案审查工作情况的报告中指出：有的市辖区议事协调机构发布通告，对涉某类犯罪重点人员采取惩戒措施，其中对涉罪重点人员的配偶、子女、父母和其他近亲属在受教育、就业、社保等方面的权利进行限制。有公民对此提出审查建议，认为这样的限制措施实际上属于“连坐”性质，应予停止执行……任何违法犯罪行为的法律责任都应当由违法犯罪行为人本人承担，而不能株连或者及于他人，这是现代法治的一项基本原则；有关通告对涉罪人员近亲属多项权利进行限制，违背罪责自负原则，不符合宪法第二章关于“公民的基本权利和义务”规定的原则和精神，也不符合国家有关教育、就业、社保等法律法规的原则和精神。</div>
+<div>　　12．“异地用检”得到进一步规范</div>
+<div>　　全国人大常委会法工委在2023年备案审查工作情况的报告中指出：有的司法解释规定，上级人民检察院可以依法统一调用辖区内的检察人员办理案件，经上级人民检察院作出调用决定，被调用的检察官可以代表办理案件的人民检察院履行出庭支持公诉等各项检察职责。有公民对此规定提出审查建议。今年，法工委对此问题进一步深入研究，形成《关于调用检察人员及其任免问题的有关情况和研究意见》，对被决定调用的检察人员是否须经调入地人大常委会任命的问题，区分不同情形提出具体的、明确的规范意见。制定机关于今年9月出台《关于上级人民检察院统一调用辖区的检察人员办理案件若干问题的规定》，其中明确规定：“被调用检察人员以检察官身份代表办理案件的人民检察院履行出庭支持公诉等职责的，应当由办理案件的人民检察院检察长提请本级人民代表大会常务委员会按照法定程序任命为本院的检察员。案件办结或者上级人民检察院作出终止调用决定的，按照法定程序免去其前述检察员职务。”同时，法工委还对新规定出台前已办结案件如何处理问题进行研究并提出意见。</div>
+<div>　　13．全国人大常委会通过关于完善和加强备案审查制度的决定</div>
+<div>　　2023年12月29日，被学界称为“小备案审查法”的全国人大常委会关于完善和加强备案审查制度的决定经十四届全国人大常委会第七次会议审议通过。此外，2023年3月立法法修改通过，其中十余处涉及备案审查制度，条文数目与内容变动较大。</div>
+<div>　　<font face="黑体">七、2024年度中国十大宪法事例涉及备案审查工作的内容</font></div>
+<div>　　14．各级人民代表大会常务委员会监督法迎来修改</div>
+<div>　　2024年11月8日，时隔十八年后，第十四届全国人民代表大会常务委员会第十二次会议决定对《中华人民共和国各级人民代表大会常务委员会监督法》作出修改，修改主要内容包括：完善人大监督的指导思想和重要原则、理念，完善财政经济工作监督的内容和制度机制，完善执法检查工作机制，完善备案审查制度，增加专题询问制度，明确监督工作计划等等。</div>
+<div>　　15．备案审查工作关注司法解释溯及既往规定</div>
+<div>　　有的司法解释规定，公司法施行前，股东转让未届出资期限的股权，受让人未按期足额缴纳出资的，关于转让人、受让人出资责任的认定，适用公司法第八十八条第一款的规定。有些公民、组织对这一规定提出审查建议，认为公司法第八十八条不应适用于法律施行前发生的行为。</div>
+<div>　　法工委经审查认为，立法法第一百零四条规定：“法律、行政法规、地方性法规、自治条例和单行条例、规章不溯及既往，但为了更好地保护公民、法人和其他组织的权利和利益而作的特别规定除外。”这是一项重要法治原则；公司法第八十八条是2023年修订公司法时新增加的规定，新修订的公司法自2024年7月1日起施行；公司法第八十八条规定不溯及既往，即对新修订的公司法施行之后发生的有关行为或者法律事实具有法律效力，不溯及之前；公司法第八十八条规定的事项不存在立法法第一百零四条规定的但书情形。法工委将督促有关司法解释制定机关采取适当措施予以妥善处理。</div>
+<div>　　16．备案审查工作关注涉罪人员平等保护相关问题</div>
+<div>　　全国人大常委会法工委2024年备案审查工作情况报告中，有两起有关涉罪人员基本权利事例，引发社会关切。</div>
+<div>　　有的地方政府规范性文件规定，因犯罪受刑事处罚人员不得享受最低生活保障政策。有公民对这一规定提出审查建议，认为存在合宪性、合法性问题，应予纠正。法工委经审查研究认为，我国宪法第四十五条第一款中对“中华人民共和国公民在年老、疾病或者丧失劳动能力的情况下，有从国家和社会获得物质帮助的权利”作出明确规定；最低生活保障制度是实施宪法有关规定的一个具体体现，属于有关保障民生的兜底性制度安排；对于没有劳动能力、没有生活来源的各类人员，包括曾受刑事处罚人员中具有此类情况的人员，应当属于城乡最低生活保障覆盖范围的人员；如果将涉罪有关人员排除在城乡最低生活保障范围之外，与宪法有关规定的原则和精神不符，也与国务院有关行政法规的原则和精神不符。经沟通，制定机关表示，该文件虽然在政府官网上，但实际上已废止。法工委与有关方面督促制定机关对该文件作出妥善处理。</div>
+<div>　　有的法规规定，因犯罪受过刑事处罚人员不得从事某种职业。有公民提出审查建议，认为存在合宪性、合法性问题，应予纠正。法工委经审查研究认为，对特定人员从事特定职业作出限制性或者禁止性规定，应当确有必要，限于特定范围内；超出一定必要性和合理性，过于宽泛甚至随意规定从业限制或者从业禁止，则不符合宪法关于“公民有劳动的权利和义务”规定的原则和精神；对曾因犯罪受过刑事处罚人员规定从业限制或者从业禁止，应当严格遵循宪法和有关法律的规定、原则和精神，综合考虑罪刑轻重、罪名种类、社会危害性大小、相关限禁措施与犯罪行为之间具有关联性等因素，公平合理进行设定。法工委建议制定机关加强对涉罪人员相关问题研究论证，慎重设定终身禁业，适时考虑修改完善相关规定。</div>
+</div></div>
+</div>
+
+<div class="editor">编       辑： 夏红真</div>
+<div class="editor">责       编： 于浩</div>
+
+<div class="share"><a class="fl back" href="../../../"><< 返回首页</a> 
+
+<div class="bdsharebuttonbox" style="width:280px;float:left;">
+<!--<a href="#" class="bds_more" data-cmd="more"></a>-->
+<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+
+
+<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+
+</div>
+
+<script type="text/javascript">
+<!--
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{},"image":{"viewList":["qzone","tsina","weixin"],"viewText":"分享到：","viewSize":"16"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=86835285.js?cdnversion='+~(-new Date()/36e5)];
+-->
+</script>
+
+ <span style="display:none;"><a class="fr download" href="http://npc.unisk.cn/download.html" target="_blank"> </a></span></div>
+
+<div class="about-article">
+
+<h4>相关文章</h4>
+<ul>
+
+</ul>
+
+</div>
+<script>
+var aboutArticle=document.getElementsByClassName("about-article")[0]; 
+var aboutLi=aboutArticle.getElementsByTagName("li").length;
+if(aboutLi==''){
+	aboutArticle.getElementsByTagName("h4")[0].style.display='none'
+}
+</script>
+
+<div class="printbox"><a href="javascript:window.print()"><img src="../../../images/button_print1.gif" />  </a> <a href="javascript:window.close()"><img src="../../../images/button_close1.gif" />  </a> <a href="#top1"><img src="../../../images/button_back1.gif" border="0" /></a></div>
+</div>
+
+<div class="fr s_rw"><iframe id="rightty3" src="../../../c191/c12481/c22235/" width="272" height="900" scrolling="no" marginheight="0" frameborder="0"></iframe></div>
+</div>
+</div>
+
+<div class="wrap02"><iframe id="headIfr" src="/npc/c191/c12481/c12453/index.shtml" width="100%" height="110" frameborder="0" scrolling="no" marginheight="0"></iframe></div>
+<div style="width:-100px; height:-100px; display:none;"><a href="/ics/cpf/hlink123938"></a></div></body>
+</html>

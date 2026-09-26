@@ -1,0 +1,873 @@
+{
+  "created": "2026-09-27",
+  "repository": "takehaya1111/constitution-law-8-lessons",
+  "visibility": "private",
+  "scope": "宪法学八次课材料与Pro规划交接",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 71,
+      "sha256": "8ff83d4272c041c72008c0737d4c106ef961d853a38d78c3437a7fae30beae18"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 72,
+      "sha256": "cac5c4b1d35c8a1e53b1c936c7467a66b951fb2ca3e6c22df0f7325232c5a5a8"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1187,
+      "sha256": "019b317079c4a0bb99bed496539e800b1460b6652bc32d5209263b828bf53443"
+    },
+    {
+      "path": "CURRENT_STATE.md",
+      "bytes": 3131,
+      "sha256": "e492947f35c65b6a3dc04b42122b4aebe7812512d2f711b28cbbbd1fbf6f02ca"
+    },
+    {
+      "path": "handoff/README.md",
+      "bytes": 1394,
+      "sha256": "50c55a0d68811dfecaf0a46b52e8aaba1ff1309f9164826e141202a24d7f0f40"
+    },
+    {
+      "path": "materials/前七讲转化稿/新版课件初稿/第1讲_宪法总论.pptx",
+      "bytes": 53334,
+      "sha256": "7ad756fa4322bcf3261b55fdae7d3cbb5fa54ec670d17beee2f157419850b86f"
+    },
+    {
+      "path": "materials/前七讲转化稿/新版课件初稿/第2讲_宪法的发展.pptx",
+      "bytes": 53260,
+      "sha256": "4fae5fccbb6fc6f35539609263597781955cdc96e66ece5d5dee4d3e1af99024"
+    },
+    {
+      "path": "materials/前七讲转化稿/新版课件初稿/第3讲_国家性质与国家形式.pptx",
+      "bytes": 53135,
+      "sha256": "bed6b6a43d167e5bf98f949256b234b9e90b9408ac798773ab24f9960fc36146"
+    },
+    {
+      "path": "materials/前七讲转化稿/新版课件初稿/第4讲_国家基本制度.pptx",
+      "bytes": 53400,
+      "sha256": "73dc227e84e3562f5ad21e6644cadf1d09a7b223c33ffcae4af002e0eeedf6c2"
+    },
+    {
+      "path": "materials/前七讲转化稿/新版课件初稿/第5讲_基本权利的一般原理.pptx",
+      "bytes": 49788,
+      "sha256": "81f2bacc6a1542776318fae61eb54676ae679596296d0739d4087c66f2616dda"
+    },
+    {
+      "path": "materials/前七讲转化稿/新版课件初稿/第6讲_具体基本权利与基本义务.pptx",
+      "bytes": 55948,
+      "sha256": "0cada4a98091468140fa53ac7f1061be24cccc89a4bfa3cd2d54607072e6eebb"
+    },
+    {
+      "path": "materials/前七讲转化稿/新版课件初稿/第7讲_国家机构.pptx",
+      "bytes": 56931,
+      "sha256": "a97a5dba484c88444272d4c74c61b8ecdba1b9883ef3c2a62441ee493791fb27"
+    },
+    {
+      "path": "materials/前七讲转化稿/第1-2讲_教学设计初稿.md",
+      "bytes": 19580,
+      "sha256": "99d3055ac0650b89c7e0e5f87b200ab6496754dcbf05b3dcdb0fd5148870dcc4"
+    },
+    {
+      "path": "materials/前七讲转化稿/第3-4讲_教学设计初稿.md",
+      "bytes": 17838,
+      "sha256": "09b085566ae989752c483c27f459140e49c782f2be327162dd10559b9be9b635"
+    },
+    {
+      "path": "materials/前七讲转化稿/第5-6讲_教学设计初稿.md",
+      "bytes": 17075,
+      "sha256": "56e782031c789da85e183c1acd2b16dbbe9f0e3b507e5121e50bc23b044a7a14"
+    },
+    {
+      "path": "materials/前七讲转化稿/第7讲_教学设计初稿.md",
+      "bytes": 5276,
+      "sha256": "45b82ba46a76c35ec384a7df8ad5bb5126973ada9379d525b4bbed5019ee5a4b"
+    },
+    {
+      "path": "materials/前七讲转化稿/第7讲_课件选页与问题清单.md",
+      "bytes": 3860,
+      "sha256": "a75b024547027b70436b70932a111203fff691ce4e92f1deb4f7ac3ab3901411"
+    },
+    {
+      "path": "materials/前七讲转化稿/说明.md",
+      "bytes": 3511,
+      "sha256": "f72c4a6ffad510024df6390f24603b20abdd64178e2d48edb1d43998ae7eec16"
+    },
+    {
+      "path": "materials/前七讲转化稿/课件源数据/生成大纲Word.js",
+      "bytes": 5116,
+      "sha256": "3f10e1cb76e8f7dfcd87f6bb8949eb694ae0a67f570e43b5419adedbd8ebb3a2"
+    },
+    {
+      "path": "materials/前七讲转化稿/课件源数据/生成课件.js",
+      "bytes": 10434,
+      "sha256": "4f096494eaced93747f819da26733131c6f15089ecfd12a8c6bee1c77ac7d0dd"
+    },
+    {
+      "path": "materials/前七讲转化稿/课件源数据/生成质检缩略图.py",
+      "bytes": 1412,
+      "sha256": "dfa19daaff4349a06da4a7f27fd9cdf4d9fc0cb170ea233aef1ba385e025f369"
+    },
+    {
+      "path": "materials/前七讲转化稿/课件源数据/第1-2讲.json",
+      "bytes": 9516,
+      "sha256": "0cd7ef9d7210093f19ef218ecd3693b367a4901cb7c6eecfc498f2bfa75a98ec"
+    },
+    {
+      "path": "materials/前七讲转化稿/课件源数据/第3-4讲.json",
+      "bytes": 9758,
+      "sha256": "59e5eae449fd0591cbcfa17983296ea299a420237c4c9f2d58ee56a76e65b7a7"
+    },
+    {
+      "path": "materials/前七讲转化稿/课件源数据/第5-6讲.json",
+      "bytes": 9040,
+      "sha256": "c8f1f10277acab67693431cd1345157e6c67e7cfd86246d09ba6beafd75f888f"
+    },
+    {
+      "path": "materials/前七讲转化稿/课件源数据/第7讲.json",
+      "bytes": 3935,
+      "sha256": "3521db32185b7a297d6d64f72a20e94cd77b6d78ef6e2e63137863ee1750c1b9"
+    },
+    {
+      "path": "materials/前七讲转化稿/课件验证记录.md",
+      "bytes": 1697,
+      "sha256": "58e740e76d8009dda166c56acd392887f83403679bdce004df4688202c92564a"
+    },
+    {
+      "path": "materials/原始材料/2025.12.22版-《法理与宪法学》教学大纲.docx",
+      "bytes": 179537,
+      "sha256": "655d0eadd85bfc331750ac8b45f50c1453b750d76cd3dec36ffd5505af768d01"
+    },
+    {
+      "path": "materials/原始材料/周星星：《法理与宪法学》教学设计.docx",
+      "bytes": 659132,
+      "sha256": "a3be1d392bedb2f82fa9ef34be57a27b63f2a8cdb68e196b8a945818b77d3e50"
+    },
+    {
+      "path": "materials/原始材料/所用视频(1).zip",
+      "bytes": 33497654,
+      "sha256": "23e6ac90a82bedc08f4cb2d17b2833742163caf1627c2cc759c5b74a9773a9f1"
+    },
+    {
+      "path": "materials/宪法内容剥离/剥离说明.md",
+      "bytes": 3325,
+      "sha256": "525ef4bc5895325d6710f24c32dbb5943e0f3c298a1fbb6e46f0e169030b2ee4"
+    },
+    {
+      "path": "materials/宪法内容剥离/教学大纲_宪法部分原文摘录.md",
+      "bytes": 27298,
+      "sha256": "31f73e1dad7c8a6cf802847a02867ffbbaac5b7c8ccf6607056c12c201f3a62e"
+    },
+    {
+      "path": "materials/宪法内容剥离/教学设计_宪法部分原文摘录.md",
+      "bytes": 327667,
+      "sha256": "63d924724d470d1fac5fb4bed247bf703cb3d0d900d06d46821ba914ba6c3552"
+    },
+    {
+      "path": "materials/宪法内容剥离/教学设计配图/image1.png",
+      "bytes": 88291,
+      "sha256": "8549f79da4d2011232ac904af326d039cdfb0cda5043cb727739c89c957b3356"
+    },
+    {
+      "path": "materials/宪法内容剥离/教学设计配图/image2.png",
+      "bytes": 76605,
+      "sha256": "ab00f65386a1843adf70baa7d69cfef6d3539f9f5893a9cd40673e3e40c50027"
+    },
+    {
+      "path": "materials/宪法内容剥离/文件校验清单.csv",
+      "bytes": 4227,
+      "sha256": "76ee6ee30e207129b76d0101b0340069108ba2c2e4fbbc6d3d8dd98d8c45d69e"
+    },
+    {
+      "path": "materials/宪法内容剥离/视频原件/第11讲 宪法的发展/011 第55页ppt, （五）2018年宪法的修改之前.mp4",
+      "bytes": 2272322,
+      "sha256": "ad5a861c74eb2d04a0e43e361822fd2423ccc0e0c8f2b4f07db6b2422bf461db"
+    },
+    {
+      "path": "materials/宪法内容剥离/视频原件/第11讲 宪法的发展/011 ， 第3页ppt  ，课程回顾之后！.mp4",
+      "bytes": 3099041,
+      "sha256": "3b0cd408014c704783598f31a8e0809d771ac0250f684963e1e3a005bcd66983"
+    },
+    {
+      "path": "materials/宪法内容剥离/视频原件/第11讲 宪法的发展/011， 第18页ppt,第二节 中华人民共和国成立前的宪法之后.mp4",
+      "bytes": 3113902,
+      "sha256": "854e9b8ef34621f7b7e22e9134ad3889e9ff8bafd74ba03f9d9e0e41a4b20d64"
+    },
+    {
+      "path": "materials/宪法内容剥离/视频原件/第13讲  国家基本制度/第二节 政治制度之后 ，第13页ppt mp4.mp4",
+      "bytes": 3829990,
+      "sha256": "1117cab285dbb7818e50e0530de3a19297703abbe98966a7032b39ee976c8545"
+    },
+    {
+      "path": "materials/宪法内容剥离/视频原件/第16讲 国家机构 八、九、十节/国家机构-第十节 人民检察院-第23页mp4.mp4",
+      "bytes": 2117282,
+      "sha256": "4308683995755c57dd97ce83226788a4e6e8d0f48e2439550c2bf5888ae3a62a"
+    },
+    {
+      "path": "materials/宪法内容剥离/视频原件/第16讲 国家机构 八、九、十节/国家机构—第八节 监察委员会 第2页 mp4.mp4",
+      "bytes": 3194521,
+      "sha256": "4bd0754f8a21d7a10a3655623e37b410aabedd3a949efb18736fa1d7a674e6a6"
+    },
+    {
+      "path": "materials/宪法内容剥离/视频原件/第16讲 国家机构 八、九、十节/国家机构，第九节 人民法院，第13页ppt mp4.mp4",
+      "bytes": 3445026,
+      "sha256": "42f9186057b2ad0b406b40094bf8f875a8c644a5e3fd17c69de68ef6ec5ebee1"
+    },
+    {
+      "path": "materials/宪法内容剥离/课件_宪法内容页码索引.md",
+      "bytes": 8542,
+      "sha256": "e0ad9e073ec57d27a7c02f44a1f9fa81551f9cada420fa0c771b61d592e53612"
+    },
+    {
+      "path": "materials/宪法内容剥离/课件原件/10 宪法总论.pptx",
+      "bytes": 2196852,
+      "sha256": "164984ca2cac4a79f9ed4df109c93bf7b50347e6726c98430ca1df849627205b"
+    },
+    {
+      "path": "materials/宪法内容剥离/课件原件/11宪法的历史.pptx",
+      "bytes": 44731988,
+      "sha256": "a59eb8ae273b02d4c9be3468e10c37a508a966fbcac0a214fb965b1c1ac3a6db"
+    },
+    {
+      "path": "materials/宪法内容剥离/课件原件/12 国家性质和国家形式.pptx",
+      "bytes": 39832344,
+      "sha256": "dd3b77b39e8ffafba55e40ac2390ccf193142f49f7a41a7f91c1088e0b9a2dec"
+    },
+    {
+      "path": "materials/宪法内容剥离/课件原件/13 国家基本制度修改.pptx",
+      "bytes": 24934552,
+      "sha256": "5c4b639a709b625b1d0ccb6a3cbd21603971a5f6905745c250ec6ca27cd4ca68"
+    },
+    {
+      "path": "materials/宪法内容剥离/课件原件/14公民的基本权利和义务（上）.pptx",
+      "bytes": 2436707,
+      "sha256": "c9915af6afd89d9d18a489bd9cfa0c8da86a1b47875bee054119334348ddc3f4"
+    },
+    {
+      "path": "materials/宪法内容剥离/课件原件/15公民的基本权利和义务（下）.pptx",
+      "bytes": 4009431,
+      "sha256": "1249a6af0f0651aa6f28215598ea07855c4398c6fa2a2ef3f5d05d15871dfc85"
+    },
+    {
+      "path": "materials/宪法内容剥离/课件原件/16国家机构.pptx",
+      "bytes": 27306851,
+      "sha256": "af0fdd7699581ef8c2b2fec1f0ae0cd609f5da066935997b1ff74df4011e41b5"
+    },
+    {
+      "path": "materials/宪法内容剥离/课件原件/16国家机构之三到七节.pptx",
+      "bytes": 1362108,
+      "sha256": "ffba75e2d19c9297fd3fef8528b71f3ade993d7d545a79bdd1177664e62256e4"
+    },
+    {
+      "path": "materials/宪法学八次课_材料入口.md",
+      "bytes": 2968,
+      "sha256": "9ece73cc673694bfb8226e5750d16cb6403717c24baac30cfb2478ba8c0dea61"
+    },
+    {
+      "path": "materials/宪法学八次课体系_讨论稿.md",
+      "bytes": 8625,
+      "sha256": "c7dc0ce2a3ddeba97f55f4efc43187863304a2510ab6cc18484efa6bcc387830"
+    },
+    {
+      "path": "materials/宪法学八次课教学内容总表_讨论稿.md",
+      "bytes": 11344,
+      "sha256": "8ffabc26752f6d404895bdf3b811768c3b1be4a7cafc8515b8b7425f38af14c0"
+    },
+    {
+      "path": "materials/宪法学课程教学大纲_内容稿.docx",
+      "bytes": 13622,
+      "sha256": "5c5e37b3990d1d3facfce1757122d1ac353d3d0bc040c0508d79d903acfcf88d"
+    },
+    {
+      "path": "materials/宪法学课程教学大纲_内容稿.md",
+      "bytes": 5653,
+      "sha256": "5751e8841a5a9e60d031a628f6a7054cd288d9252eeefe4b91a62c41d935c97e"
+    },
+    {
+      "path": "materials/第8讲_宪法实施与监督_规划稿.md",
+      "bytes": 11004,
+      "sha256": "90b752033bcb86d0ba00a6d4b7892cae5a136e3326ea6fc0127febaf2fe85e05"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/00_使用说明.md",
+      "bytes": 3928,
+      "sha256": "40295f752f3665c562ba036749ee2c3579cf1d582d481d9a4b266f0ba07a537e"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/01_调研与执行方案.md",
+      "bytes": 9511,
+      "sha256": "77c9893753300138253982f17d5289f0f3b03300c11de08f7920e5b14636e428"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/02_研究核对记录.md",
+      "bytes": 12281,
+      "sha256": "a8275f05f1dd81fc663c4e182906f82f3e8ec7b116ed945dcf764814b1a320d0"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/03_第8讲教学设计.docx",
+      "bytes": 16211,
+      "sha256": "fe8b59b3acf3719c3e888d221aa462fa5094eaeb405fcdab6138459f5ebe28b0"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/03_第8讲教学设计.md",
+      "bytes": 9604,
+      "sha256": "5622731515012cfc2b4536d80d376ca7342b638e12f64805f6a412fa30710d44"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/04_学生课堂材料.docx",
+      "bytes": 15823,
+      "sha256": "bf124a5f08814f4517dd11fc7b9d29a49109209e957c9f3fd2bef9c1ac071a09"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/04_学生课堂材料.md",
+      "bytes": 9536,
+      "sha256": "e662ae11f15e34b0e26a9c189c55e9b47f1c38428acf804b4f051a976c594574"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/05_教师讲评与参考答案.docx",
+      "bytes": 15349,
+      "sha256": "952506a4e207550c5ce7ae96a3438865ee72ea221c850770f6408d4691a6041d"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/05_教师讲评与参考答案.md",
+      "bytes": 8350,
+      "sha256": "76c8771c31ecb80b26aa15f122f1e067bde19db36bae3cdda2a3d1e53a9bed39"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/06_交付检查记录.md",
+      "bytes": 2504,
+      "sha256": "ea61ef5cfa8da0e0efe7a07183a909bccf9876b6edd4cdf724e74aa5635e4f6c"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/07_课件调研与执行方案.md",
+      "bytes": 8152,
+      "sha256": "725421908ce6db997e31e2e2454437a2042e5fce09948ba6421cc9685a8aeb1e"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/08_课件内容与呈现核对.md",
+      "bytes": 4126,
+      "sha256": "c8a1a7a460d434cba97c36951b485c2625cf514f494cb1156fab648afd2d8616"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/分发卡/04_案例丙_处理结果.docx",
+      "bytes": 10430,
+      "sha256": "cecdec5da5b8488403f96789a157606393428bf6b6b8453712224f5e2dea36f3"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/分发卡/04_案例乙_审查理由.docx",
+      "bytes": 10820,
+      "sha256": "7402a10a7d7d67794a81f8d0d3dc846be7c10ec1acb15656a6071382bead8274"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/分发卡/04_案例甲_问题.docx",
+      "bytes": 11390,
+      "sha256": "7899423bb9cb8033f6fcce8dcd0858b448d4296731c1143365da54d5862369da"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S01_宪法.html",
+      "bytes": 67475,
+      "sha256": "6c8b6799fc3da7b2929d9a6b66105e37ce3e37147155aec87b55a037aa18b2a0"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S01_宪法.txt",
+      "bytes": 53328,
+      "sha256": "56be18c597441874284eaf4596f02e39598bdd33873b0ea98dd6ddde0856fe03"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S02_全国人大组织法.html",
+      "bytes": 30499,
+      "sha256": "5d2d504582f8223d80df76a3751e3d6fc1a74d0f1f74e599eecadfd4ff4aa59e"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S02_全国人大组织法.txt",
+      "bytes": 19774,
+      "sha256": "bd3ca803a92ce1bdf2c682f1211fc3f78b3cb4240cb7aa39c556c3a36e448947"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S03_立法法.html",
+      "bytes": 62083,
+      "sha256": "18113a12840ca17474da58477a1ac1dc262b183a8ba3f4534b7b3a71208089b9"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S03_立法法.txt",
+      "bytes": 48953,
+      "sha256": "98366494de7515161230342e1e6ccff9c83d343f7ccb1dbc2120b2c7021c73e7"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S04_备案审查决定.html",
+      "bytes": 123035,
+      "sha256": "fc0763a792e237793b8d32fb947cee8f2656b279a6bbecba976852b35001f720"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S04_备案审查决定.txt",
+      "bytes": 14495,
+      "sha256": "1363a20acef555488e4741841fb7b81405e22e55e069990874d2e035c171ad5e"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S05_2025备案审查报告.html",
+      "bytes": 36017,
+      "sha256": "fc6f8fa71178b713f8de4a7d0941ee2581f575c9780584b957fc880babef0665"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S05_2025备案审查报告.txt",
+      "bytes": 25137,
+      "sha256": "a6e13bc32709399747b8da6278a45378355ecd3900c8930d88faea6d42552d36"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S06_2021报告所在公报.pdf",
+      "bytes": 87982,
+      "sha256": "2b75dfdda58f42bcce0102189130e1c33e2265a7ec4333e5a71fc754584e51ae"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S06a_2021报告公报扫描_镜像.pdf",
+      "bytes": 792700,
+      "sha256": "511d8fe2f980a3ad6846a54dcc8ef2a77ed226afe129b9f468b411c7c2dad5bd"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S06a_2021报告公报扫描_镜像.txt",
+      "bytes": 22651,
+      "sha256": "83abaafac4088765bb78071f2873b2f096c18f9a0eebdc0b6b7c90c1f60de6eb"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S07_2025案例回顾.html",
+      "bytes": 27919,
+      "sha256": "ade89dc048db26595492cf523a6253bca7c0e40bf3046c319ec7d3f86418edcf"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S07_2025案例回顾.txt",
+      "bytes": 17801,
+      "sha256": "36f4f1c05b5d017f9f5008d910683e084129a7b0fa9fb42ef9c9bfd5208e4d57"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S08_宪法实施论述2025.html",
+      "bytes": 32319,
+      "sha256": "0d1a4f854c1aec70712668dac3c8743ff6037eb957e7066c14a63aefd7a90853"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S08_宪法实施论述2025.txt",
+      "bytes": 21661,
+      "sha256": "3e483a8b3f3b9b7c068f462aca33d6683f85e2493a218804df4784532bbb7d6d"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S09_监督法2024修正_官方转载.html",
+      "bytes": 89038,
+      "sha256": "3562f51a3e4e2e8dd9104133f9dcc48d97a7af952ae2594522a4d4c62c70a356"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S09_监督法2024修正_官方转载.txt",
+      "bytes": 28353,
+      "sha256": "12e23da0fd1ea30f44ebe3587ca38e5ff43317c78968748379d19b025f55ae1f"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S10_教育法.html",
+      "bytes": 42951,
+      "sha256": "bc083fdb42d6124f48532ee57c0857cc660444b5f2edca1ec5845696f34a51e1"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S10_教育法.txt",
+      "bytes": 27420,
+      "sha256": "85ac36daf00a59e97917622acd24a49310f4c28bd77fa56cc4a73d9df188d5c7"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S11_行政复议法_官方转载.html",
+      "bytes": 242172,
+      "sha256": "bc9e2ad2e0510190af44d024d45a79b44b2cde273087caf04268270ffdf5f983"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S11_行政复议法_官方转载.txt",
+      "bytes": 39231,
+      "sha256": "47840f9869f63db9abd6f882464e906e39266b9a7793925d0ac39b288dddcab6"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S12_原网页下载403响应.html",
+      "bytes": 146,
+      "sha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/来源原件/S12_行政诉讼法_相关条款网页读取节录.txt",
+      "bytes": 1079,
+      "sha256": "155dddbfa38219de2ca9fb440d39917736a4e5dd42c91d1f9620a9b9d4ba05ab"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/生成教学文档.js",
+      "bytes": 6605,
+      "sha256": "9f610ad8872d0ab200a0e9c770fb0631a49b1d0c3246831a52599ecfce289bb6"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/第八讲课件/文本框几何记录.json",
+      "bytes": 67045,
+      "sha256": "5be4cb9a42b62e6e6d40650f576fb1f1d979ed0255b498900476c13e662c72a5"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/第八讲课件/检查记录.md",
+      "bytes": 2659,
+      "sha256": "a865c44fbe3db7f3b5efa4e9e089a728a439282748b9a3ddb3f2733a709b4b35"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/第八讲课件/生成第八讲课件.js",
+      "bytes": 22279,
+      "sha256": "d627dbb98ef4a2ca9548bfcdf0077cb4c6b02d13901729aad6c601529e173a08"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/第八讲课件/第8讲.json",
+      "bytes": 37967,
+      "sha256": "00c9fecfe80d685b1a3b33c0719bab59e444f9e4d22443cd55362fb3148af372"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/第八讲课件/第8讲_宪法实施与监督.pptx",
+      "bytes": 108583,
+      "sha256": "9c4bd743f4f95b345446375200723e810d846f0f441e07699b9c03189367cbb9"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/第八讲课件/第8讲_宪法实施与监督_预览.pdf",
+      "bytes": 373439,
+      "sha256": "705d745ad5c43a65c856c747912a853d4bb905730e0f3bd12ab377f4cf28f05b"
+    },
+    {
+      "path": "materials/第八讲研究与教学材料/第八讲课件/逐页讲授说明.md",
+      "bytes": 17162,
+      "sha256": "664323ead1e254115a1c56e7841c4e23bb06baee36e4641922d15bf152d8bbd7"
+    },
+    {
+      "path": "PRO_PROMPT.md",
+      "bytes": 4923,
+      "sha256": "714803e73877190d9e2a2b0ec4adc5e8c3973e7b443d5eab7d0fcb69d601be63"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2586,
+      "sha256": "61b5ee29bbb059befca28be210bb6441859f346dcbf59f187f58da4ef9f03569"
+    },
+    {
+      "path": "review/README.md",
+      "bytes": 5122,
+      "sha256": "776d98510d7a71949bdcf40e769a65c4643c7cbb39bf0cfbf89b16e07f00c64a"
+    },
+    {
+      "path": "review/原始文档文字/2025.12.22版-《法理与宪法学》教学大纲.md",
+      "bytes": 52226,
+      "sha256": "6fe81203fe39642527bc368104ee6ac341f844f9ad0742a37e0bcc2cb8f03454"
+    },
+    {
+      "path": "review/原始文档文字/周星星：《法理与宪法学》教学设计.md",
+      "bytes": 516195,
+      "sha256": "ab086482e1ac41fda7e0db24e48762d2ddb18df69a9b8f4dce33df852a6633f5"
+    },
+    {
+      "path": "review/原始课件文字/10 宪法总论.md",
+      "bytes": 45806,
+      "sha256": "49acb224cd751cbf96d898c3abd79a60e261fb3f9b3aa4f2134c62971e19ab9a"
+    },
+    {
+      "path": "review/原始课件文字/11宪法的历史.md",
+      "bytes": 31130,
+      "sha256": "ecb70510cfb61a9afb97e047ce264a1f318b7ba58fffd30985f703ff5dde9184"
+    },
+    {
+      "path": "review/原始课件文字/12 国家性质和国家形式.md",
+      "bytes": 37265,
+      "sha256": "0128e559fcd726ac9b3bb8e63c76259ba8feee635a6658caba0efb60768a8b95"
+    },
+    {
+      "path": "review/原始课件文字/13 国家基本制度修改.md",
+      "bytes": 34403,
+      "sha256": "adc67779ed664eafa83cbe21e235993cc61b602f87239d6622fa6be004bbe0b8"
+    },
+    {
+      "path": "review/原始课件文字/14公民的基本权利和义务（上）.md",
+      "bytes": 36533,
+      "sha256": "31265662fef122ebc6e1e4ec637c99cb8d3733d4c4d05ffc60f02e0c24f9f8da"
+    },
+    {
+      "path": "review/原始课件文字/15公民的基本权利和义务（下）.md",
+      "bytes": 33008,
+      "sha256": "ad64246b3c2e8a9b696eda7d60e65663d4e76379d77e940eb662803d902e091b"
+    },
+    {
+      "path": "review/原始课件文字/16国家机构.md",
+      "bytes": 60683,
+      "sha256": "0aee9491a0321cf75619fbee20d7deec7512a8efc440e705b2f3b74018c818d6"
+    },
+    {
+      "path": "review/原始课件文字/16国家机构之三到七节.md",
+      "bytes": 19805,
+      "sha256": "35f7ad3d5bf6967d3584fed992901a138787d32958835a2746b7193aee7535ef"
+    },
+    {
+      "path": "review/提取核对.json",
+      "bytes": 9207,
+      "sha256": "3ae3ba1bc87d53a64ea21b312b6a4636438d8e550da2589453ca6c9e3fe6c13c"
+    },
+    {
+      "path": "review/新版课件文字/第1讲_宪法总论.md",
+      "bytes": 5585,
+      "sha256": "a35b4b83a48ec7572df07a1314b1bf476cd0ceb6704ea3ed7584cf34ce26353a"
+    },
+    {
+      "path": "review/新版课件文字/第2讲_宪法的发展.md",
+      "bytes": 5529,
+      "sha256": "47369fa9b78a02f81da8e89c6fbb842e6c6dccbb9a61558cd1eb053583a2c3c0"
+    },
+    {
+      "path": "review/新版课件文字/第3讲_国家性质与国家形式.md",
+      "bytes": 5674,
+      "sha256": "adbebe0d18514efabcd72419e3e9865e45427c950f4c2b7d52183fd5c63d74e2"
+    },
+    {
+      "path": "review/新版课件文字/第4讲_国家基本制度.md",
+      "bytes": 5822,
+      "sha256": "2414e40ec17a1faa6ebe32e05af0f9a1abce7a9f8253e63f51ccf09dd70c364d"
+    },
+    {
+      "path": "review/新版课件文字/第5讲_基本权利的一般原理.md",
+      "bytes": 4881,
+      "sha256": "9bd116462c18839f308af0cd261f5c4d573161fe3999e9c71d572f93c6b68486"
+    },
+    {
+      "path": "review/新版课件文字/第6讲_具体基本权利与基本义务.md",
+      "bytes": 5514,
+      "sha256": "023be72323571929d6599067f6750535ad7aa0188902da2a55fce1c9f1b90dc8"
+    },
+    {
+      "path": "review/新版课件文字/第7讲_国家机构.md",
+      "bytes": 6177,
+      "sha256": "ddd50c5adcb206d526e5a485fe2eb8bd812a4adfa6a4a916f23560347cda2ce5"
+    },
+    {
+      "path": "review/新版课件文字/第8讲_宪法实施与监督.md",
+      "bytes": 31466,
+      "sha256": "25ff7d10766d2780aee5891c39d1cdff90c607ebc93c305c0b61a64fc51ab5d9"
+    },
+    {
+      "path": "review/生成阅读辅助.py",
+      "bytes": 11495,
+      "sha256": "01020ccaeebfb874c9d943c3f56caac52b16790d6fb409631f7024ceeac31433"
+    },
+    {
+      "path": "review/课件预览/第1讲_宪法总论_第01-08页.jpg",
+      "bytes": 371978,
+      "sha256": "b8f46630227ba753aa9ae22105068e12d7793f9fc50b2fd908068d858f1caff6"
+    },
+    {
+      "path": "review/课件预览/第1讲_宪法总论_第09-13页.jpg",
+      "bytes": 261359,
+      "sha256": "3bd93bece142eb08be4e768bf67fb7605596f1f6c6e8d97151d5204ae48607a1"
+    },
+    {
+      "path": "review/课件预览/第1讲_宪法总论_预览.pdf",
+      "bytes": 162563,
+      "sha256": "6ba76440133668e7ec6ab85fc1013354940788df137fdcb696cd1e81a9f58588"
+    },
+    {
+      "path": "review/课件预览/第2讲_宪法的发展_第01-08页.jpg",
+      "bytes": 367591,
+      "sha256": "62ecc67a18436bc64ec542724e7a3668aee8319967c5ae33d738b05b932c230d"
+    },
+    {
+      "path": "review/课件预览/第2讲_宪法的发展_第09-13页.jpg",
+      "bytes": 265354,
+      "sha256": "8e8d93f01fdaa5e7bb7576fe7add69b7f6f8f9403e4865688b51a54b7ba0a5b3"
+    },
+    {
+      "path": "review/课件预览/第2讲_宪法的发展_预览.pdf",
+      "bytes": 163925,
+      "sha256": "568131438a9b6bcfeeea30b03f1731b448aecd58ebe030e651c419fd26a8f28f"
+    },
+    {
+      "path": "review/课件预览/第3讲_国家性质与国家形式_第01-08页.jpg",
+      "bytes": 410900,
+      "sha256": "632ed1322ca484ad31aa9bf0a51c8ffdf78aad79dc458e872485f2da834df1cf"
+    },
+    {
+      "path": "review/课件预览/第3讲_国家性质与国家形式_第09-13页.jpg",
+      "bytes": 261905,
+      "sha256": "7b6696d05fb8083dfd54818bc58d97486ef9a309866cad07268c129ff493eda3"
+    },
+    {
+      "path": "review/课件预览/第3讲_国家性质与国家形式_预览.pdf",
+      "bytes": 135009,
+      "sha256": "75bbb4bab1e956a423555df5b67f8b2938ddaa4199e06e6b96ac731425057f27"
+    },
+    {
+      "path": "review/课件预览/第4讲_国家基本制度_第01-08页.jpg",
+      "bytes": 392756,
+      "sha256": "ba0696feecc41f5b7afc92fa7564a9e41409d3f4d8be31d3b8ad273ab1859598"
+    },
+    {
+      "path": "review/课件预览/第4讲_国家基本制度_第09-13页.jpg",
+      "bytes": 264887,
+      "sha256": "e3ccba233af998851a8b338c5adc57e4146b22be96e6e67b83f6a5a45675f56d"
+    },
+    {
+      "path": "review/课件预览/第4讲_国家基本制度_预览.pdf",
+      "bytes": 149249,
+      "sha256": "f6a75bab80abaa7cc559e4f9b6ead8b144a70dca8568b2acf492e9b5923019da"
+    },
+    {
+      "path": "review/课件预览/第5讲_基本权利的一般原理_第01-08页.jpg",
+      "bytes": 368059,
+      "sha256": "010874c089268d841b236bd422f2c4410d4fb8ac9a933e672fa883921ff91185"
+    },
+    {
+      "path": "review/课件预览/第5讲_基本权利的一般原理_第09-12页.jpg",
+      "bytes": 199306,
+      "sha256": "3f046deabe0717339ad76854c6c0e4bfadc6ff820bb543065375876ca91e9688"
+    },
+    {
+      "path": "review/课件预览/第5讲_基本权利的一般原理_预览.pdf",
+      "bytes": 147930,
+      "sha256": "27ad258fc7f0e8a12658e7d9aa1ec931fbbbf644477380e40f9aebb239b887f8"
+    },
+    {
+      "path": "review/课件预览/第6讲_具体基本权利与基本义务_第01-08页.jpg",
+      "bytes": 378061,
+      "sha256": "49738de82a393c737d70cf78f78e2b44f207259503012984659867614a65c570"
+    },
+    {
+      "path": "review/课件预览/第6讲_具体基本权利与基本义务_第09-14页.jpg",
+      "bytes": 314249,
+      "sha256": "5927ba75c0685b59e602dfbab1596fbba506154c47eddad7289eb643f66417e8"
+    },
+    {
+      "path": "review/课件预览/第6讲_具体基本权利与基本义务_预览.pdf",
+      "bytes": 167392,
+      "sha256": "7daf4ffbf0a37e1f86f8a9ac773f8ec89fd231b94115adb05d82c3e655968998"
+    },
+    {
+      "path": "review/课件预览/第7讲_国家机构_第01-08页.jpg",
+      "bytes": 381063,
+      "sha256": "fb771ab119315cfa795101e85eefc642bfd0c8e10cbfa9b4cf143095d0e3d34c"
+    },
+    {
+      "path": "review/课件预览/第7讲_国家机构_第09-14页.jpg",
+      "bytes": 333003,
+      "sha256": "49081bb42d3c0f6230900e5481b0f80b31461ef7c38e5a71f3eeb6654f061ded"
+    },
+    {
+      "path": "review/课件预览/第7讲_国家机构_预览.pdf",
+      "bytes": 159644,
+      "sha256": "87290e3c2170679505d302004a1b9b3b2c135ebec539ff7a1d22a33e7ccac457"
+    },
+    {
+      "path": "review/课件预览/第8讲_宪法实施与监督_第01-08页.jpg",
+      "bytes": 597781,
+      "sha256": "f354160e68296d3f1cff92e3e862767583268ac48f292c8841e1ebf72d909e31"
+    },
+    {
+      "path": "review/课件预览/第8讲_宪法实施与监督_第09-16页.jpg",
+      "bytes": 647076,
+      "sha256": "8252b1adfb8c101726650d4662ad1922a195a381463efa539e4b15a503dd65be"
+    },
+    {
+      "path": "review/课件预览/第8讲_宪法实施与监督_第17-24页.jpg",
+      "bytes": 610612,
+      "sha256": "aec9000ce9bcbef155dabdfb6f843ea05c19bada964d6d1cf00635c955d749c5"
+    },
+    {
+      "path": "review/课件预览/第8讲_宪法实施与监督_预览.pdf",
+      "bytes": 373439,
+      "sha256": "705d745ad5c43a65c856c747912a853d4bb905730e0f3bd12ab377f4cf28f05b"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 3030,
+      "sha256": "bff86081ed3c430f7ec690d3f4ed927b5875603e775bce50cdf767b948029478"
+    },
+    {
+      "path": "textbook/README.md",
+      "bytes": 2224,
+      "sha256": "aaef17056259b6ea5db073377766f3b9ba2c8b745d7598852485d45d28dbf28a"
+    },
+    {
+      "path": "textbook/分页检索文本/pdf-001-040.md",
+      "bytes": 102215,
+      "sha256": "d5c4ff555050fe66b11239cb3b6c122cdf930f3f4dbad8d79a52fa152dbb5435"
+    },
+    {
+      "path": "textbook/分页检索文本/pdf-041-080.md",
+      "bytes": 110725,
+      "sha256": "56cb3761d89db5e51f51195726a52df6edfa2204b0dffcb451a53c60c6906ed4"
+    },
+    {
+      "path": "textbook/分页检索文本/pdf-081-120.md",
+      "bytes": 113425,
+      "sha256": "553388ebab3fafaedb4ba57f345c5e45a91e2b7255ee7fd9dbd86cfea2663f11"
+    },
+    {
+      "path": "textbook/分页检索文本/pdf-121-160.md",
+      "bytes": 107907,
+      "sha256": "51167097cc7137a74d17257093290c73928e4bfa81b90c431f0aa0ac9b4ef633"
+    },
+    {
+      "path": "textbook/分页检索文本/pdf-161-200.md",
+      "bytes": 113960,
+      "sha256": "968f53853c41f43d1ba6b0df01a1fc57cb56408d22c5a6a6fea03af932b11ffd"
+    },
+    {
+      "path": "textbook/分页检索文本/pdf-201-240.md",
+      "bytes": 111676,
+      "sha256": "553389822bc47716fb76e85f5b51ed31a552a892362ce4d074eafa0243a89211"
+    },
+    {
+      "path": "textbook/分页检索文本/pdf-241-280.md",
+      "bytes": 98963,
+      "sha256": "03287600ab183e1538ec111dbdadbe8ec5ba5c69a7615aee2e4a02c7714df040"
+    },
+    {
+      "path": "textbook/分页检索文本/pdf-281-320.md",
+      "bytes": 109356,
+      "sha256": "ee3520f809e9ac8215963e19954e97ad5d2c233138e6633483d6b73b3172dc3a"
+    },
+    {
+      "path": "textbook/分页检索文本/pdf-321-360.md",
+      "bytes": 111202,
+      "sha256": "50d9918009d8fa7825a30bf529b0611ce3c566ff6e21e418e70cee13bf847202"
+    },
+    {
+      "path": "textbook/分页检索文本/pdf-361-373.md",
+      "bytes": 22981,
+      "sha256": "cf5fc0ed4ea9b9ea59e31a71dfab10eb394910009751ddbbf4eebb71dcb42726"
+    },
+    {
+      "path": "textbook/分页检索文本/README.md",
+      "bytes": 715,
+      "sha256": "10bb81f311f76b1920892d73b67e8d23cf081fbe2a0bcaf4f8cf47567720e198"
+    },
+    {
+      "path": "textbook/宪法学_马工程_第二版_完整教材.pdf",
+      "bytes": 54022789,
+      "sha256": "66ddd16f430bc1f8d7ffbaae62e092f3c1ce81096f3987478208d50e0b078f7b"
+    },
+    {
+      "path": "textbook/教材目录_文字辅助.md",
+      "bytes": 31247,
+      "sha256": "2c80a42c57547c547d880dbe04ac4c83c4cbe39b94c3b2bc3b054e781bd02a97"
+    },
+    {
+      "path": "textbook/版本核实页/封面.png",
+      "bytes": 208505,
+      "sha256": "1dc416088df9be4ad55a595f3e9af1decec3ec2ffd36689540c0731b68228756"
+    },
+    {
+      "path": "textbook/版本核实页/版权页.png",
+      "bytes": 114399,
+      "sha256": "da5b066ded9f384b58bce81db2b4de17da035d0636862811d3a272dab944ab26"
+    },
+    {
+      "path": "tools/prepare_textbook_text.py",
+      "bytes": 2438,
+      "sha256": "6bb6b4f8d37c9d7cebe3cf89ce53a5991e15fe9fb1c2e7a0ea50389aa0df9512"
+    }
+  ],
+  "release_assets": [
+    {
+      "source_path": "原始材料/2.2ppt.zip",
+      "tag": "initial-materials-20260927",
+      "asset_name": "2.2ppt.zip",
+      "url": "https://github.com/takehaya1111/constitution-law-8-lessons/releases/download/initial-materials-20260927/2.2ppt.zip",
+      "bytes": 324569084,
+      "sha256": "de29766df814c8a1fe8a3c95330830152c6fb76d30af06520725436d0caad5ac"
+    }
+  ]
+}
