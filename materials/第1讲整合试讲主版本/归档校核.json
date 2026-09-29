@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-30",
+  "source_json_sha256": "f91a542a00a76a88eebc0ced5f3caee9596d6e1129de2beb9ee9982c845aff21",
+  "pptx_sha256": "fd6209e105d62c2f6944318d41600693b7322b747927580e19764577e9be0bc3",
+  "ppt_pdf_sha256": "2f2b7e7228e613b3a07c4dda29c745f5de03317646ae11c7c1e5fd17a68f4ff4",
+  "ppt_pdf_png_svg_pages": 36,
+  "png_actual_dimensions": [
+    [
+      1441,
+      810
+    ]
+  ],
+  "visible_fields_checked": 293,
+  "note_steps_checked": 144,
+  "core_han_chars": 8973,
+  "core_minutes": [
+    45,
+    45
+  ],
+  "all_minutes_with_extensions": 100,
+  "document_pdf_pages": {
+    "01_完整讲稿": 23,
+    "02_学生材料": 8,
+    "03_逐题讲评": 9
+  },
+  "local_links_checked": 368,
+  "missing_links": [],
+  "content_mismatches": [],
+  "validation_scope": "文件和内容同版检查；不证明真人课堂用时、学习效果或原生PowerPoint显示"
+}

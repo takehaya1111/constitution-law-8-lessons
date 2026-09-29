@@ -1,0 +1,304 @@
+{
+  "inputSHA256": "f91a542a00a76a88eebc0ced5f3caee9596d6e1129de2beb9ee9982c845aff21",
+  "pageCount": 36,
+  "pdfPages": 36,
+  "pngPages": 36,
+  "svgPages": 36,
+  "failures": [],
+  "out_of_safe_pdf_spans": [],
+  "pages": [
+    {
+      "page": 1,
+      "id": "01",
+      "visible_fields": 6,
+      "speech_activity_steps": 4,
+      "note_items": 1,
+      "refs": 2
+    },
+    {
+      "page": 2,
+      "id": "02",
+      "visible_fields": 8,
+      "speech_activity_steps": 5,
+      "note_items": 1,
+      "refs": 2
+    },
+    {
+      "page": 3,
+      "id": "03",
+      "visible_fields": 8,
+      "speech_activity_steps": 5,
+      "note_items": 0,
+      "refs": 1
+    },
+    {
+      "page": 4,
+      "id": "04",
+      "visible_fields": 8,
+      "speech_activity_steps": 4,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 5,
+      "id": "05",
+      "visible_fields": 8,
+      "speech_activity_steps": 3,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 6,
+      "id": "06",
+      "visible_fields": 8,
+      "speech_activity_steps": 6,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 7,
+      "id": "07",
+      "visible_fields": 10,
+      "speech_activity_steps": 5,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 8,
+      "id": "08",
+      "visible_fields": 8,
+      "speech_activity_steps": 4,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 9,
+      "id": "09",
+      "visible_fields": 8,
+      "speech_activity_steps": 4,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 10,
+      "id": "10",
+      "visible_fields": 8,
+      "speech_activity_steps": 5,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 11,
+      "id": "11",
+      "visible_fields": 14,
+      "speech_activity_steps": 4,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 12,
+      "id": "12",
+      "visible_fields": 8,
+      "speech_activity_steps": 2,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 13,
+      "id": "13",
+      "visible_fields": 8,
+      "speech_activity_steps": 4,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 14,
+      "id": "14",
+      "visible_fields": 8,
+      "speech_activity_steps": 5,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 15,
+      "id": "15",
+      "visible_fields": 8,
+      "speech_activity_steps": 2,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 16,
+      "id": "16",
+      "visible_fields": 8,
+      "speech_activity_steps": 4,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 17,
+      "id": "17",
+      "visible_fields": 6,
+      "speech_activity_steps": 4,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 18,
+      "id": "18",
+      "visible_fields": 8,
+      "speech_activity_steps": 4,
+      "note_items": 0,
+      "refs": 2
+    },
+    {
+      "page": 19,
+      "id": "19",
+      "visible_fields": 8,
+      "speech_activity_steps": 5,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 20,
+      "id": "20",
+      "visible_fields": 6,
+      "speech_activity_steps": 5,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 21,
+      "id": "21",
+      "visible_fields": 8,
+      "speech_activity_steps": 4,
+      "note_items": 1,
+      "refs": 2
+    },
+    {
+      "page": 22,
+      "id": "22",
+      "visible_fields": 8,
+      "speech_activity_steps": 2,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 23,
+      "id": "23",
+      "visible_fields": 8,
+      "speech_activity_steps": 4,
+      "note_items": 0,
+      "refs": 1
+    },
+    {
+      "page": 24,
+      "id": "24",
+      "visible_fields": 8,
+      "speech_activity_steps": 6,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 25,
+      "id": "25",
+      "visible_fields": 8,
+      "speech_activity_steps": 2,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 26,
+      "id": "26",
+      "visible_fields": 8,
+      "speech_activity_steps": 6,
+      "note_items": 1,
+      "refs": 2
+    },
+    {
+      "page": 27,
+      "id": "27",
+      "visible_fields": 8,
+      "speech_activity_steps": 4,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 28,
+      "id": "28",
+      "visible_fields": 8,
+      "speech_activity_steps": 3,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 29,
+      "id": "29",
+      "visible_fields": 8,
+      "speech_activity_steps": 5,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 30,
+      "id": "30",
+      "visible_fields": 12,
+      "speech_activity_steps": 5,
+      "note_items": 1,
+      "refs": 2
+    },
+    {
+      "page": 31,
+      "id": "31",
+      "visible_fields": 8,
+      "speech_activity_steps": 5,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 32,
+      "id": "32",
+      "visible_fields": 8,
+      "speech_activity_steps": 2,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 33,
+      "id": "33",
+      "visible_fields": 8,
+      "speech_activity_steps": 5,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 34,
+      "id": "34",
+      "visible_fields": 8,
+      "speech_activity_steps": 2,
+      "note_items": 1,
+      "refs": 1
+    },
+    {
+      "page": 35,
+      "id": "35",
+      "visible_fields": 8,
+      "speech_activity_steps": 5,
+      "note_items": 1,
+      "refs": 2
+    },
+    {
+      "page": 36,
+      "id": "36",
+      "visible_fields": 10,
+      "speech_activity_steps": 0,
+      "note_items": 1,
+      "refs": 2
+    }
+  ],
+  "artifacts": {
+    "第1讲_宪法总论_整合试讲主版本.pptx": "fd6209e105d62c2f6944318d41600693b7322b747927580e19764577e9be0bc3",
+    "预览\\第1讲_宪法总论_整合试讲主版本.pdf": "2f2b7e7228e613b3a07c4dda29c745f5de03317646ae11c7c1e5fd17a68f4ff4",
+    "课件文字.md": "cd7b00047d8be4737113ad022f95bce9cce3068dbc34313d45420ab4023f57c3"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source_json_sha256": "f91a542a00a76a88eebc0ced5f3caee9596d6e1129de2beb9ee9982c845aff21",
+  "documents": {
+    "01_完整讲稿": {
+      "pages": 23,
+      "docx_bytes": 29944,
+      "pdf_bytes": 539398,
+      "missing_body_lines": [],
+      "missing_speech_pages": [],
+      "markdown_sha256": "6e36a80184064fbe3d8fde08c13e071acd032df87342b764985f8f0b5bf303ce",
+      "pdf_sha256": "635d554c0b6fd32f4245f644e8ea3090f133f3126ec13e5f9c3d64371ff4a791"
+    },
+    "02_学生材料": {
+      "pages": 8,
+      "docx_bytes": 14773,
+      "pdf_bytes": 231314,
+      "missing_body_lines": [],
+      "missing_speech_pages": [],
+      "markdown_sha256": "7bbdbf3bc9871bbf4b1099947cb2008969f657d9d87ca911ae2ff576145a3705",
+      "pdf_sha256": "b110332c205f8429ffadba48ebbb20e460886c9c0d00319b340a9db02509f46a"
+    },
+    "03_逐题讲评": {
+      "pages": 9,
+      "docx_bytes": 17296,
+      "pdf_bytes": 238443,
+      "missing_body_lines": [],
+      "missing_speech_pages": [],
+      "markdown_sha256": "701535392d709c0d6fb46207fe5c1abf4347ec70b60261c5457d8b2896434345",
+      "pdf_sha256": "080df3fb8bf1a1d2f859e8fef604d87fc20ba880fba08bf0a617f21e5c7bd015"
+    }
+  },
+  "last_document_wording_sync": "2026-09-30"
+}
