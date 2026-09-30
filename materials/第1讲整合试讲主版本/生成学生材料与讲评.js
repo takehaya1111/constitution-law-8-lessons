@@ -1,8 +1,9 @@
 // 从两份课堂正文生成可编辑讲义；PDF另由独立配置的文档渲染器导出。
 const fs = require('fs');
 const path = require('path');
+const MODULES = process.env.COURSE_NODE_MODULES || 'C:/Users/tsunami/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules';
 const { Document, Packer, Paragraph, TextRun, Footer, PageNumber,
-  ExternalHyperlink, HeadingLevel, AlignmentType, BorderStyle } = require('docx');
+  ExternalHyperlink, HeadingLevel, AlignmentType, BorderStyle } = require(path.join(MODULES, 'docx'));
 
 const root = __dirname;
 
@@ -32,8 +33,9 @@ function paragraphs(markdown, kind) {
   let lectureMode = '';
   const teacher = kind === '教师讲评';
   const lecture = kind === '完整讲稿';
-  for (const raw of markdown.split(/\r?\n/)) {
-    const line = raw.trim();
+  const lines = markdown.split(/\r?\n/).map(raw => raw.trim()).filter(Boolean);
+  for (let lineIndex = 0; lineIndex < lines.length; lineIndex++) {
+    const line = lines[lineIndex];
     if (!line || line === '>') continue;
     if (line === '<!-- PAGEBREAK -->') { if(!teacher) pendingPageBreak = true; continue; }
     if(lecture && line === '### 讲述' && lectureMode === 'speech') continue;
@@ -49,6 +51,8 @@ function paragraphs(markdown, kind) {
       if(lecture && count===3) lectureMode=line==='### 讲述'?'speech':'note';
       options.heading = [null,HeadingLevel.TITLE,HeadingLevel.HEADING_1,HeadingLevel.HEADING_2][count];
       options.children=runs(line.slice(count+1));
+      options.keepNext=true;
+      options.keepLines=true;
     } else if (/^_{10,}$/.test(line)) {
       options.children=[new TextRun({text:'____________________________________________________________',font:'Arial',size:20,color:'A6A6A6'})];
       options.spacing={before:0,after:70,line:350};
@@ -64,8 +68,8 @@ function paragraphs(markdown, kind) {
         options.spacing={before:0,after:60,line:285};
       }
       if(lecture && line.includes('｜')) options.keepNext=true;
-      // 当前整合稿此段若续在页末，会在LibreOffice中留下仅两字的跨页尾行。
-      if(lecture && line.startsWith('我们可以把关系收成一句话：')) options.pageBreakBefore=true;
+      // 将来源行与前一段保留在同页，避免教师备查依据孤立到下一页页首。
+      if(lecture && (lines[lineIndex+1] || '').startsWith('依据：')) options.keepNext=true;
     }
     result.push(new Paragraph(options));
   }

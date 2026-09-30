@@ -3,7 +3,6 @@
 // 内容只从课程内容.json读取。本文件负责布局、备注及实际PPT预览，不补写课程正文。
 const fs = require('fs');
 const path = require('path');
-const cp = require('child_process');
 const crypto = require('crypto');
 const MODULES = process.env.COURSE_NODE_MODULES || 'C:/Users/tsunami/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules';
 const PptxGenJS = require(path.join(MODULES, 'pptxgenjs'));
@@ -191,13 +190,16 @@ function layout() {
     });
   } else if (page.layout === 'chain') {
     check(b.length >= 2 && b.length <= 4, '关系图应有2—4个位置');
-    const top = 2.14, gap = 0.19, rh = (contentEnd() - top - gap * (b.length - 1)) / b.length;
+    const top = 2.14, gap = page.arrowLabels ? 0.49 : 0.19, rh = (contentEnd() - top - gap * (b.length - 1)) / b.length;
     b.forEach((item, i) => {
       const y = top + i * (rh + gap);
       rect(0.88, y, 3.76, rh, i === 0 ? C.deep : C.pale);
       tx(item.label, 1.06, y + 0.13, 3.4, rh - 0.2, 24, { bold: true, color: i === 0 ? C.paper : C.deep });
       tx(item.text, 5.05, y + 0.1, 7.3, rh - 0.13, 24);
-      if (i < b.length - 1) line(2.76, y + rh + 0.02, 2.76, y + rh + gap - 0.02, C.red, true);
+      if (i < b.length - 1) {
+        line(2.76, y + rh + 0.02, 2.76, y + rh + gap - 0.02, C.red, true);
+        if (page.arrowLabels?.[i]) tx(page.arrowLabels[i], 3.04, y + rh + 0.075, 2.5, 0.32, 18, { color:C.red, role:'连线含义' });
+      }
     });
   } else if (page.layout === 'question') {
     if (b.length === 1) {
@@ -233,6 +235,7 @@ function layout() {
 function notes(p) {
   const content = [`${p.id}｜${p.title}`, `核心/条件性安排：${p.optional ? '条件性扩展或备查' : '核心'}；页预算${p.minutes ?? '未设'}分钟`];
   for (const [i, step] of p.steps.entries()) content.push(`${i + 1}. ${step.kind === 'speech' ? '逐字讲述' : '活动，不朗读'}${step.minutes ? `（${step.minutes}分钟）` : ''}`, step.text);
+  if (p.flexMinutes) content.push(`本页预算含本学时机动时间${p.flexMinutes}分钟，供指读、追问及回看；不增加必讲内容。`);
   if (p.teacherNotes?.length) content.push('教师备查，不朗读', ...p.teacherNotes);
   content.push('本页出处', p.source || '', '来源及定位', ...(p.refs || []).map(r => `${r.label}\n${r.url || ''}\n${r.locator || ''}`));
   return content.join('\n\n');
@@ -275,24 +278,17 @@ async function main() {
   data.pages.forEach(p => {
     visible.push(`## 第${p.id}页｜${p.title}`, '', `**章节：**${p.section || ''}`, '', '### 屏幕', '');
     p.blocks.forEach(b => { if (b.label) visible.push(`**${b.label}**`, ''); visible.push(b.text, ''); });
+    if(p.arrowLabels) visible.push('**向下连线（仅示产生关系）：**'+p.arrowLabels.join('；'), '');
     if (p.bottom) visible.push(`**页末：**${p.bottom}`, '');
     visible.push(`**出处：**${p.source || ''}`, '', '### 完整备注（按实际顺序）', '', notes(p), '');
   });
   fs.writeFileSync(path.join(ROOT, '课件文字.md'), visible.join('\n'), 'utf8');
-  const previewIndex = ['# 第一讲实际课件预览', '', '[实际PPT导出的完整PDF](第1讲_宪法总论_整合试讲主版本.pdf) · [逐页课件文字与完整备注](../课件文字.md) · [制作检查记录](视觉检查记录.md)', '', '下列PNG由本轮PPTX经LibreOffice导出PDF后逐页渲染。SVG来自同一内容与版面源，便于回查和另行渲染，不替代实际PPT画面。仓库中可回查这些文件，不等于Pro已在其当前环境成功打开二进制画面或完成视觉审阅。', '', `内容源SHA-256：\`${crypto.createHash('sha256').update(bytes).digest('hex')}\``, ''];
+  const previewIndex = ['# 第一讲实际课件预览', '', '[实际PPT导出的完整PDF](第1讲_宪法总论_整合试讲主版本.pdf) · [逐页课件文字与完整备注](../课件文字.md) · [制作检查记录](视觉检查记录.md)', '', '下列PNG由本轮PPTX经本机演示软件的 PowerPoint COM 接口导出PDF后，使用Poppler逐页渲染。SVG来自同一内容与版面源，便于回查和另行渲染，不替代实际PPT画面。仓库中可回查这些文件，不等于Pro已在其当前环境成功打开二进制画面或完成视觉审阅。', '', `内容源SHA-256：\`${crypto.createHash('sha256').update(bytes).digest('hex')}\``, ''];
   data.pages.forEach((p, i) => { const no = String(i + 1).padStart(2, '0'); previewIndex.push(`## ${no}｜${p.title}`, '', `[同源SVG](同源SVG/${no}.svg)`, '', `![第${no}页实际PPT导出画面](逐页PNG/${no}.png)`, ''); });
   fs.writeFileSync(path.join(OUT, 'README.md'), previewIndex.join('\n'), 'utf8');
   console.log(`已生成 ${data.pages.length} 页可编辑PPTX及同源SVG；文本未截断。`);
   if (process.argv.includes('--render')) {
-    const soffice = 'C:/Program Files/LibreOffice/program/soffice.exe';
-    const profile = path.join(process.env.LOCALAPPDATA || 'C:/Users/tsunami/AppData/Local', 'Temp/pdfread/constitution-integrated-lo').replace(/\\/g, '/');
-    const result = cp.spawnSync(soffice, [`-env:UserInstallation=file:///${profile}`, '--headless', '--convert-to', 'pdf:impress_pdf_Export:{"UseTaggedPDF":{"type":"boolean","value":"false"}}', '--outdir', OUT, PPT], { encoding: 'utf8', windowsHide: true, timeout: 180000 });
-    check(result.status === 0, `LibreOffice导出失败：${result.stderr || result.stdout}`);
-    check(fs.existsSync(PDF), 'LibreOffice未生成PDF');
-    const program = `import fitz,sys,pathlib\npdf=fitz.open(sys.argv[1])\nout=pathlib.Path(sys.argv[2])\nfor i,p in enumerate(pdf):\n p.get_pixmap(matrix=fitz.Matrix(1.5,1.5),alpha=False).save(out/f'{i+1:02d}.png')\nprint(f'实际PPT导出PDF共{len(pdf)}页，逐页PNG已保存')\n`;
-    const render = cp.spawnSync('python', ['-c', program, PDF, PNG], { encoding: 'utf8', env: { ...process.env, PYTHONIOENCODING: 'utf-8' }, windowsHide: true, timeout: 120000 });
-    check(render.status === 0, `PDF逐页渲染失败：${render.stderr}`);
-    console.log('LibreOffice已将本次PPTX实际导出为PDF。'); console.log(render.stdout.trim());
+    throw new Error('课件和同源SVG已生成。当前环境请用已核验的本机Office兼容COM导出PDF，再用Poppler渲染PNG；不调用未验证的桌面LibreOffice。');
   }
 }
 main().catch(error => { console.error(error.message); process.exitCode = 1; });
