@@ -2,6 +2,7 @@
   {
     "id": "01",
     "minutes": 2.5,
+    "flexMinutes": 0,
     "optional": false,
     "han": 284,
     "activity": 0.5
@@ -9,48 +10,55 @@
   {
     "id": "02",
     "minutes": 3.5,
+    "flexMinutes": 0,
     "optional": false,
     "han": 371,
     "activity": 0.75
   },
   {
     "id": "03",
-    "minutes": 4,
+    "minutes": 3.25,
+    "flexMinutes": 0,
     "optional": false,
-    "han": 419,
+    "han": 221,
     "activity": 1.25
   },
   {
     "id": "04",
-    "minutes": 3,
+    "minutes": 2.25,
+    "flexMinutes": 0,
     "optional": false,
-    "han": 406,
+    "han": 252,
     "activity": 0
   },
   {
     "id": "05",
-    "minutes": 2,
+    "minutes": 1.5,
+    "flexMinutes": 0,
     "optional": false,
-    "han": 276,
+    "han": 132,
     "activity": 0
   },
   {
     "id": "06",
-    "minutes": 4,
+    "minutes": 3.5,
+    "flexMinutes": 0,
     "optional": false,
-    "han": 443,
+    "han": 237,
     "activity": 0.5
   },
   {
     "id": "07",
     "minutes": 4,
+    "flexMinutes": 0,
     "optional": false,
-    "han": 357,
+    "han": 389,
     "activity": 1.25
   },
   {
     "id": "08",
     "minutes": 2.75,
+    "flexMinutes": 0,
     "optional": false,
     "han": 372,
     "activity": 0
@@ -58,6 +66,7 @@
   {
     "id": "09",
     "minutes": 2.75,
+    "flexMinutes": 0,
     "optional": false,
     "han": 341,
     "activity": 0
@@ -65,6 +74,7 @@
   {
     "id": "10",
     "minutes": 3,
+    "flexMinutes": 0,
     "optional": false,
     "han": 359,
     "activity": 0.5
@@ -72,6 +82,7 @@
   {
     "id": "11",
     "minutes": 2.5,
+    "flexMinutes": 0,
     "optional": false,
     "han": 346,
     "activity": 0
@@ -79,6 +90,7 @@
   {
     "id": "12",
     "minutes": 2.5,
+    "flexMinutes": 0,
     "optional": false,
     "han": 69,
     "activity": 1.75
@@ -86,6 +98,7 @@
   {
     "id": "13",
     "minutes": 2.25,
+    "flexMinutes": 0,
     "optional": false,
     "han": 245,
     "activity": 0.5
@@ -93,6 +106,7 @@
   {
     "id": "14",
     "minutes": 3,
+    "flexMinutes": 0,
     "optional": false,
     "han": 326,
     "activity": 0.75
@@ -100,13 +114,15 @@
   {
     "id": "15",
     "minutes": 1.25,
+    "flexMinutes": 0,
     "optional": false,
     "han": 61,
     "activity": 0.6666667
   },
   {
     "id": "16",
-    "minutes": 2,
+    "minutes": 4.5,
+    "flexMinutes": 2.5,
     "optional": false,
     "han": 234,
     "activity": 0.3
@@ -114,6 +130,7 @@
   {
     "id": "17",
     "minutes": 2.75,
+    "flexMinutes": 0,
     "optional": false,
     "han": 263,
     "activity": 0.75
@@ -121,6 +138,7 @@
   {
     "id": "18",
     "minutes": 3,
+    "flexMinutes": 0,
     "optional": false,
     "han": 267,
     "activity": 0.75
@@ -128,20 +146,23 @@
   {
     "id": "19",
     "minutes": 4,
+    "flexMinutes": 0,
     "optional": false,
-    "han": 348,
+    "han": 352,
     "activity": 1.5
   },
   {
     "id": "20",
     "minutes": 3,
+    "flexMinutes": 0,
     "optional": false,
-    "han": 327,
+    "han": 333,
     "activity": 0.75
   },
   {
     "id": "21",
     "minutes": 2.25,
+    "flexMinutes": 0,
     "optional": false,
     "han": 283,
     "activity": 0
@@ -149,6 +170,7 @@
   {
     "id": "22",
     "minutes": 2.25,
+    "flexMinutes": 0,
     "optional": false,
     "han": 76,
     "activity": 1.5
@@ -156,34 +178,39 @@
   {
     "id": "23",
     "minutes": 2,
+    "flexMinutes": 0,
     "optional": false,
     "han": 228,
     "activity": 0.3333333
   },
   {
     "id": "24",
-    "minutes": 3.5,
+    "minutes": 1.5,
+    "flexMinutes": 0,
     "optional": false,
-    "han": 457,
-    "activity": 0
+    "han": 83,
+    "activity": 0.5
   },
   {
     "id": "25",
     "minutes": 3.75,
+    "flexMinutes": 0,
     "optional": false,
     "han": 69,
     "activity": 3
   },
   {
     "id": "26",
-    "minutes": 4,
+    "minutes": 3.5,
+    "flexMinutes": 0,
     "optional": false,
-    "han": 385,
+    "han": 230,
     "activity": 1
   },
   {
     "id": "27",
     "minutes": 2,
+    "flexMinutes": 0,
     "optional": false,
     "han": 186,
     "activity": 0.6666667
@@ -191,6 +218,7 @@
   {
     "id": "28",
     "minutes": 3,
+    "flexMinutes": 0,
     "optional": false,
     "han": 146,
     "activity": 2
@@ -198,6 +226,7 @@
   {
     "id": "29",
     "minutes": 3,
+    "flexMinutes": 0,
     "optional": false,
     "han": 300,
     "activity": 0.75
@@ -205,13 +234,15 @@
   {
     "id": "30",
     "minutes": 3,
+    "flexMinutes": 0,
     "optional": false,
     "han": 377,
     "activity": 0
   },
   {
     "id": "31",
-    "minutes": 3.5,
+    "minutes": 6,
+    "flexMinutes": 2.5,
     "optional": false,
     "han": 352,
     "activity": 1
@@ -219,6 +250,7 @@
   {
     "id": "32",
     "minutes": 2.5,
+    "flexMinutes": 0,
     "optional": true,
     "han": 65,
     "activity": 2
@@ -226,6 +258,7 @@
   {
     "id": "33",
     "minutes": 2.5,
+    "flexMinutes": 0,
     "optional": true,
     "han": 257,
     "activity": 0.5
@@ -233,6 +266,7 @@
   {
     "id": "34",
     "minutes": 2.5,
+    "flexMinutes": 0,
     "optional": true,
     "han": 76,
     "activity": 2
@@ -240,6 +274,7 @@
   {
     "id": "35",
     "minutes": 2.5,
+    "flexMinutes": 0,
     "optional": true,
     "han": 289,
     "activity": 0.5
@@ -247,6 +282,7 @@
   {
     "id": "36",
     "minutes": 0,
+    "flexMinutes": 0,
     "optional": true,
     "han": 0,
     "activity": 0

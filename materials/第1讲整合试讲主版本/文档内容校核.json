@@ -1,33 +1,44 @@
 {
-  "source_json_sha256": "f91a542a00a76a88eebc0ced5f3caee9596d6e1129de2beb9ee9982c845aff21",
+  "source_json_sha256": "97406e10bd333b764f5cca901f1acf89ca4821dd5594dd5b9ee13b986f96415f",
   "documents": {
     "01_完整讲稿": {
-      "pages": 23,
-      "docx_bytes": 29944,
-      "pdf_bytes": 539398,
+      "pages": 22,
+      "docx_bytes": 29245,
+      "pdf_bytes": 363205,
       "missing_body_lines": [],
+      "missing_pdf_body_lines": [],
       "missing_speech_pages": [],
-      "markdown_sha256": "6e36a80184064fbe3d8fde08c13e071acd032df87342b764985f8f0b5bf303ce",
-      "pdf_sha256": "635d554c0b6fd32f4245f644e8ea3090f133f3126ec13e5f9c3d64371ff4a791"
+      "markdown_sha256": "be13e866341409d28817593d553e99f496730e40bc2f090832a3ee8ccfeabdb7",
+      "docx_sha256": "0a7f03b72d133e8e9c27e50405c156ed1045473a0891270517eec11712241d8a",
+      "pdf_sha256": "e4bfc14d11ba3ae921e17df160b06f07970b1a294943e1cfda965fd6472c7d05"
     },
     "02_学生材料": {
       "pages": 8,
-      "docx_bytes": 14773,
-      "pdf_bytes": 231314,
+      "docx_bytes": 14863,
+      "pdf_bytes": 224459,
       "missing_body_lines": [],
+      "missing_pdf_body_lines": [],
       "missing_speech_pages": [],
-      "markdown_sha256": "7bbdbf3bc9871bbf4b1099947cb2008969f657d9d87ca911ae2ff576145a3705",
-      "pdf_sha256": "b110332c205f8429ffadba48ebbb20e460886c9c0d00319b340a9db02509f46a"
+      "markdown_sha256": "77d99f70178521418782050d76c61147f0266a307a28b249490299a28bc720d6",
+      "docx_sha256": "ece24a5de0ddf9655a58b0c81057d208b33a604bab69ab4e34082896fbfd67da",
+      "pdf_sha256": "83262e07ce979150b6cdc67d8cd2234c0d995bc0d301d9f493377f213d15c9b9"
     },
     "03_逐题讲评": {
       "pages": 9,
-      "docx_bytes": 17296,
-      "pdf_bytes": 238443,
+      "docx_bytes": 17636,
+      "pdf_bytes": 225197,
       "missing_body_lines": [],
+      "missing_pdf_body_lines": [],
       "missing_speech_pages": [],
-      "markdown_sha256": "701535392d709c0d6fb46207fe5c1abf4347ec70b60261c5457d8b2896434345",
-      "pdf_sha256": "080df3fb8bf1a1d2f859e8fef604d87fc20ba880fba08bf0a617f21e5c7bd015"
+      "markdown_sha256": "13f6d2674019a8e5ff4bdc90e3d8404d8afe3b4958dddf79d3a8fa285098eb64",
+      "docx_sha256": "ae34c9714e6244afa0d26baa5200698364335ec7e4b0936591f6504861c51853",
+      "pdf_sha256": "78d5a17c34ea04360c45bfc2b42c7a156ef21ee227617fb7ca946677656efec3"
     }
   },
-  "last_document_wording_sync": "2026-09-30"
+  "last_document_wording_sync": "2026-09-30",
+  "renderer": {
+    "office": "WPS Office 12.1.0.28505 through Word-compatible COM",
+    "application_path": "D:/WPS Office/12.1.0.28505/office6",
+    "pdf_rasterizer": "Codex bundled Poppler pdftoppm, 110 dpi"
+  }
 }
