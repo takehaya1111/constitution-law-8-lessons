@@ -189,6 +189,20 @@ function layout() {
       tx(item.label, x + 0.22, 2.3, width - 0.44, 0.6, 24, { bold: true, color: C.red });
       tx(item.text, x + 0.22, 3.06, width - 0.44, contentEnd() - 3.23, 24, { role: '对读文字' });
     });
+  } else if (page.layout === 'chain' && page.arrowLabels) {
+    // 本页箭头只承担产生关系；负责与监督由右侧明确主客体的文字承担。
+    check(b.length === 3 && page.arrowLabels.length === 2, '机关图须有三个位置与两条产生关系');
+    const top = 2.12, rh = 1.0, gap = 0.43;
+    b.forEach((item, i) => {
+      const y = top + i * (rh + gap);
+      rect(0.88, y, 4.08, rh, i === 0 ? C.deep : C.pale);
+      tx(item.label, 1.06, y + 0.1, 3.72, 0.84, 24, { bold: true, color: i === 0 ? C.paper : C.deep });
+      tx(item.text, 5.38, y + 0.1, 6.96, 0.85, 24);
+      if (i < b.length - 1) {
+        line(2.5, y + rh + 0.03, 2.5, y + rh + gap - 0.03, C.red, true);
+        tx(page.arrowLabels[i], 2.8, y + rh + 0.065, 2.22, 0.35, 18, { color: C.red, role: '产生关系标注' });
+      }
+    });
   } else if (page.layout === 'chain') {
     check(b.length >= 2 && b.length <= 4, '关系图应有2—4个位置');
     const top = 2.14, gap = 0.19, rh = (contentEnd() - top - gap * (b.length - 1)) / b.length;
@@ -232,6 +246,7 @@ function layout() {
 }
 function notes(p) {
   const content = [`${p.id}｜${p.title}`, `核心/条件性安排：${p.optional ? '条件性扩展或备查' : '核心'}；页预算${p.minutes ?? '未设'}分钟`];
+  if (p.reserveAfter) content.push(`本学时另有${p.reserveAfter}分钟机动，可前移到实际指读、追问或补充理由处，不新增固定讲述。`);
   for (const [i, step] of p.steps.entries()) content.push(`${i + 1}. ${step.kind === 'speech' ? '逐字讲述' : '活动，不朗读'}${step.minutes ? `（${step.minutes}分钟）` : ''}`, step.text);
   if (p.teacherNotes?.length) content.push('教师备查，不朗读', ...p.teacherNotes);
   content.push('本页出处', p.source || '', '来源及定位', ...(p.refs || []).map(r => `${r.label}\n${r.url || ''}\n${r.locator || ''}`));
@@ -275,6 +290,7 @@ async function main() {
   data.pages.forEach(p => {
     visible.push(`## 第${p.id}页｜${p.title}`, '', `**章节：**${p.section || ''}`, '', '### 屏幕', '');
     p.blocks.forEach(b => { if (b.label) visible.push(`**${b.label}**`, ''); visible.push(b.text, ''); });
+    if (p.arrowLabels) visible.push(`**向下箭头：**${p.arrowLabels.join('；')}`, '');
     if (p.bottom) visible.push(`**页末：**${p.bottom}`, '');
     visible.push(`**出处：**${p.source || ''}`, '', '### 完整备注（按实际顺序）', '', notes(p), '');
   });

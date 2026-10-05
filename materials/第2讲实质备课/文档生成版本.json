@@ -1,0 +1,26 @@
+{
+  "createdAt": "2026-10-05T15:15:40.440Z",
+  "files": [
+    {
+      "markdown": "01_完整讲述.md",
+      "sha256": "505e79eb457e5f8dd53cdfa44337af4a5abf7bf56b3f2c00f064b2328dd3f891",
+      "docx": "01_完整讲述.docx",
+      "characters": 14131,
+      "hanCharacters": 11550
+    },
+    {
+      "markdown": "02_学生史料与问题.md",
+      "sha256": "0092d9b521bed33911963eddfe9f50c6bca797ab1744f9775ae9f22ab13f501a",
+      "docx": "02_学生史料与问题.docx",
+      "characters": 11525,
+      "hanCharacters": 5281
+    },
+    {
+      "markdown": "03_逐题讲评.md",
+      "sha256": "1d76bebaf07dbd12b1faf1a04a03c8cb457bb2a74a13c4d0b0c6ece90d2ee3c0",
+      "docx": "03_逐题讲评.docx",
+      "characters": 5807,
+      "hanCharacters": 4419
+    }
+  ]
+}

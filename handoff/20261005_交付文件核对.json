@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-05",
+  "base_after_parallel_remote_update": "bea4ad002853e6f6b672dac43b345888a820291b",
+  "delivery_files_before_report": 141,
+  "largest_file": "materials\\第2讲实质备课\\研究\\sources\\1982_国务院公报第20号_宪法修改草案报告.pdf",
+  "local_links_checked": 482,
+  "missing_links": [],
+  "lesson1_actual_note_steps_checked": 135,
+  "lesson1_actual_pptx_slide_count": 36,
+  "document_pdf_pages": {
+    "materials/第1讲整合试讲主版本/01_完整讲稿.pdf": 23,
+    "materials/第1讲整合试讲主版本/02_学生材料.pdf": 8,
+    "materials/第1讲整合试讲主版本/03_逐题讲评.pdf": 9,
+    "materials/第2讲实质备课/01_完整讲述.pdf": 14,
+    "materials/第2讲实质备课/02_学生史料与问题.pdf": 11,
+    "materials/第2讲实质备课/03_逐题讲评.pdf": 6
+  },
+  "newline_normalized": [
+    "materials/第2讲实质备课/本轮文档核对.json"
+  ],
+  "scope": "文件同版和引用目标检查；不证明课堂效果、内容思辨深度或新增容量标准达标",
+  "staged_delivery_files": 142,
+  "git_whitespace_check": "通过：将原始网页提取TXT的CRLF按Windows行尾解释，保留来源字节；未更改仓库配置。"
+}

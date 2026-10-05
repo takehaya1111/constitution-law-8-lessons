@@ -1,0 +1,56 @@
+[
+  {
+    "stem": "01_完整讲述",
+    "markdown_sha256": "505e79eb457e5f8dd53cdfa44337af4a5abf7bf56b3f2c00f064b2328dd3f891",
+    "docx_sha256": "9a62ebbc80aa98ed62473afea1c376018ba7631b151ad65773ccf9e680f00bd4",
+    "pdf_sha256": "8039c76d41850db5e7d188233d4a5c255f526910afbb438b7cd023e3bb1e6772",
+    "pdf_pages": 14,
+    "page_twips": {
+      "w": "11906",
+      "h": "16838",
+      "orient": "portrait"
+    },
+    "external_links": 1,
+    "markdown_to_docx_exact_after_formatting_removed": true,
+    "docx_to_pdf_exact_after_whitespace_and_footer_removed": true,
+    "missing_docx_paragraphs_in_pdf": [],
+    "docx_body_characters_without_whitespace": 13432,
+    "pdf_body_characters_without_whitespace": 13432
+  },
+  {
+    "stem": "02_学生史料与问题",
+    "markdown_sha256": "0092d9b521bed33911963eddfe9f50c6bca797ab1744f9775ae9f22ab13f501a",
+    "docx_sha256": "6fadeb475ecea26e5ff06986b23ca39798fa515610519229c648e01b75bf7182",
+    "pdf_sha256": "509039791749756ac7c0452fd111b5a475eff5c9003f3fcdeff4db284e0dc13d",
+    "pdf_pages": 11,
+    "page_twips": {
+      "w": "11906",
+      "h": "16838",
+      "orient": "portrait"
+    },
+    "external_links": 16,
+    "markdown_to_docx_exact_after_formatting_removed": true,
+    "docx_to_pdf_exact_after_whitespace_and_footer_removed": true,
+    "missing_docx_paragraphs_in_pdf": [],
+    "docx_body_characters_without_whitespace": 6755,
+    "pdf_body_characters_without_whitespace": 6755
+  },
+  {
+    "stem": "03_逐题讲评",
+    "markdown_sha256": "1d76bebaf07dbd12b1faf1a04a03c8cb457bb2a74a13c4d0b0c6ece90d2ee3c0",
+    "docx_sha256": "5d5a59dff805f848959cc1e51a49c670668f20fb388733e1dc912f6134943c30",
+    "pdf_sha256": "655a7656b6b1384a7fcc7ae382ac755cf7e14766a3562ff341786eee1cbcbec8",
+    "pdf_pages": 6,
+    "page_twips": {
+      "w": "11906",
+      "h": "16838",
+      "orient": "portrait"
+    },
+    "external_links": 0,
+    "markdown_to_docx_exact_after_formatting_removed": true,
+    "docx_to_pdf_exact_after_whitespace_and_footer_removed": true,
+    "missing_docx_paragraphs_in_pdf": [],
+    "docx_body_characters_without_whitespace": 5301,
+    "pdf_body_characters_without_whitespace": 5301
+  }
+]

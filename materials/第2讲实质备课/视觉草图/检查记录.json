@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-10-05",
+  "scope": "结构SVG实际渲染与看图，非正式PPT或课堂效果验证",
+  "figures": [
+    {
+      "name": "01_完整文本与部分修正",
+      "dimensions": [
+        1600,
+        1000
+      ],
+      "svg_sha256": "82149fea2d3b2b0a545078ff87ff38d40fb6cae141bf050fe9a43083c2e2efe9",
+      "png_sha256": "5bdf6fa11bb8bb53034f8d130439b8d2bf1dc7a8a150e1949bda94c9c16e4f38",
+      "xml_parse": "通过"
+    },
+    {
+      "name": "02_土地条款_题面",
+      "dimensions": [
+        1600,
+        1000
+      ],
+      "svg_sha256": "43bd1ff084fe714d004ff931b18ca1681b3194a50b984ba07429c33eef4de4d9",
+      "png_sha256": "be69fc7320eacd0afd497258e87715a394a7a34335e4f79bb81e38bb77ec0674",
+      "xml_parse": "通过",
+      "quoted_text_check": "1982第10条第1/4款、1988修正后第4款逐字一致"
+    },
+    {
+      "name": "03_土地条款_讲评",
+      "dimensions": [
+        1600,
+        1000
+      ],
+      "svg_sha256": "65961635525f2eacfe410cee8b5e74ebf52f5de1a8381025cecdfabe5c513481",
+      "png_sha256": "13f212e3aefd97f074fed996eb7872f813aeb498782b32422e4dd220970fbea9",
+      "xml_parse": "通过",
+      "quoted_text_check": "1982第10条第1/4款、1988修正后第4款逐字一致"
+    }
+  ],
+  "missing_local_links": []
+}

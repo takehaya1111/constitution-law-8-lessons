@@ -3,6 +3,7 @@
     "id": "01",
     "minutes": 2.5,
     "optional": false,
+    "reserve": 0,
     "han": 284,
     "activity": 0.5
   },
@@ -10,48 +11,55 @@
     "id": "02",
     "minutes": 3.5,
     "optional": false,
+    "reserve": 0,
     "han": 371,
     "activity": 0.75
   },
   {
     "id": "03",
-    "minutes": 4,
+    "minutes": 3.5,
     "optional": false,
-    "han": 419,
+    "reserve": 0,
+    "han": 300,
     "activity": 1.25
   },
   {
     "id": "04",
-    "minutes": 3,
+    "minutes": 2.25,
     "optional": false,
-    "han": 406,
+    "reserve": 0,
+    "han": 322,
     "activity": 0
   },
   {
     "id": "05",
-    "minutes": 2,
+    "minutes": 1.75,
     "optional": false,
-    "han": 276,
+    "reserve": 0,
+    "han": 217,
     "activity": 0
   },
   {
     "id": "06",
-    "minutes": 4,
+    "minutes": 3.5,
     "optional": false,
-    "han": 443,
+    "reserve": 0,
+    "han": 353,
     "activity": 0.5
   },
   {
     "id": "07",
     "minutes": 4,
     "optional": false,
-    "han": 357,
+    "reserve": 0,
+    "han": 410,
     "activity": 1.25
   },
   {
     "id": "08",
     "minutes": 2.75,
     "optional": false,
+    "reserve": 0,
     "han": 372,
     "activity": 0
   },
@@ -59,6 +67,7 @@
     "id": "09",
     "minutes": 2.75,
     "optional": false,
+    "reserve": 0,
     "han": 341,
     "activity": 0
   },
@@ -66,6 +75,7 @@
     "id": "10",
     "minutes": 3,
     "optional": false,
+    "reserve": 0,
     "han": 359,
     "activity": 0.5
   },
@@ -73,6 +83,7 @@
     "id": "11",
     "minutes": 2.5,
     "optional": false,
+    "reserve": 0,
     "han": 346,
     "activity": 0
   },
@@ -80,6 +91,7 @@
     "id": "12",
     "minutes": 2.5,
     "optional": false,
+    "reserve": 0,
     "han": 69,
     "activity": 1.75
   },
@@ -87,6 +99,7 @@
     "id": "13",
     "minutes": 2.25,
     "optional": false,
+    "reserve": 0,
     "han": 245,
     "activity": 0.5
   },
@@ -94,6 +107,7 @@
     "id": "14",
     "minutes": 3,
     "optional": false,
+    "reserve": 0,
     "han": 326,
     "activity": 0.75
   },
@@ -101,6 +115,7 @@
     "id": "15",
     "minutes": 1.25,
     "optional": false,
+    "reserve": 0,
     "han": 61,
     "activity": 0.6666667
   },
@@ -108,6 +123,7 @@
     "id": "16",
     "minutes": 2,
     "optional": false,
+    "reserve": 2,
     "han": 234,
     "activity": 0.3
   },
@@ -115,6 +131,7 @@
     "id": "17",
     "minutes": 2.75,
     "optional": false,
+    "reserve": 0,
     "han": 263,
     "activity": 0.75
   },
@@ -122,6 +139,7 @@
     "id": "18",
     "minutes": 3,
     "optional": false,
+    "reserve": 0,
     "han": 267,
     "activity": 0.75
   },
@@ -129,6 +147,7 @@
     "id": "19",
     "minutes": 4,
     "optional": false,
+    "reserve": 0,
     "han": 348,
     "activity": 1.5
   },
@@ -136,13 +155,15 @@
     "id": "20",
     "minutes": 3,
     "optional": false,
-    "han": 327,
+    "reserve": 0,
+    "han": 329,
     "activity": 0.75
   },
   {
     "id": "21",
     "minutes": 2.25,
     "optional": false,
+    "reserve": 0,
     "han": 283,
     "activity": 0
   },
@@ -150,6 +171,7 @@
     "id": "22",
     "minutes": 2.25,
     "optional": false,
+    "reserve": 0,
     "han": 76,
     "activity": 1.5
   },
@@ -157,34 +179,39 @@
     "id": "23",
     "minutes": 2,
     "optional": false,
+    "reserve": 0,
     "han": 228,
     "activity": 0.3333333
   },
   {
     "id": "24",
-    "minutes": 3.5,
+    "minutes": 1.5,
     "optional": false,
-    "han": 457,
-    "activity": 0
+    "reserve": 0,
+    "han": 117,
+    "activity": 0.5
   },
   {
     "id": "25",
     "minutes": 3.75,
     "optional": false,
-    "han": 69,
+    "reserve": 0,
+    "han": 51,
     "activity": 3
   },
   {
     "id": "26",
-    "minutes": 4,
+    "minutes": 3,
     "optional": false,
-    "han": 385,
+    "reserve": 0,
+    "han": 156,
     "activity": 1
   },
   {
     "id": "27",
     "minutes": 2,
     "optional": false,
+    "reserve": 0,
     "han": 186,
     "activity": 0.6666667
   },
@@ -192,6 +219,7 @@
     "id": "28",
     "minutes": 3,
     "optional": false,
+    "reserve": 0,
     "han": 146,
     "activity": 2
   },
@@ -199,6 +227,7 @@
     "id": "29",
     "minutes": 3,
     "optional": false,
+    "reserve": 0,
     "han": 300,
     "activity": 0.75
   },
@@ -206,6 +235,7 @@
     "id": "30",
     "minutes": 3,
     "optional": false,
+    "reserve": 0,
     "han": 377,
     "activity": 0
   },
@@ -213,6 +243,7 @@
     "id": "31",
     "minutes": 3.5,
     "optional": false,
+    "reserve": 3,
     "han": 352,
     "activity": 1
   },
@@ -220,6 +251,7 @@
     "id": "32",
     "minutes": 2.5,
     "optional": true,
+    "reserve": 0,
     "han": 65,
     "activity": 2
   },
@@ -227,6 +259,7 @@
     "id": "33",
     "minutes": 2.5,
     "optional": true,
+    "reserve": 0,
     "han": 257,
     "activity": 0.5
   },
@@ -234,6 +267,7 @@
     "id": "34",
     "minutes": 2.5,
     "optional": true,
+    "reserve": 0,
     "han": 76,
     "activity": 2
   },
@@ -241,6 +275,7 @@
     "id": "35",
     "minutes": 2.5,
     "optional": true,
+    "reserve": 0,
     "han": 289,
     "activity": 0.5
   },
@@ -248,6 +283,7 @@
     "id": "36",
     "minutes": 0,
     "optional": true,
+    "reserve": 0,
     "han": 0,
     "activity": 0
   }

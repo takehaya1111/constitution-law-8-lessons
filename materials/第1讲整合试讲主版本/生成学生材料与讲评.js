@@ -32,7 +32,8 @@ function paragraphs(markdown, kind) {
   let lectureMode = '';
   const teacher = kind === '教师讲评';
   const lecture = kind === '完整讲稿';
-  for (const raw of markdown.split(/\r?\n/)) {
+  const rawLines = markdown.split(/\r?\n/).filter(raw => raw.trim());
+  for (const [lineIndex, raw] of rawLines.entries()) {
     const line = raw.trim();
     if (!line || line === '>') continue;
     if (line === '<!-- PAGEBREAK -->') { if(!teacher) pendingPageBreak = true; continue; }
@@ -67,6 +68,8 @@ function paragraphs(markdown, kind) {
       // 当前整合稿此段若续在页末，会在LibreOffice中留下仅两字的跨页尾行。
       if(lecture && line.startsWith('我们可以把关系收成一句话：')) options.pageBreakBefore=true;
     }
+    // 出处跟随上一段，不把单独一行依据留到下一页顶端。
+    if (lecture && rawLines[lineIndex + 1]?.trim().startsWith('依据：')) options.keepNext = true;
     result.push(new Paragraph(options));
   }
   return result;

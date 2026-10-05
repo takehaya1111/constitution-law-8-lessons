@@ -1,33 +1,36 @@
 {
-  "source_json_sha256": "f91a542a00a76a88eebc0ced5f3caee9596d6e1129de2beb9ee9982c845aff21",
+  "checked_at": "2026-10-05",
+  "source_json_sha256": "eec3d2fd3988bef2de6119d0241f01dcc8053f81ba41d407fc45ac0910427f3c",
   "documents": {
     "01_完整讲稿": {
       "pages": 23,
-      "docx_bytes": 29944,
-      "pdf_bytes": 539398,
+      "docx_bytes": 29782,
+      "pdf_bytes": 543754,
       "missing_body_lines": [],
-      "missing_speech_pages": [],
-      "markdown_sha256": "6e36a80184064fbe3d8fde08c13e071acd032df87342b764985f8f0b5bf303ce",
-      "pdf_sha256": "635d554c0b6fd32f4245f644e8ea3090f133f3126ec13e5f9c3d64371ff4a791"
+      "missing_pdf_lines": [],
+      "markdown_sha256": "58f4b48756e8cb9aab498275602af35a20d2752d78bc0289fd9238f269c8d6ef",
+      "docx_sha256": "5f3cfb8d4fe3f811b8cf803546b5a0bc1573602595fb444c2d650cc77edb9d6b",
+      "pdf_sha256": "09ca3f51a964c6eb70d9da5135ab2aba125be8fd59f249b309ef2ec631f761c8"
     },
     "02_学生材料": {
       "pages": 8,
-      "docx_bytes": 14773,
-      "pdf_bytes": 231314,
+      "docx_bytes": 14825,
+      "pdf_bytes": 232580,
       "missing_body_lines": [],
-      "missing_speech_pages": [],
-      "markdown_sha256": "7bbdbf3bc9871bbf4b1099947cb2008969f657d9d87ca911ae2ff576145a3705",
-      "pdf_sha256": "b110332c205f8429ffadba48ebbb20e460886c9c0d00319b340a9db02509f46a"
+      "missing_pdf_lines": [],
+      "markdown_sha256": "d8e690106251acda8238d05e115922a84f65269e6ea4b7f1a3461c01e2a6e2d3",
+      "docx_sha256": "7d54167ed0ce1336e9dfecdcf984173a03b8d8623850ac11e0c0a6e127b1bba2",
+      "pdf_sha256": "cac277927bdacd528a61b7269c2c8491536e84ac225a70532b691f630775a70b"
     },
     "03_逐题讲评": {
       "pages": 9,
-      "docx_bytes": 17296,
-      "pdf_bytes": 238443,
+      "docx_bytes": 17676,
+      "pdf_bytes": 244671,
       "missing_body_lines": [],
-      "missing_speech_pages": [],
-      "markdown_sha256": "701535392d709c0d6fb46207fe5c1abf4347ec70b60261c5457d8b2896434345",
-      "pdf_sha256": "080df3fb8bf1a1d2f859e8fef604d87fc20ba880fba08bf0a617f21e5c7bd015"
+      "missing_pdf_lines": [],
+      "markdown_sha256": "1020a3b4c1c74680443ab10a1d5635e3937bb27f9caab8dca8ad5cfc7e87eb6b",
+      "docx_sha256": "ea82484dc2d90fc20fe10462c1bc4fbc2254df1f5a4248f44e938e8f84c368b4",
+      "pdf_sha256": "d275dd5ae8d547c2edb2ff066fb93557d61af4fb119a5ec7539cfb5f085f9d5c"
     }
-  },
-  "last_document_wording_sync": "2026-09-30"
+  }
 }
