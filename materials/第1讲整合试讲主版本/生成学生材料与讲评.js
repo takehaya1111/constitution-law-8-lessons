@@ -6,22 +6,22 @@ const { Document, Packer, Paragraph, TextRun, Footer, PageNumber,
 
 const root = __dirname;
 
-function runs(text) {
+function runs(text, runOptions = {}) {
   const parts = [];
   const pattern = /(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g;
   let previous = 0;
   for (const match of text.matchAll(pattern)) {
-    if (match.index > previous) parts.push(new TextRun(text.slice(previous, match.index)));
+    if (match.index > previous) parts.push(new TextRun({text:text.slice(previous, match.index),...runOptions}));
     const token = match[0];
-    if (token.startsWith('**')) parts.push(new TextRun({text: token.slice(2, -2), bold: true}));
+    if (token.startsWith('**')) parts.push(new TextRun({text: token.slice(2, -2),...runOptions,bold: true}));
     else {
       const m = token.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
-      if (/^https?:/.test(m[2])) parts.push(new ExternalHyperlink({link:m[2], children:[new TextRun({text:m[1],color:'000000',underline:{}})]}));
-      else parts.push(new TextRun(m[1]));
+      if (/^https?:/.test(m[2])) parts.push(new ExternalHyperlink({link:m[2], children:[new TextRun({text:m[1],...runOptions,color:'000000',underline:{}})]}));
+      else parts.push(new TextRun({text:m[1],...runOptions}));
     }
     previous = match.index + token.length;
   }
-  if (previous < text.length) parts.push(new TextRun(text.slice(previous)));
+  if (previous < text.length) parts.push(new TextRun({text:text.slice(previous),...runOptions}));
   return parts.length ? parts : [new TextRun('')];
 }
 
@@ -30,6 +30,7 @@ function paragraphs(markdown, kind) {
   let pendingPageBreak = false;
   let questionStarted = false;
   let lectureMode = '';
+  let teacherSection = '';
   const teacher = kind === '教师讲评';
   const lecture = kind === '完整讲稿';
   const rawLines = markdown.split(/\r?\n/).filter(raw => raw.trim());
@@ -42,7 +43,8 @@ function paragraphs(markdown, kind) {
     pendingPageBreak = false;
     if (/^#{1,3} /.test(line)) {
       const count=line.match(/^#+/)[0].length;
-      if(teacher && count===2 && /^## (任务|扩展)/.test(line)) {
+      if(teacher && count===2) teacherSection=line;
+      if(teacher && count===2 && /^## (任务|扩展|备用)/.test(line)) {
         options.pageBreakBefore=questionStarted;
         questionStarted=true;
       }
@@ -58,6 +60,14 @@ function paragraphs(markdown, kind) {
       options.children=runs(quote?line.slice(2):line);
       options.spacing={before:0,after:95,line:330};
       options.keepLines=true;
+      // 练习的使用条件与教学假设跟随题干，不让假设留在上一页。
+      if(!teacher && !lecture && (line.startsWith('仅在') || line.startsWith('**教学假设'))) options.keepNext=true;
+      // 直接字距收紧0.4磅，避免E3末段只余“问。”的孤字行。
+      if(teacher && teacherSection.startsWith('## 备用E3 ')) options.children=runs(line,{characterSpacing:-8});
+      if(!teacher && !lecture && line.startsWith('**查读依据')) {
+        options.children=runs(line,{size:22});
+        options.spacing={before:0,after:70,line:300};
+      }
       if(quote) options.indent={left:240,right:120};
       if(lecture && (lectureMode==='note' || line.startsWith('依据：') || /分钟$/.test(line))) {
         options.children=runs(line.startsWith('- ')?line.slice(2):line).map(r=>r);

@@ -1,298 +1,328 @@
 {
-  "checked_at": "2026-10-05",
-  "source_json_sha256": "eec3d2fd3988bef2de6119d0241f01dcc8053f81ba41d407fc45ac0910427f3c",
-  "pages": 36,
-  "visible_fields_checked": 295,
-  "note_steps_checked": 135,
+  "checked_at": "2026-10-06",
+  "source_json_sha256": "d7306b50c759abe504018fa07fa55963d67078ee5829927ecb6c585b6677b5a8",
+  "pptx_sha256": "f09987ed6297633c023b7f40ffd745c79ff8f9b0096bfdfdf4ceddaa7debde9a",
+  "pdf_sha256": "cf2d49e40eca17de812154a66567932277788d8b5f3e4eb71d456512ecfc24bd",
+  "notes_xml_sha256": "b99a5a837e14382499ac1709e5eab377cdefd8b7f73c213f1acc4ae794762b4f",
+  "notes_hash_method": "按幻灯片1—38顺序连接对应备注XML原字节，以单个零字节分隔后取SHA-256。",
+  "pages": 38,
+  "hidden_pages": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+  ],
+  "visible_fields_checked": 321,
+  "note_steps_checked": 169,
+  "complete_short_versions_checked": 8,
   "issues": [],
   "page_checks": [
     {
-      "page": "01",
+      "page": 1,
+      "hidden": false,
       "visible_fields": 6,
       "note_steps": 4,
-      "teacher_notes": 1,
-      "references": 2,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "02",
+      "page": 2,
+      "hidden": false,
       "visible_fields": 8,
       "note_steps": 5,
-      "teacher_notes": 1,
-      "references": 2,
+      "short_version": "C1",
       "issues": []
     },
     {
-      "page": "03",
+      "page": 3,
+      "hidden": false,
       "visible_fields": 8,
       "note_steps": 4,
-      "teacher_notes": 0,
-      "references": 1,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "04",
+      "page": 4,
+      "hidden": false,
       "visible_fields": 8,
       "note_steps": 3,
-      "teacher_notes": 1,
-      "references": 1,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "05",
+      "page": 5,
+      "hidden": false,
       "visible_fields": 8,
       "note_steps": 3,
-      "teacher_notes": 1,
-      "references": 1,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "06",
-      "visible_fields": 8,
-      "note_steps": 5,
-      "teacher_notes": 1,
-      "references": 1,
+      "page": 6,
+      "hidden": false,
+      "visible_fields": 10,
+      "note_steps": 8,
+      "short_version": "C2",
       "issues": []
     },
     {
-      "page": "07",
+      "page": 7,
+      "hidden": false,
       "visible_fields": 12,
       "note_steps": 5,
-      "teacher_notes": 1,
-      "references": 1,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "08",
+      "page": 8,
+      "hidden": false,
+      "visible_fields": 8,
+      "note_steps": 7,
+      "short_version": "C3",
+      "issues": []
+    },
+    {
+      "page": 9,
+      "hidden": false,
       "visible_fields": 8,
       "note_steps": 4,
-      "teacher_notes": 1,
-      "references": 1,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "09",
+      "page": 10,
+      "hidden": false,
       "visible_fields": 8,
-      "note_steps": 4,
-      "teacher_notes": 1,
-      "references": 1,
+      "note_steps": 6,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "10",
-      "visible_fields": 8,
-      "note_steps": 5,
-      "teacher_notes": 1,
-      "references": 1,
-      "issues": []
-    },
-    {
-      "page": "11",
+      "page": 11,
+      "hidden": false,
       "visible_fields": 14,
       "note_steps": 4,
-      "teacher_notes": 1,
-      "references": 1,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "12",
+      "page": 12,
+      "hidden": false,
       "visible_fields": 8,
       "note_steps": 2,
-      "teacher_notes": 1,
-      "references": 1,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "13",
+      "page": 13,
+      "hidden": false,
       "visible_fields": 8,
       "note_steps": 4,
-      "teacher_notes": 1,
-      "references": 1,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "14",
+      "page": 14,
+      "hidden": false,
+      "visible_fields": 10,
+      "note_steps": 8,
+      "short_version": "C4",
+      "issues": []
+    },
+    {
+      "page": 15,
+      "hidden": false,
+      "visible_fields": 10,
+      "note_steps": 2,
+      "short_version": null,
+      "issues": []
+    },
+    {
+      "page": 16,
+      "hidden": false,
       "visible_fields": 8,
       "note_steps": 5,
-      "teacher_notes": 1,
-      "references": 1,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "15",
-      "visible_fields": 8,
-      "note_steps": 2,
-      "teacher_notes": 1,
-      "references": 1,
-      "issues": []
-    },
-    {
-      "page": "16",
-      "visible_fields": 8,
-      "note_steps": 4,
-      "teacher_notes": 1,
-      "references": 1,
-      "issues": []
-    },
-    {
-      "page": "17",
+      "page": 17,
+      "hidden": false,
       "visible_fields": 6,
       "note_steps": 4,
-      "teacher_notes": 1,
-      "references": 1,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "18",
+      "page": 18,
+      "hidden": false,
       "visible_fields": 8,
       "note_steps": 4,
-      "teacher_notes": 0,
-      "references": 2,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "19",
+      "page": 19,
+      "hidden": false,
       "visible_fields": 8,
       "note_steps": 5,
-      "teacher_notes": 1,
-      "references": 1,
+      "short_version": "C5",
       "issues": []
     },
     {
-      "page": "20",
+      "page": 20,
+      "hidden": false,
       "visible_fields": 6,
-      "note_steps": 5,
-      "teacher_notes": 1,
-      "references": 1,
+      "note_steps": 9,
+      "short_version": "C6",
       "issues": []
     },
     {
-      "page": "21",
+      "page": 21,
+      "hidden": false,
       "visible_fields": 8,
       "note_steps": 4,
-      "teacher_notes": 1,
-      "references": 2,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "22",
+      "page": 22,
+      "hidden": false,
       "visible_fields": 8,
       "note_steps": 2,
-      "teacher_notes": 1,
-      "references": 1,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "23",
+      "page": 23,
+      "hidden": false,
       "visible_fields": 8,
       "note_steps": 4,
-      "teacher_notes": 0,
-      "references": 1,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "24",
+      "page": 24,
+      "hidden": false,
       "visible_fields": 8,
       "note_steps": 3,
-      "teacher_notes": 1,
-      "references": 2,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "25",
-      "visible_fields": 8,
+      "page": 25,
+      "hidden": false,
+      "visible_fields": 10,
       "note_steps": 2,
-      "teacher_notes": 1,
-      "references": 1,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "26",
-      "visible_fields": 8,
-      "note_steps": 3,
-      "teacher_notes": 5,
-      "references": 2,
+      "page": 26,
+      "hidden": false,
+      "visible_fields": 10,
+      "note_steps": 8,
+      "short_version": "C7",
       "issues": []
     },
     {
-      "page": "27",
+      "page": 27,
+      "hidden": false,
       "visible_fields": 8,
       "note_steps": 4,
-      "teacher_notes": 1,
-      "references": 1,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "28",
+      "page": 28,
+      "hidden": false,
       "visible_fields": 8,
       "note_steps": 3,
-      "teacher_notes": 1,
-      "references": 1,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "29",
+      "page": 29,
+      "hidden": false,
       "visible_fields": 8,
-      "note_steps": 5,
-      "teacher_notes": 1,
-      "references": 1,
+      "note_steps": 6,
+      "short_version": "C8",
       "issues": []
     },
     {
-      "page": "30",
+      "page": 30,
+      "hidden": false,
       "visible_fields": 12,
       "note_steps": 5,
-      "teacher_notes": 1,
-      "references": 2,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "31",
+      "page": 31,
+      "hidden": false,
       "visible_fields": 8,
       "note_steps": 5,
-      "teacher_notes": 2,
-      "references": 1,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "32",
-      "visible_fields": 8,
-      "note_steps": 2,
-      "teacher_notes": 1,
-      "references": 1,
-      "issues": []
-    },
-    {
-      "page": "33",
-      "visible_fields": 7,
-      "note_steps": 5,
-      "teacher_notes": 1,
-      "references": 1,
-      "issues": []
-    },
-    {
-      "page": "34",
+      "page": 32,
+      "hidden": true,
       "visible_fields": 8,
       "note_steps": 2,
-      "teacher_notes": 1,
-      "references": 1,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "35",
+      "page": 33,
+      "hidden": true,
       "visible_fields": 7,
       "note_steps": 5,
-      "teacher_notes": 1,
-      "references": 2,
+      "short_version": null,
       "issues": []
     },
     {
-      "page": "36",
+      "page": 34,
+      "hidden": true,
+      "visible_fields": 8,
+      "note_steps": 2,
+      "short_version": null,
+      "issues": []
+    },
+    {
+      "page": 35,
+      "hidden": true,
+      "visible_fields": 7,
+      "note_steps": 5,
+      "short_version": null,
+      "issues": []
+    },
+    {
+      "page": 36,
+      "hidden": true,
+      "visible_fields": 8,
+      "note_steps": 6,
+      "short_version": null,
+      "issues": []
+    },
+    {
+      "page": 37,
+      "hidden": true,
+      "visible_fields": 8,
+      "note_steps": 7,
+      "short_version": null,
+      "issues": []
+    },
+    {
+      "page": 38,
+      "hidden": false,
       "visible_fields": 9,
       "note_steps": 0,
-      "teacher_notes": 1,
-      "references": 2,
+      "short_version": null,
       "issues": []
     }
-  ]
+  ],
+  "scope": "实际文件文字、步骤顺序、完整短讲、隐藏标记、分节定位及页数；不是逐页视觉和真人教学验证。"
 }

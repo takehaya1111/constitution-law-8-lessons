@@ -21,6 +21,7 @@ const W = 13.333333, H = 7.5, SCALE = 120;
 const FONT = 'Microsoft YaHei';
 const C = { paper: 'F7F4ED', white: 'FFFFFF', ink: '2B302F', muted: '616966', red: '9B3D32', deep: '343E3B', pale: 'E8ECE6', paleRed: 'F1E7DF', line: 'CBCDC5', light: 'E8E4D9' };
 const geometry = [];
+const timeRanges = new Map();
 const wordBoundaries = new Intl.Segmenter('zh-CN', { granularity: 'word' });
 let page, slide, svgItems;
 function check(ok, message) { if (!ok) throw new Error(`第${page?.id || '?'}页：${message}`); }
@@ -103,9 +104,10 @@ function photo(value, x, y, w, h) {
   svgItems.push(`<image href="data:${type};base64,${bytes.toString('base64')}" x="${xx * SCALE}" y="${yy * SCALE}" width="${ww * SCALE}" height="${hh * SCALE}"/>`);
 }
 function heading(dark = false) {
-  tx(page.section || '', 0.78, 0.35, 11.8, 0.36, 17, { color: dark ? C.light : C.red, bold: true, role: '章节标识' });
+  tx(sectionLabel(page), 0.78, 0.35, 11.8, 0.36, 17, { color: dark ? C.light : C.red, bold: true, role: '章节标识' });
   tx(page.title, 0.76, 0.94, 11.82, 1.08, 36, { color: dark ? C.paper : C.deep, bold: true, role: '标题' });
 }
+function sectionLabel(p) { return `${p.half ? (p.half === 1 ? '上节｜' : '下节｜') : ''}${p.section || ''}`; }
 function foot(index, total, dark = false) {
   const muted = dark ? C.light : C.muted;
   tx(page.source || '', 0.78, 7.02, 10.55, 0.31, 12, { color: muted, role: '来源' });
@@ -119,9 +121,12 @@ function bottom(dark = false) {
 function contentEnd() { return !page.bottom ? 6.65 : wrap(page.bottom, 11.76, 24).length > 1 ? 5.75 : 6.08; }
 function displayLabel(value) {
   const breaks = {
+    '06': { '现行宪法第5条第3款': '现行宪法\n第5条第3款' },
     '11': { '坚持中国共产党的领导': '坚持\n中国共产党的领导' },
     '31': { '用两三句话回答': '用两三句话\n回答', '给一个具体支撑': '给一个\n具体支撑' },
-    '33': { '应当保留的区别': '应当保留的\n区别' }
+    '33': { '应当保留的区别': '应当保留的\n区别' },
+    '25': { '继续刚才的疑问｜教学设定': '继续刚才的疑问｜\n教学设定' },
+    '26': { '国家赔偿法第12条（教学提要）': '国家赔偿法第12条\n（教学提要）' }
   };
   return breaks[page.id]?.[value] || value;
 }
@@ -129,7 +134,7 @@ function rows(blocks, kind = 'text') {
   const top = 2.1, end = contentEnd();
   const n = blocks.length;
   const gap = n >= 4 ? 0.18 : 0.27;
-  const labelW = kind === 'principles' ? 3.16 : 2.6;
+  const labelW = ['25','26'].includes(page.id) ? 3.4 : kind === 'principles' ? 3.16 : 2.6;
   const bodyX = 0.83 + labelW + 0.3;
   const needs = blocks.map(b => Math.max(wrap(displayLabel(b.label || ''), labelW - 0.2, 24).length, wrap(b.text || '', 12.5 - bodyX, 24).length) * 24 / 72 * 1.2 + 0.12);
   const used = needs.reduce((a, b) => a + b, 0) + gap * (n - 1);
@@ -149,7 +154,7 @@ function layout() {
   const b = page.blocks;
   if (page.layout === 'cover') {
     slide.background = { color: C.deep }; svgItems.push(`<rect width="1600" height="900" fill="#${C.deep}"/>`);
-    tx(page.section || '', 0.87, 0.65, 11.6, 0.45, 20, { color: C.light, role: '章节标识' });
+    tx(sectionLabel(page), 0.87, 0.65, 11.6, 0.45, 20, { color: C.light, role: '章节标识' });
     tx(page.title, 0.85, 1.68, page.photo ? 6.0 : 11.58, 1.35, 44, { bold: true, color: C.paper, role: '封面标题' });
     let y = 3.38;
     b.forEach(item => {
@@ -181,14 +186,20 @@ function layout() {
       tx(item.text, 7.55, y + 0.7, 4.85, rh - 0.75, 24);
     });
   } else if (page.layout === 'compare') {
-    check(b.length === 2, '并置版式应为两栏；请明确如何分组');
+    check(b.length === 2 || b.length === 3, '并置版式应为两栏，可附一项共同判断');
     const gap = 0.48, width = 5.66;
-    b.forEach((item, i) => {
+    const boxEnd = b.length === 3 ? 4.6 : contentEnd();
+    b.slice(0, 2).forEach((item, i) => {
       const x = 0.78 + i * (width + gap);
-      rect(x, 2.08, width, contentEnd() - 2.08, i ? C.pale : C.white);
+      rect(x, 2.08, width, boxEnd - 2.08, i ? C.pale : C.white);
       tx(item.label, x + 0.22, 2.3, width - 0.44, 0.6, 24, { bold: true, color: C.red });
-      tx(item.text, x + 0.22, 3.06, width - 0.44, contentEnd() - 3.23, 24, { role: '对读文字' });
+      const displayText = page.id === '14' ? item.text.replace('全体代表的', '全体代表的\n') : item.text;
+      tx(displayText, x + 0.22, 3.06, width - 0.44, boxEnd - 3.23, 24, { role: '对读文字' });
     });
+    if (b.length === 3) {
+      tx(b[2].label, 0.84, 4.9, 2.1, 0.85, 24, { bold: true, color: C.red });
+      tx(b[2].text, 3.0, 4.9, 9.43, contentEnd() - 4.93, 24, { role: '对照后的共同判断' });
+    }
   } else if (page.layout === 'chain' && page.arrowLabels) {
     // 本页箭头只承担产生关系；负责与监督由右侧明确主客体的文字承担。
     check(b.length === 3 && page.arrowLabels.length === 2, '机关图须有三个位置与两条产生关系');
@@ -217,6 +228,9 @@ function layout() {
     if (b.length === 1) {
       tx(b[0].label || '', 0.88, 2.12, 11.5, 0.5, 24, { bold: true, color: C.red });
       tx(b[0].text, 0.88, 2.92, 11.5, contentEnd() - 2.95, 30, { role: '题面' });
+    } else if (b.length >= 3) {
+      // 三项题面采用标签在左、内容在右；保留所有条件，避免纵向重复标题吃掉作答题面空间。
+      rows(b, 'question');
     } else {
       const h = (contentEnd() - 2.1 - 0.25 * (b.length - 1)) / b.length;
       b.forEach((item, i) => {
@@ -245,10 +259,15 @@ function layout() {
   bottom(); return false;
 }
 function notes(p) {
-  const content = [`${p.id}｜${p.title}`, `核心/条件性安排：${p.optional ? '条件性扩展或备查' : '核心'}；页预算${p.minutes ?? '未设'}分钟`];
-  if (p.reserveAfter) content.push(`本学时另有${p.reserveAfter}分钟机动，可前移到实际指读、追问或补充理由处，不新增固定讲述。`);
+  const content = [`${p.id}｜${p.title}`, p.optional ? (p.hidden ? '节内备用页：常规放映隐藏。按本节容量报告调用，不追加课时。' : '课后来源页，不计主线口述。') : `${p.half === 1 ? '上' : '下'}节（本节0—45分钟）｜${timeRanges.get(p.id)}`];
+  if (!p.optional) content.push('页定位按180汉字/分钟与计划独立活动粗列，不是实测；口读校正、多语速、活动情景及调整路径见双45分钟容量报告。');
+  if (p.hidden) {
+    const id = Number(p.id);
+    content.push(id === 36 ? '上节第14页讲完第64条后调用本页；若同选E1，依容量报告完成本页及第32—33页后返回第15页。仅用本页时直接返回第15页。' : [32,33].includes(id) ? '上节第14页后依次调用第32—33页；若同选E3，完成本组与第36页后返回第15页。仅用本组时直接返回第15页。' : id === 37 ? '下节第30页后调用本页；与E2同选时先完成第34—35页，再用本页，最后返回第31页收束。' : '下节第30页后依次调用第34—35页；仅用E2时回第31页，同选E4时先到第37页，最后回第31页收束。');
+  }
   for (const [i, step] of p.steps.entries()) content.push(`${i + 1}. ${step.kind === 'speech' ? '逐字讲述' : '活动，不朗读'}${step.minutes ? `（${step.minutes}分钟）` : ''}`, step.text);
   if (p.teacherNotes?.length) content.push('教师备查，不朗读', ...p.teacherNotes);
+  if (p.shortVersion) content.push(`节内短讲${p.shortVersion.id}：${p.shortVersion.title}`, p.shortVersion.instruction, '以下短讲替换本页全部口述；不要与上面的主讲重复朗读。', p.shortVersion.text);
   content.push('本页出处', p.source || '', '来源及定位', ...(p.refs || []).map(r => `${r.label}\n${r.url || ''}\n${r.locator || ''}`));
   return content.join('\n\n');
 }
@@ -266,6 +285,12 @@ async function main() {
   const bytes = fs.readFileSync(INPUT);
   const data = JSON.parse(bytes.toString('utf8').replace(/^\uFEFF/, ''));
   check(Array.isArray(data.pages) && data.pages.length > 0, 'pages必须为非空数组');
+  let half = null, elapsed = 0;
+  for (const p of data.pages.filter(p => !p.optional)) {
+    if (p.half !== half) { half = p.half; elapsed = 0; }
+    timeRanges.set(p.id, `本节约${Number(elapsed.toFixed(1))}—${Number((elapsed + p.minutes).toFixed(1))}分钟`);
+    elapsed += p.minutes;
+  }
   fs.mkdirSync(SVG, { recursive: true }); fs.mkdirSync(PNG, { recursive: true });
   const pptx = new PptxGenJS();
   pptx.defineLayout({ name: 'COURSE_WIDE', width: W, height: H }); pptx.layout = 'COURSE_WIDE';
@@ -277,7 +302,7 @@ async function main() {
     check(p.title && Array.isArray(p.blocks) && Array.isArray(p.steps), '缺少title/blocks/steps');
     check(['cover', 'history', 'text', 'compare', 'chain', 'principles', 'question', 'answer', 'recap'].includes(p.layout), `未知版式${p.layout}`);
     check(p.blocks.length >= 1 && p.blocks.length <= 5, '每页须有1—5个正文块');
-    slide = pptx.addSlide(); slide.background = { color: C.paper };
+    slide = pptx.addSlide(); slide.background = { color: C.paper }; slide.hidden = !!p.hidden;
     svgItems = [`<rect width="1600" height="900" fill="#${C.paper}"/>`];
     const dark = layout(); foot(i, data.pages.length, dark);
     const n = notes(p); slide.addNotes(n); allNotes.push({ id: p.id, notes: n });
@@ -285,28 +310,29 @@ async function main() {
     fs.writeFileSync(path.join(SVG, `${String(i + 1).padStart(2, '0')}.svg`), svg, 'utf8');
   }
   await pptx.writeFile({ fileName: PPT }); await fixOrder(PPT);
-  fs.writeFileSync(path.join(OUT, '几何与同版记录.json'), JSON.stringify({ input: path.basename(INPUT), inputSHA256: crypto.createHash('sha256').update(bytes).digest('hex'), pageCount: data.pages.length, textBoxes: geometry, notes: allNotes }, null, 2), 'utf8');
+  fs.writeFileSync(path.join(OUT, '几何与同版记录.json'), JSON.stringify({ input: path.basename(INPUT), inputSHA256: crypto.createHash('sha256').update(bytes).digest('hex'), pageCount: data.pages.length, hiddenPages: data.pages.filter(p=>p.hidden).map(p=>Number(p.id)), timeRanges:Object.fromEntries(timeRanges), textBoxes: geometry, notes: allNotes }, null, 2), 'utf8');
   const visible = ['# 第一讲整合试讲主版本：课件文字与逐页备注', '', '此文件与实际PPTX同由课程内容.json生成。屏幕文字、逐字讲述和活动分别列出；图片实显及字体以实际PPT导出的预览为准。', '', `内容源SHA-256：\`${crypto.createHash('sha256').update(bytes).digest('hex')}\``, ''];
   data.pages.forEach(p => {
-    visible.push(`## 第${p.id}页｜${p.title}`, '', `**章节：**${p.section || ''}`, '', '### 屏幕', '');
+    visible.push(`## 第${p.id}页｜${p.title}`, '', `**章节：**${sectionLabel(p)}`, '', `**放映与时间：**${p.hidden ? '常规隐藏，节内按需调用' : p.optional ? '课后查读' : timeRanges.get(p.id)}`, '', '### 屏幕', '');
     p.blocks.forEach(b => { if (b.label) visible.push(`**${b.label}**`, ''); visible.push(b.text, ''); });
     if (p.arrowLabels) visible.push(`**向下箭头：**${p.arrowLabels.join('；')}`, '');
     if (p.bottom) visible.push(`**页末：**${p.bottom}`, '');
     visible.push(`**出处：**${p.source || ''}`, '', '### 完整备注（按实际顺序）', '', notes(p), '');
   });
   fs.writeFileSync(path.join(ROOT, '课件文字.md'), visible.join('\n'), 'utf8');
-  const previewIndex = ['# 第一讲实际课件预览', '', '[实际PPT导出的完整PDF](第1讲_宪法总论_整合试讲主版本.pdf) · [逐页课件文字与完整备注](../课件文字.md) · [制作检查记录](视觉检查记录.md)', '', '下列PNG由本轮PPTX经LibreOffice导出PDF后逐页渲染。SVG来自同一内容与版面源，便于回查和另行渲染，不替代实际PPT画面。仓库中可回查这些文件，不等于Pro已在其当前环境成功打开二进制画面或完成视觉审阅。', '', `内容源SHA-256：\`${crypto.createHash('sha256').update(bytes).digest('hex')}\``, ''];
+  const previewIndex = ['# 第一讲实际课件预览', '', '[实际PPT导出的完整PDF](第1讲_宪法总论_整合试讲主版本.pdf) · [逐页课件文字与完整备注](../课件文字.md) · [制作检查记录](视觉检查记录.md)', '', '本讲一份课件，内部上、下两节各45分钟。1—16页上节，17—31页下节；32—37页已设置为隐藏幻灯片，常规放映跳过，38页为来源。备用材料按容量报告在相应节内调用；可在支持编号跳转的放映软件中输入页码，或从幻灯片列表选页，完成后返回原主线。PDF为便于审阅而导出全部38页，包含隐藏页；顺序阅读PDF不会自动跳过备用内容。', '', '下列PNG由本轮PPTX经LibreOffice导出PDF后逐页渲染。SVG来自同一内容与版面源，便于回查和另行渲染，不替代实际PPT画面。仓库中可回查这些文件，不等于Pro已在其当前环境成功打开二进制画面或完成视觉审阅。', '', `内容源SHA-256：\`${crypto.createHash('sha256').update(bytes).digest('hex')}\``, ''];
   data.pages.forEach((p, i) => { const no = String(i + 1).padStart(2, '0'); previewIndex.push(`## ${no}｜${p.title}`, '', `[同源SVG](同源SVG/${no}.svg)`, '', `![第${no}页实际PPT导出画面](逐页PNG/${no}.png)`, ''); });
   fs.writeFileSync(path.join(OUT, 'README.md'), previewIndex.join('\n'), 'utf8');
+  fs.writeFileSync(path.join(OUT, '逐页预览.md'), previewIndex.join('\n'), 'utf8');
   console.log(`已生成 ${data.pages.length} 页可编辑PPTX及同源SVG；文本未截断。`);
   if (process.argv.includes('--render')) {
     const soffice = 'C:/Program Files/LibreOffice/program/soffice.exe';
     const profile = path.join(process.env.LOCALAPPDATA || 'C:/Users/tsunami/AppData/Local', 'Temp/pdfread/constitution-integrated-lo').replace(/\\/g, '/');
-    const result = cp.spawnSync(soffice, [`-env:UserInstallation=file:///${profile}`, '--headless', '--convert-to', 'pdf:impress_pdf_Export:{"UseTaggedPDF":{"type":"boolean","value":"false"}}', '--outdir', OUT, PPT], { encoding: 'utf8', windowsHide: true, timeout: 180000 });
+    const result = cp.spawnSync(soffice, [`-env:UserInstallation=file:///${profile}`, '--headless', '--convert-to', 'pdf:impress_pdf_Export:{"UseTaggedPDF":{"type":"boolean","value":"false"},"ExportHiddenSlides":{"type":"boolean","value":"true"}}', '--outdir', OUT, PPT], { encoding: 'utf8', windowsHide: true, timeout: 180000 });
     check(result.status === 0, `LibreOffice导出失败：${result.stderr || result.stdout}`);
     check(fs.existsSync(PDF), 'LibreOffice未生成PDF');
-    const program = `import fitz,sys,pathlib\npdf=fitz.open(sys.argv[1])\nout=pathlib.Path(sys.argv[2])\nfor i,p in enumerate(pdf):\n p.get_pixmap(matrix=fitz.Matrix(1.5,1.5),alpha=False).save(out/f'{i+1:02d}.png')\nprint(f'实际PPT导出PDF共{len(pdf)}页，逐页PNG已保存')\n`;
-    const render = cp.spawnSync('python', ['-c', program, PDF, PNG], { encoding: 'utf8', env: { ...process.env, PYTHONIOENCODING: 'utf-8' }, windowsHide: true, timeout: 120000 });
+    const program = `import fitz,sys,pathlib\npdf=fitz.open(sys.argv[1])\nassert len(pdf)==int(sys.argv[3]),f'导出页数{len(pdf)}，预期{sys.argv[3]}；隐藏页必须包含于完整预览'\nout=pathlib.Path(sys.argv[2])\nfor i,p in enumerate(pdf):\n p.get_pixmap(matrix=fitz.Matrix(1.5,1.5),alpha=False).save(out/f'{i+1:02d}.png')\nprint(f'实际PPT导出PDF共{len(pdf)}页，逐页PNG已保存')\n`;
+    const render = cp.spawnSync('python', ['-c', program, PDF, PNG, String(data.pages.length)], { encoding: 'utf8', env: { ...process.env, PYTHONIOENCODING: 'utf-8' }, windowsHide: true, timeout: 120000 });
     check(render.status === 0, `PDF逐页渲染失败：${render.stderr}`);
     console.log('LibreOffice已将本次PPTX实际导出为PDF。'); console.log(render.stdout.trim());
   }

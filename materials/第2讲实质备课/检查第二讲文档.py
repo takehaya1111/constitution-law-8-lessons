@@ -60,7 +60,7 @@ for stem, kind in ITEMS:
         mismatch = next((i for i,(a,b) in enumerate(zip(actual, expected)) if a!=b), min(len(actual),len(expected)))
         rec['first_markdown_docx_difference'] = {'index': mismatch, 'markdown': expected[max(0,mismatch-35):mismatch+100], 'docx': actual[max(0,mismatch-35):mismatch+100]}
     result.append(rec)
-(ROOT / '本轮文档核对.json').write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8')
+(ROOT / '本轮文档核对.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
 print(json.dumps(result, ensure_ascii=True, indent=2))
 if any(not x['markdown_to_docx_exact_after_formatting_removed'] or x['missing_docx_paragraphs_in_pdf'] for x in result):
     raise SystemExit(1)
