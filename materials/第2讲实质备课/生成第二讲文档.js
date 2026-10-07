@@ -45,12 +45,13 @@ function content(md,kind){
     const l=lines[i];
     if(l==='<!-- PAGEBREAK -->'){page=true;continue;}
     if(l==='>')continue;
-    if(l.startsWith('|')){let arr=[];while(i<lines.length&&lines[i].startsWith('|'))arr.push(lines[i++]);i--;out.push(table(arr,kind));out.push(new Paragraph({spacing:{after:30,line:70},children:[]}));continue;}
+    if(l.startsWith('|')){let arr=[];while(i<lines.length&&lines[i].startsWith('|'))arr.push(lines[i++]);i--;out.push(table(arr,kind));continue;}
     const o={pageBreakBefore:page,children:[],widowControl:true};page=false;
     const h=l.match(/^(#{1,3}) (.*)/);
     if(h){
       const level=h[1].length;
       if(level===2)mode='';
+      if(kind==='完整讲述'&&level===2&&h[2].startsWith('下节'))o.pageBreakBefore=true;
       if(level===3)mode=h[2]==='讲述'?'speech':'note';
       o.heading=[null,HeadingLevel.TITLE,HeadingLevel.HEADING_1,HeadingLevel.HEADING_2][level];
       o.children=runs(h[2]);
@@ -63,7 +64,7 @@ function content(md,kind){
       const quote=l.startsWith('> '),source=/^(出处：|依据：|资料位置说明：|\*\*资料位置说明：)/.test(l);
       const note=(kind==='完整讲述'&&mode==='note')||source;
       o.children=runs(quote?l.slice(2):l,note?{size:20,color:'444444'}:{});
-      o.spacing={before:0,after:kind==='完整讲述'?90:65,line:kind==='完整讲述'?315:285};
+      o.spacing={before:0,after:kind==='完整讲述'?90:45,line:kind==='完整讲述'?315:280};
       if(note){o.style='TeacherNote';o.spacing={before:0,after:70,line:270};}
       if(quote){o.indent={left:200,right:100};o.keepLines=true;}
       if(/^\*\*[^*]+\*\*[：:]?$/.test(l)){o.keepNext=true;o.spacing={before:60,after:40,line:280};}

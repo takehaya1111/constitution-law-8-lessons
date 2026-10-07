@@ -1,27 +1,26 @@
 'use strict';
+// 当前连续单元和实际活动，不复用旧逐页秒数或E/C课堂路线。
 const fs=require('fs'),path=require('path'),crypto=require('crypto');
-const root=__dirname, data=JSON.parse(fs.readFileSync(path.join(root,'课程内容.json'),'utf8'));
+const root=__dirname,data=JSON.parse(fs.readFileSync(path.join(root,'课程内容.json'),'utf8'));
 const file=path.join(root,'01_完整讲稿.md');
-const blocks=[],activities=[];
-const times={
-  '02':[45,45,60],'03':[75,75,105],'07':[75,75,105],'12':[105,90,105],'13':[30,10,45],'15':[75,75,105],
-  '17':[45,45,60],'18':[45,45,60],'19':[90,90,120],'20':[75,75,105],'22':[90,90,120],'23':[20,5,30],
-  '24':[60,60,75],'25':[180,165,210],'26':[60,20,90],'27':[40,40,50],'28':[120,105,150],'29':[45,15,60]
-};
-for(const p of data.pages.filter(p=>!p.optional)){
-  const id='M'+Number(p.id), section=p.half===1?'upper':'lower';
-  blocks.push({id,section,kind:'main',source_heading:`第${Number(p.id)}页 ${p.title}`,speech_subheading:'讲述'});
-  const aa=p.steps.filter(s=>s.kind==='activity');
-  const sec=Math.round(aa.reduce((n,s)=>n+s.minutes*60,0));
-  if(sec){const t=times[p.id]||[sec,sec,sec];activities.push({id:'A_'+id,block:id,seconds:{plan:t[0],short:t[1],slow:t[2]},overlaps_speech:false,includes_teacher_feedback:false,description:aa.map(s=>s.text).join('；'),scenario_reasons:{plan:'按实际主稿独立阅读/作答/回应时间',short:t[1]===t[0]?'保留必要读写，不因回答简短删除':p.id==='26'?'两名回应由60秒缩至20秒；第12条已在第24页独立阅读，不双计':p.id==='12'||p.id==='25'||p.id==='28'?'同桌交换比计划简短15秒，独立书写不减':'只缩短学生回应，不删独立判断和教师讲评',slow:t[2]===t[0]?'本项按计划不变':'本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述'}});}
+if(!Array.isArray(data.units)||!data.units.length)throw new Error('缺少当前连续单元');
+const blocks=data.units.map(u=>({id:u.id,section:u.half===1?'upper':'lower',kind:'main',source_heading:u.sourceHeading,speech_subheading:'讲述'}));
+const activities=[];
+for(const u of data.units)for(const id of u.pageIds){
+  const p=data.pages.find(p=>p.id===id);
+  for(const [index,s] of p.steps.entries()){
+    if(s.kind!=='activity')continue;
+    activities.push({id:`A_${u.id}_${index}`,block:u.id,seconds:{plan:Math.round((s.scenarios?.normal??s.minutes)*60),short:Math.round((s.scenarios?.fast??s.minutes)*60),slow:Math.round((s.scenarios?.slow??s.minutes)*60)},overlaps_speech:false,includes_teacher_feedback:false,description:s.text,scenario_reasons:{plan:'实际查读和组织解释80秒、一次回应最多40秒；教师回收在口述。',short:'保留80秒查读/组织，只将学生回应40秒缩至10秒。',slow:'查读或组织理由增加30秒，回应不预设热烈；教师讲评不另计。'}});
+  }
 }
-for(const [id,ids,half,title,after] of [['E1',[32,33],'upper','宪法是否只有抽象原则','M14'],['E2',[34,35],'lower','有规范为什么还要看办理','M30'],['E3',[36],'upper','最高国家权力机关也受约束吗','M14'],['E4',[37],'lower','履行赔偿以后仍有什么问题','M30']]){
-  blocks.push({id,section:half,kind:'extension',source_heading:`深化${id} ${title}`,speech_subheading:'讲述',insert_after:after});
-  const pp=data.pages.filter(p=>ids.includes(Number(p.id))), sec=Math.round(pp.reduce((n,p)=>n+p.steps.filter(s=>s.kind==='activity').reduce((n,s)=>n+s.minutes*60,0),0));
-  activities.push({id:'A_'+id,block:id,seconds:{plan:sec,short:sec-(ids.length===2?20:0),slow:sec+15},overlaps_speech:false,includes_teacher_feedback:false,description:pp.flatMap(p=>p.steps.filter(s=>s.kind==='activity').map(s=>s.text)).join('；'),scenario_reasons:{plan:'按已写备用任务执行',short:ids.length===2?'独立作答1分钟保留；学生回应30秒改10秒':'必要独立作答不缩减',slow:'独立条文查读或书写多15秒，教师讲评不另加'}});
+for(const b of data.reserveDefs.filter(b=>b.kind==='extension'))blocks.push({id:b.id,section:b.half===1?'upper':'lower',kind:'extension',source_heading:b.sourceHeading,speech_subheading:'备查讲述',insert_after:b.insert_after});
+for(const a of data.adjustments||[])blocks.push({id:a.id,section:a.half===1?'upper':'lower',kind:'replacement',source_heading:a.sourceHeading,speech_subheading:'备查讲述',replaces:a.replaces});
+const selections=Object.fromEntries(['upper','lower'].map(h=>[h,Object.fromEntries([140,150,180,200,220].map(s=>[s,['main','main','main']]))]));
+// 仅作后台比较：默认原始main总在报告先列；课堂不是这张30格试算表。
+for(const h of ['upper','lower'])for(const speed of [140,150,200,220]){
+  const choice=speed<180?(h==='upper'?'S1':'S2'):(h==='upper'?'B3':'B4');
+  if(blocks.some(b=>b.id===choice))selections[h][speed]=[choice,choice,choice];
 }
-for(const p of data.pages.filter(p=>p.shortVersion)){const v=p.shortVersion;blocks.push({id:v.id,section:p.half===1?'upper':'lower',kind:'replacement',source_heading:`短讲${v.id} ${v.title}`,speech_subheading:'讲述',replaces:'M'+Number(p.id)});}
-const selectionFile=path.join(root,'节内路径选择.json');
-const selections=fs.existsSync(selectionFile)?((j)=>j.selections||j.candidate_selections||j)(JSON.parse(fs.readFileSync(selectionFile,'utf8'))):Object.fromEntries(['upper','lower'].map(h=>[h,Object.fromEntries([140,150,180,200,220].map(s=>[s,['main','main','main']]))]));
-const out={schema_version:1,supporting_sources:['04_双45分钟教学安排.md'],lesson:'第一讲 宪法总论',source:'01_完整讲稿.md',source_sha256:crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex'),selection_extraction:'指定二级标题内全部三级讲述正文；不计活动、教师备查、章节标题或来源。',speeds:[140,150,180,200,220],scenario_order:['plan','short','slow'],section_minutes:45,reference_speed:180,blocks,activities,selections,notes:['主线M1—M16为上节、M17—M31为下节；每个M只在所属节计一次。','C替换对应页全部口述，原独立活动保留；先完成阅读再讲短版。E1在第14页讲完之后、任务2之前调用，不在下课后追加。','默认翻页与口述重叠，不额外机械增加每页几秒；机动不计为教学内容。','同页完整讲评已计入口述，不再以反馈时间另加。全部速度与活动时间是备课假设，非教师或学生实测。']};
-fs.writeFileSync(path.join(root,'容量输入.json'),JSON.stringify(out,null,2)+'\n');
+const out={schema_version:1,lesson:'第一讲 宪法总论',source:'01_完整讲稿.md',source_sha256:crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex'),supporting_sources:['04_双45分钟教学安排.md'],selection_extraction:'八个连续单元内全部三级讲述；独立翻页提示、活动、来源和未选备查不计口述。',speeds:[140,150,180,200,220],scenario_order:['plan','short','slow'],section_minutes:45,reference_speed:180,blocks,activities,selections,notes:['默认主线一条，先算main；不把调整后的结果冒称默认主线。','上下节各一处独立解释；原文随讲带读已入口述，不另机械计读文或翻页。','B3/B4为完整就近深化，B1门槛模型/B2权限任务主要备查，不纳入默认容量。','少量缩讲如使用，替换对应单元口述并保留独立活动；长短互斥。','语速和活动是敏感性假设，180非教师实测；空缺及超时照实保留。']};
+fs.writeFileSync(path.join(root,'容量输入.json'),JSON.stringify(out,null,2)+'\n','utf8');
+console.log('已从8个连续单元生成容量输入；默认main，不读取旧节内路径选择.json。');

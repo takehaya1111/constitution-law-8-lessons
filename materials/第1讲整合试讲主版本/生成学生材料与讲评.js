@@ -49,6 +49,7 @@ function paragraphs(markdown, kind) {
         questionStarted=true;
       }
       if(lecture && count===2) lectureMode='';
+      if(lecture && count===2 && line.startsWith('## 下节')) options.pageBreakBefore=true;
       if(lecture && count===3) lectureMode=line==='### 讲述'?'speech':'note';
       options.heading = [null,HeadingLevel.TITLE,HeadingLevel.HEADING_1,HeadingLevel.HEADING_2][count];
       options.children=runs(line.slice(count+1));
@@ -62,6 +63,8 @@ function paragraphs(markdown, kind) {
       options.keepLines=true;
       // 练习的使用条件与教学假设跟随题干，不让假设留在上一页。
       if(!teacher && !lecture && (line.startsWith('仅在') || line.startsWith('**教学假设'))) options.keepNext=true;
+      // 材料中的简短导语与紧随其后的题干同页，避免任务5只剩标题和导语、E1问题断页。
+      if(!teacher && !lecture && /^(以下两项|供课后|“宪法只有)/u.test(line)) options.keepNext=true;
       // 直接字距收紧0.4磅，避免E3末段只余“问。”的孤字行。
       if(teacher && teacherSection.startsWith('## 备用E3 ')) options.children=runs(line,{characterSpacing:-8});
       if(!teacher && !lecture && line.startsWith('**查读依据')) {

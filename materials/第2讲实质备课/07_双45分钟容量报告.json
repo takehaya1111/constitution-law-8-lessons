@@ -1,20 +1,20 @@
 {
   "lesson": "第二讲 宪法的发展",
-  "generated_at": "2026-10-06T13:24:12.358128+00:00",
-  "git_head_at_run": "5a7f68311dc1ee7775474d22c3c8edd7ee986b94",
+  "generated_at": "2026-10-07T13:55:51.596829+00:00",
+  "git_head_at_run": "119dfe23a32f4e9476c089a50e26daba98a59896",
   "execution": {
     "command": "python tools/check_dual45.py --input \"materials/第2讲实质备课/容量输入.json\"",
     "status": "实际执行完成"
   },
   "inputs": {
-    "materials/第2讲实质备课/容量输入.json": "23d41809a90678bc03dfe89cb525e6747068ec9935e23884fbbfdd129cc87d69",
-    "materials/第2讲实质备课/01_完整讲述.md": "5d504b375d04a2556fcf0ca4c2b0a43a5871470b887c554f5edd68c422b9965b",
+    "materials/第2讲实质备课/容量输入.json": "a639afd9d8093ecb2aa48dcf873c197c930f5a54cbc0a0c260f6a9a0487a08d6",
+    "materials/第2讲实质备课/01_完整讲述.md": "d90a14dbd73d62cb8cea99c8e752f4371ec7126b5b22abb2d2e502ad1f4a4362",
     "tools/check_dual45.py": "7eafb1eb000ce585cc603de4cf2e1b7a71bae58a5196dd713fdb8d15eabc477c",
-    "materials/第2讲实质备课/04_双45分钟教学安排.md": "ffa4029349abe44ea5459820b739a9b3745609830dd1164cc98380078208b74f"
+    "materials/第2讲实质备课/04_双45分钟教学安排.md": "6172c0837f390ed7d3cfbea0aa56f767f17593f7f508587b8d4fa9f5c4f36c0f"
   },
   "source": "01_完整讲述.md",
-  "source_sha256": "5d504b375d04a2556fcf0ca4c2b0a43a5871470b887c554f5edd68c422b9965b",
-  "input_sha256": "23d41809a90678bc03dfe89cb525e6747068ec9935e23884fbbfdd129cc87d69",
+  "source_sha256": "d90a14dbd73d62cb8cea99c8e752f4371ec7126b5b22abb2d2e502ad1f4a4362",
+  "input_sha256": "a639afd9d8093ecb2aa48dcf873c197c930f5a54cbc0a0c260f6a9a0487a08d6",
   "reference_speed": 180,
   "counts": [
     {
@@ -25,10 +25,10 @@
       "speech_subheading": "讲述",
       "source_line": 11,
       "speech_parts": 1,
-      "han": 307,
+      "han": 291,
       "zero_circle_count": 0,
-      "spoken_han": 338,
-      "speech_sha256": "70bc9ef3d54d7df38abce5cd5cfb8d91429079470891d0de58c1fa34c7ec2a86",
+      "spoken_han": 322,
+      "speech_sha256": "fba74d446f58c61ae8de4d34eb970fe159f6bc1e13ff3ca11293bd17045443d5",
       "readings": [
         {
           "written": "1982",
@@ -110,12 +110,12 @@
       "kind": "main",
       "source_heading": "二 近代宪法为何出现 不能只用一个国家解释所有道路",
       "speech_subheading": "讲述",
-      "source_line": 29,
+      "source_line": 26,
       "speech_parts": 1,
-      "han": 1282,
+      "han": 1218,
       "zero_circle_count": 0,
-      "spoken_han": 1326,
-      "speech_sha256": "b685fe23d93dc2c671118ae9e893164a694c5677072af2ee77ac11c3caeed6da",
+      "spoken_han": 1262,
+      "speech_sha256": "df878507a9f3f14ad9a1396471dcaa79e1303bce0e5f549cf7ffa8aa9669ef02",
       "readings": [
         {
           "written": "1688",
@@ -145,7 +145,7 @@
           "written": "1689",
           "spoken": "一六八九",
           "rule": "年份逐位",
-          "offset": 418,
+          "offset": 393,
           "context": "己的选择。\n\n这并不等于1689年已经建立今天意义上的全",
           "added_han": 4
         },
@@ -153,7 +153,7 @@
           "written": "1787",
           "spoken": "一七八七",
           "rule": "年份逐位",
-          "offset": 614,
+          "offset": 589,
           "context": "调和执行共同决定的困难。1787年费城会议原先要修改《邦",
           "added_han": 4
         },
@@ -161,7 +161,7 @@
           "written": "1787",
           "spoken": "一七八七",
           "rule": "年份逐位",
-          "offset": 733,
+          "offset": 708,
           "context": "障的争论并没有因此结束。1787年的文本没有后来那种集中",
           "added_han": 4
         },
@@ -169,7 +169,7 @@
           "written": "1789",
           "spoken": "一七八九",
           "rule": "年份逐位",
-          "offset": 757,
+          "offset": 732,
           "context": "那种集中列出的权利法案。1789年提出十二项修正建议，其",
           "added_han": 4
         },
@@ -177,7 +177,7 @@
           "written": "1791",
           "spoken": "一七九一",
           "rule": "年份逐位",
-          "offset": 777,
+          "offset": 752,
           "context": "二项修正建议，其中十项在1791年得到批准，成为前十条修",
           "added_han": 4
         },
@@ -185,7 +185,7 @@
           "written": "1787",
           "spoken": "一七八七",
           "rule": "年份逐位",
-          "offset": 830,
+          "offset": 805,
           "context": "是把后来的全部内容倒放回1787年，更不是认为写完政府结",
           "added_han": 4
         },
@@ -193,7 +193,7 @@
           "written": "1789",
           "spoken": "一七八九",
           "rule": "年份逐位",
-          "offset": 862,
+          "offset": 837,
           "context": "问题便自动解决。\n\n法国1789年《人权和公民权宣言》第",
           "added_han": 4
         },
@@ -201,7 +201,7 @@
           "written": "1791",
           "spoken": "一七九一",
           "rule": "年份逐位",
-          "offset": 958,
+          "offset": 933,
           "context": "治思想要求表达得很集中。1791年法国宪法随后出现；但我",
           "added_han": 4
         }
@@ -213,12 +213,12 @@
       "kind": "main",
       "source_heading": "三 中国近代探索 看见国家权力根据和行使方式的变化",
       "speech_subheading": "讲述",
-      "source_line": 61,
-      "speech_parts": 2,
-      "han": 1024,
+      "source_line": 55,
+      "speech_parts": 1,
+      "han": 963,
       "zero_circle_count": 0,
-      "spoken_han": 1041,
-      "speech_sha256": "4205c7cac307523645b60d7fd6af36f0ee3e02aeb540f918685231b287c026ac",
+      "spoken_han": 979,
+      "speech_sha256": "cd2d89b9a3e35c9aba68701861e661526eb78da36a46d5bafa2b805606de356e",
       "readings": [
         {
           "written": "1908",
@@ -237,18 +237,10 @@
           "added_han": 4
         },
         {
-          "written": "1",
-          "spoken": "一",
-          "rule": "整数/小数（条号保留原条字）",
-          "offset": 538,
-          "context": "出来的规定。\n\n现在做题1。请从这三条中指出一项国",
-          "added_han": 1
-        },
-        {
           "written": "1946",
           "spoken": "一九四六",
           "rule": "年份逐位",
-          "offset": 899,
+          "offset": 830,
           "context": "国民政府时期的训政约法、1946年通过并于1947年施行",
           "added_han": 4
         },
@@ -256,7 +248,7 @@
           "written": "1947",
           "spoken": "一九四七",
           "rule": "年份逐位",
-          "offset": 908,
+          "offset": 839,
           "context": "约法、1946年通过并于1947年施行的宪法，继续表现出",
           "added_han": 4
         }
@@ -268,7 +260,7 @@
       "kind": "main",
       "source_heading": "四 根据地探索与新中国四部完整文本 在一张全景中各归其位",
       "speech_subheading": "讲述",
-      "source_line": 93,
+      "source_line": 82,
       "speech_parts": 1,
       "han": 755,
       "zero_circle_count": 0,
@@ -443,12 +435,12 @@
       "kind": "main",
       "source_heading": "五 1982年宪法怎样形成 先分清文件 日期与说明",
       "speech_subheading": "讲述",
-      "source_line": 113,
-      "speech_parts": 2,
-      "han": 576,
+      "source_line": 103,
+      "speech_parts": 1,
+      "han": 861,
       "zero_circle_count": 0,
-      "spoken_han": 600,
-      "speech_sha256": "04eb093f2b2a735ccfbaff2dc9170b6a429275cf93b7cb0ab43721a5469f7870",
+      "spoken_han": 885,
+      "speech_sha256": "c1e5f82b137d53efe856ef5deb9f5875c498a1080347835d85490d7f2d51ce06",
       "readings": [
         {
           "written": "1982",
@@ -522,12 +514,12 @@
       "kind": "main",
       "source_heading": "六 同样写保护人身自由 权力安排究竟变了什么",
       "speech_subheading": "讲述",
-      "source_line": 137,
+      "source_line": 126,
       "speech_parts": 2,
-      "han": 1453,
-      "zero_circle_count": 0,
-      "spoken_han": 1530,
-      "speech_sha256": "2d215f9e02661943f4a92ab066b161a8a046f1b1b0b3289f0a028b547de1ed6d",
+      "han": 2615,
+      "zero_circle_count": 1,
+      "spoken_han": 2672,
+      "speech_sha256": "a39ea90694c49c04883dc1a7411a8180bc97488334f89c9f900d9746ff8f1a7d",
       "readings": [
         {
           "written": "1975",
@@ -573,7 +565,7 @@
           "written": "1978",
           "spoken": "一九七八",
           "rule": "年份逐位",
-          "offset": 315,
+          "offset": 317,
           "context": "写出这一分工，已经发生在1978年，不能跳过它，再说一切",
           "added_han": 4
         },
@@ -581,112 +573,64 @@
           "written": "1982",
           "spoken": "一九八二",
           "rule": "年份逐位",
-          "offset": 333,
+          "offset": 335,
           "context": "不能跳过它，再说一切到了1982年才第一次出现。\n\n现在",
           "added_han": 4
         },
         {
-          "written": "1982",
-          "spoken": "一九八二",
+          "written": "1975",
+          "spoken": "一九七五",
           "rule": "年份逐位",
-          "offset": 353,
-          "context": "次出现。\n\n现在请独立读1982年这一列。哪些内容承接了",
+          "offset": 366,
+          "context": "间，把三列连起来读。先从1975读到1978，找出哪种职",
           "added_han": 4
         },
         {
           "written": "1978",
           "spoken": "一九七八",
           "rule": "年份逐位",
-          "offset": 369,
-          "context": "年这一列。哪些内容承接了1978年，哪些规定进一步展开了",
+          "offset": 372,
+          "context": "起来读。先从1975读到1978，找出哪种职责重新出现，",
           "added_han": 4
         },
         {
-          "written": "2",
-          "spoken": "二",
-          "rule": "整数/小数（条号保留原条字）",
-          "offset": 402,
-          "context": "断落实到具体词句，完成题2后我们再核对。\n\n198",
-          "added_han": 1
-        },
-        {
-          "written": "1982",
-          "spoken": "一九八二",
+          "written": "1978",
+          "spoken": "一九七八",
           "rule": "年份逐位",
-          "offset": 412,
-          "context": "成题2后我们再核对。\n\n1982年原文第三十七条保留并进",
+          "offset": 390,
+          "context": "出哪种职责重新出现，再从1978读到1982，找承接和进",
           "added_han": 4
         },
         {
           "written": "1982",
           "spoken": "一九八二",
           "rule": "年份逐位",
-          "offset": 570,
+          "offset": 396,
+          "context": "新出现，再从1978读到1982，找承接和进一步明确之处",
+          "added_han": 4
+        },
+        {
+          "written": "1982",
+          "spoken": "一九八二",
+          "rule": "年份逐位",
+          "offset": 456,
+          "context": "写“后来更加完善”。\n\n1982年原文第三十七条保留并进",
+          "added_han": 4
+        },
+        {
+          "written": "1982",
+          "spoken": "一九八二",
+          "rule": "年份逐位",
+          "offset": 614,
           "context": "版把住宅与人身自由合写，1982年住宅保护另见第三十九条",
           "added_han": 4
         },
         {
-          "written": "1975",
-          "spoken": "一九七五",
-          "rule": "年份逐位",
-          "offset": 784,
-          "context": "答应当分出两个时间跨度。1975到1978，检察机关重新",
-          "added_han": 4
-        },
-        {
-          "written": "1978",
-          "spoken": "一九七八",
-          "rule": "年份逐位",
-          "offset": 789,
-          "context": "两个时间跨度。1975到1978，检察机关重新进入相应的",
-          "added_han": 4
-        },
-        {
           "written": "1982",
           "spoken": "一九八二",
           "rule": "年份逐位",
-          "offset": 828,
-          "context": "行的主体也有明确区分；到1982年，又进一步充实人身自由",
-          "added_han": 4
-        },
-        {
-          "written": "1975",
-          "spoken": "一九七五",
-          "rule": "年份逐位",
-          "offset": 866,
-          "context": "工、配合、制约关系。并非1975没有写任何权利，也并非1",
-          "added_han": 4
-        },
-        {
-          "written": "1978",
-          "spoken": "一九七八",
-          "rule": "年份逐位",
-          "offset": 881,
-          "context": "5没有写任何权利，也并非1978什么都没有改变。\n\n这样",
-          "added_han": 4
-        },
-        {
-          "written": "1982",
-          "spoken": "一九八二",
-          "rule": "年份逐位",
-          "offset": 1472,
-          "context": "\n有人如果据此进一步说，1982年以后非法拘禁便从此消失",
-          "added_han": 4
-        },
-        {
-          "written": "1982",
-          "spoken": "一九八二",
-          "rule": "年份逐位",
-          "offset": 1586,
-          "context": "最后留意条号。这里读的是1982年原文第一百三十五条。后",
-          "added_han": 4
-        },
-        {
-          "written": "2018",
-          "spoken": "二零一八",
-          "rule": "年份逐位",
-          "offset": 1603,
-          "context": "原文第一百三十五条。后来2018年增设监察委员会一节，相",
+          "offset": 2778,
+          "context": "体安排。若据此进一步说，1982年以后非法拘禁便从此消失",
           "added_han": 4
         }
       ]
@@ -697,12 +641,12 @@
       "kind": "main",
       "source_heading": "七 第一学时收束 变化不靠年份自己说明",
       "speech_subheading": "讲述",
-      "source_line": 179,
+      "source_line": 181,
       "speech_parts": 1,
-      "han": 211,
+      "han": 210,
       "zero_circle_count": 0,
-      "spoken_han": 215,
-      "speech_sha256": "1523878a29d443e2ba282ac950982b22c60502b99bdbf49cb980e6750d0abafe",
+      "spoken_han": 214,
+      "speech_sha256": "23e222c531e9b89a87e8e2febe25d98c7f35f545543ffb4d45d0dbecf7e92016",
       "readings": [
         {
           "written": "1982",
@@ -720,26 +664,26 @@
       "kind": "main",
       "source_heading": "八 1988年的土地修改 改变使用安排是否等于改变所有权",
       "speech_subheading": "讲述",
-      "source_line": 195,
+      "source_line": 194,
       "speech_parts": 2,
-      "han": 1445,
+      "han": 2574,
       "zero_circle_count": 0,
-      "spoken_han": 1465,
-      "speech_sha256": "83f82a1d7a2867de18864a3920c3ea139cd61a69fc290c98ac450916d0eea820",
+      "spoken_han": 2594,
+      "speech_sha256": "0cce89678973b0556d8fd45aae95513078973ba8312199b38093b46e15bad1fb",
       "readings": [
         {
           "written": "1982",
           "spoken": "一九八二",
           "rule": "年份逐位",
-          "offset": 77,
-          "context": "从零开始。\n\n下半堂先看1982年原文第十条。第一款是“",
+          "offset": 64,
+          "context": "继续存在？\n\n下半堂先看1982年原文第十条。第一款是“",
           "added_han": 4
         },
         {
           "written": "1988",
           "spoken": "一九八八",
           "rule": "年份逐位",
-          "offset": 146,
+          "offset": 133,
           "context": "以其他形式非法转让土地。1988年修正案将第四款改为：不",
           "added_han": 4
         },
@@ -747,7 +691,7 @@
           "written": "1988",
           "spoken": "一九八八",
           "rule": "年份逐位",
-          "offset": 479,
+          "offset": 426,
           "context": "地所有权。\n\n如果回答“1988年把土地私有化了”，第一",
           "added_han": 4
         },
@@ -755,7 +699,7 @@
           "written": "1988",
           "spoken": "一九八八",
           "rule": "年份逐位",
-          "offset": 622,
+          "offset": 569,
           "context": "需要这项修改？我们取得的1988年同期建议，在开头把它放",
           "added_han": 4
         },
@@ -763,7 +707,7 @@
           "written": "1988",
           "spoken": "一九八八",
           "rule": "年份逐位",
-          "offset": 1541,
+          "offset": 2782,
           "context": "修正后有效的文字；要研究1988年发生了什么，还须把当时",
           "added_han": 4
         }
@@ -775,7 +719,7 @@
       "kind": "main",
       "source_heading": "九 五次修正都有位置 不把每次变化讲成从零开始",
       "speech_subheading": "讲述",
-      "source_line": 235,
+      "source_line": 252,
       "speech_parts": 1,
       "han": 594,
       "zero_circle_count": 0,
@@ -878,12 +822,12 @@
       "kind": "main",
       "source_heading": "十 2018年监察入宪 一处新机关为什么需要多处改文",
       "speech_subheading": "讲述",
-      "source_line": 257,
-      "speech_parts": 2,
-      "han": 795,
+      "source_line": 271,
+      "speech_parts": 1,
+      "han": 677,
       "zero_circle_count": 0,
-      "spoken_han": 809,
-      "speech_sha256": "22dfe193e971b53abb9ae9312f5fca2bbb9ed40e41ad4558de213a3e7f1d6e9c",
+      "spoken_han": 681,
+      "speech_sha256": "40beabf1369354457710f921da2f888a8bee5ef54423c4f118a865295738ef84",
       "readings": [
         {
           "written": "2018",
@@ -891,46 +835,6 @@
           "rule": "年份逐位",
           "offset": 2,
           "context": "先看2018年修正案对宪法第三条第三",
-          "added_han": 4
-        },
-        {
-          "written": "3",
-          "spoken": "三",
-          "rule": "整数/小数（条号保留原条字）",
-          "offset": 689,
-          "context": "\n还要把时间往后看九天。3月11日通过的是宪法修正",
-          "added_han": 1
-        },
-        {
-          "written": "11",
-          "spoken": "十一",
-          "rule": "整数/小数（条号保留原条字）",
-          "offset": 691,
-          "context": "要把时间往后看九天。3月11日通过的是宪法修正案；3",
-          "added_han": 2
-        },
-        {
-          "written": "3",
-          "spoken": "三",
-          "rule": "整数/小数（条号保留原条字）",
-          "offset": 704,
-          "context": "1日通过的是宪法修正案；3月20日全国人大又通过《",
-          "added_han": 1
-        },
-        {
-          "written": "20",
-          "spoken": "二十",
-          "rule": "整数/小数（条号保留原条字）",
-          "offset": 706,
-          "context": "通过的是宪法修正案；3月20日全国人大又通过《监察法",
-          "added_han": 2
-        },
-        {
-          "written": "2018",
-          "spoken": "二零一八",
-          "rule": "年份逐位",
-          "offset": 786,
-          "context": "。我们读到的这份监察法是2018年初版，用于历史身份比较",
           "added_han": 4
         }
       ]
@@ -941,26 +845,26 @@
       "kind": "main",
       "source_heading": "十一 修改建议怎样成为正式文本 看第64条也看实际文件",
       "speech_subheading": "讲述",
-      "source_line": 285,
-      "speech_parts": 2,
-      "han": 1458,
-      "zero_circle_count": 1,
-      "spoken_han": 1492,
-      "speech_sha256": "77979bd7ec3ce885b23eec4e37977018ab49d5590412b420853371c0e79cb82c",
+      "source_line": 292,
+      "speech_parts": 1,
+      "han": 2187,
+      "zero_circle_count": 4,
+      "spoken_han": 2221,
+      "speech_sha256": "4732281cfeca0662eb377dd18b77c61f4e8a4baadf816b581f670efac6216563",
       "readings": [
         {
           "written": "64",
           "spoken": "六十四",
           "rule": "整数/小数（条号保留原条字）",
-          "offset": 4,
-          "context": "请先读第64条第一款。能够依法提议修",
+          "offset": 7,
+          "context": "请看材料六的第64条第一款。能够依法提议修",
           "added_han": 3
         },
         {
           "written": "2018",
           "spoken": "二零一八",
           "rule": "年份逐位",
-          "offset": 117,
+          "offset": 120,
           "context": "修改。\n\n把这条规定放进2018年的实际材料。王晨在3月",
           "added_han": 4
         },
@@ -968,7 +872,7 @@
           "written": "3",
           "spoken": "三",
           "rule": "整数/小数（条号保留原条字）",
-          "offset": 131,
+          "offset": 134,
           "context": "18年的实际材料。王晨在3月5日的说明中回顾，中央",
           "added_han": 1
         },
@@ -976,7 +880,7 @@
           "written": "5",
           "spoken": "五",
           "rule": "整数/小数（条号保留原条字）",
-          "offset": 133,
+          "offset": 136,
           "context": "年的实际材料。王晨在3月5日的说明中回顾，中央全会",
           "added_han": 1
         },
@@ -984,7 +888,7 @@
           "written": "64",
           "spoken": "六十四",
           "rule": "整数/小数（条号保留原条字）",
-          "offset": 283,
+          "offset": 286,
           "context": "拟稿工作，不等于它成为第64条另一个法定提议主体；中",
           "added_han": 3
         },
@@ -992,7 +896,7 @@
           "written": "3",
           "spoken": "三",
           "rule": "整数/小数（条号保留原条字）",
-          "offset": 376,
+          "offset": 379,
           "context": "审议也要同最后表决区分。3月7日各代表团审议，3月",
           "added_han": 1
         },
@@ -1000,7 +904,7 @@
           "written": "7",
           "spoken": "七",
           "rule": "整数/小数（条号保留原条字）",
-          "offset": 378,
+          "offset": 381,
           "context": "也要同最后表决区分。3月7日各代表团审议，3月8日",
           "added_han": 1
         },
@@ -1008,7 +912,7 @@
           "written": "3",
           "spoken": "三",
           "rule": "整数/小数（条号保留原条字）",
-          "offset": 387,
+          "offset": 390,
           "context": "。3月7日各代表团审议，3月8日主席团将有关审议报",
           "added_han": 1
         },
@@ -1016,7 +920,7 @@
           "written": "8",
           "spoken": "八",
           "rule": "整数/小数（条号保留原条字）",
-          "offset": 389,
+          "offset": 392,
           "context": "月7日各代表团审议，3月8日主席团将有关审议报告和",
           "added_han": 1
         },
@@ -1024,7 +928,7 @@
           "written": "3",
           "spoken": "三",
           "rule": "整数/小数（条号保留原条字）",
-          "offset": 424,
+          "offset": 427,
           "context": "议，这还不是最终通过。到3月11日，全国人大通过修",
           "added_han": 1
         },
@@ -1032,23 +936,15 @@
           "written": "11",
           "spoken": "十一",
           "rule": "整数/小数（条号保留原条字）",
-          "offset": 426,
+          "offset": 429,
           "context": "这还不是最终通过。到3月11日，全国人大通过修正案，",
           "added_han": 2
-        },
-        {
-          "written": "64",
-          "spoken": "六十四",
-          "rule": "整数/小数（条号保留原条字）",
-          "offset": 546,
-          "context": "不等于修正案已经通过。第64条中的通过主体、分母和多",
-          "added_han": 3
         },
         {
           "written": "2018",
           "spoken": "二零一八",
           "rule": "年份逐位",
-          "offset": 1437,
+          "offset": 1117,
           "context": "配套已经完成。\n\n不过，2018年的全部工作日期、征求意",
           "added_han": 4
         },
@@ -1056,7 +952,7 @@
           "written": "1982",
           "spoken": "一九八二",
           "rule": "年份逐位",
-          "offset": 1486,
+          "offset": 1166,
           "context": "须一模一样复制的细流程。1982年公布草案讨论和全面修改",
           "added_han": 4
         },
@@ -1064,7 +960,7 @@
           "written": "64",
           "spoken": "六十四",
           "rule": "整数/小数（条号保留原条字）",
-          "offset": 1513,
+          "offset": 1193,
           "context": "改用了另一段实际过程；第64条的要求与每次具体组织工",
           "added_han": 3
         }
@@ -1076,12 +972,12 @@
       "kind": "main",
       "source_heading": "十二 三种文件 不都叫又换了一部宪法",
       "speech_subheading": "讲述",
-      "source_line": 329,
-      "speech_parts": 2,
-      "han": 543,
+      "source_line": 339,
+      "speech_parts": 1,
+      "han": 556,
       "zero_circle_count": 0,
-      "spoken_han": 588,
-      "speech_sha256": "69382cc178d857330cb34db0541f9326ad3a0486cb1120e8b74b9348c168d3ff",
+      "spoken_han": 600,
+      "speech_sha256": "7e818bbe282081f67400408a0810ba575c6171832bfa5ee4b6dc7aa293b36cb3",
       "readings": [
         {
           "written": "1982",
@@ -1104,22 +1000,14 @@
           "spoken": "二零一八",
           "rule": "年份逐位",
           "offset": 44,
-          "context": "、1988年宪法修正案、2018年初版监察法。现在做题5",
+          "context": "、1988年宪法修正案、2018年初版监察法。它们已经在",
           "added_han": 4
-        },
-        {
-          "written": "5",
-          "spoken": "五",
-          "rule": "整数/小数（条号保留原条字）",
-          "offset": 59,
-          "context": "8年初版监察法。现在做题5：分别说明它们做了什么，",
-          "added_han": 1
         },
         {
           "written": "1982",
           "spoken": "一九八二",
           "rule": "年份逐位",
-          "offset": 156,
+          "offset": 170,
           "context": "回到开场：今天为什么仍称1982年宪法，又为什么不能只拿",
           "added_han": 4
         },
@@ -1127,7 +1015,7 @@
           "written": "1982",
           "spoken": "一九八二",
           "rule": "年份逐位",
-          "offset": 177,
+          "offset": 191,
           "context": "为什么不能只拿未经修正的1982年原文当作全部现行规定？",
           "added_han": 4
         },
@@ -1135,7 +1023,7 @@
           "written": "1982",
           "spoken": "一九八二",
           "rule": "年份逐位",
-          "offset": 195,
+          "offset": 209,
           "context": "文当作全部现行规定？\n\n1982年这份完整文本，是在此前",
           "added_han": 4
         },
@@ -1143,7 +1031,7 @@
           "written": "1988",
           "spoken": "一九八八",
           "rule": "年份逐位",
-          "offset": 271,
+          "offset": 285,
           "context": "味着历史经验全部被清零。1988年修正案则明确指向198",
           "added_han": 4
         },
@@ -1151,7 +1039,7 @@
           "written": "1982",
           "spoken": "一九八二",
           "rule": "年份逐位",
-          "offset": 284,
+          "offset": 298,
           "context": "988年修正案则明确指向1982年宪法的个别条款，作部分",
           "added_han": 4
         },
@@ -1159,7 +1047,7 @@
           "written": "2018",
           "spoken": "二零一八",
           "rule": "年份逐位",
-          "offset": 343,
+          "offset": 357,
           "context": "简单数成五部新宪法。\n\n2018年监察法是根据宪法制定的",
           "added_han": 4
         },
@@ -1167,7 +1055,7 @@
           "written": "1982",
           "spoken": "一九八二",
           "rule": "年份逐位",
-          "offset": 453,
+          "offset": 467,
           "context": "。\n\n因此，说今天读的是1982年宪法，是在说明现行宪法",
           "added_han": 4
         },
@@ -1175,7 +1063,7 @@
           "written": "2018",
           "spoken": "二零一八",
           "rule": "年份逐位",
-          "offset": 510,
+          "offset": 524,
           "context": "经过更新。若有人口头说“2018年修正版本”，只要把这一",
           "added_han": 4
         }
@@ -1187,445 +1075,108 @@
       "kind": "main",
       "source_heading": "十三 回到现行宪法 历史比较为继续读制度准备了什么",
       "speech_subheading": "讲述",
-      "source_line": 355,
+      "source_line": 360,
       "speech_parts": 1,
-      "han": 326,
+      "han": 322,
       "zero_circle_count": 0,
-      "spoken_han": 326,
-      "speech_sha256": "1536d05fd8a3115a3093a1607511f88b6aac80d8f1bf4c55024c841b2f8ef977",
+      "spoken_han": 322,
+      "speech_sha256": "0ea8ec89ae120e2cff9b4967671e22c61620ae9b31c4ddcf8d00d4c4e2cebd3e",
       "readings": []
     },
     {
-      "id": "E1",
+      "id": "D1",
       "section": "upper",
       "kind": "extension",
-      "source_heading": "按需深化E1 不成文是否意味着没有成文文件",
-      "speech_subheading": "讲述",
-      "insert_after": "M2",
-      "source_line": 375,
-      "speech_parts": 2,
-      "han": 668,
-      "zero_circle_count": 0,
-      "spoken_han": 672,
-      "speech_sha256": "9fc194fbfdd1fce58fa14ae73ceda10456f7c9a359ae4b3a41c0a1055392cbf8",
-      "readings": [
-        {
-          "written": "1689",
-          "spoken": "一六八九",
-          "rule": "年份逐位",
-          "offset": 50,
-          "context": "宪法性规则。请看附页关于1689年法案的译意：其中恰恰有",
-          "added_han": 4
-        }
-      ]
-    },
-    {
-      "id": "E2",
-      "section": "lower",
-      "kind": "extension",
-      "source_heading": "按需深化E2 2004年新增人权原则怎样联系已有权利",
-      "speech_subheading": "讲述",
-      "insert_after": "M9",
-      "source_line": 399,
-      "speech_parts": 2,
-      "han": 698,
-      "zero_circle_count": 0,
-      "spoken_han": 710,
-      "speech_sha256": "605e862263189fc94c8a73b1b8e8538bd05df305e1307b0ad7b49eb44e800972",
-      "readings": [
-        {
-          "written": "2004",
-          "spoken": "二零零四",
-          "rule": "年份逐位",
-          "offset": 2,
-          "context": "回到2004年，材料给出新增的人权原",
-          "added_han": 4
-        },
-        {
-          "written": "1982",
-          "spoken": "一九八二",
-          "rule": "年份逐位",
-          "offset": 24,
-          "context": "新增的人权原则，同时保留1982年原文中已经存在的法律面",
-          "added_han": 4
-        },
-        {
-          "written": "1982",
-          "spoken": "一九八二",
-          "rule": "年份逐位",
-          "offset": 120,
-          "context": "意义？\n\n前一种概括会被1982年的原文直接反驳。后一种",
-          "added_han": 4
-        }
-      ]
-    },
-    {
-      "id": "E3",
-      "section": "upper",
-      "kind": "extension",
-      "source_heading": "按需深化E3 新增禁止文字是否证明以前允许",
+      "source_heading": "就近深化 另一职责的判断为什么不是多盖一个章",
       "speech_subheading": "讲述",
       "insert_after": "M6",
-      "source_line": 427,
+      "source_line": 371,
       "speech_parts": 1,
-      "han": 513,
+      "han": 349,
       "zero_circle_count": 0,
-      "spoken_han": 513,
-      "speech_sha256": "b9210ec0b6205cec1129d233a3a98f5667c58629349117d0b800805f70b5fa53",
+      "spoken_han": 349,
+      "speech_sha256": "9bd91999654bbc2d3838c6e2f6c6bb0db44e6990d026b76ac48feeab58a7f6e1",
       "readings": []
     },
     {
-      "id": "E4",
+      "id": "D2",
       "section": "lower",
       "kind": "extension",
-      "source_heading": "按需深化E4 标着同一年份为何仍要辨认文本版本",
+      "source_heading": "就近深化 法律具体化为什么还需要真正作决定",
       "speech_subheading": "讲述",
-      "insert_after": "M12",
-      "source_line": 441,
+      "insert_after": "M11",
+      "source_line": 383,
       "speech_parts": 1,
-      "han": 474,
+      "han": 327,
       "zero_circle_count": 0,
-      "spoken_han": 474,
-      "speech_sha256": "608d431c0a31f30034ba1c8ca256273b9d7ff3f80f3d46348480c004748d1142",
+      "spoken_han": 327,
+      "speech_sha256": "b77dbc8b4cac0fd746551d3bfdfe4693cd1f8f51685553790f459869685cb238",
       "readings": []
     },
     {
-      "id": "C1",
+      "id": "S1",
       "section": "upper",
       "kind": "replacement",
-      "source_heading": "短讲C1 近代三条道路",
+      "source_heading": "必要短讲 近代背景的保目标表达",
       "speech_subheading": "讲述",
       "replaces": "M2",
-      "source_line": 455,
+      "source_line": 395,
       "speech_parts": 1,
       "han": 412,
       "zero_circle_count": 0,
       "spoken_han": 412,
-      "speech_sha256": "29291b25591c5d869ed4273ed6bb3e906b9a3ad9b90a29c768de357ee4224781",
+      "speech_sha256": "c6bf34b57881ea77ea31f6546965534431add2858a5c306889e230b7fcab1cc3",
       "readings": []
     },
     {
-      "id": "C2",
-      "section": "upper",
+      "id": "S2",
+      "section": "lower",
       "kind": "replacement",
-      "source_heading": "短讲C2 中国近代探索",
+      "source_heading": "必要短讲 三种变化的回收",
       "speech_subheading": "讲述",
-      "replaces": "M3",
-      "source_line": 469,
-      "speech_parts": 2,
-      "han": 333,
+      "replaces": "M12",
+      "source_line": 410,
+      "speech_parts": 1,
+      "han": 254,
       "zero_circle_count": 1,
-      "spoken_han": 334,
-      "speech_sha256": "545bbb33cdcfe7e77c0a14cf580b782f74b12992f43c9802a6da257a92ea2af6",
+      "spoken_han": 255,
+      "speech_sha256": "dc61f287c226e4e842819168e7e600a3308bc3d9872a3e24bdadaa8c97e1d86e",
       "readings": []
-    },
-    {
-      "id": "C3",
-      "section": "upper",
-      "kind": "replacement",
-      "source_heading": "短讲C3 人身自由与机关分工",
-      "speech_subheading": "讲述",
-      "replaces": "M6",
-      "source_line": 491,
-      "speech_parts": 2,
-      "han": 551,
-      "zero_circle_count": 1,
-      "spoken_han": 552,
-      "speech_sha256": "04957ce8080ef6a4a90662a1611154cabba3014e74c8ddc404270e26f54161e5",
-      "readings": []
-    },
-    {
-      "id": "C4",
-      "section": "lower",
-      "kind": "replacement",
-      "source_heading": "短讲C4 土地修改",
-      "speech_subheading": "讲述",
-      "replaces": "M8",
-      "source_line": 511,
-      "speech_parts": 2,
-      "han": 435,
-      "zero_circle_count": 0,
-      "spoken_han": 435,
-      "speech_sha256": "f434289ad76d1dcda57e28e03b546afbd665697be67575b62fb8ce4c29bcb61a",
-      "readings": []
-    },
-    {
-      "id": "C5",
-      "section": "lower",
-      "kind": "replacement",
-      "source_heading": "短讲C5 监察机关相关修改",
-      "speech_subheading": "讲述",
-      "replaces": "M10",
-      "source_line": 531,
-      "speech_parts": 2,
-      "han": 343,
-      "zero_circle_count": 2,
-      "spoken_han": 345,
-      "speech_sha256": "369c38e19764897f2fab688c7824d5b6a5bd6209f83b8250a8f81b445e4cc5e9",
-      "readings": []
-    },
-    {
-      "id": "C6",
-      "section": "lower",
-      "kind": "replacement",
-      "source_heading": "短讲C6 修宪过程与配套立法",
-      "speech_subheading": "讲述",
-      "replaces": "M11",
-      "source_line": 549,
-      "speech_parts": 2,
-      "han": 517,
-      "zero_circle_count": 2,
-      "spoken_han": 524,
-      "speech_sha256": "ba34a07ea9fa00384f6e6bce84f2f269b72dfa47ff778e2cf2ffbcb92204e5e9",
-      "readings": [
-        {
-          "written": "124",
-          "spoken": "一百二十四",
-          "rule": "整数/小数（条号保留原条字）",
-          "offset": 455,
-          "context": "和原有职权等根本关系，第124条末款又把组织和职权的具",
-          "added_han": 5
-        }
-      ]
     }
   ],
   "activities": [
     {
-      "id": "A_M1",
-      "block": "M1",
-      "seconds": {
-        "plan": 30,
-        "short": 30,
-        "slow": 30
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "在现行宪法题注上标完整文本通过与以后修正日期",
-      "scenario_reasons": {
-        "plan": "独立观察30秒",
-        "short": "观察保留，不依赖发言",
-        "slow": "本情景不延长此项"
-      }
-    },
-    {
-      "id": "A_M2",
-      "block": "M2",
-      "seconds": {
-        "plan": 90,
-        "short": 60,
-        "slow": 90
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "简明全景表回看三国各自问题",
-      "scenario_reasons": {
-        "plan": "回看60秒、回应30秒",
-        "short": "只省30秒回应，回看仍60秒",
-        "slow": "回看与回应仍90秒"
-      }
-    },
-    {
-      "id": "A_M3",
-      "block": "M3",
-      "seconds": {
-        "plan": 180,
-        "short": 150,
-        "slow": 240
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "材料一1912三条原文与题1",
-      "scenario_reasons": {
-        "plan": "读60秒、写90秒、回应30秒",
-        "short": "只省30秒回应",
-        "slow": "阅读增加60秒，书写与回应保留"
-      }
-    },
-    {
-      "id": "A_M5",
-      "block": "M5",
-      "seconds": {
-        "plan": 60,
-        "short": 60,
-        "slow": 60
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "材料二形成说明中报告日期和宪法通过日期",
-      "scenario_reasons": {
-        "plan": "找日期60秒",
-        "short": "查读保留",
-        "slow": "本情景不延长此项"
-      }
-    },
-    {
       "id": "A_M6",
       "block": "M6",
       "seconds": {
-        "plan": 240,
-        "short": 210,
-        "slow": 360
+        "plan": 180,
+        "short": 165,
+        "slow": 270
       },
       "overlaps_speech": false,
       "includes_teacher_feedback": false,
-      "description": "材料二1975/1978/1982三版对读与题2",
+      "description": "三版实际原文独立对读与一项连贯解释准备",
       "scenario_reasons": {
-        "plan": "读120秒、写90秒、回应30秒",
-        "short": "只省30秒回应",
-        "slow": "三列阅读增加120秒"
-      }
-    },
-    {
-      "id": "A_M7",
-      "block": "M7",
-      "seconds": {
-        "plan": 30,
-        "short": 30,
-        "slow": 30
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "上节页边句写变化和材料限度",
-      "scenario_reasons": {
-        "plan": "写30秒",
-        "short": "独立收束保留",
-        "slow": "独立收束保留"
+        "plan": "读120秒、组织说明60秒",
+        "short": "仍读120秒、组织说明45秒",
+        "slow": "读180秒、组织说明90秒"
       }
     },
     {
       "id": "A_M8",
       "block": "M8",
       "seconds": {
-        "plan": 240,
-        "short": 210,
-        "slow": 330
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "材料三1982/1988土地条款圈词及题3",
-      "scenario_reasons": {
-        "plan": "读120秒、写90秒、回应30秒",
-        "short": "只省30秒回应",
-        "slow": "圈词对读增加90秒"
-      }
-    },
-    {
-      "id": "A_M9",
-      "block": "M9",
-      "seconds": {
-        "plan": 60,
-        "short": 60,
-        "slow": 60
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "材料四五次修正定位",
-      "scenario_reasons": {
-        "plan": "定位60秒",
-        "short": "定位保留",
-        "slow": "本情景不延长此项"
-      }
-    },
-    {
-      "id": "A_M10",
-      "block": "M10",
-      "seconds": {
-        "plan": 110,
-        "short": 110,
-        "slow": 110
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "材料五三组监察改文90秒及新增124条末款定位圈读20秒",
-      "scenario_reasons": {
-        "plan": "原三组90秒、新增124条末款20秒",
-        "short": "没有发言轮次，110秒全保留",
-        "slow": "本情景三组及短款仍110秒，更多查读困难须另算"
-      }
-    },
-    {
-      "id": "A_M11",
-      "block": "M11",
-      "seconds": {
         "plan": 180,
-        "short": 150,
-        "slow": 240
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "材料六第64条回读、真实文件主体动作对应题4",
-      "scenario_reasons": {
-        "plan": "回读60秒、对应90秒、回应30秒",
-        "short": "只省30秒回应",
-        "slow": "主体动作对应增加60秒"
-      }
-    },
-    {
-      "id": "A_M12",
-      "block": "M12",
-      "seconds": {
-        "plan": 210,
-        "short": 180,
+        "short": 165,
         "slow": 270
       },
       "overlaps_speech": false,
       "includes_teacher_feedback": false,
-      "description": "材料七三份文件身份题5与同桌检查",
+      "description": "土地旧新原文独立对读与一项改变保留条件解释准备",
       "scenario_reasons": {
-        "plan": "写120秒、同桌核60秒、回应30秒",
-        "short": "只省30秒回应",
-        "slow": "独立写作增加60秒"
-      }
-    },
-    {
-      "id": "A_M13",
-      "block": "M13",
-      "seconds": {
-        "plan": 30,
-        "short": 30,
-        "slow": 30
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "出口句写一处改变与保留",
-      "scenario_reasons": {
-        "plan": "写30秒",
-        "short": "出口说明保留",
-        "slow": "出口说明保留"
-      }
-    },
-    {
-      "id": "A_E1",
-      "block": "E1",
-      "seconds": {
-        "plan": 30,
-        "short": 30,
-        "slow": 30
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "附页E1读英国书面法案例子并圈词",
-      "scenario_reasons": {
-        "plan": "例子圈读30秒",
-        "short": "不另设回应，30秒保留",
-        "slow": "本段仅短例子圈读30秒"
-      }
-    },
-    {
-      "id": "A_E2",
-      "block": "E2",
-      "seconds": {
-        "plan": 60,
-        "short": 60,
-        "slow": 60
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "附页E2回看具体权利和新增人权原则，写一项关系",
-      "scenario_reasons": {
-        "plan": "回看30秒、写理由30秒",
-        "short": "无额外发言，60秒保留",
-        "slow": "本段既有短文对照60秒"
+        "plan": "读120秒、组织说明60秒",
+        "short": "仍读120秒、组织说明45秒",
+        "slow": "读180秒、组织说明90秒"
       }
     }
   ],
@@ -1645,128 +1196,112 @@
           "M6",
           "M7"
         ],
-        "han": 5608,
-        "spoken_han": 5880,
-        "activity_seconds": 630,
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 180,
         "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
+          "A_M6"
         ],
-        "estimated_minutes": 52.5,
-        "difference_from_45_minutes": 7.5,
-        "remaining_minutes": -7.5,
+        "estimated_minutes": 54.1714,
+        "difference_from_45_minutes": 9.1714,
+        "remaining_minutes": -9.1714,
         "timeline": [
           {
             "block": "M1",
             "start_minutes": 0,
-            "end_minutes": 2.9143
+            "end_minutes": 2.3
           },
           {
             "block": "M2",
-            "start_minutes": 2.9143,
-            "end_minutes": 13.8857
+            "start_minutes": 2.3,
+            "end_minutes": 11.3143
           },
           {
             "block": "M3",
-            "start_minutes": 13.8857,
-            "end_minutes": 24.3214
+            "start_minutes": 11.3143,
+            "end_minutes": 18.3071
           },
           {
             "block": "M4",
-            "start_minutes": 24.3214,
-            "end_minutes": 30.25
+            "start_minutes": 18.3071,
+            "end_minutes": 24.2357
           },
           {
             "block": "M5",
-            "start_minutes": 30.25,
-            "end_minutes": 35.5357
+            "start_minutes": 24.2357,
+            "end_minutes": 30.5571
           },
           {
             "block": "M6",
-            "start_minutes": 35.5357,
-            "end_minutes": 50.4643
+            "start_minutes": 30.5571,
+            "end_minutes": 52.6429
           },
           {
             "block": "M7",
-            "start_minutes": 50.4643,
-            "end_minutes": 52.5
+            "start_minutes": 52.6429,
+            "end_minutes": 54.1714
           }
         ],
         "status": "超45分钟，当前选择未覆盖"
       },
       "adjusted": {
-        "selection": "C1+C2+E3",
+        "selection": "S1",
         "selected_blocks": [
           "M1",
-          "C1",
-          "C2",
+          "S1",
+          "M3",
           "M4",
           "M5",
           "M6",
-          "E3",
           "M7"
         ],
-        "han": 4560,
-        "spoken_han": 4772,
-        "activity_seconds": 630,
+        "han": 6107,
+        "spoken_han": 6314,
+        "activity_seconds": 180,
         "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
+          "A_M6"
         ],
-        "estimated_minutes": 44.5857,
-        "difference_from_45_minutes": -0.4143,
-        "remaining_minutes": 0.4143,
+        "estimated_minutes": 48.1,
+        "difference_from_45_minutes": 3.1,
+        "remaining_minutes": -3.1,
         "timeline": [
           {
             "block": "M1",
             "start_minutes": 0,
-            "end_minutes": 2.9143
+            "end_minutes": 2.3
           },
           {
-            "block": "C1",
-            "start_minutes": 2.9143,
-            "end_minutes": 7.3571
+            "block": "S1",
+            "start_minutes": 2.3,
+            "end_minutes": 5.2429
           },
           {
-            "block": "C2",
-            "start_minutes": 7.3571,
-            "end_minutes": 12.7429
+            "block": "M3",
+            "start_minutes": 5.2429,
+            "end_minutes": 12.2357
           },
           {
             "block": "M4",
-            "start_minutes": 12.7429,
-            "end_minutes": 18.6714
+            "start_minutes": 12.2357,
+            "end_minutes": 18.1643
           },
           {
             "block": "M5",
-            "start_minutes": 18.6714,
-            "end_minutes": 23.9571
+            "start_minutes": 18.1643,
+            "end_minutes": 24.4857
           },
           {
             "block": "M6",
-            "start_minutes": 23.9571,
-            "end_minutes": 38.8857
-          },
-          {
-            "block": "E3",
-            "start_minutes": 38.8857,
-            "end_minutes": 42.55
+            "start_minutes": 24.4857,
+            "end_minutes": 46.5714
           },
           {
             "block": "M7",
-            "start_minutes": 42.55,
-            "end_minutes": 44.5857
+            "start_minutes": 46.5714,
+            "end_minutes": 48.1
           }
         ],
-        "status": "42—45分钟条件估算范围"
+        "status": "超45分钟，当前选择未覆盖"
       }
     },
     {
@@ -1784,128 +1319,112 @@
           "M6",
           "M7"
         ],
-        "han": 5608,
-        "spoken_han": 5880,
-        "activity_seconds": 540,
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 165,
         "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
+          "A_M6"
         ],
-        "estimated_minutes": 51.0,
-        "difference_from_45_minutes": 6.0,
-        "remaining_minutes": -6.0,
+        "estimated_minutes": 53.9214,
+        "difference_from_45_minutes": 8.9214,
+        "remaining_minutes": -8.9214,
         "timeline": [
           {
             "block": "M1",
             "start_minutes": 0,
-            "end_minutes": 2.9143
+            "end_minutes": 2.3
           },
           {
             "block": "M2",
-            "start_minutes": 2.9143,
-            "end_minutes": 13.3857
+            "start_minutes": 2.3,
+            "end_minutes": 11.3143
           },
           {
             "block": "M3",
-            "start_minutes": 13.3857,
-            "end_minutes": 23.3214
+            "start_minutes": 11.3143,
+            "end_minutes": 18.3071
           },
           {
             "block": "M4",
-            "start_minutes": 23.3214,
-            "end_minutes": 29.25
+            "start_minutes": 18.3071,
+            "end_minutes": 24.2357
           },
           {
             "block": "M5",
-            "start_minutes": 29.25,
-            "end_minutes": 34.5357
+            "start_minutes": 24.2357,
+            "end_minutes": 30.5571
           },
           {
             "block": "M6",
-            "start_minutes": 34.5357,
-            "end_minutes": 48.9643
+            "start_minutes": 30.5571,
+            "end_minutes": 52.3929
           },
           {
             "block": "M7",
-            "start_minutes": 48.9643,
-            "end_minutes": 51.0
+            "start_minutes": 52.3929,
+            "end_minutes": 53.9214
           }
         ],
         "status": "超45分钟，当前选择未覆盖"
       },
       "adjusted": {
-        "selection": "C1+C2+E3",
+        "selection": "S1",
         "selected_blocks": [
           "M1",
-          "C1",
-          "C2",
+          "S1",
+          "M3",
           "M4",
           "M5",
           "M6",
-          "E3",
           "M7"
         ],
-        "han": 4560,
-        "spoken_han": 4772,
-        "activity_seconds": 540,
+        "han": 6107,
+        "spoken_han": 6314,
+        "activity_seconds": 165,
         "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
+          "A_M6"
         ],
-        "estimated_minutes": 43.0857,
-        "difference_from_45_minutes": -1.9143,
-        "remaining_minutes": 1.9143,
+        "estimated_minutes": 47.85,
+        "difference_from_45_minutes": 2.85,
+        "remaining_minutes": -2.85,
         "timeline": [
           {
             "block": "M1",
             "start_minutes": 0,
-            "end_minutes": 2.9143
+            "end_minutes": 2.3
           },
           {
-            "block": "C1",
-            "start_minutes": 2.9143,
-            "end_minutes": 6.8571
+            "block": "S1",
+            "start_minutes": 2.3,
+            "end_minutes": 5.2429
           },
           {
-            "block": "C2",
-            "start_minutes": 6.8571,
-            "end_minutes": 11.7429
+            "block": "M3",
+            "start_minutes": 5.2429,
+            "end_minutes": 12.2357
           },
           {
             "block": "M4",
-            "start_minutes": 11.7429,
-            "end_minutes": 17.6714
+            "start_minutes": 12.2357,
+            "end_minutes": 18.1643
           },
           {
             "block": "M5",
-            "start_minutes": 17.6714,
-            "end_minutes": 22.9571
+            "start_minutes": 18.1643,
+            "end_minutes": 24.4857
           },
           {
             "block": "M6",
-            "start_minutes": 22.9571,
-            "end_minutes": 37.3857
-          },
-          {
-            "block": "E3",
-            "start_minutes": 37.3857,
-            "end_minutes": 41.05
+            "start_minutes": 24.4857,
+            "end_minutes": 46.3214
           },
           {
             "block": "M7",
-            "start_minutes": 41.05,
-            "end_minutes": 43.0857
+            "start_minutes": 46.3214,
+            "end_minutes": 47.85
           }
         ],
-        "status": "42—45分钟条件估算范围"
+        "status": "超45分钟，当前选择未覆盖"
       }
     },
     {
@@ -1923,122 +1442,112 @@
           "M6",
           "M7"
         ],
-        "han": 5608,
-        "spoken_han": 5880,
-        "activity_seconds": 810,
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 270,
         "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
+          "A_M6"
         ],
-        "estimated_minutes": 55.5,
-        "difference_from_45_minutes": 10.5,
-        "remaining_minutes": -10.5,
+        "estimated_minutes": 55.6714,
+        "difference_from_45_minutes": 10.6714,
+        "remaining_minutes": -10.6714,
         "timeline": [
           {
             "block": "M1",
             "start_minutes": 0,
-            "end_minutes": 2.9143
+            "end_minutes": 2.3
           },
           {
             "block": "M2",
-            "start_minutes": 2.9143,
-            "end_minutes": 13.8857
+            "start_minutes": 2.3,
+            "end_minutes": 11.3143
           },
           {
             "block": "M3",
-            "start_minutes": 13.8857,
-            "end_minutes": 25.3214
+            "start_minutes": 11.3143,
+            "end_minutes": 18.3071
           },
           {
             "block": "M4",
-            "start_minutes": 25.3214,
-            "end_minutes": 31.25
+            "start_minutes": 18.3071,
+            "end_minutes": 24.2357
           },
           {
             "block": "M5",
-            "start_minutes": 31.25,
-            "end_minutes": 36.5357
+            "start_minutes": 24.2357,
+            "end_minutes": 30.5571
           },
           {
             "block": "M6",
-            "start_minutes": 36.5357,
-            "end_minutes": 53.4643
+            "start_minutes": 30.5571,
+            "end_minutes": 54.1429
           },
           {
             "block": "M7",
-            "start_minutes": 53.4643,
-            "end_minutes": 55.5
+            "start_minutes": 54.1429,
+            "end_minutes": 55.6714
           }
         ],
         "status": "超45分钟，当前选择未覆盖"
       },
       "adjusted": {
-        "selection": "C1+C3",
+        "selection": "S1",
         "selected_blocks": [
           "M1",
-          "C1",
+          "S1",
           "M3",
           "M4",
           "M5",
-          "C3",
+          "M6",
           "M7"
         ],
-        "han": 3836,
-        "spoken_han": 3988,
-        "activity_seconds": 810,
+        "han": 6107,
+        "spoken_han": 6314,
+        "activity_seconds": 270,
         "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
+          "A_M6"
         ],
-        "estimated_minutes": 41.9857,
-        "difference_from_45_minutes": -3.0143,
-        "remaining_minutes": 3.0143,
+        "estimated_minutes": 49.6,
+        "difference_from_45_minutes": 4.6,
+        "remaining_minutes": -4.6,
         "timeline": [
           {
             "block": "M1",
             "start_minutes": 0,
-            "end_minutes": 2.9143
+            "end_minutes": 2.3
           },
           {
-            "block": "C1",
-            "start_minutes": 2.9143,
-            "end_minutes": 7.3571
+            "block": "S1",
+            "start_minutes": 2.3,
+            "end_minutes": 5.2429
           },
           {
             "block": "M3",
-            "start_minutes": 7.3571,
-            "end_minutes": 18.7929
+            "start_minutes": 5.2429,
+            "end_minutes": 12.2357
           },
           {
             "block": "M4",
-            "start_minutes": 18.7929,
-            "end_minutes": 24.7214
+            "start_minutes": 12.2357,
+            "end_minutes": 18.1643
           },
           {
             "block": "M5",
-            "start_minutes": 24.7214,
-            "end_minutes": 30.0071
+            "start_minutes": 18.1643,
+            "end_minutes": 24.4857
           },
           {
-            "block": "C3",
-            "start_minutes": 30.0071,
-            "end_minutes": 39.95
+            "block": "M6",
+            "start_minutes": 24.4857,
+            "end_minutes": 48.0714
           },
           {
             "block": "M7",
-            "start_minutes": 39.95,
-            "end_minutes": 41.9857
+            "start_minutes": 48.0714,
+            "end_minutes": 49.6
           }
         ],
-        "status": "低于42分钟参考，余量较大需明示"
+        "status": "超45分钟，当前选择未覆盖"
       }
     },
     {
@@ -2056,252 +1565,232 @@
           "M6",
           "M7"
         ],
-        "han": 5608,
-        "spoken_han": 5880,
-        "activity_seconds": 630,
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 180,
         "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
+          "A_M6"
         ],
-        "estimated_minutes": 49.7,
-        "difference_from_45_minutes": 4.7,
-        "remaining_minutes": -4.7,
+        "estimated_minutes": 50.76,
+        "difference_from_45_minutes": 5.76,
+        "remaining_minutes": -5.76,
         "timeline": [
           {
             "block": "M1",
             "start_minutes": 0,
-            "end_minutes": 2.7533
+            "end_minutes": 2.1467
           },
           {
             "block": "M2",
-            "start_minutes": 2.7533,
-            "end_minutes": 13.0933
+            "start_minutes": 2.1467,
+            "end_minutes": 10.56
           },
           {
             "block": "M3",
-            "start_minutes": 13.0933,
-            "end_minutes": 23.0333
+            "start_minutes": 10.56,
+            "end_minutes": 17.0867
           },
           {
             "block": "M4",
-            "start_minutes": 23.0333,
-            "end_minutes": 28.5667
+            "start_minutes": 17.0867,
+            "end_minutes": 22.62
           },
           {
             "block": "M5",
-            "start_minutes": 28.5667,
-            "end_minutes": 33.5667
+            "start_minutes": 22.62,
+            "end_minutes": 28.52
           },
           {
             "block": "M6",
-            "start_minutes": 33.5667,
-            "end_minutes": 47.7667
+            "start_minutes": 28.52,
+            "end_minutes": 49.3333
           },
           {
             "block": "M7",
-            "start_minutes": 47.7667,
-            "end_minutes": 49.7
+            "start_minutes": 49.3333,
+            "end_minutes": 50.76
           }
         ],
         "status": "超45分钟，当前选择未覆盖"
       },
       "adjusted": {
-        "selection": "C3",
+        "selection": "S1",
         "selected_blocks": [
           "M1",
-          "M2",
-          "M3",
-          "M4",
-          "M5",
-          "C3",
-          "M7"
-        ],
-        "han": 4706,
-        "spoken_han": 4902,
-        "activity_seconds": 630,
-        "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
-        ],
-        "estimated_minutes": 43.18,
-        "difference_from_45_minutes": -1.82,
-        "remaining_minutes": 1.82,
-        "timeline": [
-          {
-            "block": "M1",
-            "start_minutes": 0,
-            "end_minutes": 2.7533
-          },
-          {
-            "block": "M2",
-            "start_minutes": 2.7533,
-            "end_minutes": 13.0933
-          },
-          {
-            "block": "M3",
-            "start_minutes": 13.0933,
-            "end_minutes": 23.0333
-          },
-          {
-            "block": "M4",
-            "start_minutes": 23.0333,
-            "end_minutes": 28.5667
-          },
-          {
-            "block": "M5",
-            "start_minutes": 28.5667,
-            "end_minutes": 33.5667
-          },
-          {
-            "block": "C3",
-            "start_minutes": 33.5667,
-            "end_minutes": 41.2467
-          },
-          {
-            "block": "M7",
-            "start_minutes": 41.2467,
-            "end_minutes": 43.18
-          }
-        ],
-        "status": "42—45分钟条件估算范围"
-      }
-    },
-    {
-      "section": "upper",
-      "speed": 150,
-      "scenario": "short",
-      "original": {
-        "selection": "main",
-        "selected_blocks": [
-          "M1",
-          "M2",
+          "S1",
           "M3",
           "M4",
           "M5",
           "M6",
           "M7"
         ],
-        "han": 5608,
-        "spoken_han": 5880,
-        "activity_seconds": 540,
+        "han": 6107,
+        "spoken_han": 6314,
+        "activity_seconds": 180,
         "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
+          "A_M6"
         ],
-        "estimated_minutes": 48.2,
-        "difference_from_45_minutes": 3.2,
-        "remaining_minutes": -3.2,
+        "estimated_minutes": 45.0933,
+        "difference_from_45_minutes": 0.0933,
+        "remaining_minutes": -0.0933,
         "timeline": [
           {
             "block": "M1",
             "start_minutes": 0,
-            "end_minutes": 2.7533
+            "end_minutes": 2.1467
           },
           {
-            "block": "M2",
-            "start_minutes": 2.7533,
-            "end_minutes": 12.5933
+            "block": "S1",
+            "start_minutes": 2.1467,
+            "end_minutes": 4.8933
           },
           {
             "block": "M3",
-            "start_minutes": 12.5933,
-            "end_minutes": 22.0333
+            "start_minutes": 4.8933,
+            "end_minutes": 11.42
           },
           {
             "block": "M4",
-            "start_minutes": 22.0333,
-            "end_minutes": 27.5667
+            "start_minutes": 11.42,
+            "end_minutes": 16.9533
           },
           {
             "block": "M5",
-            "start_minutes": 27.5667,
-            "end_minutes": 32.5667
-          },
-          {
-            "block": "M6",
-            "start_minutes": 32.5667,
-            "end_minutes": 46.2667
-          },
-          {
-            "block": "M7",
-            "start_minutes": 46.2667,
-            "end_minutes": 48.2
-          }
-        ],
-        "status": "超45分钟，当前选择未覆盖"
-      },
-      "adjusted": {
-        "selection": "C2",
-        "selected_blocks": [
-          "M1",
-          "M2",
-          "C2",
-          "M4",
-          "M5",
-          "M6",
-          "M7"
-        ],
-        "han": 4917,
-        "spoken_han": 5173,
-        "activity_seconds": 540,
-        "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
-        ],
-        "estimated_minutes": 43.4867,
-        "difference_from_45_minutes": -1.5133,
-        "remaining_minutes": 1.5133,
-        "timeline": [
-          {
-            "block": "M1",
-            "start_minutes": 0,
-            "end_minutes": 2.7533
-          },
-          {
-            "block": "M2",
-            "start_minutes": 2.7533,
-            "end_minutes": 12.5933
-          },
-          {
-            "block": "C2",
-            "start_minutes": 12.5933,
-            "end_minutes": 17.32
-          },
-          {
-            "block": "M4",
-            "start_minutes": 17.32,
+            "start_minutes": 16.9533,
             "end_minutes": 22.8533
           },
           {
-            "block": "M5",
+            "block": "M6",
             "start_minutes": 22.8533,
-            "end_minutes": 27.8533
-          },
-          {
-            "block": "M6",
-            "start_minutes": 27.8533,
-            "end_minutes": 41.5533
+            "end_minutes": 43.6667
           },
           {
             "block": "M7",
-            "start_minutes": 41.5533,
-            "end_minutes": 43.4867
+            "start_minutes": 43.6667,
+            "end_minutes": 45.0933
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 150,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 165,
+        "activities": [
+          "A_M6"
+        ],
+        "estimated_minutes": 50.51,
+        "difference_from_45_minutes": 5.51,
+        "remaining_minutes": -5.51,
+        "timeline": [
+          {
+            "block": "M1",
+            "start_minutes": 0,
+            "end_minutes": 2.1467
+          },
+          {
+            "block": "M2",
+            "start_minutes": 2.1467,
+            "end_minutes": 10.56
+          },
+          {
+            "block": "M3",
+            "start_minutes": 10.56,
+            "end_minutes": 17.0867
+          },
+          {
+            "block": "M4",
+            "start_minutes": 17.0867,
+            "end_minutes": 22.62
+          },
+          {
+            "block": "M5",
+            "start_minutes": 22.62,
+            "end_minutes": 28.52
+          },
+          {
+            "block": "M6",
+            "start_minutes": 28.52,
+            "end_minutes": 49.0833
+          },
+          {
+            "block": "M7",
+            "start_minutes": 49.0833,
+            "end_minutes": 50.51
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "S1",
+        "selected_blocks": [
+          "M1",
+          "S1",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "han": 6107,
+        "spoken_han": 6314,
+        "activity_seconds": 165,
+        "activities": [
+          "A_M6"
+        ],
+        "estimated_minutes": 44.8433,
+        "difference_from_45_minutes": -0.1567,
+        "remaining_minutes": 0.1567,
+        "timeline": [
+          {
+            "block": "M1",
+            "start_minutes": 0,
+            "end_minutes": 2.1467
+          },
+          {
+            "block": "S1",
+            "start_minutes": 2.1467,
+            "end_minutes": 4.8933
+          },
+          {
+            "block": "M3",
+            "start_minutes": 4.8933,
+            "end_minutes": 11.42
+          },
+          {
+            "block": "M4",
+            "start_minutes": 11.42,
+            "end_minutes": 16.9533
+          },
+          {
+            "block": "M5",
+            "start_minutes": 16.9533,
+            "end_minutes": 22.8533
+          },
+          {
+            "block": "M6",
+            "start_minutes": 22.8533,
+            "end_minutes": 43.4167
+          },
+          {
+            "block": "M7",
+            "start_minutes": 43.4167,
+            "end_minutes": 44.8433
           }
         ],
         "status": "42—45分钟条件估算范围"
@@ -2322,122 +1811,112 @@
           "M6",
           "M7"
         ],
-        "han": 5608,
-        "spoken_han": 5880,
-        "activity_seconds": 810,
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 270,
         "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
+          "A_M6"
         ],
-        "estimated_minutes": 52.7,
-        "difference_from_45_minutes": 7.7,
-        "remaining_minutes": -7.7,
+        "estimated_minutes": 52.26,
+        "difference_from_45_minutes": 7.26,
+        "remaining_minutes": -7.26,
         "timeline": [
           {
             "block": "M1",
             "start_minutes": 0,
-            "end_minutes": 2.7533
+            "end_minutes": 2.1467
           },
           {
             "block": "M2",
-            "start_minutes": 2.7533,
-            "end_minutes": 13.0933
+            "start_minutes": 2.1467,
+            "end_minutes": 10.56
           },
           {
             "block": "M3",
-            "start_minutes": 13.0933,
-            "end_minutes": 24.0333
+            "start_minutes": 10.56,
+            "end_minutes": 17.0867
           },
           {
             "block": "M4",
-            "start_minutes": 24.0333,
-            "end_minutes": 29.5667
+            "start_minutes": 17.0867,
+            "end_minutes": 22.62
           },
           {
             "block": "M5",
-            "start_minutes": 29.5667,
-            "end_minutes": 34.5667
+            "start_minutes": 22.62,
+            "end_minutes": 28.52
           },
           {
             "block": "M6",
-            "start_minutes": 34.5667,
-            "end_minutes": 50.7667
+            "start_minutes": 28.52,
+            "end_minutes": 50.8333
           },
           {
             "block": "M7",
-            "start_minutes": 50.7667,
-            "end_minutes": 52.7
+            "start_minutes": 50.8333,
+            "end_minutes": 52.26
           }
         ],
         "status": "超45分钟，当前选择未覆盖"
       },
       "adjusted": {
-        "selection": "C1+C2",
+        "selection": "S1",
         "selected_blocks": [
           "M1",
-          "C1",
-          "C2",
+          "S1",
+          "M3",
           "M4",
           "M5",
           "M6",
           "M7"
         ],
-        "han": 4047,
-        "spoken_han": 4259,
-        "activity_seconds": 810,
+        "han": 6107,
+        "spoken_han": 6314,
+        "activity_seconds": 270,
         "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
+          "A_M6"
         ],
-        "estimated_minutes": 41.8933,
-        "difference_from_45_minutes": -3.1067,
-        "remaining_minutes": 3.1067,
+        "estimated_minutes": 46.5933,
+        "difference_from_45_minutes": 1.5933,
+        "remaining_minutes": -1.5933,
         "timeline": [
           {
             "block": "M1",
             "start_minutes": 0,
-            "end_minutes": 2.7533
+            "end_minutes": 2.1467
           },
           {
-            "block": "C1",
-            "start_minutes": 2.7533,
-            "end_minutes": 7.0
+            "block": "S1",
+            "start_minutes": 2.1467,
+            "end_minutes": 4.8933
           },
           {
-            "block": "C2",
-            "start_minutes": 7.0,
-            "end_minutes": 13.2267
+            "block": "M3",
+            "start_minutes": 4.8933,
+            "end_minutes": 11.42
           },
           {
             "block": "M4",
-            "start_minutes": 13.2267,
-            "end_minutes": 18.76
+            "start_minutes": 11.42,
+            "end_minutes": 16.9533
           },
           {
             "block": "M5",
-            "start_minutes": 18.76,
-            "end_minutes": 23.76
+            "start_minutes": 16.9533,
+            "end_minutes": 22.8533
           },
           {
             "block": "M6",
-            "start_minutes": 23.76,
-            "end_minutes": 39.96
+            "start_minutes": 22.8533,
+            "end_minutes": 45.1667
           },
           {
             "block": "M7",
-            "start_minutes": 39.96,
-            "end_minutes": 41.8933
+            "start_minutes": 45.1667,
+            "end_minutes": 46.5933
           }
         ],
-        "status": "低于42分钟参考，余量较大需明示"
+        "status": "超45分钟，当前选择未覆盖"
       }
     },
     {
@@ -2455,55 +1934,50 @@
           "M6",
           "M7"
         ],
-        "han": 5608,
-        "spoken_han": 5880,
-        "activity_seconds": 630,
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 180,
         "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
+          "A_M6"
         ],
-        "estimated_minutes": 43.1667,
-        "difference_from_45_minutes": -1.8333,
-        "remaining_minutes": 1.8333,
+        "estimated_minutes": 42.8,
+        "difference_from_45_minutes": -2.2,
+        "remaining_minutes": 2.2,
         "timeline": [
           {
             "block": "M1",
             "start_minutes": 0,
-            "end_minutes": 2.3778
+            "end_minutes": 1.7889
           },
           {
             "block": "M2",
-            "start_minutes": 2.3778,
-            "end_minutes": 11.2444
+            "start_minutes": 1.7889,
+            "end_minutes": 8.8
           },
           {
             "block": "M3",
-            "start_minutes": 11.2444,
-            "end_minutes": 20.0278
+            "start_minutes": 8.8,
+            "end_minutes": 14.2389
           },
           {
             "block": "M4",
-            "start_minutes": 20.0278,
-            "end_minutes": 24.6389
+            "start_minutes": 14.2389,
+            "end_minutes": 18.85
           },
           {
             "block": "M5",
-            "start_minutes": 24.6389,
-            "end_minutes": 28.9722
+            "start_minutes": 18.85,
+            "end_minutes": 23.7667
           },
           {
             "block": "M6",
-            "start_minutes": 28.9722,
-            "end_minutes": 41.4722
+            "start_minutes": 23.7667,
+            "end_minutes": 41.6111
           },
           {
             "block": "M7",
-            "start_minutes": 41.4722,
-            "end_minutes": 43.1667
+            "start_minutes": 41.6111,
+            "end_minutes": 42.8
           }
         ],
         "status": "42—45分钟条件估算范围"
@@ -2519,55 +1993,50 @@
           "M6",
           "M7"
         ],
-        "han": 5608,
-        "spoken_han": 5880,
-        "activity_seconds": 630,
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 180,
         "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
+          "A_M6"
         ],
-        "estimated_minutes": 43.1667,
-        "difference_from_45_minutes": -1.8333,
-        "remaining_minutes": 1.8333,
+        "estimated_minutes": 42.8,
+        "difference_from_45_minutes": -2.2,
+        "remaining_minutes": 2.2,
         "timeline": [
           {
             "block": "M1",
             "start_minutes": 0,
-            "end_minutes": 2.3778
+            "end_minutes": 1.7889
           },
           {
             "block": "M2",
-            "start_minutes": 2.3778,
-            "end_minutes": 11.2444
+            "start_minutes": 1.7889,
+            "end_minutes": 8.8
           },
           {
             "block": "M3",
-            "start_minutes": 11.2444,
-            "end_minutes": 20.0278
+            "start_minutes": 8.8,
+            "end_minutes": 14.2389
           },
           {
             "block": "M4",
-            "start_minutes": 20.0278,
-            "end_minutes": 24.6389
+            "start_minutes": 14.2389,
+            "end_minutes": 18.85
           },
           {
             "block": "M5",
-            "start_minutes": 24.6389,
-            "end_minutes": 28.9722
+            "start_minutes": 18.85,
+            "end_minutes": 23.7667
           },
           {
             "block": "M6",
-            "start_minutes": 28.9722,
-            "end_minutes": 41.4722
+            "start_minutes": 23.7667,
+            "end_minutes": 41.6111
           },
           {
             "block": "M7",
-            "start_minutes": 41.4722,
-            "end_minutes": 43.1667
+            "start_minutes": 41.6111,
+            "end_minutes": 42.8
           }
         ],
         "status": "42—45分钟条件估算范围"
@@ -2588,61 +2057,56 @@
           "M6",
           "M7"
         ],
-        "han": 5608,
-        "spoken_han": 5880,
-        "activity_seconds": 540,
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 165,
         "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
+          "A_M6"
         ],
-        "estimated_minutes": 41.6667,
-        "difference_from_45_minutes": -3.3333,
-        "remaining_minutes": 3.3333,
+        "estimated_minutes": 42.55,
+        "difference_from_45_minutes": -2.45,
+        "remaining_minutes": 2.45,
         "timeline": [
           {
             "block": "M1",
             "start_minutes": 0,
-            "end_minutes": 2.3778
+            "end_minutes": 1.7889
           },
           {
             "block": "M2",
-            "start_minutes": 2.3778,
-            "end_minutes": 10.7444
+            "start_minutes": 1.7889,
+            "end_minutes": 8.8
           },
           {
             "block": "M3",
-            "start_minutes": 10.7444,
-            "end_minutes": 19.0278
+            "start_minutes": 8.8,
+            "end_minutes": 14.2389
           },
           {
             "block": "M4",
-            "start_minutes": 19.0278,
-            "end_minutes": 23.6389
+            "start_minutes": 14.2389,
+            "end_minutes": 18.85
           },
           {
             "block": "M5",
-            "start_minutes": 23.6389,
-            "end_minutes": 27.9722
+            "start_minutes": 18.85,
+            "end_minutes": 23.7667
           },
           {
             "block": "M6",
-            "start_minutes": 27.9722,
-            "end_minutes": 39.9722
+            "start_minutes": 23.7667,
+            "end_minutes": 41.3611
           },
           {
             "block": "M7",
-            "start_minutes": 39.9722,
-            "end_minutes": 41.6667
+            "start_minutes": 41.3611,
+            "end_minutes": 42.55
           }
         ],
-        "status": "低于42分钟参考，余量较大需明示"
+        "status": "42—45分钟条件估算范围"
       },
       "adjusted": {
-        "selection": "E3",
+        "selection": "main",
         "selected_blocks": [
           "M1",
           "M2",
@@ -2650,63 +2114,52 @@
           "M4",
           "M5",
           "M6",
-          "E3",
           "M7"
         ],
-        "han": 6121,
-        "spoken_han": 6393,
-        "activity_seconds": 540,
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 165,
         "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
+          "A_M6"
         ],
-        "estimated_minutes": 44.5167,
-        "difference_from_45_minutes": -0.4833,
-        "remaining_minutes": 0.4833,
+        "estimated_minutes": 42.55,
+        "difference_from_45_minutes": -2.45,
+        "remaining_minutes": 2.45,
         "timeline": [
           {
             "block": "M1",
             "start_minutes": 0,
-            "end_minutes": 2.3778
+            "end_minutes": 1.7889
           },
           {
             "block": "M2",
-            "start_minutes": 2.3778,
-            "end_minutes": 10.7444
+            "start_minutes": 1.7889,
+            "end_minutes": 8.8
           },
           {
             "block": "M3",
-            "start_minutes": 10.7444,
-            "end_minutes": 19.0278
+            "start_minutes": 8.8,
+            "end_minutes": 14.2389
           },
           {
             "block": "M4",
-            "start_minutes": 19.0278,
-            "end_minutes": 23.6389
+            "start_minutes": 14.2389,
+            "end_minutes": 18.85
           },
           {
             "block": "M5",
-            "start_minutes": 23.6389,
-            "end_minutes": 27.9722
+            "start_minutes": 18.85,
+            "end_minutes": 23.7667
           },
           {
             "block": "M6",
-            "start_minutes": 27.9722,
-            "end_minutes": 39.9722
-          },
-          {
-            "block": "E3",
-            "start_minutes": 39.9722,
-            "end_minutes": 42.8222
+            "start_minutes": 23.7667,
+            "end_minutes": 41.3611
           },
           {
             "block": "M7",
-            "start_minutes": 42.8222,
-            "end_minutes": 44.5167
+            "start_minutes": 41.3611,
+            "end_minutes": 42.55
           }
         ],
         "status": "42—45分钟条件估算范围"
@@ -2727,2063 +2180,108 @@
           "M6",
           "M7"
         ],
-        "han": 5608,
-        "spoken_han": 5880,
-        "activity_seconds": 810,
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 270,
         "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
-        ],
-        "estimated_minutes": 46.1667,
-        "difference_from_45_minutes": 1.1667,
-        "remaining_minutes": -1.1667,
-        "timeline": [
-          {
-            "block": "M1",
-            "start_minutes": 0,
-            "end_minutes": 2.3778
-          },
-          {
-            "block": "M2",
-            "start_minutes": 2.3778,
-            "end_minutes": 11.2444
-          },
-          {
-            "block": "M3",
-            "start_minutes": 11.2444,
-            "end_minutes": 21.0278
-          },
-          {
-            "block": "M4",
-            "start_minutes": 21.0278,
-            "end_minutes": 25.6389
-          },
-          {
-            "block": "M5",
-            "start_minutes": 25.6389,
-            "end_minutes": 29.9722
-          },
-          {
-            "block": "M6",
-            "start_minutes": 29.9722,
-            "end_minutes": 44.4722
-          },
-          {
-            "block": "M7",
-            "start_minutes": 44.4722,
-            "end_minutes": 46.1667
-          }
-        ],
-        "status": "超45分钟，当前选择未覆盖"
-      },
-      "adjusted": {
-        "selection": "C2",
-        "selected_blocks": [
-          "M1",
-          "M2",
-          "C2",
-          "M4",
-          "M5",
-          "M6",
-          "M7"
-        ],
-        "han": 4917,
-        "spoken_han": 5173,
-        "activity_seconds": 810,
-        "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
-        ],
-        "estimated_minutes": 42.2389,
-        "difference_from_45_minutes": -2.7611,
-        "remaining_minutes": 2.7611,
-        "timeline": [
-          {
-            "block": "M1",
-            "start_minutes": 0,
-            "end_minutes": 2.3778
-          },
-          {
-            "block": "M2",
-            "start_minutes": 2.3778,
-            "end_minutes": 11.2444
-          },
-          {
-            "block": "C2",
-            "start_minutes": 11.2444,
-            "end_minutes": 17.1
-          },
-          {
-            "block": "M4",
-            "start_minutes": 17.1,
-            "end_minutes": 21.7111
-          },
-          {
-            "block": "M5",
-            "start_minutes": 21.7111,
-            "end_minutes": 26.0444
-          },
-          {
-            "block": "M6",
-            "start_minutes": 26.0444,
-            "end_minutes": 40.5444
-          },
-          {
-            "block": "M7",
-            "start_minutes": 40.5444,
-            "end_minutes": 42.2389
-          }
-        ],
-        "status": "42—45分钟条件估算范围"
-      }
-    },
-    {
-      "section": "upper",
-      "speed": 200,
-      "scenario": "plan",
-      "original": {
-        "selection": "main",
-        "selected_blocks": [
-          "M1",
-          "M2",
-          "M3",
-          "M4",
-          "M5",
-          "M6",
-          "M7"
-        ],
-        "han": 5608,
-        "spoken_han": 5880,
-        "activity_seconds": 630,
-        "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
-        ],
-        "estimated_minutes": 39.9,
-        "difference_from_45_minutes": -5.1,
-        "remaining_minutes": 5.1,
-        "timeline": [
-          {
-            "block": "M1",
-            "start_minutes": 0,
-            "end_minutes": 2.19
-          },
-          {
-            "block": "M2",
-            "start_minutes": 2.19,
-            "end_minutes": 10.32
-          },
-          {
-            "block": "M3",
-            "start_minutes": 10.32,
-            "end_minutes": 18.525
-          },
-          {
-            "block": "M4",
-            "start_minutes": 18.525,
-            "end_minutes": 22.675
-          },
-          {
-            "block": "M5",
-            "start_minutes": 22.675,
-            "end_minutes": 26.675
-          },
-          {
-            "block": "M6",
-            "start_minutes": 26.675,
-            "end_minutes": 38.325
-          },
-          {
-            "block": "M7",
-            "start_minutes": 38.325,
-            "end_minutes": 39.9
-          }
-        ],
-        "status": "低于42分钟参考，余量较大需明示"
-      },
-      "adjusted": {
-        "selection": "E1",
-        "selected_blocks": [
-          "M1",
-          "M2",
-          "E1",
-          "M3",
-          "M4",
-          "M5",
-          "M6",
-          "M7"
-        ],
-        "han": 6276,
-        "spoken_han": 6552,
-        "activity_seconds": 660,
-        "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7",
-          "A_E1"
-        ],
-        "estimated_minutes": 43.76,
-        "difference_from_45_minutes": -1.24,
-        "remaining_minutes": 1.24,
-        "timeline": [
-          {
-            "block": "M1",
-            "start_minutes": 0,
-            "end_minutes": 2.19
-          },
-          {
-            "block": "M2",
-            "start_minutes": 2.19,
-            "end_minutes": 10.32
-          },
-          {
-            "block": "E1",
-            "start_minutes": 10.32,
-            "end_minutes": 14.18
-          },
-          {
-            "block": "M3",
-            "start_minutes": 14.18,
-            "end_minutes": 22.385
-          },
-          {
-            "block": "M4",
-            "start_minutes": 22.385,
-            "end_minutes": 26.535
-          },
-          {
-            "block": "M5",
-            "start_minutes": 26.535,
-            "end_minutes": 30.535
-          },
-          {
-            "block": "M6",
-            "start_minutes": 30.535,
-            "end_minutes": 42.185
-          },
-          {
-            "block": "M7",
-            "start_minutes": 42.185,
-            "end_minutes": 43.76
-          }
-        ],
-        "status": "42—45分钟条件估算范围"
-      }
-    },
-    {
-      "section": "upper",
-      "speed": 200,
-      "scenario": "short",
-      "original": {
-        "selection": "main",
-        "selected_blocks": [
-          "M1",
-          "M2",
-          "M3",
-          "M4",
-          "M5",
-          "M6",
-          "M7"
-        ],
-        "han": 5608,
-        "spoken_han": 5880,
-        "activity_seconds": 540,
-        "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
-        ],
-        "estimated_minutes": 38.4,
-        "difference_from_45_minutes": -6.6,
-        "remaining_minutes": 6.6,
-        "timeline": [
-          {
-            "block": "M1",
-            "start_minutes": 0,
-            "end_minutes": 2.19
-          },
-          {
-            "block": "M2",
-            "start_minutes": 2.19,
-            "end_minutes": 9.82
-          },
-          {
-            "block": "M3",
-            "start_minutes": 9.82,
-            "end_minutes": 17.525
-          },
-          {
-            "block": "M4",
-            "start_minutes": 17.525,
-            "end_minutes": 21.675
-          },
-          {
-            "block": "M5",
-            "start_minutes": 21.675,
-            "end_minutes": 25.675
-          },
-          {
-            "block": "M6",
-            "start_minutes": 25.675,
-            "end_minutes": 36.825
-          },
-          {
-            "block": "M7",
-            "start_minutes": 36.825,
-            "end_minutes": 38.4
-          }
-        ],
-        "status": "低于42分钟参考，余量较大需明示"
-      },
-      "adjusted": {
-        "selection": "E1+E3",
-        "selected_blocks": [
-          "M1",
-          "M2",
-          "E1",
-          "M3",
-          "M4",
-          "M5",
-          "M6",
-          "E3",
-          "M7"
-        ],
-        "han": 6789,
-        "spoken_han": 7065,
-        "activity_seconds": 570,
-        "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7",
-          "A_E1"
-        ],
-        "estimated_minutes": 44.825,
-        "difference_from_45_minutes": -0.175,
-        "remaining_minutes": 0.175,
-        "timeline": [
-          {
-            "block": "M1",
-            "start_minutes": 0,
-            "end_minutes": 2.19
-          },
-          {
-            "block": "M2",
-            "start_minutes": 2.19,
-            "end_minutes": 9.82
-          },
-          {
-            "block": "E1",
-            "start_minutes": 9.82,
-            "end_minutes": 13.68
-          },
-          {
-            "block": "M3",
-            "start_minutes": 13.68,
-            "end_minutes": 21.385
-          },
-          {
-            "block": "M4",
-            "start_minutes": 21.385,
-            "end_minutes": 25.535
-          },
-          {
-            "block": "M5",
-            "start_minutes": 25.535,
-            "end_minutes": 29.535
-          },
-          {
-            "block": "M6",
-            "start_minutes": 29.535,
-            "end_minutes": 40.685
-          },
-          {
-            "block": "E3",
-            "start_minutes": 40.685,
-            "end_minutes": 43.25
-          },
-          {
-            "block": "M7",
-            "start_minutes": 43.25,
-            "end_minutes": 44.825
-          }
-        ],
-        "status": "42—45分钟条件估算范围"
-      }
-    },
-    {
-      "section": "upper",
-      "speed": 200,
-      "scenario": "slow",
-      "original": {
-        "selection": "main",
-        "selected_blocks": [
-          "M1",
-          "M2",
-          "M3",
-          "M4",
-          "M5",
-          "M6",
-          "M7"
-        ],
-        "han": 5608,
-        "spoken_han": 5880,
-        "activity_seconds": 810,
-        "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
-        ],
-        "estimated_minutes": 42.9,
-        "difference_from_45_minutes": -2.1,
-        "remaining_minutes": 2.1,
-        "timeline": [
-          {
-            "block": "M1",
-            "start_minutes": 0,
-            "end_minutes": 2.19
-          },
-          {
-            "block": "M2",
-            "start_minutes": 2.19,
-            "end_minutes": 10.32
-          },
-          {
-            "block": "M3",
-            "start_minutes": 10.32,
-            "end_minutes": 19.525
-          },
-          {
-            "block": "M4",
-            "start_minutes": 19.525,
-            "end_minutes": 23.675
-          },
-          {
-            "block": "M5",
-            "start_minutes": 23.675,
-            "end_minutes": 27.675
-          },
-          {
-            "block": "M6",
-            "start_minutes": 27.675,
-            "end_minutes": 41.325
-          },
-          {
-            "block": "M7",
-            "start_minutes": 41.325,
-            "end_minutes": 42.9
-          }
-        ],
-        "status": "42—45分钟条件估算范围"
-      },
-      "adjusted": {
-        "selection": "main",
-        "selected_blocks": [
-          "M1",
-          "M2",
-          "M3",
-          "M4",
-          "M5",
-          "M6",
-          "M7"
-        ],
-        "han": 5608,
-        "spoken_han": 5880,
-        "activity_seconds": 810,
-        "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
-        ],
-        "estimated_minutes": 42.9,
-        "difference_from_45_minutes": -2.1,
-        "remaining_minutes": 2.1,
-        "timeline": [
-          {
-            "block": "M1",
-            "start_minutes": 0,
-            "end_minutes": 2.19
-          },
-          {
-            "block": "M2",
-            "start_minutes": 2.19,
-            "end_minutes": 10.32
-          },
-          {
-            "block": "M3",
-            "start_minutes": 10.32,
-            "end_minutes": 19.525
-          },
-          {
-            "block": "M4",
-            "start_minutes": 19.525,
-            "end_minutes": 23.675
-          },
-          {
-            "block": "M5",
-            "start_minutes": 23.675,
-            "end_minutes": 27.675
-          },
-          {
-            "block": "M6",
-            "start_minutes": 27.675,
-            "end_minutes": 41.325
-          },
-          {
-            "block": "M7",
-            "start_minutes": 41.325,
-            "end_minutes": 42.9
-          }
-        ],
-        "status": "42—45分钟条件估算范围"
-      }
-    },
-    {
-      "section": "upper",
-      "speed": 220,
-      "scenario": "plan",
-      "original": {
-        "selection": "main",
-        "selected_blocks": [
-          "M1",
-          "M2",
-          "M3",
-          "M4",
-          "M5",
-          "M6",
-          "M7"
-        ],
-        "han": 5608,
-        "spoken_han": 5880,
-        "activity_seconds": 630,
-        "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
-        ],
-        "estimated_minutes": 37.2273,
-        "difference_from_45_minutes": -7.7727,
-        "remaining_minutes": 7.7727,
-        "timeline": [
-          {
-            "block": "M1",
-            "start_minutes": 0,
-            "end_minutes": 2.0364
-          },
-          {
-            "block": "M2",
-            "start_minutes": 2.0364,
-            "end_minutes": 9.5636
-          },
-          {
-            "block": "M3",
-            "start_minutes": 9.5636,
-            "end_minutes": 17.2955
-          },
-          {
-            "block": "M4",
-            "start_minutes": 17.2955,
-            "end_minutes": 21.0682
-          },
-          {
-            "block": "M5",
-            "start_minutes": 21.0682,
-            "end_minutes": 24.7955
-          },
-          {
-            "block": "M6",
-            "start_minutes": 24.7955,
-            "end_minutes": 35.75
-          },
-          {
-            "block": "M7",
-            "start_minutes": 35.75,
-            "end_minutes": 37.2273
-          }
-        ],
-        "status": "低于42分钟参考，余量较大需明示"
-      },
-      "adjusted": {
-        "selection": "E1+E3",
-        "selected_blocks": [
-          "M1",
-          "M2",
-          "E1",
-          "M3",
-          "M4",
-          "M5",
-          "M6",
-          "E3",
-          "M7"
-        ],
-        "han": 6789,
-        "spoken_han": 7065,
-        "activity_seconds": 660,
-        "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7",
-          "A_E1"
-        ],
-        "estimated_minutes": 43.1136,
-        "difference_from_45_minutes": -1.8864,
-        "remaining_minutes": 1.8864,
-        "timeline": [
-          {
-            "block": "M1",
-            "start_minutes": 0,
-            "end_minutes": 2.0364
-          },
-          {
-            "block": "M2",
-            "start_minutes": 2.0364,
-            "end_minutes": 9.5636
-          },
-          {
-            "block": "E1",
-            "start_minutes": 9.5636,
-            "end_minutes": 13.1182
-          },
-          {
-            "block": "M3",
-            "start_minutes": 13.1182,
-            "end_minutes": 20.85
-          },
-          {
-            "block": "M4",
-            "start_minutes": 20.85,
-            "end_minutes": 24.6227
-          },
-          {
-            "block": "M5",
-            "start_minutes": 24.6227,
-            "end_minutes": 28.35
-          },
-          {
-            "block": "M6",
-            "start_minutes": 28.35,
-            "end_minutes": 39.3045
-          },
-          {
-            "block": "E3",
-            "start_minutes": 39.3045,
-            "end_minutes": 41.6364
-          },
-          {
-            "block": "M7",
-            "start_minutes": 41.6364,
-            "end_minutes": 43.1136
-          }
-        ],
-        "status": "42—45分钟条件估算范围"
-      }
-    },
-    {
-      "section": "upper",
-      "speed": 220,
-      "scenario": "short",
-      "original": {
-        "selection": "main",
-        "selected_blocks": [
-          "M1",
-          "M2",
-          "M3",
-          "M4",
-          "M5",
-          "M6",
-          "M7"
-        ],
-        "han": 5608,
-        "spoken_han": 5880,
-        "activity_seconds": 540,
-        "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
-        ],
-        "estimated_minutes": 35.7273,
-        "difference_from_45_minutes": -9.2727,
-        "remaining_minutes": 9.2727,
-        "timeline": [
-          {
-            "block": "M1",
-            "start_minutes": 0,
-            "end_minutes": 2.0364
-          },
-          {
-            "block": "M2",
-            "start_minutes": 2.0364,
-            "end_minutes": 9.0636
-          },
-          {
-            "block": "M3",
-            "start_minutes": 9.0636,
-            "end_minutes": 16.2955
-          },
-          {
-            "block": "M4",
-            "start_minutes": 16.2955,
-            "end_minutes": 20.0682
-          },
-          {
-            "block": "M5",
-            "start_minutes": 20.0682,
-            "end_minutes": 23.7955
-          },
-          {
-            "block": "M6",
-            "start_minutes": 23.7955,
-            "end_minutes": 34.25
-          },
-          {
-            "block": "M7",
-            "start_minutes": 34.25,
-            "end_minutes": 35.7273
-          }
-        ],
-        "status": "低于42分钟参考，余量较大需明示"
-      },
-      "adjusted": {
-        "selection": "E1+E3",
-        "selected_blocks": [
-          "M1",
-          "M2",
-          "E1",
-          "M3",
-          "M4",
-          "M5",
-          "M6",
-          "E3",
-          "M7"
-        ],
-        "han": 6789,
-        "spoken_han": 7065,
-        "activity_seconds": 570,
-        "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7",
-          "A_E1"
-        ],
-        "estimated_minutes": 41.6136,
-        "difference_from_45_minutes": -3.3864,
-        "remaining_minutes": 3.3864,
-        "timeline": [
-          {
-            "block": "M1",
-            "start_minutes": 0,
-            "end_minutes": 2.0364
-          },
-          {
-            "block": "M2",
-            "start_minutes": 2.0364,
-            "end_minutes": 9.0636
-          },
-          {
-            "block": "E1",
-            "start_minutes": 9.0636,
-            "end_minutes": 12.6182
-          },
-          {
-            "block": "M3",
-            "start_minutes": 12.6182,
-            "end_minutes": 19.85
-          },
-          {
-            "block": "M4",
-            "start_minutes": 19.85,
-            "end_minutes": 23.6227
-          },
-          {
-            "block": "M5",
-            "start_minutes": 23.6227,
-            "end_minutes": 27.35
-          },
-          {
-            "block": "M6",
-            "start_minutes": 27.35,
-            "end_minutes": 37.8045
-          },
-          {
-            "block": "E3",
-            "start_minutes": 37.8045,
-            "end_minutes": 40.1364
-          },
-          {
-            "block": "M7",
-            "start_minutes": 40.1364,
-            "end_minutes": 41.6136
-          }
-        ],
-        "status": "低于42分钟参考，余量较大需明示"
-      }
-    },
-    {
-      "section": "upper",
-      "speed": 220,
-      "scenario": "slow",
-      "original": {
-        "selection": "main",
-        "selected_blocks": [
-          "M1",
-          "M2",
-          "M3",
-          "M4",
-          "M5",
-          "M6",
-          "M7"
-        ],
-        "han": 5608,
-        "spoken_han": 5880,
-        "activity_seconds": 810,
-        "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
-        ],
-        "estimated_minutes": 40.2273,
-        "difference_from_45_minutes": -4.7727,
-        "remaining_minutes": 4.7727,
-        "timeline": [
-          {
-            "block": "M1",
-            "start_minutes": 0,
-            "end_minutes": 2.0364
-          },
-          {
-            "block": "M2",
-            "start_minutes": 2.0364,
-            "end_minutes": 9.5636
-          },
-          {
-            "block": "M3",
-            "start_minutes": 9.5636,
-            "end_minutes": 18.2955
-          },
-          {
-            "block": "M4",
-            "start_minutes": 18.2955,
-            "end_minutes": 22.0682
-          },
-          {
-            "block": "M5",
-            "start_minutes": 22.0682,
-            "end_minutes": 25.7955
-          },
-          {
-            "block": "M6",
-            "start_minutes": 25.7955,
-            "end_minutes": 38.75
-          },
-          {
-            "block": "M7",
-            "start_minutes": 38.75,
-            "end_minutes": 40.2273
-          }
-        ],
-        "status": "低于42分钟参考，余量较大需明示"
-      },
-      "adjusted": {
-        "selection": "E3",
-        "selected_blocks": [
-          "M1",
-          "M2",
-          "M3",
-          "M4",
-          "M5",
-          "M6",
-          "E3",
-          "M7"
-        ],
-        "han": 6121,
-        "spoken_han": 6393,
-        "activity_seconds": 810,
-        "activities": [
-          "A_M1",
-          "A_M2",
-          "A_M3",
-          "A_M5",
-          "A_M6",
-          "A_M7"
-        ],
-        "estimated_minutes": 42.5591,
-        "difference_from_45_minutes": -2.4409,
-        "remaining_minutes": 2.4409,
-        "timeline": [
-          {
-            "block": "M1",
-            "start_minutes": 0,
-            "end_minutes": 2.0364
-          },
-          {
-            "block": "M2",
-            "start_minutes": 2.0364,
-            "end_minutes": 9.5636
-          },
-          {
-            "block": "M3",
-            "start_minutes": 9.5636,
-            "end_minutes": 18.2955
-          },
-          {
-            "block": "M4",
-            "start_minutes": 18.2955,
-            "end_minutes": 22.0682
-          },
-          {
-            "block": "M5",
-            "start_minutes": 22.0682,
-            "end_minutes": 25.7955
-          },
-          {
-            "block": "M6",
-            "start_minutes": 25.7955,
-            "end_minutes": 38.75
-          },
-          {
-            "block": "E3",
-            "start_minutes": 38.75,
-            "end_minutes": 41.0818
-          },
-          {
-            "block": "M7",
-            "start_minutes": 41.0818,
-            "end_minutes": 42.5591
-          }
-        ],
-        "status": "42—45分钟条件估算范围"
-      }
-    },
-    {
-      "section": "lower",
-      "speed": 140,
-      "scenario": "plan",
-      "original": {
-        "selection": "main",
-        "selected_blocks": [
-          "M8",
-          "M9",
-          "M10",
-          "M11",
-          "M12",
-          "M13"
-        ],
-        "han": 5161,
-        "spoken_han": 5318,
-        "activity_seconds": 830,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
-        ],
-        "estimated_minutes": 51.819,
-        "difference_from_45_minutes": 6.819,
-        "remaining_minutes": -6.819,
-        "timeline": [
-          {
-            "block": "M8",
-            "start_minutes": 0,
-            "end_minutes": 14.4643
-          },
-          {
-            "block": "M9",
-            "start_minutes": 14.4643,
-            "end_minutes": 20.0214
-          },
-          {
-            "block": "M10",
-            "start_minutes": 20.0214,
-            "end_minutes": 27.6333
-          },
-          {
-            "block": "M11",
-            "start_minutes": 27.6333,
-            "end_minutes": 41.2905
-          },
-          {
-            "block": "M12",
-            "start_minutes": 41.2905,
-            "end_minutes": 48.9905
-          },
-          {
-            "block": "M13",
-            "start_minutes": 48.9905,
-            "end_minutes": 51.819
-          }
-        ],
-        "status": "超45分钟，当前选择未覆盖"
-      },
-      "adjusted": {
-        "selection": "C4",
-        "selected_blocks": [
-          "C4",
-          "M9",
-          "M10",
-          "M11",
-          "M12",
-          "M13"
-        ],
-        "han": 4151,
-        "spoken_han": 4288,
-        "activity_seconds": 830,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
-        ],
-        "estimated_minutes": 44.4619,
-        "difference_from_45_minutes": -0.5381,
-        "remaining_minutes": 0.5381,
-        "timeline": [
-          {
-            "block": "C4",
-            "start_minutes": 0,
-            "end_minutes": 7.1071
-          },
-          {
-            "block": "M9",
-            "start_minutes": 7.1071,
-            "end_minutes": 12.6643
-          },
-          {
-            "block": "M10",
-            "start_minutes": 12.6643,
-            "end_minutes": 20.2762
-          },
-          {
-            "block": "M11",
-            "start_minutes": 20.2762,
-            "end_minutes": 33.9333
-          },
-          {
-            "block": "M12",
-            "start_minutes": 33.9333,
-            "end_minutes": 41.6333
-          },
-          {
-            "block": "M13",
-            "start_minutes": 41.6333,
-            "end_minutes": 44.4619
-          }
-        ],
-        "status": "42—45分钟条件估算范围"
-      }
-    },
-    {
-      "section": "lower",
-      "speed": 140,
-      "scenario": "short",
-      "original": {
-        "selection": "main",
-        "selected_blocks": [
-          "M8",
-          "M9",
-          "M10",
-          "M11",
-          "M12",
-          "M13"
-        ],
-        "han": 5161,
-        "spoken_han": 5318,
-        "activity_seconds": 740,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
-        ],
-        "estimated_minutes": 50.319,
-        "difference_from_45_minutes": 5.319,
-        "remaining_minutes": -5.319,
-        "timeline": [
-          {
-            "block": "M8",
-            "start_minutes": 0,
-            "end_minutes": 13.9643
-          },
-          {
-            "block": "M9",
-            "start_minutes": 13.9643,
-            "end_minutes": 19.5214
-          },
-          {
-            "block": "M10",
-            "start_minutes": 19.5214,
-            "end_minutes": 27.1333
-          },
-          {
-            "block": "M11",
-            "start_minutes": 27.1333,
-            "end_minutes": 40.2905
-          },
-          {
-            "block": "M12",
-            "start_minutes": 40.2905,
-            "end_minutes": 47.4905
-          },
-          {
-            "block": "M13",
-            "start_minutes": 47.4905,
-            "end_minutes": 50.319
-          }
-        ],
-        "status": "超45分钟，当前选择未覆盖"
-      },
-      "adjusted": {
-        "selection": "C4",
-        "selected_blocks": [
-          "C4",
-          "M9",
-          "M10",
-          "M11",
-          "M12",
-          "M13"
-        ],
-        "han": 4151,
-        "spoken_han": 4288,
-        "activity_seconds": 740,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
-        ],
-        "estimated_minutes": 42.9619,
-        "difference_from_45_minutes": -2.0381,
-        "remaining_minutes": 2.0381,
-        "timeline": [
-          {
-            "block": "C4",
-            "start_minutes": 0,
-            "end_minutes": 6.6071
-          },
-          {
-            "block": "M9",
-            "start_minutes": 6.6071,
-            "end_minutes": 12.1643
-          },
-          {
-            "block": "M10",
-            "start_minutes": 12.1643,
-            "end_minutes": 19.7762
-          },
-          {
-            "block": "M11",
-            "start_minutes": 19.7762,
-            "end_minutes": 32.9333
-          },
-          {
-            "block": "M12",
-            "start_minutes": 32.9333,
-            "end_minutes": 40.1333
-          },
-          {
-            "block": "M13",
-            "start_minutes": 40.1333,
-            "end_minutes": 42.9619
-          }
-        ],
-        "status": "42—45分钟条件估算范围"
-      }
-    },
-    {
-      "section": "lower",
-      "speed": 140,
-      "scenario": "slow",
-      "original": {
-        "selection": "main",
-        "selected_blocks": [
-          "M8",
-          "M9",
-          "M10",
-          "M11",
-          "M12",
-          "M13"
-        ],
-        "han": 5161,
-        "spoken_han": 5318,
-        "activity_seconds": 1040,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
-        ],
-        "estimated_minutes": 55.319,
-        "difference_from_45_minutes": 10.319,
-        "remaining_minutes": -10.319,
-        "timeline": [
-          {
-            "block": "M8",
-            "start_minutes": 0,
-            "end_minutes": 15.9643
-          },
-          {
-            "block": "M9",
-            "start_minutes": 15.9643,
-            "end_minutes": 21.5214
-          },
-          {
-            "block": "M10",
-            "start_minutes": 21.5214,
-            "end_minutes": 29.1333
-          },
-          {
-            "block": "M11",
-            "start_minutes": 29.1333,
-            "end_minutes": 43.7905
-          },
-          {
-            "block": "M12",
-            "start_minutes": 43.7905,
-            "end_minutes": 52.4905
-          },
-          {
-            "block": "M13",
-            "start_minutes": 52.4905,
-            "end_minutes": 55.319
-          }
-        ],
-        "status": "超45分钟，当前选择未覆盖"
-      },
-      "adjusted": {
-        "selection": "C4+C5",
-        "selected_blocks": [
-          "C4",
-          "M9",
-          "C5",
-          "M11",
-          "M12",
-          "M13"
-        ],
-        "han": 3699,
-        "spoken_han": 3824,
-        "activity_seconds": 1040,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
-        ],
-        "estimated_minutes": 44.6476,
-        "difference_from_45_minutes": -0.3524,
-        "remaining_minutes": 0.3524,
-        "timeline": [
-          {
-            "block": "C4",
-            "start_minutes": 0,
-            "end_minutes": 8.6071
-          },
-          {
-            "block": "M9",
-            "start_minutes": 8.6071,
-            "end_minutes": 14.1643
-          },
-          {
-            "block": "C5",
-            "start_minutes": 14.1643,
-            "end_minutes": 18.4619
-          },
-          {
-            "block": "M11",
-            "start_minutes": 18.4619,
-            "end_minutes": 33.119
-          },
-          {
-            "block": "M12",
-            "start_minutes": 33.119,
-            "end_minutes": 41.819
-          },
-          {
-            "block": "M13",
-            "start_minutes": 41.819,
-            "end_minutes": 44.6476
-          }
-        ],
-        "status": "42—45分钟条件估算范围"
-      }
-    },
-    {
-      "section": "lower",
-      "speed": 150,
-      "scenario": "plan",
-      "original": {
-        "selection": "main",
-        "selected_blocks": [
-          "M8",
-          "M9",
-          "M10",
-          "M11",
-          "M12",
-          "M13"
-        ],
-        "han": 5161,
-        "spoken_han": 5318,
-        "activity_seconds": 830,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
-        ],
-        "estimated_minutes": 49.2867,
-        "difference_from_45_minutes": 4.2867,
-        "remaining_minutes": -4.2867,
-        "timeline": [
-          {
-            "block": "M8",
-            "start_minutes": 0,
-            "end_minutes": 13.7667
-          },
-          {
-            "block": "M9",
-            "start_minutes": 13.7667,
-            "end_minutes": 19.02
-          },
-          {
-            "block": "M10",
-            "start_minutes": 19.02,
-            "end_minutes": 26.2467
-          },
-          {
-            "block": "M11",
-            "start_minutes": 26.2467,
-            "end_minutes": 39.1933
-          },
-          {
-            "block": "M12",
-            "start_minutes": 39.1933,
-            "end_minutes": 46.6133
-          },
-          {
-            "block": "M13",
-            "start_minutes": 46.6133,
-            "end_minutes": 49.2867
-          }
-        ],
-        "status": "超45分钟，当前选择未覆盖"
-      },
-      "adjusted": {
-        "selection": "C6",
-        "selected_blocks": [
-          "M8",
-          "M9",
-          "M10",
-          "C6",
-          "M12",
-          "M13"
-        ],
-        "han": 4220,
-        "spoken_han": 4350,
-        "activity_seconds": 830,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
-        ],
-        "estimated_minutes": 42.8333,
-        "difference_from_45_minutes": -2.1667,
-        "remaining_minutes": 2.1667,
-        "timeline": [
-          {
-            "block": "M8",
-            "start_minutes": 0,
-            "end_minutes": 13.7667
-          },
-          {
-            "block": "M9",
-            "start_minutes": 13.7667,
-            "end_minutes": 19.02
-          },
-          {
-            "block": "M10",
-            "start_minutes": 19.02,
-            "end_minutes": 26.2467
-          },
-          {
-            "block": "C6",
-            "start_minutes": 26.2467,
-            "end_minutes": 32.74
-          },
-          {
-            "block": "M12",
-            "start_minutes": 32.74,
-            "end_minutes": 40.16
-          },
-          {
-            "block": "M13",
-            "start_minutes": 40.16,
-            "end_minutes": 42.8333
-          }
-        ],
-        "status": "42—45分钟条件估算范围"
-      }
-    },
-    {
-      "section": "lower",
-      "speed": 150,
-      "scenario": "short",
-      "original": {
-        "selection": "main",
-        "selected_blocks": [
-          "M8",
-          "M9",
-          "M10",
-          "M11",
-          "M12",
-          "M13"
-        ],
-        "han": 5161,
-        "spoken_han": 5318,
-        "activity_seconds": 740,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
-        ],
-        "estimated_minutes": 47.7867,
-        "difference_from_45_minutes": 2.7867,
-        "remaining_minutes": -2.7867,
-        "timeline": [
-          {
-            "block": "M8",
-            "start_minutes": 0,
-            "end_minutes": 13.2667
-          },
-          {
-            "block": "M9",
-            "start_minutes": 13.2667,
-            "end_minutes": 18.52
-          },
-          {
-            "block": "M10",
-            "start_minutes": 18.52,
-            "end_minutes": 25.7467
-          },
-          {
-            "block": "M11",
-            "start_minutes": 25.7467,
-            "end_minutes": 38.1933
-          },
-          {
-            "block": "M12",
-            "start_minutes": 38.1933,
-            "end_minutes": 45.1133
-          },
-          {
-            "block": "M13",
-            "start_minutes": 45.1133,
-            "end_minutes": 47.7867
-          }
-        ],
-        "status": "超45分钟，当前选择未覆盖"
-      },
-      "adjusted": {
-        "selection": "C5",
-        "selected_blocks": [
-          "M8",
-          "M9",
-          "C5",
-          "M11",
-          "M12",
-          "M13"
-        ],
-        "han": 4709,
-        "spoken_han": 4854,
-        "activity_seconds": 740,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
-        ],
-        "estimated_minutes": 44.6933,
-        "difference_from_45_minutes": -0.3067,
-        "remaining_minutes": 0.3067,
-        "timeline": [
-          {
-            "block": "M8",
-            "start_minutes": 0,
-            "end_minutes": 13.2667
-          },
-          {
-            "block": "M9",
-            "start_minutes": 13.2667,
-            "end_minutes": 18.52
-          },
-          {
-            "block": "C5",
-            "start_minutes": 18.52,
-            "end_minutes": 22.6533
-          },
-          {
-            "block": "M11",
-            "start_minutes": 22.6533,
-            "end_minutes": 35.1
-          },
-          {
-            "block": "M12",
-            "start_minutes": 35.1,
-            "end_minutes": 42.02
-          },
-          {
-            "block": "M13",
-            "start_minutes": 42.02,
-            "end_minutes": 44.6933
-          }
-        ],
-        "status": "42—45分钟条件估算范围"
-      }
-    },
-    {
-      "section": "lower",
-      "speed": 150,
-      "scenario": "slow",
-      "original": {
-        "selection": "main",
-        "selected_blocks": [
-          "M8",
-          "M9",
-          "M10",
-          "M11",
-          "M12",
-          "M13"
-        ],
-        "han": 5161,
-        "spoken_han": 5318,
-        "activity_seconds": 1040,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
-        ],
-        "estimated_minutes": 52.7867,
-        "difference_from_45_minutes": 7.7867,
-        "remaining_minutes": -7.7867,
-        "timeline": [
-          {
-            "block": "M8",
-            "start_minutes": 0,
-            "end_minutes": 15.2667
-          },
-          {
-            "block": "M9",
-            "start_minutes": 15.2667,
-            "end_minutes": 20.52
-          },
-          {
-            "block": "M10",
-            "start_minutes": 20.52,
-            "end_minutes": 27.7467
-          },
-          {
-            "block": "M11",
-            "start_minutes": 27.7467,
-            "end_minutes": 41.6933
-          },
-          {
-            "block": "M12",
-            "start_minutes": 41.6933,
-            "end_minutes": 50.1133
-          },
-          {
-            "block": "M13",
-            "start_minutes": 50.1133,
-            "end_minutes": 52.7867
-          }
-        ],
-        "status": "超45分钟，当前选择未覆盖"
-      },
-      "adjusted": {
-        "selection": "C4+C5",
-        "selected_blocks": [
-          "C4",
-          "M9",
-          "C5",
-          "M11",
-          "M12",
-          "M13"
-        ],
-        "han": 3699,
-        "spoken_han": 3824,
-        "activity_seconds": 1040,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
-        ],
-        "estimated_minutes": 42.8267,
-        "difference_from_45_minutes": -2.1733,
-        "remaining_minutes": 2.1733,
-        "timeline": [
-          {
-            "block": "C4",
-            "start_minutes": 0,
-            "end_minutes": 8.4
-          },
-          {
-            "block": "M9",
-            "start_minutes": 8.4,
-            "end_minutes": 13.6533
-          },
-          {
-            "block": "C5",
-            "start_minutes": 13.6533,
-            "end_minutes": 17.7867
-          },
-          {
-            "block": "M11",
-            "start_minutes": 17.7867,
-            "end_minutes": 31.7333
-          },
-          {
-            "block": "M12",
-            "start_minutes": 31.7333,
-            "end_minutes": 40.1533
-          },
-          {
-            "block": "M13",
-            "start_minutes": 40.1533,
-            "end_minutes": 42.8267
-          }
-        ],
-        "status": "42—45分钟条件估算范围"
-      }
-    },
-    {
-      "section": "lower",
-      "speed": 180,
-      "scenario": "plan",
-      "original": {
-        "selection": "main",
-        "selected_blocks": [
-          "M8",
-          "M9",
-          "M10",
-          "M11",
-          "M12",
-          "M13"
-        ],
-        "han": 5161,
-        "spoken_han": 5318,
-        "activity_seconds": 830,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
-        ],
-        "estimated_minutes": 43.3778,
-        "difference_from_45_minutes": -1.6222,
-        "remaining_minutes": 1.6222,
-        "timeline": [
-          {
-            "block": "M8",
-            "start_minutes": 0,
-            "end_minutes": 12.1389
-          },
-          {
-            "block": "M9",
-            "start_minutes": 12.1389,
-            "end_minutes": 16.6833
-          },
-          {
-            "block": "M10",
-            "start_minutes": 16.6833,
-            "end_minutes": 23.0111
-          },
-          {
-            "block": "M11",
-            "start_minutes": 23.0111,
-            "end_minutes": 34.3
-          },
-          {
-            "block": "M12",
-            "start_minutes": 34.3,
-            "end_minutes": 41.0667
-          },
-          {
-            "block": "M13",
-            "start_minutes": 41.0667,
-            "end_minutes": 43.3778
-          }
-        ],
-        "status": "42—45分钟条件估算范围"
-      },
-      "adjusted": {
-        "selection": "main",
-        "selected_blocks": [
-          "M8",
-          "M9",
-          "M10",
-          "M11",
-          "M12",
-          "M13"
-        ],
-        "han": 5161,
-        "spoken_han": 5318,
-        "activity_seconds": 830,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
-        ],
-        "estimated_minutes": 43.3778,
-        "difference_from_45_minutes": -1.6222,
-        "remaining_minutes": 1.6222,
-        "timeline": [
-          {
-            "block": "M8",
-            "start_minutes": 0,
-            "end_minutes": 12.1389
-          },
-          {
-            "block": "M9",
-            "start_minutes": 12.1389,
-            "end_minutes": 16.6833
-          },
-          {
-            "block": "M10",
-            "start_minutes": 16.6833,
-            "end_minutes": 23.0111
-          },
-          {
-            "block": "M11",
-            "start_minutes": 23.0111,
-            "end_minutes": 34.3
-          },
-          {
-            "block": "M12",
-            "start_minutes": 34.3,
-            "end_minutes": 41.0667
-          },
-          {
-            "block": "M13",
-            "start_minutes": 41.0667,
-            "end_minutes": 43.3778
-          }
-        ],
-        "status": "42—45分钟条件估算范围"
-      }
-    },
-    {
-      "section": "lower",
-      "speed": 180,
-      "scenario": "short",
-      "original": {
-        "selection": "main",
-        "selected_blocks": [
-          "M8",
-          "M9",
-          "M10",
-          "M11",
-          "M12",
-          "M13"
-        ],
-        "han": 5161,
-        "spoken_han": 5318,
-        "activity_seconds": 740,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
-        ],
-        "estimated_minutes": 41.8778,
-        "difference_from_45_minutes": -3.1222,
-        "remaining_minutes": 3.1222,
-        "timeline": [
-          {
-            "block": "M8",
-            "start_minutes": 0,
-            "end_minutes": 11.6389
-          },
-          {
-            "block": "M9",
-            "start_minutes": 11.6389,
-            "end_minutes": 16.1833
-          },
-          {
-            "block": "M10",
-            "start_minutes": 16.1833,
-            "end_minutes": 22.5111
-          },
-          {
-            "block": "M11",
-            "start_minutes": 22.5111,
-            "end_minutes": 33.3
-          },
-          {
-            "block": "M12",
-            "start_minutes": 33.3,
-            "end_minutes": 39.5667
-          },
-          {
-            "block": "M13",
-            "start_minutes": 39.5667,
-            "end_minutes": 41.8778
-          }
-        ],
-        "status": "低于42分钟参考，余量较大需明示"
-      },
-      "adjusted": {
-        "selection": "E4",
-        "selected_blocks": [
-          "M8",
-          "M9",
-          "M10",
-          "M11",
-          "M12",
-          "E4",
-          "M13"
-        ],
-        "han": 5635,
-        "spoken_han": 5792,
-        "activity_seconds": 740,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
-        ],
-        "estimated_minutes": 44.5111,
-        "difference_from_45_minutes": -0.4889,
-        "remaining_minutes": 0.4889,
-        "timeline": [
-          {
-            "block": "M8",
-            "start_minutes": 0,
-            "end_minutes": 11.6389
-          },
-          {
-            "block": "M9",
-            "start_minutes": 11.6389,
-            "end_minutes": 16.1833
-          },
-          {
-            "block": "M10",
-            "start_minutes": 16.1833,
-            "end_minutes": 22.5111
-          },
-          {
-            "block": "M11",
-            "start_minutes": 22.5111,
-            "end_minutes": 33.3
-          },
-          {
-            "block": "M12",
-            "start_minutes": 33.3,
-            "end_minutes": 39.5667
-          },
-          {
-            "block": "E4",
-            "start_minutes": 39.5667,
-            "end_minutes": 42.2
-          },
-          {
-            "block": "M13",
-            "start_minutes": 42.2,
-            "end_minutes": 44.5111
-          }
-        ],
-        "status": "42—45分钟条件估算范围"
-      }
-    },
-    {
-      "section": "lower",
-      "speed": 180,
-      "scenario": "slow",
-      "original": {
-        "selection": "main",
-        "selected_blocks": [
-          "M8",
-          "M9",
-          "M10",
-          "M11",
-          "M12",
-          "M13"
-        ],
-        "han": 5161,
-        "spoken_han": 5318,
-        "activity_seconds": 1040,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
-        ],
-        "estimated_minutes": 46.8778,
-        "difference_from_45_minutes": 1.8778,
-        "remaining_minutes": -1.8778,
-        "timeline": [
-          {
-            "block": "M8",
-            "start_minutes": 0,
-            "end_minutes": 13.6389
-          },
-          {
-            "block": "M9",
-            "start_minutes": 13.6389,
-            "end_minutes": 18.1833
-          },
-          {
-            "block": "M10",
-            "start_minutes": 18.1833,
-            "end_minutes": 24.5111
-          },
-          {
-            "block": "M11",
-            "start_minutes": 24.5111,
-            "end_minutes": 36.8
-          },
-          {
-            "block": "M12",
-            "start_minutes": 36.8,
-            "end_minutes": 44.5667
-          },
-          {
-            "block": "M13",
-            "start_minutes": 44.5667,
-            "end_minutes": 46.8778
-          }
-        ],
-        "status": "超45分钟，当前选择未覆盖"
-      },
-      "adjusted": {
-        "selection": "C5",
-        "selected_blocks": [
-          "M8",
-          "M9",
-          "C5",
-          "M11",
-          "M12",
-          "M13"
-        ],
-        "han": 4709,
-        "spoken_han": 4854,
-        "activity_seconds": 1040,
-        "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
+          "A_M6"
         ],
         "estimated_minutes": 44.3,
         "difference_from_45_minutes": -0.7,
         "remaining_minutes": 0.7,
         "timeline": [
           {
-            "block": "M8",
+            "block": "M1",
             "start_minutes": 0,
-            "end_minutes": 13.6389
+            "end_minutes": 1.7889
           },
           {
-            "block": "M9",
-            "start_minutes": 13.6389,
-            "end_minutes": 18.1833
+            "block": "M2",
+            "start_minutes": 1.7889,
+            "end_minutes": 8.8
           },
           {
-            "block": "C5",
-            "start_minutes": 18.1833,
-            "end_minutes": 21.9333
+            "block": "M3",
+            "start_minutes": 8.8,
+            "end_minutes": 14.2389
           },
           {
-            "block": "M11",
-            "start_minutes": 21.9333,
-            "end_minutes": 34.2222
+            "block": "M4",
+            "start_minutes": 14.2389,
+            "end_minutes": 18.85
           },
           {
-            "block": "M12",
-            "start_minutes": 34.2222,
-            "end_minutes": 41.9889
+            "block": "M5",
+            "start_minutes": 18.85,
+            "end_minutes": 23.7667
           },
           {
-            "block": "M13",
-            "start_minutes": 41.9889,
+            "block": "M6",
+            "start_minutes": 23.7667,
+            "end_minutes": 43.1111
+          },
+          {
+            "block": "M7",
+            "start_minutes": 43.1111,
+            "end_minutes": 44.3
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 270,
+        "activities": [
+          "A_M6"
+        ],
+        "estimated_minutes": 44.3,
+        "difference_from_45_minutes": -0.7,
+        "remaining_minutes": 0.7,
+        "timeline": [
+          {
+            "block": "M1",
+            "start_minutes": 0,
+            "end_minutes": 1.7889
+          },
+          {
+            "block": "M2",
+            "start_minutes": 1.7889,
+            "end_minutes": 8.8
+          },
+          {
+            "block": "M3",
+            "start_minutes": 8.8,
+            "end_minutes": 14.2389
+          },
+          {
+            "block": "M4",
+            "start_minutes": 14.2389,
+            "end_minutes": 18.85
+          },
+          {
+            "block": "M5",
+            "start_minutes": 18.85,
+            "end_minutes": 23.7667
+          },
+          {
+            "block": "M6",
+            "start_minutes": 23.7667,
+            "end_minutes": 43.1111
+          },
+          {
+            "block": "M7",
+            "start_minutes": 43.1111,
             "end_minutes": 44.3
           }
         ],
@@ -4791,6 +2289,1779 @@
       }
     },
     {
+      "section": "upper",
+      "speed": 200,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 180,
+        "activities": [
+          "A_M6"
+        ],
+        "estimated_minutes": 38.82,
+        "difference_from_45_minutes": -6.18,
+        "remaining_minutes": 6.18,
+        "timeline": [
+          {
+            "block": "M1",
+            "start_minutes": 0,
+            "end_minutes": 1.61
+          },
+          {
+            "block": "M2",
+            "start_minutes": 1.61,
+            "end_minutes": 7.92
+          },
+          {
+            "block": "M3",
+            "start_minutes": 7.92,
+            "end_minutes": 12.815
+          },
+          {
+            "block": "M4",
+            "start_minutes": 12.815,
+            "end_minutes": 16.965
+          },
+          {
+            "block": "M5",
+            "start_minutes": 16.965,
+            "end_minutes": 21.39
+          },
+          {
+            "block": "M6",
+            "start_minutes": 21.39,
+            "end_minutes": 37.75
+          },
+          {
+            "block": "M7",
+            "start_minutes": 37.75,
+            "end_minutes": 38.82
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "D1",
+        "selected_blocks": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "D1",
+          "M7"
+        ],
+        "han": 7262,
+        "spoken_han": 7513,
+        "activity_seconds": 180,
+        "activities": [
+          "A_M6"
+        ],
+        "estimated_minutes": 40.565,
+        "difference_from_45_minutes": -4.435,
+        "remaining_minutes": 4.435,
+        "timeline": [
+          {
+            "block": "M1",
+            "start_minutes": 0,
+            "end_minutes": 1.61
+          },
+          {
+            "block": "M2",
+            "start_minutes": 1.61,
+            "end_minutes": 7.92
+          },
+          {
+            "block": "M3",
+            "start_minutes": 7.92,
+            "end_minutes": 12.815
+          },
+          {
+            "block": "M4",
+            "start_minutes": 12.815,
+            "end_minutes": 16.965
+          },
+          {
+            "block": "M5",
+            "start_minutes": 16.965,
+            "end_minutes": 21.39
+          },
+          {
+            "block": "M6",
+            "start_minutes": 21.39,
+            "end_minutes": 37.75
+          },
+          {
+            "block": "D1",
+            "start_minutes": 37.75,
+            "end_minutes": 39.495
+          },
+          {
+            "block": "M7",
+            "start_minutes": 39.495,
+            "end_minutes": 40.565
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 200,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 165,
+        "activities": [
+          "A_M6"
+        ],
+        "estimated_minutes": 38.57,
+        "difference_from_45_minutes": -6.43,
+        "remaining_minutes": 6.43,
+        "timeline": [
+          {
+            "block": "M1",
+            "start_minutes": 0,
+            "end_minutes": 1.61
+          },
+          {
+            "block": "M2",
+            "start_minutes": 1.61,
+            "end_minutes": 7.92
+          },
+          {
+            "block": "M3",
+            "start_minutes": 7.92,
+            "end_minutes": 12.815
+          },
+          {
+            "block": "M4",
+            "start_minutes": 12.815,
+            "end_minutes": 16.965
+          },
+          {
+            "block": "M5",
+            "start_minutes": 16.965,
+            "end_minutes": 21.39
+          },
+          {
+            "block": "M6",
+            "start_minutes": 21.39,
+            "end_minutes": 37.5
+          },
+          {
+            "block": "M7",
+            "start_minutes": 37.5,
+            "end_minutes": 38.57
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "D1",
+        "selected_blocks": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "D1",
+          "M7"
+        ],
+        "han": 7262,
+        "spoken_han": 7513,
+        "activity_seconds": 165,
+        "activities": [
+          "A_M6"
+        ],
+        "estimated_minutes": 40.315,
+        "difference_from_45_minutes": -4.685,
+        "remaining_minutes": 4.685,
+        "timeline": [
+          {
+            "block": "M1",
+            "start_minutes": 0,
+            "end_minutes": 1.61
+          },
+          {
+            "block": "M2",
+            "start_minutes": 1.61,
+            "end_minutes": 7.92
+          },
+          {
+            "block": "M3",
+            "start_minutes": 7.92,
+            "end_minutes": 12.815
+          },
+          {
+            "block": "M4",
+            "start_minutes": 12.815,
+            "end_minutes": 16.965
+          },
+          {
+            "block": "M5",
+            "start_minutes": 16.965,
+            "end_minutes": 21.39
+          },
+          {
+            "block": "M6",
+            "start_minutes": 21.39,
+            "end_minutes": 37.5
+          },
+          {
+            "block": "D1",
+            "start_minutes": 37.5,
+            "end_minutes": 39.245
+          },
+          {
+            "block": "M7",
+            "start_minutes": 39.245,
+            "end_minutes": 40.315
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 200,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 270,
+        "activities": [
+          "A_M6"
+        ],
+        "estimated_minutes": 40.32,
+        "difference_from_45_minutes": -4.68,
+        "remaining_minutes": 4.68,
+        "timeline": [
+          {
+            "block": "M1",
+            "start_minutes": 0,
+            "end_minutes": 1.61
+          },
+          {
+            "block": "M2",
+            "start_minutes": 1.61,
+            "end_minutes": 7.92
+          },
+          {
+            "block": "M3",
+            "start_minutes": 7.92,
+            "end_minutes": 12.815
+          },
+          {
+            "block": "M4",
+            "start_minutes": 12.815,
+            "end_minutes": 16.965
+          },
+          {
+            "block": "M5",
+            "start_minutes": 16.965,
+            "end_minutes": 21.39
+          },
+          {
+            "block": "M6",
+            "start_minutes": 21.39,
+            "end_minutes": 39.25
+          },
+          {
+            "block": "M7",
+            "start_minutes": 39.25,
+            "end_minutes": 40.32
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "D1",
+        "selected_blocks": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "D1",
+          "M7"
+        ],
+        "han": 7262,
+        "spoken_han": 7513,
+        "activity_seconds": 270,
+        "activities": [
+          "A_M6"
+        ],
+        "estimated_minutes": 42.065,
+        "difference_from_45_minutes": -2.935,
+        "remaining_minutes": 2.935,
+        "timeline": [
+          {
+            "block": "M1",
+            "start_minutes": 0,
+            "end_minutes": 1.61
+          },
+          {
+            "block": "M2",
+            "start_minutes": 1.61,
+            "end_minutes": 7.92
+          },
+          {
+            "block": "M3",
+            "start_minutes": 7.92,
+            "end_minutes": 12.815
+          },
+          {
+            "block": "M4",
+            "start_minutes": 12.815,
+            "end_minutes": 16.965
+          },
+          {
+            "block": "M5",
+            "start_minutes": 16.965,
+            "end_minutes": 21.39
+          },
+          {
+            "block": "M6",
+            "start_minutes": 21.39,
+            "end_minutes": 39.25
+          },
+          {
+            "block": "D1",
+            "start_minutes": 39.25,
+            "end_minutes": 40.995
+          },
+          {
+            "block": "M7",
+            "start_minutes": 40.995,
+            "end_minutes": 42.065
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 220,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 180,
+        "activities": [
+          "A_M6"
+        ],
+        "estimated_minutes": 35.5636,
+        "difference_from_45_minutes": -9.4364,
+        "remaining_minutes": 9.4364,
+        "timeline": [
+          {
+            "block": "M1",
+            "start_minutes": 0,
+            "end_minutes": 1.4636
+          },
+          {
+            "block": "M2",
+            "start_minutes": 1.4636,
+            "end_minutes": 7.2
+          },
+          {
+            "block": "M3",
+            "start_minutes": 7.2,
+            "end_minutes": 11.65
+          },
+          {
+            "block": "M4",
+            "start_minutes": 11.65,
+            "end_minutes": 15.4227
+          },
+          {
+            "block": "M5",
+            "start_minutes": 15.4227,
+            "end_minutes": 19.4455
+          },
+          {
+            "block": "M6",
+            "start_minutes": 19.4455,
+            "end_minutes": 34.5909
+          },
+          {
+            "block": "M7",
+            "start_minutes": 34.5909,
+            "end_minutes": 35.5636
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "D1",
+        "selected_blocks": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "D1",
+          "M7"
+        ],
+        "han": 7262,
+        "spoken_han": 7513,
+        "activity_seconds": 180,
+        "activities": [
+          "A_M6"
+        ],
+        "estimated_minutes": 37.15,
+        "difference_from_45_minutes": -7.85,
+        "remaining_minutes": 7.85,
+        "timeline": [
+          {
+            "block": "M1",
+            "start_minutes": 0,
+            "end_minutes": 1.4636
+          },
+          {
+            "block": "M2",
+            "start_minutes": 1.4636,
+            "end_minutes": 7.2
+          },
+          {
+            "block": "M3",
+            "start_minutes": 7.2,
+            "end_minutes": 11.65
+          },
+          {
+            "block": "M4",
+            "start_minutes": 11.65,
+            "end_minutes": 15.4227
+          },
+          {
+            "block": "M5",
+            "start_minutes": 15.4227,
+            "end_minutes": 19.4455
+          },
+          {
+            "block": "M6",
+            "start_minutes": 19.4455,
+            "end_minutes": 34.5909
+          },
+          {
+            "block": "D1",
+            "start_minutes": 34.5909,
+            "end_minutes": 36.1773
+          },
+          {
+            "block": "M7",
+            "start_minutes": 36.1773,
+            "end_minutes": 37.15
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 220,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 165,
+        "activities": [
+          "A_M6"
+        ],
+        "estimated_minutes": 35.3136,
+        "difference_from_45_minutes": -9.6864,
+        "remaining_minutes": 9.6864,
+        "timeline": [
+          {
+            "block": "M1",
+            "start_minutes": 0,
+            "end_minutes": 1.4636
+          },
+          {
+            "block": "M2",
+            "start_minutes": 1.4636,
+            "end_minutes": 7.2
+          },
+          {
+            "block": "M3",
+            "start_minutes": 7.2,
+            "end_minutes": 11.65
+          },
+          {
+            "block": "M4",
+            "start_minutes": 11.65,
+            "end_minutes": 15.4227
+          },
+          {
+            "block": "M5",
+            "start_minutes": 15.4227,
+            "end_minutes": 19.4455
+          },
+          {
+            "block": "M6",
+            "start_minutes": 19.4455,
+            "end_minutes": 34.3409
+          },
+          {
+            "block": "M7",
+            "start_minutes": 34.3409,
+            "end_minutes": 35.3136
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "D1",
+        "selected_blocks": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "D1",
+          "M7"
+        ],
+        "han": 7262,
+        "spoken_han": 7513,
+        "activity_seconds": 165,
+        "activities": [
+          "A_M6"
+        ],
+        "estimated_minutes": 36.9,
+        "difference_from_45_minutes": -8.1,
+        "remaining_minutes": 8.1,
+        "timeline": [
+          {
+            "block": "M1",
+            "start_minutes": 0,
+            "end_minutes": 1.4636
+          },
+          {
+            "block": "M2",
+            "start_minutes": 1.4636,
+            "end_minutes": 7.2
+          },
+          {
+            "block": "M3",
+            "start_minutes": 7.2,
+            "end_minutes": 11.65
+          },
+          {
+            "block": "M4",
+            "start_minutes": 11.65,
+            "end_minutes": 15.4227
+          },
+          {
+            "block": "M5",
+            "start_minutes": 15.4227,
+            "end_minutes": 19.4455
+          },
+          {
+            "block": "M6",
+            "start_minutes": 19.4455,
+            "end_minutes": 34.3409
+          },
+          {
+            "block": "D1",
+            "start_minutes": 34.3409,
+            "end_minutes": 35.9273
+          },
+          {
+            "block": "M7",
+            "start_minutes": 35.9273,
+            "end_minutes": 36.9
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 220,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "han": 6913,
+        "spoken_han": 7164,
+        "activity_seconds": 270,
+        "activities": [
+          "A_M6"
+        ],
+        "estimated_minutes": 37.0636,
+        "difference_from_45_minutes": -7.9364,
+        "remaining_minutes": 7.9364,
+        "timeline": [
+          {
+            "block": "M1",
+            "start_minutes": 0,
+            "end_minutes": 1.4636
+          },
+          {
+            "block": "M2",
+            "start_minutes": 1.4636,
+            "end_minutes": 7.2
+          },
+          {
+            "block": "M3",
+            "start_minutes": 7.2,
+            "end_minutes": 11.65
+          },
+          {
+            "block": "M4",
+            "start_minutes": 11.65,
+            "end_minutes": 15.4227
+          },
+          {
+            "block": "M5",
+            "start_minutes": 15.4227,
+            "end_minutes": 19.4455
+          },
+          {
+            "block": "M6",
+            "start_minutes": 19.4455,
+            "end_minutes": 36.0909
+          },
+          {
+            "block": "M7",
+            "start_minutes": 36.0909,
+            "end_minutes": 37.0636
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "D1",
+        "selected_blocks": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "D1",
+          "M7"
+        ],
+        "han": 7262,
+        "spoken_han": 7513,
+        "activity_seconds": 270,
+        "activities": [
+          "A_M6"
+        ],
+        "estimated_minutes": 38.65,
+        "difference_from_45_minutes": -6.35,
+        "remaining_minutes": 6.35,
+        "timeline": [
+          {
+            "block": "M1",
+            "start_minutes": 0,
+            "end_minutes": 1.4636
+          },
+          {
+            "block": "M2",
+            "start_minutes": 1.4636,
+            "end_minutes": 7.2
+          },
+          {
+            "block": "M3",
+            "start_minutes": 7.2,
+            "end_minutes": 11.65
+          },
+          {
+            "block": "M4",
+            "start_minutes": 11.65,
+            "end_minutes": 15.4227
+          },
+          {
+            "block": "M5",
+            "start_minutes": 15.4227,
+            "end_minutes": 19.4455
+          },
+          {
+            "block": "M6",
+            "start_minutes": 19.4455,
+            "end_minutes": 36.0909
+          },
+          {
+            "block": "D1",
+            "start_minutes": 36.0909,
+            "end_minutes": 37.6773
+          },
+          {
+            "block": "M7",
+            "start_minutes": 37.6773,
+            "end_minutes": 38.65
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 140,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13"
+        ],
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 180,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 53.4,
+        "difference_from_45_minutes": 8.4,
+        "remaining_minutes": -8.4,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 21.5286
+          },
+          {
+            "block": "M9",
+            "start_minutes": 21.5286,
+            "end_minutes": 26.0857
+          },
+          {
+            "block": "M10",
+            "start_minutes": 26.0857,
+            "end_minutes": 30.95
+          },
+          {
+            "block": "M11",
+            "start_minutes": 30.95,
+            "end_minutes": 46.8143
+          },
+          {
+            "block": "M12",
+            "start_minutes": 46.8143,
+            "end_minutes": 51.1
+          },
+          {
+            "block": "M13",
+            "start_minutes": 51.1,
+            "end_minutes": 53.4
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "S2",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "S2",
+          "M13"
+        ],
+        "han": 6608,
+        "spoken_han": 6711,
+        "activity_seconds": 180,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 50.9357,
+        "difference_from_45_minutes": 5.9357,
+        "remaining_minutes": -5.9357,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 21.5286
+          },
+          {
+            "block": "M9",
+            "start_minutes": 21.5286,
+            "end_minutes": 26.0857
+          },
+          {
+            "block": "M10",
+            "start_minutes": 26.0857,
+            "end_minutes": 30.95
+          },
+          {
+            "block": "M11",
+            "start_minutes": 30.95,
+            "end_minutes": 46.8143
+          },
+          {
+            "block": "S2",
+            "start_minutes": 46.8143,
+            "end_minutes": 48.6357
+          },
+          {
+            "block": "M13",
+            "start_minutes": 48.6357,
+            "end_minutes": 50.9357
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 140,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13"
+        ],
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 165,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 53.15,
+        "difference_from_45_minutes": 8.15,
+        "remaining_minutes": -8.15,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 21.2786
+          },
+          {
+            "block": "M9",
+            "start_minutes": 21.2786,
+            "end_minutes": 25.8357
+          },
+          {
+            "block": "M10",
+            "start_minutes": 25.8357,
+            "end_minutes": 30.7
+          },
+          {
+            "block": "M11",
+            "start_minutes": 30.7,
+            "end_minutes": 46.5643
+          },
+          {
+            "block": "M12",
+            "start_minutes": 46.5643,
+            "end_minutes": 50.85
+          },
+          {
+            "block": "M13",
+            "start_minutes": 50.85,
+            "end_minutes": 53.15
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "S2",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "S2",
+          "M13"
+        ],
+        "han": 6608,
+        "spoken_han": 6711,
+        "activity_seconds": 165,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 50.6857,
+        "difference_from_45_minutes": 5.6857,
+        "remaining_minutes": -5.6857,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 21.2786
+          },
+          {
+            "block": "M9",
+            "start_minutes": 21.2786,
+            "end_minutes": 25.8357
+          },
+          {
+            "block": "M10",
+            "start_minutes": 25.8357,
+            "end_minutes": 30.7
+          },
+          {
+            "block": "M11",
+            "start_minutes": 30.7,
+            "end_minutes": 46.5643
+          },
+          {
+            "block": "S2",
+            "start_minutes": 46.5643,
+            "end_minutes": 48.3857
+          },
+          {
+            "block": "M13",
+            "start_minutes": 48.3857,
+            "end_minutes": 50.6857
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 140,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13"
+        ],
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 270,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 54.9,
+        "difference_from_45_minutes": 9.9,
+        "remaining_minutes": -9.9,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 23.0286
+          },
+          {
+            "block": "M9",
+            "start_minutes": 23.0286,
+            "end_minutes": 27.5857
+          },
+          {
+            "block": "M10",
+            "start_minutes": 27.5857,
+            "end_minutes": 32.45
+          },
+          {
+            "block": "M11",
+            "start_minutes": 32.45,
+            "end_minutes": 48.3143
+          },
+          {
+            "block": "M12",
+            "start_minutes": 48.3143,
+            "end_minutes": 52.6
+          },
+          {
+            "block": "M13",
+            "start_minutes": 52.6,
+            "end_minutes": 54.9
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "S2",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "S2",
+          "M13"
+        ],
+        "han": 6608,
+        "spoken_han": 6711,
+        "activity_seconds": 270,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 52.4357,
+        "difference_from_45_minutes": 7.4357,
+        "remaining_minutes": -7.4357,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 23.0286
+          },
+          {
+            "block": "M9",
+            "start_minutes": 23.0286,
+            "end_minutes": 27.5857
+          },
+          {
+            "block": "M10",
+            "start_minutes": 27.5857,
+            "end_minutes": 32.45
+          },
+          {
+            "block": "M11",
+            "start_minutes": 32.45,
+            "end_minutes": 48.3143
+          },
+          {
+            "block": "S2",
+            "start_minutes": 48.3143,
+            "end_minutes": 50.1357
+          },
+          {
+            "block": "M13",
+            "start_minutes": 50.1357,
+            "end_minutes": 52.4357
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 150,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13"
+        ],
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 180,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 50.04,
+        "difference_from_45_minutes": 5.04,
+        "remaining_minutes": -5.04,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 20.2933
+          },
+          {
+            "block": "M9",
+            "start_minutes": 20.2933,
+            "end_minutes": 24.5467
+          },
+          {
+            "block": "M10",
+            "start_minutes": 24.5467,
+            "end_minutes": 29.0867
+          },
+          {
+            "block": "M11",
+            "start_minutes": 29.0867,
+            "end_minutes": 43.8933
+          },
+          {
+            "block": "M12",
+            "start_minutes": 43.8933,
+            "end_minutes": 47.8933
+          },
+          {
+            "block": "M13",
+            "start_minutes": 47.8933,
+            "end_minutes": 50.04
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "S2",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "S2",
+          "M13"
+        ],
+        "han": 6608,
+        "spoken_han": 6711,
+        "activity_seconds": 180,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 47.74,
+        "difference_from_45_minutes": 2.74,
+        "remaining_minutes": -2.74,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 20.2933
+          },
+          {
+            "block": "M9",
+            "start_minutes": 20.2933,
+            "end_minutes": 24.5467
+          },
+          {
+            "block": "M10",
+            "start_minutes": 24.5467,
+            "end_minutes": 29.0867
+          },
+          {
+            "block": "M11",
+            "start_minutes": 29.0867,
+            "end_minutes": 43.8933
+          },
+          {
+            "block": "S2",
+            "start_minutes": 43.8933,
+            "end_minutes": 45.5933
+          },
+          {
+            "block": "M13",
+            "start_minutes": 45.5933,
+            "end_minutes": 47.74
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 150,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13"
+        ],
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 165,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 49.79,
+        "difference_from_45_minutes": 4.79,
+        "remaining_minutes": -4.79,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 20.0433
+          },
+          {
+            "block": "M9",
+            "start_minutes": 20.0433,
+            "end_minutes": 24.2967
+          },
+          {
+            "block": "M10",
+            "start_minutes": 24.2967,
+            "end_minutes": 28.8367
+          },
+          {
+            "block": "M11",
+            "start_minutes": 28.8367,
+            "end_minutes": 43.6433
+          },
+          {
+            "block": "M12",
+            "start_minutes": 43.6433,
+            "end_minutes": 47.6433
+          },
+          {
+            "block": "M13",
+            "start_minutes": 47.6433,
+            "end_minutes": 49.79
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "S2",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "S2",
+          "M13"
+        ],
+        "han": 6608,
+        "spoken_han": 6711,
+        "activity_seconds": 165,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 47.49,
+        "difference_from_45_minutes": 2.49,
+        "remaining_minutes": -2.49,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 20.0433
+          },
+          {
+            "block": "M9",
+            "start_minutes": 20.0433,
+            "end_minutes": 24.2967
+          },
+          {
+            "block": "M10",
+            "start_minutes": 24.2967,
+            "end_minutes": 28.8367
+          },
+          {
+            "block": "M11",
+            "start_minutes": 28.8367,
+            "end_minutes": 43.6433
+          },
+          {
+            "block": "S2",
+            "start_minutes": 43.6433,
+            "end_minutes": 45.3433
+          },
+          {
+            "block": "M13",
+            "start_minutes": 45.3433,
+            "end_minutes": 47.49
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 150,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13"
+        ],
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 270,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 51.54,
+        "difference_from_45_minutes": 6.54,
+        "remaining_minutes": -6.54,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 21.7933
+          },
+          {
+            "block": "M9",
+            "start_minutes": 21.7933,
+            "end_minutes": 26.0467
+          },
+          {
+            "block": "M10",
+            "start_minutes": 26.0467,
+            "end_minutes": 30.5867
+          },
+          {
+            "block": "M11",
+            "start_minutes": 30.5867,
+            "end_minutes": 45.3933
+          },
+          {
+            "block": "M12",
+            "start_minutes": 45.3933,
+            "end_minutes": 49.3933
+          },
+          {
+            "block": "M13",
+            "start_minutes": 49.3933,
+            "end_minutes": 51.54
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "S2",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "S2",
+          "M13"
+        ],
+        "han": 6608,
+        "spoken_han": 6711,
+        "activity_seconds": 270,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 49.24,
+        "difference_from_45_minutes": 4.24,
+        "remaining_minutes": -4.24,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 21.7933
+          },
+          {
+            "block": "M9",
+            "start_minutes": 21.7933,
+            "end_minutes": 26.0467
+          },
+          {
+            "block": "M10",
+            "start_minutes": 26.0467,
+            "end_minutes": 30.5867
+          },
+          {
+            "block": "M11",
+            "start_minutes": 30.5867,
+            "end_minutes": 45.3933
+          },
+          {
+            "block": "S2",
+            "start_minutes": 45.3933,
+            "end_minutes": 47.0933
+          },
+          {
+            "block": "M13",
+            "start_minutes": 47.0933,
+            "end_minutes": 49.24
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 180,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13"
+        ],
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 180,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 42.2,
+        "difference_from_45_minutes": -2.8,
+        "remaining_minutes": 2.8,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 17.4111
+          },
+          {
+            "block": "M9",
+            "start_minutes": 17.4111,
+            "end_minutes": 20.9556
+          },
+          {
+            "block": "M10",
+            "start_minutes": 20.9556,
+            "end_minutes": 24.7389
+          },
+          {
+            "block": "M11",
+            "start_minutes": 24.7389,
+            "end_minutes": 37.0778
+          },
+          {
+            "block": "M12",
+            "start_minutes": 37.0778,
+            "end_minutes": 40.4111
+          },
+          {
+            "block": "M13",
+            "start_minutes": 40.4111,
+            "end_minutes": 42.2
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13"
+        ],
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 180,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 42.2,
+        "difference_from_45_minutes": -2.8,
+        "remaining_minutes": 2.8,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 17.4111
+          },
+          {
+            "block": "M9",
+            "start_minutes": 17.4111,
+            "end_minutes": 20.9556
+          },
+          {
+            "block": "M10",
+            "start_minutes": 20.9556,
+            "end_minutes": 24.7389
+          },
+          {
+            "block": "M11",
+            "start_minutes": 24.7389,
+            "end_minutes": 37.0778
+          },
+          {
+            "block": "M12",
+            "start_minutes": 37.0778,
+            "end_minutes": 40.4111
+          },
+          {
+            "block": "M13",
+            "start_minutes": 40.4111,
+            "end_minutes": 42.2
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 180,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13"
+        ],
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 165,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 41.95,
+        "difference_from_45_minutes": -3.05,
+        "remaining_minutes": 3.05,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 17.1611
+          },
+          {
+            "block": "M9",
+            "start_minutes": 17.1611,
+            "end_minutes": 20.7056
+          },
+          {
+            "block": "M10",
+            "start_minutes": 20.7056,
+            "end_minutes": 24.4889
+          },
+          {
+            "block": "M11",
+            "start_minutes": 24.4889,
+            "end_minutes": 36.8278
+          },
+          {
+            "block": "M12",
+            "start_minutes": 36.8278,
+            "end_minutes": 40.1611
+          },
+          {
+            "block": "M13",
+            "start_minutes": 40.1611,
+            "end_minutes": 41.95
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13"
+        ],
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 165,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 41.95,
+        "difference_from_45_minutes": -3.05,
+        "remaining_minutes": 3.05,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 17.1611
+          },
+          {
+            "block": "M9",
+            "start_minutes": 17.1611,
+            "end_minutes": 20.7056
+          },
+          {
+            "block": "M10",
+            "start_minutes": 20.7056,
+            "end_minutes": 24.4889
+          },
+          {
+            "block": "M11",
+            "start_minutes": 24.4889,
+            "end_minutes": 36.8278
+          },
+          {
+            "block": "M12",
+            "start_minutes": 36.8278,
+            "end_minutes": 40.1611
+          },
+          {
+            "block": "M13",
+            "start_minutes": 40.1611,
+            "end_minutes": 41.95
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 180,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13"
+        ],
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 270,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 43.7,
+        "difference_from_45_minutes": -1.3,
+        "remaining_minutes": 1.3,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 18.9111
+          },
+          {
+            "block": "M9",
+            "start_minutes": 18.9111,
+            "end_minutes": 22.4556
+          },
+          {
+            "block": "M10",
+            "start_minutes": 22.4556,
+            "end_minutes": 26.2389
+          },
+          {
+            "block": "M11",
+            "start_minutes": 26.2389,
+            "end_minutes": 38.5778
+          },
+          {
+            "block": "M12",
+            "start_minutes": 38.5778,
+            "end_minutes": 41.9111
+          },
+          {
+            "block": "M13",
+            "start_minutes": 41.9111,
+            "end_minutes": 43.7
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13"
+        ],
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 270,
+        "activities": [
+          "A_M8"
+        ],
+        "estimated_minutes": 43.7,
+        "difference_from_45_minutes": -1.3,
+        "remaining_minutes": 1.3,
+        "timeline": [
+          {
+            "block": "M8",
+            "start_minutes": 0,
+            "end_minutes": 18.9111
+          },
+          {
+            "block": "M9",
+            "start_minutes": 18.9111,
+            "end_minutes": 22.4556
+          },
+          {
+            "block": "M10",
+            "start_minutes": 22.4556,
+            "end_minutes": 26.2389
+          },
+          {
+            "block": "M11",
+            "start_minutes": 26.2389,
+            "end_minutes": 38.5778
+          },
+          {
+            "block": "M12",
+            "start_minutes": 38.5778,
+            "end_minutes": 41.9111
+          },
+          {
+            "block": "M13",
+            "start_minutes": 41.9111,
+            "end_minutes": 43.7
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      }
+    },
+    {
       "section": "lower",
       "speed": 200,
       "scenario": "plan",
@@ -4804,117 +4075,107 @@
           "M12",
           "M13"
         ],
-        "han": 5161,
-        "spoken_han": 5318,
-        "activity_seconds": 830,
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 180,
         "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
+          "A_M8"
         ],
-        "estimated_minutes": 40.4233,
-        "difference_from_45_minutes": -4.5767,
-        "remaining_minutes": 4.5767,
+        "estimated_minutes": 38.28,
+        "difference_from_45_minutes": -6.72,
+        "remaining_minutes": 6.72,
         "timeline": [
           {
             "block": "M8",
             "start_minutes": 0,
-            "end_minutes": 11.325
+            "end_minutes": 15.97
           },
           {
             "block": "M9",
-            "start_minutes": 11.325,
-            "end_minutes": 15.515
+            "start_minutes": 15.97,
+            "end_minutes": 19.16
           },
           {
             "block": "M10",
-            "start_minutes": 15.515,
-            "end_minutes": 21.3933
+            "start_minutes": 19.16,
+            "end_minutes": 22.565
           },
           {
             "block": "M11",
-            "start_minutes": 21.3933,
-            "end_minutes": 31.8533
+            "start_minutes": 22.565,
+            "end_minutes": 33.67
           },
           {
             "block": "M12",
-            "start_minutes": 31.8533,
-            "end_minutes": 38.2933
+            "start_minutes": 33.67,
+            "end_minutes": 36.67
           },
           {
             "block": "M13",
-            "start_minutes": 38.2933,
-            "end_minutes": 40.4233
+            "start_minutes": 36.67,
+            "end_minutes": 38.28
           }
         ],
         "status": "低于42分钟参考，余量较大需明示"
       },
       "adjusted": {
-        "selection": "E4",
+        "selection": "D2",
         "selected_blocks": [
           "M8",
           "M9",
           "M10",
           "M11",
+          "D2",
           "M12",
-          "E4",
           "M13"
         ],
-        "han": 5635,
-        "spoken_han": 5792,
-        "activity_seconds": 830,
+        "han": 7237,
+        "spoken_han": 7383,
+        "activity_seconds": 180,
         "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
+          "A_M8"
         ],
-        "estimated_minutes": 42.7933,
-        "difference_from_45_minutes": -2.2067,
-        "remaining_minutes": 2.2067,
+        "estimated_minutes": 39.915,
+        "difference_from_45_minutes": -5.085,
+        "remaining_minutes": 5.085,
         "timeline": [
           {
             "block": "M8",
             "start_minutes": 0,
-            "end_minutes": 11.325
+            "end_minutes": 15.97
           },
           {
             "block": "M9",
-            "start_minutes": 11.325,
-            "end_minutes": 15.515
+            "start_minutes": 15.97,
+            "end_minutes": 19.16
           },
           {
             "block": "M10",
-            "start_minutes": 15.515,
-            "end_minutes": 21.3933
+            "start_minutes": 19.16,
+            "end_minutes": 22.565
           },
           {
             "block": "M11",
-            "start_minutes": 21.3933,
-            "end_minutes": 31.8533
+            "start_minutes": 22.565,
+            "end_minutes": 33.67
+          },
+          {
+            "block": "D2",
+            "start_minutes": 33.67,
+            "end_minutes": 35.305
           },
           {
             "block": "M12",
-            "start_minutes": 31.8533,
-            "end_minutes": 38.2933
-          },
-          {
-            "block": "E4",
-            "start_minutes": 38.2933,
-            "end_minutes": 40.6633
+            "start_minutes": 35.305,
+            "end_minutes": 38.305
           },
           {
             "block": "M13",
-            "start_minutes": 40.6633,
-            "end_minutes": 42.7933
+            "start_minutes": 38.305,
+            "end_minutes": 39.915
           }
         ],
-        "status": "42—45分钟条件估算范围"
+        "status": "低于42分钟参考，余量较大需明示"
       }
     },
     {
@@ -4931,118 +4192,107 @@
           "M12",
           "M13"
         ],
-        "han": 5161,
-        "spoken_han": 5318,
-        "activity_seconds": 740,
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 165,
         "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
+          "A_M8"
         ],
-        "estimated_minutes": 38.9233,
-        "difference_from_45_minutes": -6.0767,
-        "remaining_minutes": 6.0767,
+        "estimated_minutes": 38.03,
+        "difference_from_45_minutes": -6.97,
+        "remaining_minutes": 6.97,
         "timeline": [
           {
             "block": "M8",
             "start_minutes": 0,
-            "end_minutes": 10.825
+            "end_minutes": 15.72
           },
           {
             "block": "M9",
-            "start_minutes": 10.825,
-            "end_minutes": 15.015
+            "start_minutes": 15.72,
+            "end_minutes": 18.91
           },
           {
             "block": "M10",
-            "start_minutes": 15.015,
-            "end_minutes": 20.8933
+            "start_minutes": 18.91,
+            "end_minutes": 22.315
           },
           {
             "block": "M11",
-            "start_minutes": 20.8933,
-            "end_minutes": 30.8533
+            "start_minutes": 22.315,
+            "end_minutes": 33.42
           },
           {
             "block": "M12",
-            "start_minutes": 30.8533,
-            "end_minutes": 36.7933
+            "start_minutes": 33.42,
+            "end_minutes": 36.42
           },
           {
             "block": "M13",
-            "start_minutes": 36.7933,
-            "end_minutes": 38.9233
+            "start_minutes": 36.42,
+            "end_minutes": 38.03
           }
         ],
         "status": "低于42分钟参考，余量较大需明示"
       },
       "adjusted": {
-        "selection": "E2",
+        "selection": "D2",
         "selected_blocks": [
           "M8",
           "M9",
-          "E2",
           "M10",
           "M11",
+          "D2",
           "M12",
           "M13"
         ],
-        "han": 5859,
-        "spoken_han": 6028,
-        "activity_seconds": 800,
+        "han": 7237,
+        "spoken_han": 7383,
+        "activity_seconds": 165,
         "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13",
-          "A_E2"
+          "A_M8"
         ],
-        "estimated_minutes": 43.4733,
-        "difference_from_45_minutes": -1.5267,
-        "remaining_minutes": 1.5267,
+        "estimated_minutes": 39.665,
+        "difference_from_45_minutes": -5.335,
+        "remaining_minutes": 5.335,
         "timeline": [
           {
             "block": "M8",
             "start_minutes": 0,
-            "end_minutes": 10.825
+            "end_minutes": 15.72
           },
           {
             "block": "M9",
-            "start_minutes": 10.825,
-            "end_minutes": 15.015
-          },
-          {
-            "block": "E2",
-            "start_minutes": 15.015,
-            "end_minutes": 19.565
+            "start_minutes": 15.72,
+            "end_minutes": 18.91
           },
           {
             "block": "M10",
-            "start_minutes": 19.565,
-            "end_minutes": 25.4433
+            "start_minutes": 18.91,
+            "end_minutes": 22.315
           },
           {
             "block": "M11",
-            "start_minutes": 25.4433,
-            "end_minutes": 35.4033
+            "start_minutes": 22.315,
+            "end_minutes": 33.42
+          },
+          {
+            "block": "D2",
+            "start_minutes": 33.42,
+            "end_minutes": 35.055
           },
           {
             "block": "M12",
-            "start_minutes": 35.4033,
-            "end_minutes": 41.3433
+            "start_minutes": 35.055,
+            "end_minutes": 38.055
           },
           {
             "block": "M13",
-            "start_minutes": 41.3433,
-            "end_minutes": 43.4733
+            "start_minutes": 38.055,
+            "end_minutes": 39.665
           }
         ],
-        "status": "42—45分钟条件估算范围"
+        "status": "低于42分钟参考，余量较大需明示"
       }
     },
     {
@@ -5059,111 +4309,107 @@
           "M12",
           "M13"
         ],
-        "han": 5161,
-        "spoken_han": 5318,
-        "activity_seconds": 1040,
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 270,
         "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
+          "A_M8"
         ],
-        "estimated_minutes": 43.9233,
-        "difference_from_45_minutes": -1.0767,
-        "remaining_minutes": 1.0767,
+        "estimated_minutes": 39.78,
+        "difference_from_45_minutes": -5.22,
+        "remaining_minutes": 5.22,
         "timeline": [
           {
             "block": "M8",
             "start_minutes": 0,
-            "end_minutes": 12.825
+            "end_minutes": 17.47
           },
           {
             "block": "M9",
-            "start_minutes": 12.825,
-            "end_minutes": 17.015
+            "start_minutes": 17.47,
+            "end_minutes": 20.66
           },
           {
             "block": "M10",
-            "start_minutes": 17.015,
-            "end_minutes": 22.8933
+            "start_minutes": 20.66,
+            "end_minutes": 24.065
           },
           {
             "block": "M11",
-            "start_minutes": 22.8933,
-            "end_minutes": 34.3533
+            "start_minutes": 24.065,
+            "end_minutes": 35.17
           },
           {
             "block": "M12",
-            "start_minutes": 34.3533,
-            "end_minutes": 41.7933
+            "start_minutes": 35.17,
+            "end_minutes": 38.17
           },
           {
             "block": "M13",
-            "start_minutes": 41.7933,
-            "end_minutes": 43.9233
+            "start_minutes": 38.17,
+            "end_minutes": 39.78
           }
         ],
-        "status": "42—45分钟条件估算范围"
+        "status": "低于42分钟参考，余量较大需明示"
       },
       "adjusted": {
-        "selection": "main",
+        "selection": "D2",
         "selected_blocks": [
           "M8",
           "M9",
           "M10",
           "M11",
+          "D2",
           "M12",
           "M13"
         ],
-        "han": 5161,
-        "spoken_han": 5318,
-        "activity_seconds": 1040,
+        "han": 7237,
+        "spoken_han": 7383,
+        "activity_seconds": 270,
         "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
+          "A_M8"
         ],
-        "estimated_minutes": 43.9233,
-        "difference_from_45_minutes": -1.0767,
-        "remaining_minutes": 1.0767,
+        "estimated_minutes": 41.415,
+        "difference_from_45_minutes": -3.585,
+        "remaining_minutes": 3.585,
         "timeline": [
           {
             "block": "M8",
             "start_minutes": 0,
-            "end_minutes": 12.825
+            "end_minutes": 17.47
           },
           {
             "block": "M9",
-            "start_minutes": 12.825,
-            "end_minutes": 17.015
+            "start_minutes": 17.47,
+            "end_minutes": 20.66
           },
           {
             "block": "M10",
-            "start_minutes": 17.015,
-            "end_minutes": 22.8933
+            "start_minutes": 20.66,
+            "end_minutes": 24.065
           },
           {
             "block": "M11",
-            "start_minutes": 22.8933,
-            "end_minutes": 34.3533
+            "start_minutes": 24.065,
+            "end_minutes": 35.17
+          },
+          {
+            "block": "D2",
+            "start_minutes": 35.17,
+            "end_minutes": 36.805
           },
           {
             "block": "M12",
-            "start_minutes": 34.3533,
-            "end_minutes": 41.7933
+            "start_minutes": 36.805,
+            "end_minutes": 39.805
           },
           {
             "block": "M13",
-            "start_minutes": 41.7933,
-            "end_minutes": 43.9233
+            "start_minutes": 39.805,
+            "end_minutes": 41.415
           }
         ],
-        "status": "42—45分钟条件估算范围"
+        "status": "低于42分钟参考，余量较大需明示"
       }
     },
     {
@@ -5180,124 +4426,107 @@
           "M12",
           "M13"
         ],
-        "han": 5161,
-        "spoken_han": 5318,
-        "activity_seconds": 830,
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 180,
         "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
+          "A_M8"
         ],
-        "estimated_minutes": 38.0061,
-        "difference_from_45_minutes": -6.9939,
-        "remaining_minutes": 6.9939,
+        "estimated_minutes": 35.0727,
+        "difference_from_45_minutes": -9.9273,
+        "remaining_minutes": 9.9273,
         "timeline": [
           {
             "block": "M8",
             "start_minutes": 0,
-            "end_minutes": 10.6591
+            "end_minutes": 14.7909
           },
           {
             "block": "M9",
-            "start_minutes": 10.6591,
-            "end_minutes": 14.5591
+            "start_minutes": 14.7909,
+            "end_minutes": 17.6909
           },
           {
             "block": "M10",
-            "start_minutes": 14.5591,
-            "end_minutes": 20.0697
+            "start_minutes": 17.6909,
+            "end_minutes": 20.7864
           },
           {
             "block": "M11",
-            "start_minutes": 20.0697,
-            "end_minutes": 29.8515
+            "start_minutes": 20.7864,
+            "end_minutes": 30.8818
           },
           {
             "block": "M12",
-            "start_minutes": 29.8515,
-            "end_minutes": 36.0242
+            "start_minutes": 30.8818,
+            "end_minutes": 33.6091
           },
           {
             "block": "M13",
-            "start_minutes": 36.0242,
-            "end_minutes": 38.0061
+            "start_minutes": 33.6091,
+            "end_minutes": 35.0727
           }
         ],
         "status": "低于42分钟参考，余量较大需明示"
       },
       "adjusted": {
-        "selection": "E2+E4",
+        "selection": "D2",
         "selected_blocks": [
           "M8",
           "M9",
-          "E2",
           "M10",
           "M11",
+          "D2",
           "M12",
-          "E4",
           "M13"
         ],
-        "han": 6333,
-        "spoken_han": 6502,
-        "activity_seconds": 890,
+        "han": 7237,
+        "spoken_han": 7383,
+        "activity_seconds": 180,
         "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13",
-          "A_E2"
+          "A_M8"
         ],
-        "estimated_minutes": 44.3879,
-        "difference_from_45_minutes": -0.6121,
-        "remaining_minutes": 0.6121,
+        "estimated_minutes": 36.5591,
+        "difference_from_45_minutes": -8.4409,
+        "remaining_minutes": 8.4409,
         "timeline": [
           {
             "block": "M8",
             "start_minutes": 0,
-            "end_minutes": 10.6591
+            "end_minutes": 14.7909
           },
           {
             "block": "M9",
-            "start_minutes": 10.6591,
-            "end_minutes": 14.5591
-          },
-          {
-            "block": "E2",
-            "start_minutes": 14.5591,
-            "end_minutes": 18.7864
+            "start_minutes": 14.7909,
+            "end_minutes": 17.6909
           },
           {
             "block": "M10",
-            "start_minutes": 18.7864,
-            "end_minutes": 24.297
+            "start_minutes": 17.6909,
+            "end_minutes": 20.7864
           },
           {
             "block": "M11",
-            "start_minutes": 24.297,
-            "end_minutes": 34.0788
+            "start_minutes": 20.7864,
+            "end_minutes": 30.8818
+          },
+          {
+            "block": "D2",
+            "start_minutes": 30.8818,
+            "end_minutes": 32.3682
           },
           {
             "block": "M12",
-            "start_minutes": 34.0788,
-            "end_minutes": 40.2515
-          },
-          {
-            "block": "E4",
-            "start_minutes": 40.2515,
-            "end_minutes": 42.4061
+            "start_minutes": 32.3682,
+            "end_minutes": 35.0955
           },
           {
             "block": "M13",
-            "start_minutes": 42.4061,
-            "end_minutes": 44.3879
+            "start_minutes": 35.0955,
+            "end_minutes": 36.5591
           }
         ],
-        "status": "42—45分钟条件估算范围"
+        "status": "低于42分钟参考，余量较大需明示"
       }
     },
     {
@@ -5314,124 +4543,107 @@
           "M12",
           "M13"
         ],
-        "han": 5161,
-        "spoken_han": 5318,
-        "activity_seconds": 740,
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 165,
         "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
+          "A_M8"
         ],
-        "estimated_minutes": 36.5061,
-        "difference_from_45_minutes": -8.4939,
-        "remaining_minutes": 8.4939,
+        "estimated_minutes": 34.8227,
+        "difference_from_45_minutes": -10.1773,
+        "remaining_minutes": 10.1773,
         "timeline": [
           {
             "block": "M8",
             "start_minutes": 0,
-            "end_minutes": 10.1591
+            "end_minutes": 14.5409
           },
           {
             "block": "M9",
-            "start_minutes": 10.1591,
-            "end_minutes": 14.0591
+            "start_minutes": 14.5409,
+            "end_minutes": 17.4409
           },
           {
             "block": "M10",
-            "start_minutes": 14.0591,
-            "end_minutes": 19.5697
+            "start_minutes": 17.4409,
+            "end_minutes": 20.5364
           },
           {
             "block": "M11",
-            "start_minutes": 19.5697,
-            "end_minutes": 28.8515
+            "start_minutes": 20.5364,
+            "end_minutes": 30.6318
           },
           {
             "block": "M12",
-            "start_minutes": 28.8515,
-            "end_minutes": 34.5242
+            "start_minutes": 30.6318,
+            "end_minutes": 33.3591
           },
           {
             "block": "M13",
-            "start_minutes": 34.5242,
-            "end_minutes": 36.5061
+            "start_minutes": 33.3591,
+            "end_minutes": 34.8227
           }
         ],
         "status": "低于42分钟参考，余量较大需明示"
       },
       "adjusted": {
-        "selection": "E2+E4",
+        "selection": "D2",
         "selected_blocks": [
           "M8",
           "M9",
-          "E2",
           "M10",
           "M11",
+          "D2",
           "M12",
-          "E4",
           "M13"
         ],
-        "han": 6333,
-        "spoken_han": 6502,
-        "activity_seconds": 800,
+        "han": 7237,
+        "spoken_han": 7383,
+        "activity_seconds": 165,
         "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13",
-          "A_E2"
+          "A_M8"
         ],
-        "estimated_minutes": 42.8879,
-        "difference_from_45_minutes": -2.1121,
-        "remaining_minutes": 2.1121,
+        "estimated_minutes": 36.3091,
+        "difference_from_45_minutes": -8.6909,
+        "remaining_minutes": 8.6909,
         "timeline": [
           {
             "block": "M8",
             "start_minutes": 0,
-            "end_minutes": 10.1591
+            "end_minutes": 14.5409
           },
           {
             "block": "M9",
-            "start_minutes": 10.1591,
-            "end_minutes": 14.0591
-          },
-          {
-            "block": "E2",
-            "start_minutes": 14.0591,
-            "end_minutes": 18.2864
+            "start_minutes": 14.5409,
+            "end_minutes": 17.4409
           },
           {
             "block": "M10",
-            "start_minutes": 18.2864,
-            "end_minutes": 23.797
+            "start_minutes": 17.4409,
+            "end_minutes": 20.5364
           },
           {
             "block": "M11",
-            "start_minutes": 23.797,
-            "end_minutes": 33.0788
+            "start_minutes": 20.5364,
+            "end_minutes": 30.6318
+          },
+          {
+            "block": "D2",
+            "start_minutes": 30.6318,
+            "end_minutes": 32.1182
           },
           {
             "block": "M12",
-            "start_minutes": 33.0788,
-            "end_minutes": 38.7515
-          },
-          {
-            "block": "E4",
-            "start_minutes": 38.7515,
-            "end_minutes": 40.9061
+            "start_minutes": 32.1182,
+            "end_minutes": 34.8455
           },
           {
             "block": "M13",
-            "start_minutes": 40.9061,
-            "end_minutes": 42.8879
+            "start_minutes": 34.8455,
+            "end_minutes": 36.3091
           }
         ],
-        "status": "42—45分钟条件估算范围"
+        "status": "低于42分钟参考，余量较大需明示"
       }
     },
     {
@@ -5448,117 +4660,107 @@
           "M12",
           "M13"
         ],
-        "han": 5161,
-        "spoken_han": 5318,
-        "activity_seconds": 1040,
+        "han": 6910,
+        "spoken_han": 7056,
+        "activity_seconds": 270,
         "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
+          "A_M8"
         ],
-        "estimated_minutes": 41.5061,
-        "difference_from_45_minutes": -3.4939,
-        "remaining_minutes": 3.4939,
+        "estimated_minutes": 36.5727,
+        "difference_from_45_minutes": -8.4273,
+        "remaining_minutes": 8.4273,
         "timeline": [
           {
             "block": "M8",
             "start_minutes": 0,
-            "end_minutes": 12.1591
+            "end_minutes": 16.2909
           },
           {
             "block": "M9",
-            "start_minutes": 12.1591,
-            "end_minutes": 16.0591
+            "start_minutes": 16.2909,
+            "end_minutes": 19.1909
           },
           {
             "block": "M10",
-            "start_minutes": 16.0591,
-            "end_minutes": 21.5697
+            "start_minutes": 19.1909,
+            "end_minutes": 22.2864
           },
           {
             "block": "M11",
-            "start_minutes": 21.5697,
-            "end_minutes": 32.3515
+            "start_minutes": 22.2864,
+            "end_minutes": 32.3818
           },
           {
             "block": "M12",
-            "start_minutes": 32.3515,
-            "end_minutes": 39.5242
+            "start_minutes": 32.3818,
+            "end_minutes": 35.1091
           },
           {
             "block": "M13",
-            "start_minutes": 39.5242,
-            "end_minutes": 41.5061
+            "start_minutes": 35.1091,
+            "end_minutes": 36.5727
           }
         ],
         "status": "低于42分钟参考，余量较大需明示"
       },
       "adjusted": {
-        "selection": "E4",
+        "selection": "D2",
         "selected_blocks": [
           "M8",
           "M9",
           "M10",
           "M11",
+          "D2",
           "M12",
-          "E4",
           "M13"
         ],
-        "han": 5635,
-        "spoken_han": 5792,
-        "activity_seconds": 1040,
+        "han": 7237,
+        "spoken_han": 7383,
+        "activity_seconds": 270,
         "activities": [
-          "A_M8",
-          "A_M9",
-          "A_M10",
-          "A_M11",
-          "A_M12",
-          "A_M13"
+          "A_M8"
         ],
-        "estimated_minutes": 43.6606,
-        "difference_from_45_minutes": -1.3394,
-        "remaining_minutes": 1.3394,
+        "estimated_minutes": 38.0591,
+        "difference_from_45_minutes": -6.9409,
+        "remaining_minutes": 6.9409,
         "timeline": [
           {
             "block": "M8",
             "start_minutes": 0,
-            "end_minutes": 12.1591
+            "end_minutes": 16.2909
           },
           {
             "block": "M9",
-            "start_minutes": 12.1591,
-            "end_minutes": 16.0591
+            "start_minutes": 16.2909,
+            "end_minutes": 19.1909
           },
           {
             "block": "M10",
-            "start_minutes": 16.0591,
-            "end_minutes": 21.5697
+            "start_minutes": 19.1909,
+            "end_minutes": 22.2864
           },
           {
             "block": "M11",
-            "start_minutes": 21.5697,
-            "end_minutes": 32.3515
+            "start_minutes": 22.2864,
+            "end_minutes": 32.3818
+          },
+          {
+            "block": "D2",
+            "start_minutes": 32.3818,
+            "end_minutes": 33.8682
           },
           {
             "block": "M12",
-            "start_minutes": 32.3515,
-            "end_minutes": 39.5242
-          },
-          {
-            "block": "E4",
-            "start_minutes": 39.5242,
-            "end_minutes": 41.6788
+            "start_minutes": 33.8682,
+            "end_minutes": 36.5955
           },
           {
             "block": "M13",
-            "start_minutes": 41.6788,
-            "end_minutes": 43.6606
+            "start_minutes": 36.5955,
+            "end_minutes": 38.0591
           }
         ],
-        "status": "42—45分钟条件估算范围"
+        "status": "低于42分钟参考，余量较大需明示"
       }
     }
   ],
@@ -5573,11 +4775,12 @@
     "timeline_equals_total": true
   },
   "notes": [
-    "所有M块进入所属节主线；选择C替换其replaces对应M的全部口述，原M活动保留；E为增加该口述及其活动。",
-    "不计机械切换、自然停顿或空白机动；教师讲评已计入口述。",
-    "short仅省指定三处学生回应；slow具体增量见04表，不以比例缩放。",
-    "四位阿拉伯年份逐位读，其余数字按汉语整数读；〇计入汉字。",
-    "此JSON是实际主稿映射，统一检查脚本可按此接口适配；不以本文预存字数代替源文读取。"
+    "默认主线只含M1—M13所属节讲述；两处独立对读以真实原文阅读与一项解释准备计时，教师讲评已在口述中，不再加时。",
+    "D1/D2仅选用时增加，S1/S2整段替换指定口述；原E/C文字保存为备查，其活动和字数均未计。",
+    "少量调节不保证各速度恰好45分钟；报告先原始默认值再注明调节，课堂不运行五档路由。",
+    "一般翻页、指读与讲述重叠，不叠固定转场；日后制作实际PPT需重新核稿屏及活动容量。",
+    "140/150/180/200/220均为分析假设，180不是实测或故意慢读指令。",
+    "selections仅把已备两种局部调节分别试算，不要求教师按30格选择课堂；若调整后仍不足或超时照实披露。"
   ],
   "limits": [
     "所有速度为分析假设，180仅为编排参照；没有真人计时或学习效果资料。",

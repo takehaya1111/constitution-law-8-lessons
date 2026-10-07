@@ -1,26 +1,26 @@
 {
-  "createdAt": "2026-10-06T13:13:32.016Z",
+  "createdAt": "2026-10-07T13:55:47.979Z",
   "files": [
     {
       "markdown": "01_完整讲述.md",
-      "sha256": "5d504b375d04a2556fcf0ca4c2b0a43a5871470b887c554f5edd68c422b9965b",
+      "sha256": "d90a14dbd73d62cb8cea99c8e752f4371ec7126b5b22abb2d2e502ad1f4a4362",
       "docx": "01_完整讲述.docx",
-      "characters": 22825,
-      "hanCharacters": 19125
+      "characters": 27392,
+      "hanCharacters": 23316
     },
     {
       "markdown": "02_学生史料与问题.md",
-      "sha256": "d1e77c376630e7a416bd5b0ebf8b179346d896ba5f20226887662091d28b03ad",
+      "sha256": "6ac71252f3094fcfaf959047c05ddebdd9e2c7c5c5ce2fd0d6dda4f7080e8580",
       "docx": "02_学生史料与问题.docx",
-      "characters": 12649,
-      "hanCharacters": 6093
+      "characters": 13357,
+      "hanCharacters": 6635
     },
     {
       "markdown": "03_逐题讲评.md",
-      "sha256": "3d2608e0c5da16d55fa21a884b0c71683cec71d07faa1e05338bf33ea870e073",
+      "sha256": "67c6f026a8c3edc53cc385c4e12f6b62c93ad014305ebbb437a8fef50fe5c050",
       "docx": "03_逐题讲评.docx",
-      "characters": 6970,
-      "hanCharacters": 5490
+      "characters": 7197,
+      "hanCharacters": 5675
     }
   ]
 }

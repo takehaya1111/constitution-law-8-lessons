@@ -1,86 +1,53 @@
 [
   {
     "id": "01",
+    "actualPage": 1,
+    "legacyId": 1,
+    "unitId": "U1",
     "half": 1,
-    "minutes": 2.0778,
+    "minutes": 1.5444,
     "optional": false,
-    "han": 284,
-    "activity": 0.5
+    "han": 278,
+    "activity": 0
   },
   {
     "id": "02",
+    "actualPage": 2,
+    "legacyId": 2,
+    "unitId": "U1",
     "half": 1,
-    "minutes": 2.8111,
+    "minutes": 4.1389,
     "optional": false,
-    "han": 371,
-    "activity": 0.75
+    "han": 745,
+    "activity": 0
   },
   {
     "id": "03",
+    "actualPage": 3,
+    "legacyId": 3,
+    "unitId": "U2",
     "half": 1,
-    "minutes": 2.9167,
+    "minutes": 2.45,
     "optional": false,
-    "han": 300,
-    "activity": 1.25
+    "han": 441,
+    "activity": 0
   },
   {
     "id": "04",
+    "actualPage": 4,
+    "legacyId": 4,
+    "unitId": "U2",
     "half": 1,
-    "minutes": 1.7889,
+    "minutes": 3.3111,
     "optional": false,
-    "han": 322,
+    "han": 596,
     "activity": 0
   },
   {
     "id": "05",
-    "half": 1,
-    "minutes": 1.2056,
-    "optional": false,
-    "han": 217,
-    "activity": 0
-  },
-  {
-    "id": "06",
-    "half": 1,
-    "minutes": 4.7222,
-    "optional": false,
-    "han": 760,
-    "activity": 0.5
-  },
-  {
-    "id": "07",
-    "half": 1,
-    "minutes": 3.5278,
-    "optional": false,
-    "han": 410,
-    "activity": 1.25
-  },
-  {
-    "id": "08",
-    "half": 1,
-    "minutes": 3.8444,
-    "optional": false,
-    "han": 692,
-    "activity": 0
-  },
-  {
-    "id": "09",
-    "half": 1,
-    "minutes": 1.8944,
-    "optional": false,
-    "han": 341,
-    "activity": 0
-  },
-  {
-    "id": "10",
-    "half": 1,
-    "minutes": 3.4444,
-    "optional": false,
-    "han": 530,
-    "activity": 0.5
-  },
-  {
-    "id": "11",
+    "actualPage": 5,
+    "legacyId": 5,
+    "unitId": "U2",
     "half": 1,
     "minutes": 1.9222,
     "optional": false,
@@ -88,215 +55,280 @@
     "activity": 0
   },
   {
-    "id": "12",
+    "id": "06",
+    "actualPage": 6,
+    "legacyId": 6,
+    "unitId": "U2",
     "half": 1,
-    "minutes": 2.1333,
+    "minutes": 4.3111,
     "optional": false,
-    "han": 69,
-    "activity": 1.75
+    "han": 776,
+    "activity": 0
+  },
+  {
+    "id": "07",
+    "actualPage": 7,
+    "legacyId": 7,
+    "unitId": "U3",
+    "half": 1,
+    "minutes": 3.8,
+    "optional": false,
+    "han": 684,
+    "activity": 0
+  },
+  {
+    "id": "08",
+    "actualPage": 8,
+    "legacyId": 8,
+    "unitId": "U3",
+    "half": 1,
+    "minutes": 5.9556,
+    "optional": false,
+    "han": 1072,
+    "activity": 0
+  },
+  {
+    "id": "09",
+    "actualPage": 9,
+    "legacyId": 9,
+    "unitId": "U3",
+    "half": 1,
+    "minutes": 2.6056,
+    "optional": false,
+    "han": 469,
+    "activity": 0
+  },
+  {
+    "id": "10",
+    "actualPage": 10,
+    "legacyId": 10,
+    "unitId": "U3",
+    "half": 1,
+    "minutes": 2.7056,
+    "optional": false,
+    "han": 487,
+    "activity": 0
+  },
+  {
+    "id": "11",
+    "actualPage": 11,
+    "legacyId": 11,
+    "unitId": "U3",
+    "half": 1,
+    "minutes": 2.8167,
+    "optional": false,
+    "han": 507,
+    "activity": 0
+  },
+  {
+    "id": "12",
+    "actualPage": 12,
+    "legacyId": 12,
+    "unitId": "U3",
+    "half": 1,
+    "minutes": 4.1611,
+    "optional": false,
+    "han": 389,
+    "activity": 2
   },
   {
     "id": "13",
+    "actualPage": 13,
+    "legacyId": 14,
+    "unitId": "U4",
     "half": 1,
-    "minutes": 1.8611,
+    "minutes": 3.1056,
     "optional": false,
-    "han": 245,
-    "activity": 0.5
+    "han": 559,
+    "activity": 0
   },
   {
     "id": "14",
+    "actualPage": 14,
+    "legacyId": 16,
+    "unitId": "U4",
     "half": 1,
-    "minutes": 4.9833,
+    "minutes": 1.4056,
     "optional": false,
-    "han": 762,
-    "activity": 0.75
+    "han": 253,
+    "activity": 0
   },
   {
     "id": "15",
-    "half": 1,
-    "minutes": 1.75,
+    "actualPage": 15,
+    "legacyId": 17,
+    "unitId": "U5",
+    "half": 2,
+    "minutes": 2.5111,
     "optional": false,
-    "han": 90,
-    "activity": 1.25
+    "han": 452,
+    "activity": 0
   },
   {
     "id": "16",
-    "half": 1,
-    "minutes": 2.1833,
-    "optional": false,
-    "han": 339,
-    "activity": 0.3
-  },
-  {
-    "id": "17",
+    "actualPage": 16,
+    "legacyId": 18,
+    "unitId": "U5",
     "half": 2,
     "minutes": 2.2111,
     "optional": false,
-    "han": 263,
-    "activity": 0.75
+    "han": 398,
+    "activity": 0
+  },
+  {
+    "id": "17",
+    "actualPage": 17,
+    "legacyId": 19,
+    "unitId": "U5",
+    "half": 2,
+    "minutes": 2.7167,
+    "optional": false,
+    "han": 489,
+    "activity": 0
   },
   {
     "id": "18",
+    "actualPage": 18,
+    "legacyId": 20,
+    "unitId": "U5",
     "half": 2,
-    "minutes": 2.2333,
+    "minutes": 3.3,
     "optional": false,
-    "han": 267,
-    "activity": 0.75
+    "han": 594,
+    "activity": 0
   },
   {
     "id": "19",
+    "actualPage": 19,
+    "legacyId": 21,
+    "unitId": "U5",
     "half": 2,
-    "minutes": 3.4333,
+    "minutes": 1.4444,
     "optional": false,
-    "han": 348,
-    "activity": 1.5
+    "han": 260,
+    "activity": 0
   },
   {
     "id": "20",
+    "actualPage": 20,
+    "legacyId": 22,
+    "unitId": "U5",
     "half": 2,
-    "minutes": 5.8667,
+    "minutes": 2.6611,
     "optional": false,
-    "han": 831,
-    "activity": 1.25
+    "han": 479,
+    "activity": 0
   },
   {
     "id": "21",
+    "actualPage": 21,
+    "legacyId": 24,
+    "unitId": "U6",
     "half": 2,
-    "minutes": 1.5722,
+    "minutes": 4.2556,
     "optional": false,
-    "han": 283,
+    "han": 766,
     "activity": 0
   },
   {
     "id": "22",
+    "actualPage": 22,
+    "legacyId": 25,
+    "unitId": "U6",
     "half": 2,
-    "minutes": 1.9222,
+    "minutes": 6.6611,
     "optional": false,
-    "han": 76,
-    "activity": 1.5
-  },
-  {
-    "id": "23",
-    "half": 2,
-    "minutes": 1.6,
-    "optional": false,
-    "han": 228,
-    "activity": 0.3333333
-  },
-  {
-    "id": "24",
-    "half": 2,
-    "minutes": 1.7278,
-    "optional": false,
-    "han": 131,
-    "activity": 1
-  },
-  {
-    "id": "25",
-    "half": 2,
-    "minutes": 3.4833,
-    "optional": false,
-    "han": 87,
-    "activity": 3
-  },
-  {
-    "id": "26",
-    "half": 2,
-    "minutes": 6.1611,
-    "optional": false,
-    "han": 929,
-    "activity": 1
-  },
-  {
-    "id": "27",
-    "half": 2,
-    "minutes": 1.7,
-    "optional": false,
-    "han": 186,
-    "activity": 0.6666667
-  },
-  {
-    "id": "28",
-    "half": 2,
-    "minutes": 2.8111,
-    "optional": false,
-    "han": 146,
-    "activity": 2
-  },
-  {
-    "id": "29",
-    "half": 2,
-    "minutes": 3.4722,
-    "optional": false,
-    "han": 490,
-    "activity": 0.75
-  },
-  {
-    "id": "30",
-    "half": 2,
-    "minutes": 2.0944,
-    "optional": false,
-    "han": 377,
+    "han": 1199,
     "activity": 0
   },
   {
-    "id": "31",
+    "id": "23",
+    "actualPage": 23,
+    "legacyId": 26,
+    "unitId": "U6",
     "half": 2,
-    "minutes": 2.9556,
+    "minutes": 6.8444,
     "optional": false,
-    "han": 352,
-    "activity": 1
+    "han": 872,
+    "activity": 2
   },
   {
-    "id": "32",
+    "id": "24",
+    "actualPage": 24,
+    "legacyId": 27,
+    "unitId": "U7",
+    "half": 2,
+    "minutes": 2.4833,
+    "optional": false,
+    "han": 447,
+    "activity": 0
+  },
+  {
+    "id": "25",
+    "actualPage": 25,
+    "legacyId": 30,
+    "unitId": "U7",
+    "half": 2,
+    "minutes": 6.7778,
+    "optional": false,
+    "han": 1220,
+    "activity": 0
+  },
+  {
+    "id": "26",
+    "actualPage": 26,
+    "legacyId": 31,
+    "unitId": "U8",
+    "half": 2,
+    "minutes": 2.3278,
+    "optional": false,
+    "han": 419,
+    "activity": 0
+  },
+  {
+    "id": "27",
+    "actualPage": 27,
+    "legacyId": 15,
     "half": null,
     "minutes": 0,
     "optional": true,
-    "han": 65,
-    "activity": 1
+    "han": 268,
+    "activity": 0
   },
   {
-    "id": "33",
+    "id": "28",
+    "actualPage": 28,
+    "legacyId": 28,
     "half": null,
     "minutes": 0,
     "optional": true,
-    "han": 257,
-    "activity": 0.5
+    "han": 295,
+    "activity": 0
   },
   {
-    "id": "34",
-    "half": null,
-    "minutes": 0,
-    "optional": true,
-    "han": 76,
-    "activity": 1
-  },
-  {
-    "id": "35",
-    "half": null,
-    "minutes": 0,
-    "optional": true,
-    "han": 292,
-    "activity": 0.5
-  },
-  {
-    "id": "36",
+    "id": "29",
+    "actualPage": 29,
+    "legacyId": 36,
     "half": null,
     "minutes": 0,
     "optional": true,
     "han": 526,
-    "activity": 0.75
+    "activity": 0
   },
   {
-    "id": "37",
+    "id": "30",
+    "actualPage": 30,
+    "legacyId": 37,
     "half": null,
     "minutes": 0,
     "optional": true,
     "han": 634,
-    "activity": 0.75
+    "activity": 0
   },
   {
-    "id": "38",
+    "id": "31",
+    "actualPage": 31,
+    "legacyId": 38,
     "half": null,
     "minutes": 0,
     "optional": true,

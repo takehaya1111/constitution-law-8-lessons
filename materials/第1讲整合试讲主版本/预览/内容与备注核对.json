@@ -1,29 +1,27 @@
 {
-  "checked_at": "2026-10-06",
-  "source_json_sha256": "d7306b50c759abe504018fa07fa55963d67078ee5829927ecb6c585b6677b5a8",
-  "pptx_sha256": "f09987ed6297633c023b7f40ffd745c79ff8f9b0096bfdfdf4ceddaa7debde9a",
-  "pdf_sha256": "cf2d49e40eca17de812154a66567932277788d8b5f3e4eb71d456512ecfc24bd",
-  "notes_xml_sha256": "b99a5a837e14382499ac1709e5eab377cdefd8b7f73c213f1acc4ae794762b4f",
-  "notes_hash_method": "按幻灯片1—38顺序连接对应备注XML原字节，以单个零字节分隔后取SHA-256。",
-  "pages": 38,
+  "checked_at": "2026-10-07",
+  "source_json_sha256": "df0fb2ab93edaacebff1ae422711524792b8b0f16eeeb0b3527e9b3be06158fd",
+  "pptx_sha256": "a88deb443c12d845bc18509fd58f7727f87ef9cbece4c9e2fc1554de41d08532",
+  "pdf_sha256": "c837caf2fcfafdb9653b80bb6a1e7826966f0d9f5a582673d10e0eefa0b856be",
+  "notes_xml_sha256": "cb8303839947f7b43524ba1829046879f46a96da03719cd11846af0e02e25b2e",
+  "notes_hash_method": "按当前实际幻灯片顺序连接对应备注XML原字节，以单个零字节分隔后取SHA-256。",
+  "pages": 31,
   "hidden_pages": [
-    32,
-    33,
-    34,
-    35,
-    36,
-    37
+    27,
+    28,
+    29,
+    30
   ],
-  "visible_fields_checked": 321,
-  "note_steps_checked": 169,
-  "complete_short_versions_checked": 8,
+  "visible_fields_checked": 261,
+  "note_steps_checked": 154,
+  "complete_short_versions_checked": 0,
   "issues": [],
   "page_checks": [
     {
       "page": 1,
       "hidden": false,
       "visible_fields": 6,
-      "note_steps": 4,
+      "note_steps": 3,
       "short_version": null,
       "issues": []
     },
@@ -31,8 +29,8 @@
       "page": 2,
       "hidden": false,
       "visible_fields": 8,
-      "note_steps": 5,
-      "short_version": "C1",
+      "note_steps": 6,
+      "short_version": null,
       "issues": []
     },
     {
@@ -47,7 +45,7 @@
       "page": 4,
       "hidden": false,
       "visible_fields": 8,
-      "note_steps": 3,
+      "note_steps": 5,
       "short_version": null,
       "issues": []
     },
@@ -55,39 +53,39 @@
       "page": 5,
       "hidden": false,
       "visible_fields": 8,
-      "note_steps": 3,
+      "note_steps": 4,
       "short_version": null,
       "issues": []
     },
     {
       "page": 6,
       "hidden": false,
-      "visible_fields": 10,
-      "note_steps": 8,
-      "short_version": "C2",
+      "visible_fields": 8,
+      "note_steps": 7,
+      "short_version": null,
       "issues": []
     },
     {
       "page": 7,
       "hidden": false,
       "visible_fields": 12,
-      "note_steps": 5,
+      "note_steps": 6,
       "short_version": null,
       "issues": []
     },
     {
       "page": 8,
       "hidden": false,
-      "visible_fields": 8,
-      "note_steps": 7,
-      "short_version": "C3",
+      "visible_fields": 10,
+      "note_steps": 9,
+      "short_version": null,
       "issues": []
     },
     {
       "page": 9,
       "hidden": false,
       "visible_fields": 8,
-      "note_steps": 4,
+      "note_steps": 5,
       "short_version": null,
       "issues": []
     },
@@ -95,7 +93,7 @@
       "page": 10,
       "hidden": false,
       "visible_fields": 8,
-      "note_steps": 6,
+      "note_steps": 5,
       "short_version": null,
       "issues": []
     },
@@ -103,7 +101,7 @@
       "page": 11,
       "hidden": false,
       "visible_fields": 14,
-      "note_steps": 4,
+      "note_steps": 5,
       "short_version": null,
       "issues": []
     },
@@ -111,7 +109,7 @@
       "page": 12,
       "hidden": false,
       "visible_fields": 8,
-      "note_steps": 2,
+      "note_steps": 5,
       "short_version": null,
       "issues": []
     },
@@ -119,23 +117,23 @@
       "page": 13,
       "hidden": false,
       "visible_fields": 8,
-      "note_steps": 4,
+      "note_steps": 5,
       "short_version": null,
       "issues": []
     },
     {
       "page": 14,
       "hidden": false,
-      "visible_fields": 10,
-      "note_steps": 8,
-      "short_version": "C4",
+      "visible_fields": 8,
+      "note_steps": 2,
+      "short_version": null,
       "issues": []
     },
     {
       "page": 15,
       "hidden": false,
-      "visible_fields": 10,
-      "note_steps": 2,
+      "visible_fields": 8,
+      "note_steps": 4,
       "short_version": null,
       "issues": []
     },
@@ -143,15 +141,15 @@
       "page": 16,
       "hidden": false,
       "visible_fields": 8,
-      "note_steps": 5,
+      "note_steps": 4,
       "short_version": null,
       "issues": []
     },
     {
       "page": 17,
       "hidden": false,
-      "visible_fields": 6,
-      "note_steps": 4,
+      "visible_fields": 8,
+      "note_steps": 5,
       "short_version": null,
       "issues": []
     },
@@ -159,7 +157,7 @@
       "page": 18,
       "hidden": false,
       "visible_fields": 8,
-      "note_steps": 4,
+      "note_steps": 5,
       "short_version": null,
       "issues": []
     },
@@ -167,23 +165,23 @@
       "page": 19,
       "hidden": false,
       "visible_fields": 8,
-      "note_steps": 5,
-      "short_version": "C5",
+      "note_steps": 2,
+      "short_version": null,
       "issues": []
     },
     {
       "page": 20,
       "hidden": false,
-      "visible_fields": 6,
-      "note_steps": 9,
-      "short_version": "C6",
+      "visible_fields": 8,
+      "note_steps": 4,
+      "short_version": null,
       "issues": []
     },
     {
       "page": 21,
       "hidden": false,
       "visible_fields": 8,
-      "note_steps": 4,
+      "note_steps": 6,
       "short_version": null,
       "issues": []
     },
@@ -191,7 +189,7 @@
       "page": 22,
       "hidden": false,
       "visible_fields": 8,
-      "note_steps": 2,
+      "note_steps": 10,
       "short_version": null,
       "issues": []
     },
@@ -199,7 +197,7 @@
       "page": 23,
       "hidden": false,
       "visible_fields": 8,
-      "note_steps": 4,
+      "note_steps": 8,
       "short_version": null,
       "issues": []
     },
@@ -207,7 +205,7 @@
       "page": 24,
       "hidden": false,
       "visible_fields": 8,
-      "note_steps": 3,
+      "note_steps": 4,
       "short_version": null,
       "issues": []
     },
@@ -215,20 +213,12 @@
       "page": 25,
       "hidden": false,
       "visible_fields": 10,
-      "note_steps": 2,
+      "note_steps": 10,
       "short_version": null,
       "issues": []
     },
     {
       "page": 26,
-      "hidden": false,
-      "visible_fields": 10,
-      "note_steps": 8,
-      "short_version": "C7",
-      "issues": []
-    },
-    {
-      "page": 27,
       "hidden": false,
       "visible_fields": 8,
       "note_steps": 4,
@@ -236,8 +226,16 @@
       "issues": []
     },
     {
+      "page": 27,
+      "hidden": true,
+      "visible_fields": 8,
+      "note_steps": 3,
+      "short_version": null,
+      "issues": []
+    },
+    {
       "page": 28,
-      "hidden": false,
+      "hidden": true,
       "visible_fields": 8,
       "note_steps": 3,
       "short_version": null,
@@ -245,78 +243,22 @@
     },
     {
       "page": 29,
-      "hidden": false,
+      "hidden": true,
       "visible_fields": 8,
-      "note_steps": 6,
-      "short_version": "C8",
+      "note_steps": 5,
+      "short_version": null,
       "issues": []
     },
     {
       "page": 30,
-      "hidden": false,
-      "visible_fields": 12,
-      "note_steps": 5,
+      "hidden": true,
+      "visible_fields": 8,
+      "note_steps": 6,
       "short_version": null,
       "issues": []
     },
     {
       "page": 31,
-      "hidden": false,
-      "visible_fields": 8,
-      "note_steps": 5,
-      "short_version": null,
-      "issues": []
-    },
-    {
-      "page": 32,
-      "hidden": true,
-      "visible_fields": 8,
-      "note_steps": 2,
-      "short_version": null,
-      "issues": []
-    },
-    {
-      "page": 33,
-      "hidden": true,
-      "visible_fields": 7,
-      "note_steps": 5,
-      "short_version": null,
-      "issues": []
-    },
-    {
-      "page": 34,
-      "hidden": true,
-      "visible_fields": 8,
-      "note_steps": 2,
-      "short_version": null,
-      "issues": []
-    },
-    {
-      "page": 35,
-      "hidden": true,
-      "visible_fields": 7,
-      "note_steps": 5,
-      "short_version": null,
-      "issues": []
-    },
-    {
-      "page": 36,
-      "hidden": true,
-      "visible_fields": 8,
-      "note_steps": 6,
-      "short_version": null,
-      "issues": []
-    },
-    {
-      "page": 37,
-      "hidden": true,
-      "visible_fields": 8,
-      "note_steps": 7,
-      "short_version": null,
-      "issues": []
-    },
-    {
-      "page": 38,
       "hidden": false,
       "visible_fields": 9,
       "note_steps": 0,

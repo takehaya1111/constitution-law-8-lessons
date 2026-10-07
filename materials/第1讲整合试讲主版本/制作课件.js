@@ -105,9 +105,10 @@ function photo(value, x, y, w, h) {
 }
 function heading(dark = false) {
   tx(sectionLabel(page), 0.78, 0.35, 11.8, 0.36, 17, { color: dark ? C.light : C.red, bold: true, role: '章节标识' });
-  tx(page.title, 0.76, 0.94, 11.82, 1.08, 36, { color: dark ? C.paper : C.deep, bold: true, role: '标题' });
+  const titleSize = page.legacyId === 12 ? 34 : 36;
+  tx(page.title, 0.76, 0.94, 11.82, 1.08, titleSize, { color: dark ? C.paper : C.deep, bold: true, role: '标题' });
 }
-function sectionLabel(p) { return `${p.half ? (p.half === 1 ? '上节｜' : '下节｜') : ''}${p.section || ''}`; }
+function sectionLabel(p) { return p.half ? `${p.half === 1 ? '上节' : '下节'}｜第一讲 宪法总论` : (p.section || ''); }
 function foot(index, total, dark = false) {
   const muted = dark ? C.light : C.muted;
   tx(page.source || '', 0.78, 7.02, 10.55, 0.31, 12, { color: muted, role: '来源' });
@@ -128,13 +129,13 @@ function displayLabel(value) {
     '25': { '继续刚才的疑问｜教学设定': '继续刚才的疑问｜\n教学设定' },
     '26': { '国家赔偿法第12条（教学提要）': '国家赔偿法第12条\n（教学提要）' }
   };
-  return breaks[page.id]?.[value] || value;
+  return breaks[page.legacyId || page.id]?.[value] || value;
 }
 function rows(blocks, kind = 'text') {
   const top = 2.1, end = contentEnd();
   const n = blocks.length;
   const gap = n >= 4 ? 0.18 : 0.27;
-  const labelW = ['25','26'].includes(page.id) ? 3.4 : kind === 'principles' ? 3.16 : 2.6;
+  const labelW = ['25','26'].includes(String(page.legacyId || page.id)) ? 3.4 : kind === 'principles' ? 3.16 : 2.6;
   const bodyX = 0.83 + labelW + 0.3;
   const needs = blocks.map(b => Math.max(wrap(displayLabel(b.label || ''), labelW - 0.2, 24).length, wrap(b.text || '', 12.5 - bodyX, 24).length) * 24 / 72 * 1.2 + 0.12);
   const used = needs.reduce((a, b) => a + b, 0) + gap * (n - 1);
@@ -193,7 +194,7 @@ function layout() {
       const x = 0.78 + i * (width + gap);
       rect(x, 2.08, width, boxEnd - 2.08, i ? C.pale : C.white);
       tx(item.label, x + 0.22, 2.3, width - 0.44, 0.6, 24, { bold: true, color: C.red });
-      const displayText = page.id === '14' ? item.text.replace('全体代表的', '全体代表的\n') : item.text;
+      const displayText = String(page.legacyId || page.id) === '14' ? item.text.replace('全体代表的', '全体代表的\n') : item.text;
       tx(displayText, x + 0.22, 3.06, width - 0.44, boxEnd - 3.23, 24, { role: '对读文字' });
     });
     if (b.length === 3) {
@@ -259,15 +260,13 @@ function layout() {
   bottom(); return false;
 }
 function notes(p) {
-  const content = [`${p.id}｜${p.title}`, p.optional ? (p.hidden ? '节内备用页：常规放映隐藏。按本节容量报告调用，不追加课时。' : '课后来源页，不计主线口述。') : `${p.half === 1 ? '上' : '下'}节（本节0—45分钟）｜${timeRanges.get(p.id)}`];
-  if (!p.optional) content.push('页定位按180汉字/分钟与计划独立活动粗列，不是实测；口读校正、多语速、活动情景及调整路径见双45分钟容量报告。');
-  if (p.hidden) {
-    const id = Number(p.id);
-    content.push(id === 36 ? '上节第14页讲完第64条后调用本页；若同选E1，依容量报告完成本页及第32—33页后返回第15页。仅用本页时直接返回第15页。' : [32,33].includes(id) ? '上节第14页后依次调用第32—33页；若同选E3，完成本组与第36页后返回第15页。仅用本组时直接返回第15页。' : id === 37 ? '下节第30页后调用本页；与E2同选时先完成第34—35页，再用本页，最后返回第31页收束。' : '下节第30页后依次调用第34—35页；仅用E2时回第31页，同选E4时先到第37页，最后回第31页收束。');
-  }
+  const content = [`P${p.id}｜${p.title}`, p.optional ? (p.hidden ? '教师备查：默认放映隐藏，不属于默认课堂主线。' : '课后来源页，不计主线口述。') : `${p.half === 1 ? '上' : '下'}节（本节0—45分钟）｜${timeRanges.get(p.id)}`];
+  if (!p.optional) content.push('默认按页顺讲。页定位为备课估算；最终口读校正与独立活动见同版容量报告，不是教师实测。', `【翻至P${String(Number(p.id)).padStart(2,'0')}｜${p.title}】（不朗读）`);
+  if (p.hidden) content.push('原演算、权限设例或扩展论证保留查读。若另行纳入课堂，须按实际替换内容重新核本节容量，不能沿用旧E/C课堂路线。');
   for (const [i, step] of p.steps.entries()) content.push(`${i + 1}. ${step.kind === 'speech' ? '逐字讲述' : '活动，不朗读'}${step.minutes ? `（${step.minutes}分钟）` : ''}`, step.text);
   if (p.teacherNotes?.length) content.push('教师备查，不朗读', ...p.teacherNotes);
   if (p.shortVersion) content.push(`节内短讲${p.shortVersion.id}：${p.shortVersion.title}`, p.shortVersion.instruction, '以下短讲替换本页全部口述；不要与上面的主讲重复朗读。', p.shortVersion.text);
+  if (p.unitAdjustment) content.push(`单元缩讲${p.unitAdjustment.id}｜${p.unitAdjustment.title}`, p.unitAdjustment.instruction, p.unitAdjustment.text);
   content.push('本页出处', p.source || '', '来源及定位', ...(p.refs || []).map(r => `${r.label}\n${r.url || ''}\n${r.locator || ''}`));
   return content.join('\n\n');
 }
@@ -320,7 +319,9 @@ async function main() {
     visible.push(`**出处：**${p.source || ''}`, '', '### 完整备注（按实际顺序）', '', notes(p), '');
   });
   fs.writeFileSync(path.join(ROOT, '课件文字.md'), visible.join('\n'), 'utf8');
-  const previewIndex = ['# 第一讲实际课件预览', '', '[实际PPT导出的完整PDF](第1讲_宪法总论_整合试讲主版本.pdf) · [逐页课件文字与完整备注](../课件文字.md) · [制作检查记录](视觉检查记录.md)', '', '本讲一份课件，内部上、下两节各45分钟。1—16页上节，17—31页下节；32—37页已设置为隐藏幻灯片，常规放映跳过，38页为来源。备用材料按容量报告在相应节内调用；可在支持编号跳转的放映软件中输入页码，或从幻灯片列表选页，完成后返回原主线。PDF为便于审阅而导出全部38页，包含隐藏页；顺序阅读PDF不会自动跳过备用内容。', '', '下列PNG由本轮PPTX经LibreOffice导出PDF后逐页渲染。SVG来自同一内容与版面源，便于回查和另行渲染，不替代实际PPT画面。仓库中可回查这些文件，不等于Pro已在其当前环境成功打开二进制画面或完成视觉审阅。', '', `内容源SHA-256：\`${crypto.createHash('sha256').update(bytes).digest('hex')}\``, ''];
+  const range = half => data.pages.filter(p=>!p.optional && p.half===half).map(p=>Number(p.id));
+  const upper = range(1), lower = range(2), hidden = data.pages.filter(p=>p.hidden).map(p=>Number(p.id));
+  const previewIndex = ['# 第一讲实际课件预览', '', '[实际PPT导出的完整PDF](第1讲_宪法总论_整合试讲主版本.pdf) · [逐页课件文字与完整备注](../课件文字.md) · [制作检查记录](视觉检查记录.md)', '', `本讲一份课件，内部两节各45分钟。上节P${upper[0]}—P${upper.at(-1)}，下节P${lower[0]}—P${lower.at(-1)}；教师备查页${hidden.join('、')}为默认隐藏。主线按顺序放映，教师无需照旧E/C路径表运行课堂。审阅PDF共${data.pages.length}页，包含隐藏页；备查不计入默认容量。`, '', '下列PNG由本轮PPTX经LibreOffice导出PDF后逐页渲染。SVG来自同一内容与版面源，便于回查和另行渲染，不替代实际PPT画面。仓库中可回查这些文件，不等于Pro已在其当前环境成功打开二进制画面或完成视觉审阅。', '', `内容源SHA-256：\`${crypto.createHash('sha256').update(bytes).digest('hex')}\``, ''];
   data.pages.forEach((p, i) => { const no = String(i + 1).padStart(2, '0'); previewIndex.push(`## ${no}｜${p.title}`, '', `[同源SVG](同源SVG/${no}.svg)`, '', `![第${no}页实际PPT导出画面](逐页PNG/${no}.png)`, ''); });
   fs.writeFileSync(path.join(OUT, 'README.md'), previewIndex.join('\n'), 'utf8');
   fs.writeFileSync(path.join(OUT, '逐页预览.md'), previewIndex.join('\n'), 'utf8');

@@ -26,7 +26,7 @@ def text_of(xml):
 issues, page_checks = [], []
 visible_total = note_total = short_total = 0
 doc = fitz.open(PDF)
-if len(pages) != 38 or len(doc) != len(pages):
+if not pages or len(doc) != len(pages):
     issues.append({'kind':'page_count','source':len(pages),'pdf':len(doc)})
 if geo['inputSHA256'] != sha(SOURCE):
     issues.append({'kind':'stale_geometry'})
@@ -78,6 +78,10 @@ with zipfile.ZipFile(PPT) as z:
             short_total+=1
             for key in ['id','title','instruction','text']:
                 if norm(sv[key]) not in actual_notes: local.append('完整短讲缺失:'+key)
+        adjustment=p.get('unitAdjustment')
+        if adjustment:
+            for key in ['id','title','instruction','text']:
+                if norm(adjustment[key]) not in actual_notes: local.append('完整单元缩讲缺失:'+key)
         if not p.get('optional'):
             if norm(geo['timeRanges'][p['id']]) not in actual_notes:
                 local.append('分节时间定位缺失')
@@ -94,10 +98,11 @@ with zipfile.ZipFile(PPT) as z:
         note_total+=len(p['steps'])
         page_checks.append({'page':index,'hidden':hidden,'visible_fields':len(fields),'note_steps':len(p['steps']),'short_version':sv['id'] if sv else None,'issues':local})
         issues += [{'page':index,'issue':issue} for issue in local]
-for index in ['01','17']:
+for half in [1, 2]:
+    index = next(p['id'] for p in pages if not p.get('optional') and p.get('half') == half)
     if not geo['timeRanges'].get(index,'').startswith('本节约0—'):
         issues.append({'kind':'half_not_reset','page':index})
-report={'checked_at':'2026-10-06','source_json_sha256':sha(SOURCE),'pptx_sha256':sha(PPT),'pdf_sha256':sha(PDF),'notes_xml_sha256':hashlib.sha256(b'\0'.join(note_xml_chunks)).hexdigest(),'notes_hash_method':'按幻灯片1—38顺序连接对应备注XML原字节，以单个零字节分隔后取SHA-256。','pages':len(pages),'hidden_pages':hidden_pages,'visible_fields_checked':visible_total,'note_steps_checked':note_total,'complete_short_versions_checked':short_total,'issues':issues,'page_checks':page_checks,'scope':'实际文件文字、步骤顺序、完整短讲、隐藏标记、分节定位及页数；不是逐页视觉和真人教学验证。'}
+report={'checked_at':'2026-10-07','source_json_sha256':sha(SOURCE),'pptx_sha256':sha(PPT),'pdf_sha256':sha(PDF),'notes_xml_sha256':hashlib.sha256(b'\0'.join(note_xml_chunks)).hexdigest(),'notes_hash_method':'按当前实际幻灯片顺序连接对应备注XML原字节，以单个零字节分隔后取SHA-256。','pages':len(pages),'hidden_pages':hidden_pages,'visible_fields_checked':visible_total,'note_steps_checked':note_total,'complete_short_versions_checked':short_total,'issues':issues,'page_checks':page_checks,'scope':'实际文件文字、步骤顺序、完整短讲、隐藏标记、分节定位及页数；不是逐页视觉和真人教学验证。'}
 (OUT/'内容与备注核对.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(json.dumps({k:v for k,v in report.items() if k not in ['page_checks']},ensure_ascii=False,indent=2))
 sys.exit(1 if issues else 0)

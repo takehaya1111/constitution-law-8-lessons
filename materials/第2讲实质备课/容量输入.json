@@ -2,7 +2,7 @@
   "schema_version": 1,
   "lesson": "第二讲 宪法的发展",
   "source": "01_完整讲述.md",
-  "source_sha256": "5d504b375d04a2556fcf0ca4c2b0a43a5871470b887c554f5edd68c422b9965b",
+  "source_sha256": "d90a14dbd73d62cb8cea99c8e752f4371ec7126b5b22abb2d2e502ad1f4a4362",
   "selection_extraction": "指定二级标题内全部三级讲述正文，排除其它三级段、二级标题后的组织说明",
   "speeds": [
     140,
@@ -111,388 +111,137 @@
       "speech_subheading": "讲述"
     },
     {
-      "id": "E1",
+      "id": "D1",
       "section": "upper",
       "kind": "extension",
-      "source_heading": "按需深化E1 不成文是否意味着没有成文文件",
-      "speech_subheading": "讲述",
-      "insert_after": "M2"
-    },
-    {
-      "id": "E2",
-      "section": "lower",
-      "kind": "extension",
-      "source_heading": "按需深化E2 2004年新增人权原则怎样联系已有权利",
-      "speech_subheading": "讲述",
-      "insert_after": "M9"
-    },
-    {
-      "id": "E3",
-      "section": "upper",
-      "kind": "extension",
-      "source_heading": "按需深化E3 新增禁止文字是否证明以前允许",
+      "source_heading": "就近深化 另一职责的判断为什么不是多盖一个章",
       "speech_subheading": "讲述",
       "insert_after": "M6"
     },
     {
-      "id": "E4",
+      "id": "D2",
       "section": "lower",
       "kind": "extension",
-      "source_heading": "按需深化E4 标着同一年份为何仍要辨认文本版本",
+      "source_heading": "就近深化 法律具体化为什么还需要真正作决定",
       "speech_subheading": "讲述",
-      "insert_after": "M12"
+      "insert_after": "M11"
     },
     {
-      "id": "C1",
+      "id": "S1",
       "section": "upper",
       "kind": "replacement",
-      "source_heading": "短讲C1 近代三条道路",
+      "source_heading": "必要短讲 近代背景的保目标表达",
       "speech_subheading": "讲述",
       "replaces": "M2"
     },
     {
-      "id": "C2",
-      "section": "upper",
-      "kind": "replacement",
-      "source_heading": "短讲C2 中国近代探索",
-      "speech_subheading": "讲述",
-      "replaces": "M3"
-    },
-    {
-      "id": "C3",
-      "section": "upper",
-      "kind": "replacement",
-      "source_heading": "短讲C3 人身自由与机关分工",
-      "speech_subheading": "讲述",
-      "replaces": "M6"
-    },
-    {
-      "id": "C4",
+      "id": "S2",
       "section": "lower",
       "kind": "replacement",
-      "source_heading": "短讲C4 土地修改",
+      "source_heading": "必要短讲 三种变化的回收",
       "speech_subheading": "讲述",
-      "replaces": "M8"
-    },
-    {
-      "id": "C5",
-      "section": "lower",
-      "kind": "replacement",
-      "source_heading": "短讲C5 监察机关相关修改",
-      "speech_subheading": "讲述",
-      "replaces": "M10"
-    },
-    {
-      "id": "C6",
-      "section": "lower",
-      "kind": "replacement",
-      "source_heading": "短讲C6 修宪过程与配套立法",
-      "speech_subheading": "讲述",
-      "replaces": "M11"
+      "replaces": "M12"
     }
   ],
   "activities": [
     {
-      "id": "A_M1",
-      "block": "M1",
-      "seconds": {
-        "plan": 30,
-        "short": 30,
-        "slow": 30
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "在现行宪法题注上标完整文本通过与以后修正日期",
-      "scenario_reasons": {
-        "plan": "独立观察30秒",
-        "short": "观察保留，不依赖发言",
-        "slow": "本情景不延长此项"
-      }
-    },
-    {
-      "id": "A_M2",
-      "block": "M2",
-      "seconds": {
-        "plan": 90,
-        "short": 60,
-        "slow": 90
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "简明全景表回看三国各自问题",
-      "scenario_reasons": {
-        "plan": "回看60秒、回应30秒",
-        "short": "只省30秒回应，回看仍60秒",
-        "slow": "回看与回应仍90秒"
-      }
-    },
-    {
-      "id": "A_M3",
-      "block": "M3",
-      "seconds": {
-        "plan": 180,
-        "short": 150,
-        "slow": 240
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "材料一1912三条原文与题1",
-      "scenario_reasons": {
-        "plan": "读60秒、写90秒、回应30秒",
-        "short": "只省30秒回应",
-        "slow": "阅读增加60秒，书写与回应保留"
-      }
-    },
-    {
-      "id": "A_M5",
-      "block": "M5",
-      "seconds": {
-        "plan": 60,
-        "short": 60,
-        "slow": 60
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "材料二形成说明中报告日期和宪法通过日期",
-      "scenario_reasons": {
-        "plan": "找日期60秒",
-        "short": "查读保留",
-        "slow": "本情景不延长此项"
-      }
-    },
-    {
       "id": "A_M6",
       "block": "M6",
       "seconds": {
-        "plan": 240,
-        "short": 210,
-        "slow": 360
+        "plan": 180,
+        "short": 165,
+        "slow": 270
       },
       "overlaps_speech": false,
       "includes_teacher_feedback": false,
-      "description": "材料二1975/1978/1982三版对读与题2",
+      "description": "三版实际原文独立对读与一项连贯解释准备",
       "scenario_reasons": {
-        "plan": "读120秒、写90秒、回应30秒",
-        "short": "只省30秒回应",
-        "slow": "三列阅读增加120秒"
-      }
-    },
-    {
-      "id": "A_M7",
-      "block": "M7",
-      "seconds": {
-        "plan": 30,
-        "short": 30,
-        "slow": 30
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "上节页边句写变化和材料限度",
-      "scenario_reasons": {
-        "plan": "写30秒",
-        "short": "独立收束保留",
-        "slow": "独立收束保留"
+        "plan": "读120秒、组织说明60秒",
+        "short": "仍读120秒、组织说明45秒",
+        "slow": "读180秒、组织说明90秒"
       }
     },
     {
       "id": "A_M8",
       "block": "M8",
       "seconds": {
-        "plan": 240,
-        "short": 210,
-        "slow": 330
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "材料三1982/1988土地条款圈词及题3",
-      "scenario_reasons": {
-        "plan": "读120秒、写90秒、回应30秒",
-        "short": "只省30秒回应",
-        "slow": "圈词对读增加90秒"
-      }
-    },
-    {
-      "id": "A_M9",
-      "block": "M9",
-      "seconds": {
-        "plan": 60,
-        "short": 60,
-        "slow": 60
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "材料四五次修正定位",
-      "scenario_reasons": {
-        "plan": "定位60秒",
-        "short": "定位保留",
-        "slow": "本情景不延长此项"
-      }
-    },
-    {
-      "id": "A_M10",
-      "block": "M10",
-      "seconds": {
-        "plan": 110,
-        "short": 110,
-        "slow": 110
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "材料五三组监察改文90秒及新增124条末款定位圈读20秒",
-      "scenario_reasons": {
-        "plan": "原三组90秒、新增124条末款20秒",
-        "short": "没有发言轮次，110秒全保留",
-        "slow": "本情景三组及短款仍110秒，更多查读困难须另算"
-      }
-    },
-    {
-      "id": "A_M11",
-      "block": "M11",
-      "seconds": {
         "plan": 180,
-        "short": 150,
-        "slow": 240
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "材料六第64条回读、真实文件主体动作对应题4",
-      "scenario_reasons": {
-        "plan": "回读60秒、对应90秒、回应30秒",
-        "short": "只省30秒回应",
-        "slow": "主体动作对应增加60秒"
-      }
-    },
-    {
-      "id": "A_M12",
-      "block": "M12",
-      "seconds": {
-        "plan": 210,
-        "short": 180,
+        "short": 165,
         "slow": 270
       },
       "overlaps_speech": false,
       "includes_teacher_feedback": false,
-      "description": "材料七三份文件身份题5与同桌检查",
+      "description": "土地旧新原文独立对读与一项改变保留条件解释准备",
       "scenario_reasons": {
-        "plan": "写120秒、同桌核60秒、回应30秒",
-        "short": "只省30秒回应",
-        "slow": "独立写作增加60秒"
-      }
-    },
-    {
-      "id": "A_M13",
-      "block": "M13",
-      "seconds": {
-        "plan": 30,
-        "short": 30,
-        "slow": 30
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "出口句写一处改变与保留",
-      "scenario_reasons": {
-        "plan": "写30秒",
-        "short": "出口说明保留",
-        "slow": "出口说明保留"
-      }
-    },
-    {
-      "id": "A_E1",
-      "block": "E1",
-      "seconds": {
-        "plan": 30,
-        "short": 30,
-        "slow": 30
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "附页E1读英国书面法案例子并圈词",
-      "scenario_reasons": {
-        "plan": "例子圈读30秒",
-        "short": "不另设回应，30秒保留",
-        "slow": "本段仅短例子圈读30秒"
-      }
-    },
-    {
-      "id": "A_E2",
-      "block": "E2",
-      "seconds": {
-        "plan": 60,
-        "short": 60,
-        "slow": 60
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "附页E2回看具体权利和新增人权原则，写一项关系",
-      "scenario_reasons": {
-        "plan": "回看30秒、写理由30秒",
-        "short": "无额外发言，60秒保留",
-        "slow": "本段既有短文对照60秒"
+        "plan": "读120秒、组织说明60秒",
+        "short": "仍读120秒、组织说明45秒",
+        "slow": "读180秒、组织说明90秒"
       }
     }
   ],
   "selections": {
     "upper": {
       "140": [
-        "C1+C2+E3",
-        "C1+C2+E3",
-        "C1+C3"
+        "S1",
+        "S1",
+        "S1"
       ],
       "150": [
-        "C3",
-        "C2",
-        "C1+C2"
+        "S1",
+        "S1",
+        "S1"
       ],
       "180": [
         "main",
-        "E3",
-        "C2"
-      ],
-      "200": [
-        "E1",
-        "E1+E3",
+        "main",
         "main"
       ],
+      "200": [
+        "D1",
+        "D1",
+        "D1"
+      ],
       "220": [
-        "E1+E3",
-        "E1+E3",
-        "E3"
+        "D1",
+        "D1",
+        "D1"
       ]
     },
     "lower": {
       "140": [
-        "C4",
-        "C4",
-        "C4+C5"
+        "S2",
+        "S2",
+        "S2"
       ],
       "150": [
-        "C6",
-        "C5",
-        "C4+C5"
+        "S2",
+        "S2",
+        "S2"
       ],
       "180": [
         "main",
-        "E4",
-        "C5"
-      ],
-      "200": [
-        "E4",
-        "E2",
+        "main",
         "main"
       ],
+      "200": [
+        "D2",
+        "D2",
+        "D2"
+      ],
       "220": [
-        "E2+E4",
-        "E2+E4",
-        "E4"
+        "D2",
+        "D2",
+        "D2"
       ]
     }
   },
   "notes": [
-    "所有M块进入所属节主线；选择C替换其replaces对应M的全部口述，原M活动保留；E为增加该口述及其活动。",
-    "不计机械切换、自然停顿或空白机动；教师讲评已计入口述。",
-    "short仅省指定三处学生回应；slow具体增量见04表，不以比例缩放。",
-    "四位阿拉伯年份逐位读，其余数字按汉语整数读；〇计入汉字。",
-    "此JSON是实际主稿映射，统一检查脚本可按此接口适配；不以本文预存字数代替源文读取。"
+    "默认主线只含M1—M13所属节讲述；两处独立对读以真实原文阅读与一项解释准备计时，教师讲评已在口述中，不再加时。",
+    "D1/D2仅选用时增加，S1/S2整段替换指定口述；原E/C文字保存为备查，其活动和字数均未计。",
+    "少量调节不保证各速度恰好45分钟；报告先原始默认值再注明调节，课堂不运行五档路由。",
+    "一般翻页、指读与讲述重叠，不叠固定转场；日后制作实际PPT需重新核稿屏及活动容量。",
+    "140/150/180/200/220均为分析假设，180不是实测或故意慢读指令。",
+    "selections仅把已备两种局部调节分别试算，不要求教师按30格选择课堂；若调整后仍不足或超时照实披露。"
   ],
   "supporting_sources": [
     "04_双45分钟教学安排.md"

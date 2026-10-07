@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
+  "lesson": "第一讲 宪法总论",
+  "source": "01_完整讲稿.md",
+  "source_sha256": "d57ed7db69a72167ea547833a446e935f49a2c4f320905ceaaf18621f5a60fc9",
   "supporting_sources": [
     "04_双45分钟教学安排.md"
   ],
-  "lesson": "第一讲 宪法总论",
-  "source": "01_完整讲稿.md",
-  "source_sha256": "a51a5929616cf09114f3b4e20963db3d37ff292e9526b6013818e5475ae99856",
-  "selection_extraction": "指定二级标题内全部三级讲述正文；不计活动、教师备查、章节标题或来源。",
+  "selection_extraction": "八个连续单元内全部三级讲述；独立翻页提示、活动、来源和未选备查不计口述。",
   "speeds": [
     140,
     150,
@@ -23,857 +23,191 @@
   "reference_speed": 180,
   "blocks": [
     {
-      "id": "M1",
+      "id": "U1",
       "section": "upper",
       "kind": "main",
-      "source_heading": "第1页 宪法总论",
+      "source_heading": "一 从已有规则进入国家根本安排",
       "speech_subheading": "讲述"
     },
     {
-      "id": "M2",
+      "id": "U2",
       "section": "upper",
       "kind": "main",
-      "source_heading": "第2页 从过渡安排，到持续的共同规则",
+      "source_heading": "二 根本内容、概念与最高效力",
       "speech_subheading": "讲述"
     },
     {
-      "id": "M3",
+      "id": "U3",
       "section": "upper",
       "kind": "main",
-      "source_heading": "第3页 先读国家要做什么，再读怎样组织国家",
+      "source_heading": "三 权力组织、持续责任与基本原则",
       "speech_subheading": "讲述"
     },
     {
-      "id": "M4",
+      "id": "U4",
       "section": "upper",
       "kind": "main",
-      "source_heading": "第4页 国家的根本安排，先回答哪些问题？",
+      "source_heading": "四 特别修改程序与上节收束",
       "speech_subheading": "讲述"
     },
     {
-      "id": "M5",
-      "section": "upper",
-      "kind": "main",
-      "source_heading": "第5页 现在，把“宪法”说完整",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M6",
-      "section": "upper",
-      "kind": "main",
-      "source_heading": "第6页 制定法律的人和机关，也处在宪法之内",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M7",
-      "section": "upper",
-      "kind": "main",
-      "source_heading": "第7页 “属于人民”，怎样进入国家机构？",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M8",
-      "section": "upper",
-      "kind": "main",
-      "source_heading": "第8页 机关依法产生，为什么还要依法履职？",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M9",
-      "section": "upper",
-      "kind": "main",
-      "source_heading": "第9页 党的领导与依法活动，怎样连起来理解？",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M10",
-      "section": "upper",
-      "kind": "main",
-      "source_heading": "第10页 权力怎样行使，必须看见人的权利",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M11",
-      "section": "upper",
-      "kind": "main",
-      "source_heading": "第11页 五项原则，共同说明国家权力怎样运行",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M12",
-      "section": "upper",
-      "kind": "main",
-      "source_heading": "第12页 任务1：把两处条文连成一个解释",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M13",
-      "section": "upper",
-      "kind": "main",
-      "source_heading": "第13页 任务1讲评：归属、组织与责任需要一起说明",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M14",
-      "section": "upper",
-      "kind": "main",
-      "source_heading": "第14页 根本规则可以改变，但修改有特别要求",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M15",
-      "section": "upper",
-      "kind": "main",
-      "source_heading": "第15页 任务2：同样60%赞成，结果一样吗？",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M16",
-      "section": "upper",
-      "kind": "main",
-      "source_heading": "第16页 回看第一学时：“根本”已经有了哪些内容？",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M17",
+      "id": "U5",
       "section": "lower",
       "kind": "main",
-      "source_heading": "第17页 一个赔偿请求，为什么要读两部法律？",
+      "source_heading": "五 同一请求中的权利、情形与机关义务",
       "speech_subheading": "讲述"
     },
     {
-      "id": "M18",
+      "id": "U6",
       "section": "lower",
       "kind": "main",
-      "source_heading": "第18页 “根据宪法”，先告诉我们什么？",
+      "source_heading": "六 必要信息、可行方式与宪法约束",
       "speech_subheading": "讲述"
     },
     {
-      "id": "M19",
+      "id": "U7",
       "section": "lower",
       "kind": "main",
-      "source_heading": "第19页 法律先回答：哪些情形进入这项赔偿？",
+      "source_heading": "七 从制度选择回到实施和整讲",
       "speech_subheading": "讲述"
     },
     {
-      "id": "M20",
+      "id": "U8",
       "section": "lower",
       "kind": "main",
-      "source_heading": "第20页 法律还回答：谁依法承担赔偿义务？",
+      "source_heading": "八 整讲回收与第二讲接口",
       "speech_subheading": "讲述"
     },
     {
-      "id": "M21",
-      "section": "lower",
-      "kind": "main",
-      "source_heading": "第21页 把已经确认的权利，安排成可以办理的请求",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M22",
-      "section": "lower",
-      "kind": "main",
-      "source_heading": "第22页 任务3：给定事实，能作哪些判断？",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M23",
-      "section": "lower",
-      "kind": "main",
-      "source_heading": "第23页 任务3讲评：每一步判断都能回到依据",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M24",
-      "section": "lower",
-      "kind": "main",
-      "source_heading": "第24页 刚才一直在读普通法律，宪法还在哪里？",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M25",
-      "section": "lower",
-      "kind": "main",
-      "source_heading": "第25页 任务4：宪法在这里究竟还约束什么？",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M26",
-      "section": "lower",
-      "kind": "main",
-      "source_heading": "第26页 任务4讲评：把已有约束与新增安排同时说清",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M27",
-      "section": "lower",
-      "kind": "main",
-      "source_heading": "第27页 任务5：一部法律的开头，能决定多少？",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M28",
-      "section": "lower",
-      "kind": "main",
-      "source_heading": "第28页 任务6：目标正当，具体措施就有依据吗？",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M29",
-      "section": "lower",
-      "kind": "main",
-      "source_heading": "第29页 任务6讲评：把目标、权限、条件和程序分开",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M30",
-      "section": "lower",
-      "kind": "main",
-      "source_heading": "第30页 从根本要求，到依法办理和权利救济",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "M31",
-      "section": "lower",
-      "kind": "main",
-      "source_heading": "第31页 任务7：把国家的制度与个人的权利接起来",
-      "speech_subheading": "讲述"
-    },
-    {
-      "id": "E1",
+      "id": "B3",
       "section": "upper",
       "kind": "extension",
-      "source_heading": "深化E1 宪法是否只有抽象原则",
-      "speech_subheading": "讲述",
-      "insert_after": "M14"
+      "source_heading": "备查B3 机关地位与规范效力",
+      "speech_subheading": "备查讲述",
+      "insert_after": "U2"
     },
     {
-      "id": "E2",
+      "id": "B4",
       "section": "lower",
       "kind": "extension",
-      "source_heading": "深化E2 有规范为什么还要看办理",
-      "speech_subheading": "讲述",
-      "insert_after": "M30"
+      "source_heading": "备查B4 赔偿履行与此前侵害",
+      "speech_subheading": "备查讲述",
+      "insert_after": "U7"
     },
     {
-      "id": "E3",
-      "section": "upper",
-      "kind": "extension",
-      "source_heading": "深化E3 最高国家权力机关也受约束吗",
-      "speech_subheading": "讲述",
-      "insert_after": "M14"
-    },
-    {
-      "id": "E4",
-      "section": "lower",
-      "kind": "extension",
-      "source_heading": "深化E4 履行赔偿以后仍有什么问题",
-      "speech_subheading": "讲述",
-      "insert_after": "M30"
-    },
-    {
-      "id": "C1",
+      "id": "S1",
       "section": "upper",
       "kind": "replacement",
-      "source_heading": "短讲C1 历史对照",
-      "speech_subheading": "讲述",
-      "replaces": "M2"
+      "source_heading": "缩讲S1 权力组织与原则的等义短讲",
+      "speech_subheading": "备查讲述",
+      "replaces": "U3"
     },
     {
-      "id": "C2",
-      "section": "upper",
-      "kind": "replacement",
-      "source_heading": "短讲C2 立法受约束与作选择",
-      "speech_subheading": "讲述",
-      "replaces": "M6"
-    },
-    {
-      "id": "C3",
-      "section": "upper",
-      "kind": "replacement",
-      "source_heading": "短讲C3 依法产生与履职责任",
-      "speech_subheading": "讲述",
-      "replaces": "M8"
-    },
-    {
-      "id": "C4",
-      "section": "upper",
-      "kind": "replacement",
-      "source_heading": "短讲C4 修改门槛及其两面理由",
-      "speech_subheading": "讲述",
-      "replaces": "M14"
-    },
-    {
-      "id": "C5",
+      "id": "S2",
       "section": "lower",
       "kind": "replacement",
-      "source_heading": "短讲C5 赔偿情形的必要条件",
-      "speech_subheading": "讲述",
-      "replaces": "M19"
-    },
-    {
-      "id": "C6",
-      "section": "lower",
-      "kind": "replacement",
-      "source_heading": "短讲C6 机关义务与个人责任",
-      "speech_subheading": "讲述",
-      "replaces": "M20"
-    },
-    {
-      "id": "C7",
-      "section": "lower",
-      "kind": "replacement",
-      "source_heading": "短讲C7 已有约束与制度选择",
-      "speech_subheading": "讲述",
-      "replaces": "M26"
-    },
-    {
-      "id": "C8",
-      "section": "lower",
-      "kind": "replacement",
-      "source_heading": "短讲C8 正当目的与具体权限",
-      "speech_subheading": "讲述",
-      "replaces": "M29"
+      "source_heading": "缩讲S2 信息要求与办理方式的等义短讲",
+      "speech_subheading": "备查讲述",
+      "replaces": "U6"
     }
   ],
   "activities": [
     {
-      "id": "A_M1",
-      "block": "M1",
-      "seconds": {
-        "plan": 30,
-        "short": 30,
-        "slow": 30
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "观察照片，留意会议名称，再独立想一想屏幕上的问题。教师停讲。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "保留必要读写，不因回答简短删除",
-        "slow": "本项按计划不变"
-      }
-    },
-    {
-      "id": "A_M2",
-      "block": "M2",
-      "seconds": {
-        "plan": 45,
-        "short": 45,
-        "slow": 60
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "读学生材料A的两段历史节录，圈出“以前”和“最高国家权力机关”。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "保留必要读写，不因回答简短删除",
-        "slow": "本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述"
-      }
-    },
-    {
-      "id": "A_M3",
-      "block": "M3",
-      "seconds": {
-        "plan": 75,
-        "short": 75,
-        "slow": 105
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "静默阅读材料A现行序言两段，标出“根本任务”和“根本法地位”。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "保留必要读写，不因回答简短删除",
-        "slow": "本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述"
-      }
-    },
-    {
-      "id": "A_M6",
-      "block": "M6",
-      "seconds": {
-        "plan": 30,
-        "short": 30,
-        "slow": 30
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "读第5条第3款，圈出被约束的规范种类和“不得抵触”。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "保留必要读写，不因回答简短删除",
-        "slow": "本项按计划不变"
-      }
-    },
-    {
-      "id": "A_M7",
-      "block": "M7",
-      "seconds": {
-        "plan": 75,
-        "short": 75,
-        "slow": 105
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "阅读材料B第2条及第3条前三款，在“产生”“负责”“监督”下划线。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "保留必要读写，不因回答简短删除",
-        "slow": "本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述"
-      }
-    },
-    {
-      "id": "A_M10",
-      "block": "M10",
-      "seconds": {
-        "plan": 30,
-        "short": 30,
-        "slow": 30
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "读这一款，分别想一想“尊重”和“保障”把哪些问题交给国家活动。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "保留必要读写，不因回答简短删除",
-        "slow": "本项按计划不变"
-      }
-    },
-    {
-      "id": "A_M12",
-      "block": "M12",
-      "seconds": {
-        "plan": 105,
-        "short": 90,
-        "slow": 105
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "独立写作约1分钟，与同桌交流约45秒。停留本页，不提前显示讲评。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "同桌交换比计划简短15秒，独立书写不减",
-        "slow": "本项按计划不变"
-      }
-    },
-    {
-      "id": "A_M13",
-      "block": "M13",
-      "seconds": {
-        "plan": 30,
-        "short": 10,
-        "slow": 45
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "邀请一名学生说明所选两处条文，约30秒。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "只缩短学生回应，不删独立判断和教师讲评",
-        "slow": "本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述"
-      }
-    },
-    {
-      "id": "A_M14",
-      "block": "M14",
-      "seconds": {
-        "plan": 45,
-        "short": 45,
-        "slow": 45
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "读材料C第64条两款，找出“全体代表”及两个通过门槛。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "保留必要读写，不因回答简短删除",
-        "slow": "本项按计划不变"
-      }
-    },
-    {
-      "id": "A_M15",
-      "block": "M15",
-      "seconds": {
-        "plan": 75,
-        "short": 75,
-        "slow": 105
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "独立作答75秒：先给两项门槛结论，再写出提高门槛须考虑的一项代价。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "保留必要读写，不因回答简短删除",
-        "slow": "本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述"
-      }
-    },
-    {
-      "id": "A_M16",
-      "block": "M16",
-      "seconds": {
-        "plan": 18,
-        "short": 18,
-        "slow": 18
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "学生在材料页边各写一个词，概括自己还没说清的一层关系；收回注意后下课。课间另计。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "保留必要读写，不因回答简短删除",
-        "slow": "本项按计划不变"
-      }
-    },
-    {
-      "id": "A_M17",
-      "block": "M17",
-      "seconds": {
-        "plan": 45,
-        "short": 45,
-        "slow": 60
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "静默读材料D第41条第3款，圈出侵害主体、赔偿权和“依照法律规定”。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "保留必要读写，不因回答简短删除",
-        "slow": "本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述"
-      }
-    },
-    {
-      "id": "A_M18",
-      "block": "M18",
-      "seconds": {
-        "plan": 45,
-        "short": 45,
-        "slow": 60
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "静默对读两段，分别标出“权利”“依法行使职权”“根据宪法”。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "保留必要读写，不因回答简短删除",
-        "slow": "本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述"
-      }
-    },
-    {
-      "id": "A_M19",
-      "block": "M19",
-      "seconds": {
-        "plan": 90,
-        "short": 90,
-        "slow": 120
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "读第2条第1款、第3条起句及第1项。用不同记号标“行政职权”与“违法拘留”。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "保留必要读写，不因回答简短删除",
-        "slow": "本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述"
-      }
-    },
-    {
-      "id": "A_M20",
-      "block": "M20",
-      "seconds": {
-        "plan": 75,
-        "short": 75,
-        "slow": 105
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "先读第7条第1款标记义务主体，再对读附页第16条第1款，圈出过错条件与赔偿后的顺序，约75秒。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "保留必要读写，不因回答简短删除",
-        "slow": "本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述"
-      }
-    },
-    {
-      "id": "A_M22",
-      "block": "M22",
-      "seconds": {
-        "plan": 90,
-        "short": 90,
-        "slow": 120
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "独立写出两项结论及对应条文，约1分30秒。保持本页。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "保留必要读写，不因回答简短删除",
-        "slow": "本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述"
-      }
-    },
-    {
-      "id": "A_M23",
-      "block": "M23",
-      "seconds": {
-        "plan": 20,
-        "short": 5,
-        "slow": 30
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "请一名学生简短说明两项依据，约20秒。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "只缩短学生回应，不删独立判断和教师讲评",
-        "slow": "本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述"
-      }
-    },
-    {
-      "id": "A_M24",
-      "block": "M24",
-      "seconds": {
-        "plan": 60,
-        "short": 60,
-        "slow": 75
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "回看第5、41条和第3、7条，再读附页第12条节录，圈出信息要求及书写确有困难时的安排，共1分钟。只定位材料，不预讲完整关系。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "保留必要读写，不因回答简短删除",
-        "slow": "本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述"
-      }
-    },
-    {
-      "id": "A_M25",
-      "block": "M25",
-      "seconds": {
-        "plan": 180,
-        "short": 165,
-        "slow": 210
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "独立写作2分30秒；同桌各读一句并指出对方是否只给结论，约30秒。不要跳到下一页。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "同桌交换比计划简短15秒，独立书写不减",
-        "slow": "本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述"
-      }
-    },
-    {
-      "id": "A_M26",
-      "block": "M26",
-      "seconds": {
-        "plan": 60,
-        "short": 20,
-        "slow": 90
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "请两名学生各给一个理由或一个制度例子，总计约1分钟。依据实际回答选择短反馈或备查展开，不虚构错误。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "两名回应由60秒缩至20秒；第12条已在第24页独立阅读，不双计",
-        "slow": "本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述"
-      }
-    },
-    {
-      "id": "A_M27",
-      "block": "M27",
-      "seconds": {
-        "plan": 40,
-        "short": 40,
-        "slow": 50
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "静默思考40秒。页面不出现答案；随后听教师反馈。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "保留必要读写，不因回答简短删除",
-        "slow": "本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述"
-      }
-    },
-    {
-      "id": "A_M28",
-      "block": "M28",
+      "id": "A_U3_1",
+      "block": "U3",
       "seconds": {
         "plan": 120,
-        "short": 105,
+        "short": 90,
         "slow": 150
       },
       "overlaps_speech": false,
       "includes_teacher_feedback": false,
-      "description": "独立列出缺口约1分30秒，与同桌比较是否只写“资料不足”，约30秒。",
+      "description": "独立回看条文并写一两句80秒；请一名学生说明所选关系最多40秒。教师随后按下列已写讲述回收，不预设学生必然答错或长答。快情景90秒，常规120秒，慢情景150秒；这些是安排假设，非实测。",
       "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "同桌交换比计划简短15秒，独立书写不减",
-        "slow": "本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述"
+        "plan": "实际查读和组织解释80秒、一次回应最多40秒；教师回收在口述。",
+        "short": "保留80秒查读/组织，只将学生回应40秒缩至10秒。",
+        "slow": "查读或组织理由增加30秒，回应不预设热烈；教师讲评不另计。"
       }
     },
     {
-      "id": "A_M29",
-      "block": "M29",
+      "id": "A_U6_1",
+      "block": "U6",
       "seconds": {
-        "plan": 45,
-        "short": 15,
-        "slow": 60
+        "plan": 120,
+        "short": 90,
+        "slow": 150
       },
       "overlaps_speech": false,
       "includes_teacher_feedback": false,
-      "description": "请一名学生给出一个具体缺口，另一名补充不同类别，总计约45秒。",
+      "description": "独立对读第12条并写两三句80秒；请一名学生解释最多40秒。教师的下列回收是已写口述，不再另计。快情景90秒，常规120秒，慢情景150秒；不预设讨论热烈。",
       "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "只缩短学生回应，不删独立判断和教师讲评",
-        "slow": "本项条文查读、理由书写或学生表述多用时间，具体增量见秒数；教师讲评仍计入口述"
-      }
-    },
-    {
-      "id": "A_M31",
-      "block": "M31",
-      "seconds": {
-        "plan": 60,
-        "short": 60,
-        "slow": 60
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "独立写作1分钟，教师巡视或收取，不预填学习效果。",
-      "scenario_reasons": {
-        "plan": "按实际主稿独立阅读/作答/回应时间",
-        "short": "保留必要读写，不因回答简短删除",
-        "slow": "本项按计划不变"
-      }
-    },
-    {
-      "id": "A_E1",
-      "block": "E1",
-      "seconds": {
-        "plan": 90,
-        "short": 70,
-        "slow": 105
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "独立写出一个反例及理由，1分钟；不再额外安排同桌讨论。；邀请一名学生读出反例与修正后的说法，约30秒。",
-      "scenario_reasons": {
-        "plan": "按已写备用任务执行",
-        "short": "独立作答1分钟保留；学生回应30秒改10秒",
-        "slow": "独立条文查读或书写多15秒，教师讲评不另加"
-      }
-    },
-    {
-      "id": "A_E2",
-      "block": "E2",
-      "seconds": {
-        "plan": 90,
-        "short": 70,
-        "slow": 105
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "独立写出一个待核办理环节及理由，1分钟；不再额外安排同桌讨论。；邀请一人说一个具体环节，约30秒。",
-      "scenario_reasons": {
-        "plan": "按已写备用任务执行",
-        "short": "独立作答1分钟保留；学生回应30秒改10秒",
-        "slow": "独立条文查读或书写多15秒，教师讲评不另加"
-      }
-    },
-    {
-      "id": "A_E3",
-      "block": "E3",
-      "seconds": {
-        "plan": 45,
-        "short": 45,
-        "slow": 60
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "静默对读学生附页第57条与材料B第5条，写出两个“最高/受约束”各自在比较什么，45秒。",
-      "scenario_reasons": {
-        "plan": "按已写备用任务执行",
-        "short": "必要独立作答不缩减",
-        "slow": "独立条文查读或书写多15秒，教师讲评不另加"
-      }
-    },
-    {
-      "id": "A_E4",
-      "block": "E4",
-      "seconds": {
-        "plan": 45,
-        "short": 45,
-        "slow": 60
-      },
-      "overlaps_speech": false,
-      "includes_teacher_feedback": false,
-      "description": "按明确教学假设独立写出两项不能直接推出的结论，45秒；不计算金额，不编造真实事件。",
-      "scenario_reasons": {
-        "plan": "按已写备用任务执行",
-        "short": "必要独立作答不缩减",
-        "slow": "独立条文查读或书写多15秒，教师讲评不另加"
+        "plan": "实际查读和组织解释80秒、一次回应最多40秒；教师回收在口述。",
+        "short": "保留80秒查读/组织，只将学生回应40秒缩至10秒。",
+        "slow": "查读或组织理由增加30秒，回应不预设热烈；教师讲评不另计。"
       }
     }
   ],
   "selections": {
     "upper": {
       "140": [
-        "C1+C2+C4",
-        "C1+C2+C4",
-        "C2+C3+C4"
+        "S1",
+        "S1",
+        "S1"
       ],
       "150": [
-        "C2+C3",
-        "C2+C3",
-        "C1+C2+C4"
+        "S1",
+        "S1",
+        "S1"
       ],
       "180": [
         "main",
         "main",
-        "C3"
-      ],
-      "200": [
-        "E3",
-        "E3",
         "main"
       ],
+      "200": [
+        "B3",
+        "B3",
+        "B3"
+      ],
       "220": [
-        "E1+E3",
-        "E1+E3",
-        "E3"
+        "B3",
+        "B3",
+        "B3"
       ]
     },
     "lower": {
       "140": [
-        "C5+C7+C8",
-        "C5+C7",
-        "C5+C6+C7+C8"
+        "S2",
+        "S2",
+        "S2"
       ],
       "150": [
-        "C5+C7",
-        "C6",
-        "C6+C7+C8"
+        "S2",
+        "S2",
+        "S2"
       ],
       "180": [
         "main",
         "main",
-        "C5+C6"
+        "main"
       ],
       "200": [
-        "E2",
-        "E4",
-        "C8"
+        "B4",
+        "B4",
+        "B4"
       ],
       "220": [
-        "E4",
-        "E2+E4",
-        "main"
+        "B4",
+        "B4",
+        "B4"
       ]
     }
   },
   "notes": [
-    "主线M1—M16为上节、M17—M31为下节；每个M只在所属节计一次。",
-    "C替换对应页全部口述，原独立活动保留；先完成阅读再讲短版。E1在第14页讲完之后、任务2之前调用，不在下课后追加。",
-    "默认翻页与口述重叠，不额外机械增加每页几秒；机动不计为教学内容。",
-    "同页完整讲评已计入口述，不再以反馈时间另加。全部速度与活动时间是备课假设，非教师或学生实测。"
+    "默认主线一条，先算main；不把调整后的结果冒称默认主线。",
+    "上下节各一处独立解释；原文随讲带读已入口述，不另机械计读文或翻页。",
+    "B3/B4为完整就近深化，B1门槛模型/B2权限任务主要备查，不纳入默认容量。",
+    "少量缩讲如使用，替换对应单元口述并保留独立活动；长短互斥。",
+    "语速和活动是敏感性假设，180非教师实测；空缺及超时照实保留。"
   ]
 }
