@@ -16,9 +16,9 @@
     "legacyId": 2,
     "unitId": "U1",
     "half": 1,
-    "minutes": 4.1389,
+    "minutes": 3.8778,
     "optional": false,
-    "han": 745,
+    "han": 698,
     "activity": 0
   },
   {
@@ -71,9 +71,9 @@
     "legacyId": 7,
     "unitId": "U3",
     "half": 1,
-    "minutes": 3.8,
+    "minutes": 3.0556,
     "optional": false,
-    "han": 684,
+    "han": 550,
     "activity": 0
   },
   {
@@ -93,9 +93,9 @@
     "legacyId": 9,
     "unitId": "U3",
     "half": 1,
-    "minutes": 2.6056,
+    "minutes": 2.2056,
     "optional": false,
-    "han": 469,
+    "han": 397,
     "activity": 0
   },
   {
@@ -126,9 +126,9 @@
     "legacyId": 12,
     "unitId": "U3",
     "half": 1,
-    "minutes": 4.1611,
+    "minutes": 3.8167,
     "optional": false,
-    "han": 389,
+    "han": 327,
     "activity": 2
   },
   {
@@ -236,9 +236,9 @@
     "legacyId": 25,
     "unitId": "U6",
     "half": 2,
-    "minutes": 6.6611,
+    "minutes": 6.8222,
     "optional": false,
-    "han": 1199,
+    "han": 1228,
     "activity": 0
   },
   {
@@ -247,9 +247,9 @@
     "legacyId": 26,
     "unitId": "U6",
     "half": 2,
-    "minutes": 6.8444,
+    "minutes": 7.0556,
     "optional": false,
-    "han": 872,
+    "han": 910,
     "activity": 2
   },
   {
@@ -269,9 +269,9 @@
     "legacyId": 30,
     "unitId": "U7",
     "half": 2,
-    "minutes": 6.7778,
+    "minutes": 6.4056,
     "optional": false,
-    "han": 1220,
+    "han": 1153,
     "activity": 0
   },
   {
