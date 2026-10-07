@@ -26,6 +26,6 @@
 
 ## 接续和停止
 
-先看[本轮实物交接](handoff/20261007_第一讲单讲打磨_交接.md)及实际成品，交Pro审阅与教师判断。本轮完成后停止；未经新反馈不自行无限改写，未经教师明确认可和后讲授权不进第二讲。实际提交在推送核远程后补记。
+先看[本轮实物交接](handoff/20261007_第一讲单讲打磨_交接.md)及实际成品，交Pro审阅与教师判断。本轮完成后停止；未经新反馈不自行无限改写，未经教师明确认可和后讲授权不进第二讲。实质成果提交为[`124bfc6a841fb80e9007f5f1ffb174865025314f`](https://github.com/takehaya1111/constitution-law-8-lessons/commit/124bfc6a841fb80e9007f5f1ffb174865025314f)，已同步远程main并核完整提交一致；后续仅补记定位。
 
 历史范围及上一轮成果见[固定输入版状态](https://github.com/takehaya1111/constitution-law-8-lessons/blob/15a6e71e4da32cf0035f59f46b527765a3aa7275/CURRENT_STATE.md)、[两讲阶段B交接](handoff/20261007_阶段B明确取舍执行与交接.md)及[阶段A交接](handoff/20261007_阶段A提纲与模式交接.md)，不累计执行旧任务。
