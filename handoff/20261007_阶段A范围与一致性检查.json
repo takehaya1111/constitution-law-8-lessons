@@ -19,7 +19,9 @@
     "research/20261007_本地备课流程只读调查.md",
     "备课模式.md"
   ],
-  "file_sha256": {
+  "content_commit": "71557a2eebe23ebfb510c32be952fd456bc39ecd",
+  "snapshot_note": "下列校验值锁定实质成果提交；之后只补记提交定位和快照说明，当前状态与交接文件以该内容提交中的版本核对。",
+  "file_sha256_at_content_submission": {
     "AGENTS.md": "c2a092562430c5e486ebf94bb3d276790524438d3d0583beac978a4664f0b51c",
     "CURRENT_STATE.md": "8543c39a37a483a02cc4f99cd0c8f0353c0c3292ce970bb5049a51ca22fe18c7",
     "START_HERE.md": "3795d6a70b8ce109f2b1eb2f47d94cc697e76fc7159bc745a7a95f0f35b95905",
