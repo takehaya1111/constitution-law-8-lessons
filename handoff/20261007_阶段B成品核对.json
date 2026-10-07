@@ -1,5 +1,7 @@
 {
   "stage": "FINAL",
+  "content_commit": "74b4bc436e00d3a4c0db1d766a6fce8d825e2b2a",
+  "submission_note": "锁定值对应实质成果提交；后续只补记提交定位，课程实物及检查输入保持同一冻结版本。",
   "checked_at": "2026-10-07T14:20:50.009832+00:00",
   "execution": "Python 3.13标准库、PyMuPDF与Pillow，本机临时只读核验代码实际运行；未安装软件。",
   "checker_sha256": "5643f865d733f018aaeef9ba5721bace44e1f5183f0ac0106c2a5a6b46f3d361",
