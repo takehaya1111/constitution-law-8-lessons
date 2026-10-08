@@ -2,6 +2,8 @@
 
 更新：2026年10月8日。Pro审阅基准：`deb0fd85ad9ab7b82f010a175c85d9cdf2ef1d61`；初次样段实质提交为`2cd484bca57c07998e97ed0250b4aebefc619318`。本次正式转交的执行输入为`1c993e7f1a3426af29dbc1c6269a6784d5386620`，保留其中已经完成的整段修订及`6b8e885`所载Pro审阅，只补仍未落实的地方。
 
+本次正文及最新局部估算的实质提交：[d2b72a66603af075e4242e1c513d30ce9828879f](https://github.com/takehaya1111/constitution-law-8-lessons/commit/d2b72a66603af075e4242e1c513d30ce9828879f)。之后仅回填版本定位，正文与估算不变。
+
 上一轮整段修订正文的实质提交：[d76b5b7a7b4b6673e32cfdaf831a6d9e70a7cb50](https://github.com/takehaya1111/constitution-law-8-lessons/commit/d76b5b7a7b4b6673e32cfdaf831a6d9e70a7cb50)。本次在同文件补政协最低身份与过渡条件、合并工资论证的近义收束，未另写一套样段。
 
 ## 当前：同一路径口播样段已按反馈修订，待审
