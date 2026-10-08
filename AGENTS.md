@@ -1,6 +1,6 @@
 # 本仓库工作约定
 
-更新：2026年10月8日。先读[当前状态](CURRENT_STATE.md)、[第一讲口播研究与有限样段任务](research/20261008_第一讲口播研究_发现与样段执行方案.md)、[备课模式及必要元素](备课模式.md)。旧完整约定见[本轮输入版](https://github.com/takehaya1111/constitution-law-8-lessons/blob/604ba7eb31da7d8a1658fa9a26a90fbdfa52c37f/AGENTS.md)。不累计执行历次任务。
+更新：2026年10月8日。先读[当前状态](CURRENT_STATE.md)、[口播样段新审阅](research/20261008_口播样段审阅_按教师讲述顺序改写.md)，材料与知识依据回[前序有限样段任务](research/20261008_第一讲口播研究_发现与样段执行方案.md)、[备课模式及必要元素](备课模式.md)。旧完整约定见[本轮输入版](https://github.com/takehaya1111/constitution-law-8-lessons/blob/604ba7eb31da7d8a1658fa9a26a90fbdfa52c37f/AGENTS.md)。不累计执行历次任务。
 
 ## 当前阶段
 
