@@ -2,7 +2,7 @@
 
 更新：2026年10月8日。本轮只核第一讲口播：Pro主笔，Codex定向核稿、定点修订、独立复算和同版文档输出，完成后停止。课程大纲和每讲大纲保持，PPT与后讲不制作，不比较模型。
 
-本轮实质提交：待提交后回填。输入main：`0443da7fe7a784540989c45106b4254ed5e0cab1`；Pro正文提交`2f0917be3d348cb098fdfb4f8f54f6dc25ad0351`。开工工作区干净，旧开放PR1未动。
+本轮核稿及同版文档实质提交：[f0370690917f6afd8dcd1460fc282fc9d968346f](https://github.com/takehaya1111/constitution-law-8-lessons/commit/f0370690917f6afd8dcd1460fc282fc9d968346f)。后续仅回填本提交号，主稿和成品不变。输入main：`0443da7fe7a784540989c45106b4254ed5e0cab1`；Pro正文提交`2f0917be3d348cb098fdfb4f8f54f6dc25ad0351`。开工工作区干净，旧开放PR1未动。
 
 ## 当前直接查看
 
