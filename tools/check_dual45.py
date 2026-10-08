@@ -103,7 +103,7 @@ def spoken_count(text, overrides=None):
             "readings": corrections}
 
 
-def extract_blocks(source, definitions, overrides):
+def extract_blocks(source, definitions, overrides, continuous=False):
     headings = list(re.finditer(r"^## ([^\n]+)\n", source, re.M))
     sections = {}
     for i, match in enumerate(headings):
@@ -119,23 +119,38 @@ def extract_blocks(source, definitions, overrides):
         require(block["section"] in SECTIONS, "分节不明：" + bid)
         require(block["kind"] in {"main", "extension", "replacement"}, "段落类型不明：" + bid)
         heading = block["source_heading"]
-        require(heading not in used, "同一来源被重复计入或跨节：" + heading)
-        used.add(heading)
+        subheading = block.get("speech_subheading", "讲述")
+        key = (heading, subheading) if continuous else heading
+        require(key not in used, "同一来源被重复计入或跨节：" + str(key))
+        used.add(key)
         require(heading in sections, "找不到主稿二级标题：" + heading)
         body, line = sections[heading]
         subs = list(re.finditer(r"^### ([^\n]+)\n", body, re.M))
         speeches = []
         for i, match in enumerate(subs):
-            if match.group(1).strip() == block.get("speech_subheading", "讲述"):
+            if match.group(1).strip() == subheading:
                 end = subs[i+1].start() if i+1 < len(subs) else len(body)
                 speeches.append(body[match.end():end].strip())
+                if continuous:
+                    line += body[:match.start()].count("\n") + 1
         speech = "\n\n".join(speeches)
+        if continuous:
+            require(len(speeches) == 1, "连续稿小标题须唯一：" + subheading)
+            # 直接读当前Markdown正文；教师停留提示和来源脚注不进入口述。
+            speech = re.sub(r"【[^】]*】", "", speech, flags=re.S)
+            speech = re.sub(r"\[\^[^\]]+\]", "", speech)
+            speech = re.sub(r"^---\s*$", "", speech, flags=re.M).strip()
         require(speech.strip(), "实际讲述为空：" + bid)
         counts.append({**block, "source_line": line, "speech_parts": len(speeches),
                        **spoken_count(speech, overrides)})
     # 有“讲述”的标题不得从映射中悄然消失；明确备查段可不映射。
     for heading, (body, _) in sections.items():
-        if re.search(r"^### 讲述\s*$", body, re.M):
+        if continuous and any(b["source_heading"] == heading for b in definitions):
+            subs = list(re.finditer(r"^### ([^\n]+)\n", body, re.M))
+            require(subs and not body[:subs[0].start()].strip(), "分节标题后有未映射口述：" + heading)
+            for sub in subs:
+                require((heading, sub.group(1).strip()) in used, "连续稿正文未映射：" + sub.group(1))
+        elif not continuous and re.search(r"^### 讲述\s*$", body, re.M):
             require(heading in used, "主稿讲述未映射：" + heading)
     require({x["section"] for x in counts if x["kind"] == "main"} == set(SECTIONS), "必须有两节主线")
     return counts
@@ -209,7 +224,8 @@ def make_report(input_path):
     require(config["speeds"] == SPEEDS and config["scenario_order"] == list(SCENARIOS), "须保留五速度和三活动情景")
     require(config["section_minutes"] == 45, "本检查器按两节各45分钟核算")
     source = source_path.read_text(encoding="utf-8-sig")
-    counts = extract_blocks(source, config["blocks"], config.get("speech_readings", {}))
+    continuous = config.get("source_layout") == "continuous_markdown"
+    counts = extract_blocks(source, config["blocks"], config.get("speech_readings", {}), continuous)
     blocks = {b["id"]: b for b in counts}
     for block in counts:
         if block["kind"] != "main":
@@ -246,7 +262,8 @@ def make_report(input_path):
             "git_head_at_run": commit, "execution": {"command": command, "status": "实际执行完成"},
             "inputs": {p.relative_to(ROOT).as_posix(): sha(p) for p in paths},
             "source": config["source"], "source_sha256": sha(source_path), "input_sha256": sha(input_path),
-            "reference_speed": config["reference_speed"], "counts": counts, "activities": activities, "rows": rows,
+            "reference_speed": config["reference_speed"], "source_layout": config.get("source_layout", "legacy_speech_sections"),
+            "counts": counts, "activities": activities, "rows": rows,
             "checks": {"two_sections": True, "all_spoken_blocks_mapped_and_nonempty": True,
                        "source_hash_matches": True, "no_duplicate_source_or_cross_section_block": True,
                        "exclusive_replacements": True, "activities_exclude_teacher_feedback": True,
@@ -267,11 +284,16 @@ def markdown_report(report):
     for section, label in SECTIONS.items():
         main = next(r["original"] for r in report["rows"] if r["section"] == section and r["speed"] == 180 and r["scenario"] == "plan")
         out += ["## " + label + "：本节0—45分钟", "", f"主线纯汉字{main['han']}，口读校正后{main['spoken_han']}；计划独立活动{main['activity_seconds']/60:.2f}分钟。180参照下{main['estimated_minutes']:.2f}分钟，余量{main['remaining_minutes']:.2f}分钟。", "",
-                "| 速度 | 活动情景 | 原始主线分钟 | 原始余量 | 选择 | 调整后分钟 | 调整后余量 |", "|---:|---|---:|---:|---|---:|---:|"]
+                *( ["| 速度 | 活动情景 | 默认主线分钟 | 距45分钟余量 |", "|---:|---|---:|---:|"]
+                   if report.get("source_layout") == "continuous_markdown" else
+                   ["| 速度 | 活动情景 | 原始主线分钟 | 原始余量 | 选择 | 调整后分钟 | 调整后余量 |", "|---:|---|---:|---:|---|---:|---:|"] )]
         for r in report["rows"]:
             if r["section"] == section:
                 a, b = r["original"], r["adjusted"]
-                out.append(f"| {r['speed']} | {SCENARIOS[r['scenario']]} | {a['estimated_minutes']:.2f} | {a['remaining_minutes']:.2f} | {b['selection']} | {b['estimated_minutes']:.2f} | {b['remaining_minutes']:.2f} |")
+                if report.get("source_layout") == "continuous_markdown":
+                    out.append(f"| {r['speed']} | {SCENARIOS[r['scenario']]} | {a['estimated_minutes']:.2f} | {a['remaining_minutes']:.2f} |")
+                else:
+                    out.append(f"| {r['speed']} | {SCENARIOS[r['scenario']]} | {a['estimated_minutes']:.2f} | {a['remaining_minutes']:.2f} | {b['selection']} | {b['estimated_minutes']:.2f} | {b['remaining_minutes']:.2f} |")
         out += ["", "### 180计划主线路径的累计位置", "", "| 段落 | 本节起点 | 本节终点 |", "|---|---:|---:|"]
         for t in main["timeline"]:
             out.append(f"| {t['block']} | {t['start_minutes']:.2f} | {t['end_minutes']:.2f} |")
@@ -298,7 +320,15 @@ def markdown_report(report):
         out.append(f"- `{path}`：`{checksum}`")
     out += ["", "结构与算术检查已执行：源校验一致、两节齐备、全部讲述映射非空、来源没有重复跨节、替换互斥、活动声明排除教师讲评、重叠活动不再加时、累计与总计一致。", "",
             "## 计数和验证限制", ""] + ["- " + x for x in report["limits"]]
-    return "\n".join(out) + "\n"
+    text = "\n".join(out) + "\n"
+    if report.get("source_layout") == "continuous_markdown":
+        text = text.replace("回应较短", "独立停留较短").replace("推进较慢", "独立停留较长")
+        text = text.replace("先列相同主线的原始值，再列内容负责人明确选定的短讲/深化路径。空余不计作已备内容。",
+                            "本稿只有同一默认主线，没有另备短稿或深化路径；直接列默认结果。空余不计作已备内容。")
+        text = text.replace("完整正文、调用位置、用途及中段/收束前检查点留在同一主稿和教学安排。JSON保留每个分支真实标题、行号、口述校验值、逐项读法与每种路径累计时间，便于核对和在尚未开始的段落前调整。",
+                            "当前Markdown为唯一口播源。JSON记录十二个实际小节、源行号、口读校验值、活动及累计时间；标题、教师提示和来源附注不计。本稿没有另外一套短讲/深化或新PPT，旧JSON未参与口述提取。")
+        text += "\n## 当前口播稿的具体口径\n\n" + "\n".join("- " + x for x in report["notes"]) + "\n"
+    return text
 
 
 def main():
