@@ -2,6 +2,8 @@
 
 更新：2026年10月8日。Pro研究开工基准：`604ba7eb31da7d8a1658fa9a26a90fbdfa52c37f`；Codex样段接续基准：`0b985028df1770e6bab50871d104c3d39d1dd1e0`。教师已转交有限样段任务，现已形成[口播样段](materials/第1讲整合试讲主版本/口播样段_开场至概念.md)，未合入原整课成品；交Pro与教师校准后停止。
 
+样段及检查的实质提交：[2cd484bca57c07998e97ed0250b4aebefc619318](https://github.com/takehaya1111/constitution-law-8-lessons/commit/2cd484bca57c07998e97ed0250b4aebefc619318)。之后仅回填提交定位，正文不变。
+
 ## 教师认可与授权
 
 教师原话：
