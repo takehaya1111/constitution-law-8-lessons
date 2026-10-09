@@ -1,21 +1,23 @@
-# 从这里开始：第一讲口播流水线试组稿已交教师审阅
+# 口播组稿流水线：第一讲故事化返工v2待教师审阅
 
-2026年10月9日。先核最新main，固定当前提交读取[CURRENT_STATE.md](CURRENT_STATE.md)、[AGENTS.md](AGENTS.md)，由当前任务指针进入真实工作单，不凭旧对话猜测。现已完成一份上下节完整口播**候选稿**，**没有教师验收，更没有制作配套**。
+更新：2026年10月9日。先核最新main，再在**同一提交**阅读[CURRENT_STATE.md](CURRENT_STATE.md)、[AGENTS.md](AGENTS.md)、[组稿Skill v0.2.0](skills/classroom-oral-workflow/SKILL.md)及其所指的[当前实际工作单](handoff/口播工作单_ORAL-LECTURE1-001.md)。不凭旧对话猜测任务进度。
 
-## 当前直接查看
+## 首先查看这两份实际成果
 
-**[第一讲完整试组稿（上下节口播正文）](materials/第1讲整合试讲主版本/第一讲_流水线完整组稿试运行_待教师审阅.md)**。
+**[第一讲上下节口播故事化返工v2（候选，尚未教师认可）](materials/第1讲整合试讲主版本/第一讲_故事与典故组稿返工v2_待教师审阅.md)**
 
-[ORAL-LECTURE1-001真实工作单](handoff/口播工作单_ORAL-LECTURE1-001.md)：记录S0—S5知识、选材、讲述编排、主笔、自检与真实未决。当前状态`AWAITING_TEACHER_REVIEW`，下一步S6听取教师反馈；不要另开第二份正文或空工作单替换它。
+**[ORAL-LECTURE1-001完整工作单、失败原因与待审边界](handoff/口播工作单_ORAL-LECTURE1-001.md)**
 
-## 流程及边界
+教师已否定[首次完整候选v1](materials/第1讲整合试讲主版本/第一讲_流水线完整组稿试运行_待教师审阅.md)的故事性、趣味、典故与深度，故它是**失败对照**，不是被认可的口播；旧10月8日完整稿亦保留作知识基线。当前v2已在同一大纲内返工S2—S5，仍须教师S6评价，不能因添加经典、增加故事或字数接近课时就自认通过。
 
-[**完整组稿Skill**](skills/classroom-oral-workflow/SKILL.md)仍为唯一七岗执行入口：接单统筹→知识研究→材料选择→讲述编排→口播主笔→审稿返修→教师认可。按需求读取蒸馏技能、原law-professor提示词、旧教学稿与[备课模式](备课模式.md)；不机械套所有模式。当前唯一授权是**测试第一讲组稿**，不是推进后七讲或制作PPT/DOCX/PDF。
+## 唯一流程入口与分工
 
-已认可的课程总纲和第一讲[知识大纲](materials/第1讲整合试讲主版本/内容提纲.md)不改；此前[已核完整主稿](materials/第1讲整合试讲主版本/01_完整讲稿.md)及旧Word/PDF保留作历史基线，不标为本轮新稿。新稿含原样保留的豆选认可段；其他内容仍待教师评价。
+[**classroom-oral-workflow／SKILL.md**](skills/classroom-oral-workflow/SKILL.md)，七岗不变：S0接单→S1知识研究→S2选材→S3编排→S4口播主笔→S5审稿返修→S6教师评价与留存。Skill v0.2加入的实质校准：**选材真实性之外必须有讲述价值，整讲应有叙事节奏和有出处的经典/史料深度，S5不得仅查知识、字数与来源就放行**。原[备课模式](备课模式.md)、独立[课堂口播蒸馏技能](https://github.com/takehaya1111/classroom-oral-skills/blob/main/START_HERE.md)、law-professor与旧教学稿均在Skill工序内调用，不另建系统。
 
-## 旧跨对话测试任务
+Pro主导研究、主要选材、编排和当前主笔；Codex需有明确授权才承担独立核证或制作文件。**当前只评估口播组稿质量**，不做PPT/Word/PDF、不扩大其他课程。
 
-[ORAL-HANDOFF-001](handoff/口播工作单_ORAL-HANDOFF-001.md)保留历史S3断点，但用户新授权已将当前任务转为`ORAL-LECTURE1-001`；旧任务的独立新对话测试并未完成，不能改写成通过。
+## 下一对话如何继续
 
-[更新前项目入口（固定提交）](https://github.com/takehaya1111/constitution-law-8-lessons/blob/6823a8547108c61ab13fe2e02ea3368f5ea7c8b8/START_HERE.md)可用于回查。无需教师下载搬包，后续在同一工作单按反馈定点续接。
+先据本仓恢复最新`active_work_order`和当前状态，读完整v2口播。若教师已经提供反馈，按实际未通过的环节定点继续，不重写认可大纲或已经认可的豆选641字。若尚无反馈，直接呈上v2及真实未决，不能虚称获认可。旧交接试验`ORAL-HANDOFF-001`保留历史，但不是目前活动任务。
+
+[本次返工之前入口（固定提交）](https://github.com/takehaya1111/constitution-law-8-lessons/blob/e1c0b927594920dcc62aca98721948cbc1f6394c/START_HERE.md)可用于回查。
