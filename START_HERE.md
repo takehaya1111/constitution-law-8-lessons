@@ -1,34 +1,21 @@
-# 从这里接续：课堂口播组稿工作流
+# 从这里开始：第一讲口播流水线试组稿已交教师审阅
 
-2026年10月9日。目标是建立和验证可重复调用的完整口播组稿流程，不是反复打磨第一讲。课程总纲和每讲大纲已认可；样本用来检验流程，当前不做PPT、Word、PDF或其他配套。
+2026年10月9日。先核最新main，固定当前提交读取[CURRENT_STATE.md](CURRENT_STATE.md)、[AGENTS.md](AGENTS.md)，由当前任务指针进入真实工作单，不凭旧对话猜测。现已完成一份上下节完整口播**候选稿**，**没有教师验收，更没有制作配套**。
 
-## 当前真实断点
+## 当前直接查看
 
-先核最新main，固定该提交读取[CURRENT_STATE.md](CURRENT_STATE.md)、[AGENTS.md](AGENTS.md)及[组稿Skill](skills/classroom-oral-workflow/SKILL.md)。按当前状态的`active_work_order`进入：
+**[第一讲完整试组稿（上下节口播正文）](materials/第1讲整合试讲主版本/第一讲_流水线完整组稿试运行_待教师审阅.md)**。
 
-**[ORAL-HANDOFF-001｜孙志刚既有稿有限修订与跨对话恢复](handoff/口播工作单_ORAL-HANDOFF-001.md)**。
+[ORAL-LECTURE1-001真实工作单](handoff/口播工作单_ORAL-LECTURE1-001.md)：记录S0—S5知识、选材、讲述编排、主笔、自检与真实未决。当前状态`AWAITING_TEACHER_REVIEW`，下一步S6听取教师反馈；不要另开第二份正文或空工作单替换它。
 
-这是已填写的真实任务：**S0—S3完成，S4本轮修订尚未开始，下一对话从S4接着做。**旧稿全文、知识核查、来源边界及四项明确修改决定都在同一文件，不再依赖旧聊天。正文存在不代表本轮成稿工序已完成。
+## 流程及边界
 
-这次在S3暂停是专门的跨对话试验，不是平时每岗都要等待。新会话恢复后按已有授权完成S4—S5，再交教师；不重新规划大纲、重做全部研究、换案例或写完第一讲。遇实质新证据仍须定向处理。真实跨对话结果尚未发生，不能以同会话读回代替。
+[**完整组稿Skill**](skills/classroom-oral-workflow/SKILL.md)仍为唯一七岗执行入口：接单统筹→知识研究→材料选择→讲述编排→口播主笔→审稿返修→教师认可。按需求读取蒸馏技能、原law-professor提示词、旧教学稿与[备课模式](备课模式.md)；不机械套所有模式。当前唯一授权是**测试第一讲组稿**，不是推进后七讲或制作PPT/DOCX/PDF。
 
-## 唯一执行入口与职责
+已认可的课程总纲和第一讲[知识大纲](materials/第1讲整合试讲主版本/内容提纲.md)不改；此前[已核完整主稿](materials/第1讲整合试讲主版本/01_完整讲稿.md)及旧Word/PDF保留作历史基线，不标为本轮新稿。新稿含原样保留的豆选认可段；其他内容仍待教师评价。
 
-[**classroom-oral-workflow／SKILL.md**](skills/classroom-oral-workflow/SKILL.md)，v0.1.1，七岗不变：
+## 旧跨对话测试任务
 
-接单统筹 → 知识研究 → 材料选择 → 讲述编排 → 口播主笔 → 审稿返修 → 教师验收与留存。
+[ORAL-HANDOFF-001](handoff/口播工作单_ORAL-HANDOFF-001.md)保留历史S3断点，但用户新授权已将当前任务转为`ORAL-LECTURE1-001`；旧任务的独立新对话测试并未完成，不能改写成通过。
 
-Pro主导实质研究、选材、编排和当前主笔；Codex按教师转交核证、定点修改及后续文件制作。岗位不是七个模型，文件入库不等于自动调度或Skill已安装。
-
-## 新对话直接调用
-
-> 请从本仓START_HERE恢复。先核最新main，完整读CURRENT_STATE、AGENTS、组稿Skill及active_work_order所指的实际工作单；按记录恢复完成状态、正文身份、认可范围与下一步。只从真实断点继续完成本轮授权任务，保留既有成果，实际使用所需蒸馏办法，不依赖旧聊天、不重做已完成工序、不制作配套。将恢复结果和实际修改写回同一工作单。
-
-## 已有资产继续使用
-
-- [备课模式](备课模式.md)：必要质量与历史改稿经验；其中旧阶段时态以当前状态为准。
-- [来源路由和教师反馈](skills/classroom-oral-workflow/references/source-map-and-feedback.md)：原提示词、蒸馏技能与111份旧稿进入各岗的实际用法；孙案旧稿“只在对话中”是前版状态，现已在当前工作单归档。
-- [组稿工作单模板](skills/classroom-oral-workflow/assets/work-order.md)：以后新任务使用；当前恢复必须读上面的实际工作单，不填写一个新空单替代。
-- [既有完整材料](materials/第1讲整合试讲主版本/00_使用入口.md)：历史工作基线，当前不合入、不改配套。
-
-[本次更新前入口](https://github.com/takehaya1111/constitution-law-8-lessons/blob/b00e4db5781037b4c74a5bec77e887299111d168/START_HERE.md)保留。未来启动别的组稿任务仍从本Skill进入；本次验证不是另建第二套交接系统。
+[更新前项目入口（固定提交）](https://github.com/takehaya1111/constitution-law-8-lessons/blob/6823a8547108c61ab13fe2e02ea3368f5ea7c8b8/START_HERE.md)可用于回查。无需教师下载搬包，后续在同一工作单按反馈定点续接。
