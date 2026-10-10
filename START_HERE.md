@@ -1,17 +1,15 @@
-# 口播组稿流水线：第一讲v2开场失败，S3/S5返工中
+# 从这里继续：第一讲整讲逻辑线返工，首单元已重接
 
-2026年10月10日。先核GitHub最新main，在同一提交读[CURRENT_STATE.md](CURRENT_STATE.md)、[AGENTS.md](AGENTS.md)、[总Skill v0.2.1](skills/classroom-oral-workflow/SKILL.md)，再从当前状态的`active_work_order`读取真实任务。
+更新：2026年10月10日。先核GitHub最新main，同一提交完整读[CURRENT_STATE.md](CURRENT_STATE.md)、[AGENTS.md](AGENTS.md)、[组稿Skill v0.2.2](skills/classroom-oral-workflow/SKILL.md)及[当前实际工作单 ORAL-LECTURE1-001](handoff/口播工作单_ORAL-LECTURE1-001.md)。入口状态优先于旧任务及文件标题。
 
-## 现在先看什么
+## 当前真正断点
 
-[**本次工作单 ORAL-LECTURE1-001**](handoff/口播工作单_ORAL-LECTURE1-001.md)。
+教师先指出v2开头无前情，又指出**整讲缺少逻辑主线**，追问“换成长辛店后李凤鸣怎么接”。已在[第一讲内部修订稿](materials/第1讲整合试讲主版本/第一讲_故事与典故组稿返工v2_待教师审阅.md)原地将第一单元重新组织为**6月长辛店草案讨论开始→9月石景山李凤鸣小组具体提出意见→意见归集/草案修订→全国人大正式通过→回看1949共同纲领的历史背景**。两篇报道记录不同厂和不同阶段，不制造直接因果或建议全获采纳。已认可豆选641字不改，第一讲大纲不改。
 
-[**第一讲口播候选（已局部修复开场；整讲仍未获得认可）**](materials/第1讲整合试讲主版本/第一讲_故事与典故组稿返工v2_待教师审阅.md)。
+当前`ORAL-LECTURE1-001`为`S3_LOGICAL_SPINE_REWORK_IN_PROGRESS`，首单元已局部写回，下一项是用S3新增的“知识线、叙事线、听者理解线”核**其他相邻单元**，再按S5审稿；不是宣称整讲已经合格或教师已重新认可，也不制作PPT、Word、PDF、不启动未获授权的Codex。
 
-教师先否定v1的故事、趣味与学理深度，随后只读v2开头一句，就指出先问“普通工人会不会认真逐字读宪法”没头没尾。**不要说教师已经读完v2并否定全稿，也不要把前一轮自评S5当通过。**当前状态是`OPENING_FAILURE_REWORK_IN_PROGRESS`，在同一候选里已用1954年长辛店同期报道更换开场、处理几处类似错误转场，但**S5尚需真正冷读和进一步核验**。
+## 唯一写作流程
 
-## 执行边界
+[**classroom-oral-workflow／SKILL.md**](skills/classroom-oral-workflow/SKILL.md)仍是S0—S6唯一入口；原[备课模式](备课模式.md)、[课堂口播蒸馏技能](https://github.com/takehaya1111/classroom-oral-skills/blob/main/START_HERE.md)、law-professor及旧稿经验在其对应工序调用。既有成功样本和失败反馈不应因继续返工而被覆盖。
 
-沿用已认可的全课及第一讲知识纲，不改变教材法理边界；已认可的豆选641字不重写。七岗主流程仍是：[组稿Skill](skills/classroom-oral-workflow/SKILL.md)的S0—S6，目前主要退回S3/S5，原因及来源在同一工作单。修改应保留已成立内容，优先修真正导致学生无法进入叙事的前情、故事组织与问句，不靠堆名言或接着加故事解决。
-
-当前不推进其他讲次，不制作PPT/Word/PDF，不调用未授权Codex，不宣称第一讲完成或技能自动注册。原v1失败稿、初始完整讲稿及跨对话历史任务均在Git仓保留，不能凭旧聊天的状态覆盖当前任务。
+[前一入口（固定提交）](https://github.com/takehaya1111/constitution-law-8-lessons/blob/8d230dd2d789811480ee1a273fa219f1c167ac2e/START_HERE.md)仍可查。
