@@ -1,4 +1,4 @@
-# 当前状态：第一讲完整课堂讲述方案已形成，待教师审阅
+# 当前状态：第一讲课堂推进方案已获教师认可，进入S4样段写作
 
 更新：2026-10-10。教师同意按重整后的流程继续，并要求研究随设计推进、用证据校准。**本轮实际完成S1课堂推进、S2定向研究与选材、S3完整讲述方案；没有继续修口播，没有新增一套流程。**
 
@@ -7,13 +7,13 @@
 ```yaml
 active_task_id: ORAL-LECTURE1-001
 active_work_order: handoff/口播工作单_ORAL-LECTURE1-001.md
-revision: r3.1
+revision: r3.2
 workflow_version: 0.3.0
-current_mode: LESSON_PLAN_ONLY
-status: LESSON_PLAN_AWAITING_TEACHER_REVIEW
+current_mode: S4_REPRESENTATIVE_ORAL_SAMPLE
+status: LESSON_PLAN_APPROVED_S4_SAMPLE_NEXT
 last_completed_result: S3_RESEARCH_CALIBRATED_CLASSROOM_PLAN
-next_stage: TEACHER_REVIEW_OF_LESSON_PLAN
-next_stop: TEACHER_REVIEW_OF_LESSON_PLAN
+next_stage: S4_WRITE_CONTIGUOUS_ORAL_SAMPLE
+next_stop: TEACHER_REVIEW_OF_S4_SAMPLE
 oral_draft_changed_this_round: false
 S4_new_oral_draft: NOT_STARTED
 S5_oral_review: NOT_RUN
@@ -24,6 +24,12 @@ oral_skill_input: 6e3c738efb242abd16af56416d0b1a2d9daf08b1
 ```
 
 **[直接读第一讲完整课堂讲述方案](handoff/口播工作单_ORAL-LECTURE1-001.md)**。沿同一实际工作单保存，不另建长期并行大纲。先看全讲推进和两节预算，再看深讲中心、检查题答案、选材取舍、研究校准和来源身份。
+
+## 教师最新认可及准确下一步（2026-10-10）
+
+教师对完整课堂讲述方案评价：“**好，符合，你告诉我下一步做什么**”。因此**方案的组织思路获得认可，可进入S4**；不得扩大为教师认可旧v1/v2全文、对史实全部核验、双45现实时间已通过。
+
+当前S4先执行**下节6—30分钟同一国家赔偿请求的连续单元**：依赔偿法确定赔偿义务机关→申请人书写困难→按第12条法律允许的代书／口头申请及笔录→回到宪法第41条和普通法律怎样具体化。工作单给出了素材职责、口述目标与保留边界；**尚未实际写出本轮新样段**。完成后对照Skill的口语、首屏、衔接和事实标准做S5主笔自审，交教师审读样段；认可后扩成上下两节并核实际双45，不无限另起同题样段。当前不制作配套、不调用未获授权Codex。
 
 ## 方案实际安排
 
