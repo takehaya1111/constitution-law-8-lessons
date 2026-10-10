@@ -1,10 +1,24 @@
 # 第一讲《宪法总论》完整课堂讲述方案｜推进方案已获教师认可
 
-2026-10-10，ORAL-LECTURE1-001，r3.3。**本文件是按既有workflow v0.3实际完成的S1—S3产物，不是另一套组稿流程，也不是口播成稿。**课程总纲与本讲大纲不改。先看下面“这堂课怎样推进”及上下节方案；研究过程、来源和接续记录在后。
+2026-10-10，ORAL-LECTURE1-001，r3.4。**本文件是按既有workflow v0.3实际完成的S1—S3产物，不是另一套组稿流程，也不是口播成稿。**课程总纲与本讲大纲不改。先看下面“这堂课怎样推进”及上下节方案；研究过程、来源和接续记录在后。
 
 [本轮开始前的完整工作单](https://github.com/takehaya1111/constitution-law-8-lessons/blob/d4a617e4e9bf46114926f031e8563ba26b5f9610/handoff/口播工作单_ORAL-LECTURE1-001.md)与[旧试稿阶段记录](https://github.com/takehaya1111/constitution-law-8-lessons/blob/62952508a04ad8df94d76a0c1f2468b9388df25e/handoff/口播工作单_ORAL-LECTURE1-001.md)保留。旧v1/v2及认可豆选原文未改；本轮新增了S4连续口播单元并完成主笔S5初审，见下。
 
-## 2026-10-10 r3.3｜S4实际组稿与S5主笔自检结果
+## 2026-10-10 r3.4｜教师明确指出虚构案例牵强冗长：S3/S4定点返工
+
+**教师反馈原话：**“你这个杜撰的案例不够自然太过于罗嗦了”。该评价针对上轮下节6—30分钟连续口播，不是教师撤销对第一讲完整课堂方案的认可，也不是要求重整全课程总纲。**对r3.3样段的口播自然度与篇幅，结论为未通过。**
+
+**具体根因（有源稿可核）：**r3.3为凑满“6—30分钟共24分钟”，反复把一名凭空编出的县公安局违法行政拘留受害人拖着走：先“找赔偿机关”，再人为追加“他刚好书写困难”，再为另一个课堂概念追加民警调岗和私人民事纠纷；为承接第12条又插入《韩非子》郑人买履，把文字写成长串“如果……当然不是……所以”。人物本身没有可核实的真实经历，情节又不是法律理解不可缺的内容。**这是S3时间配置与材料支点选择、S4写作共同失效**，不仅是几个口头禅。
+
+**已实际做出的S4修订：**仍保留[同一路径的现行精简试稿](../materials/第1讲整合试讲主版本/口播试写_国家赔偿请求连续单元_S4待教师审阅.md)，旧长稿可从[本轮开始前固定提交](https://github.com/takehaya1111/constitution-law-8-lessons/blob/4d09152d35c627c086667c72d8063baba0c082b5/materials/第1讲整合试讲主版本/口播试写_国家赔偿请求连续单元_S4待教师审阅.md)读到。现在以**“行政拘留依法被认定违法，谁承担赔偿义务”**作为最小法律设例，不再模拟一个虚构人的前后经历。第3、7条解释情形与义务机关；第12条把“书写申请确有困难”作为**法律自身考虑的一类通用条件**，不强加给前述某个人；回到宪法第41条与第5条，最后直接接1994年实施准备。整段删掉“郑人买履”——不是古籍不值得用，而是它原来被硬插进一个本已可由法条讲清的点。没有另找真实错案硬插以填时间。
+
+**当前S5初步文本结果与不确定性：**法律基本依据对照[国家铁路局转载的《国家赔偿法》](https://source.nra.gov.cn/jglz/apjc/zcfg/202106/t20210624_198492.shtml)第三、七、十二条及[最高院行政赔偿程序说明](https://www.court.gov.cn/fuwu/xiangqing/78572.html)；宪法第五、四十一条沿官方所载原文复用。文本粗计约**1220口述汉字**，另有90秒不重叠读法条；180字/分钟假设约**8.3分钟**，140字/分钟约**10.2分钟**。这不是实测，更不能再说本段已满足24分钟。核查为**同一主笔自检**，无独立Codex或教师后续口播评价。
+
+**S3局部失效尚需处理：**原下节6—30分钟的24分钟预算不可信，必须以真实可讲知识量、必要的原始资料和实测课堂节奏为依据重新分配。**不能为了恢复24分钟，在此重新安排虚构情节或加几轮重复讲评**。该时间重平衡将在下一次整讲组织时完成；第一讲原七项知识、上下两节框架以及S3上节主线仍有效。教师尚未认可r3.4新口播。
+
+**当前下一步：**教师可先看简化后的真实正文是否更自然、是否仍缺少该讲的趣味和深入；再按反馈做定点修改。若“删掉虚构人物而直接读法条”又显得平淡，应优先返回S2/S3寻找真正有解释作用的既有史料，而不是重新捏造人设。
+
+## 2026-10-10 r3.3｜S4实际组稿与S5主笔自检结果（旧版过程，现稿已被r3.4替换）
 
 **本轮唯一新口播产物：**[第一讲下节6—30分钟连续口播](../materials/第1讲整合试讲主版本/口播试写_国家赔偿请求连续单元_S4待教师审阅.md)。这是已认可S3方案内的**单一连续单元**，不是整讲正文，也不是旧v1/v2的替换稿。
 
@@ -182,21 +196,21 @@
 
 ```yaml
 task_id: ORAL-LECTURE1-001
-task_revision: r3.3
+task_revision: r3.4
 workflow_version: 0.3.0
-current_mode: S4_REPRESENTATIVE_ORAL_SAMPLE
-status: ORAL_SAMPLE_S5_SELF_CHECK_DONE_AWAIT_TEACHER
+current_mode: S3_S4_LOCAL_REPAIR_AFTER_TEACHER_FEEDBACK
+status: ORAL_SAMPLE_R3_4_REVISED_AWAIT_TEACHER
 main_input: d4a617e4e9bf46114926f031e8563ba26b5f9610
 oral_skill_input: 6e3c738efb242abd16af56416d0b1a2d9daf08b1
 S0: OUTLINE_SCOPE_RECOVERED
 S1: PROGRESSION_DESIGNED
 S2: DIRECTED_RESEARCH_DONE_TO_DECLARED_SCOPE
 S3: RESEARCH_CALIBRATED_PLAN_WRITTEN
-S4: ONE_CONTIGUOUS_SAMPLE_WRITTEN
-S5_ORAL_REVIEW: AUTHOR_TEXT_AND_SOURCE_CHECK_DONE_NOT_INDEPENDENT
+S4: REWRITTEN_AFTER_TEACHER_FEEDBACK
+S5_ORAL_REVIEW: AUTHOR_REVISED_TEXT_AND_SOURCES_CHECKED_NOT_INDEPENDENT
 S6_PLAN_REVIEW: APPROVED_FOR_S4
 next_stop: TEACHER_REVIEW_OF_REPRESENTATIVE_ORAL_SAMPLE
-new_oral_draft_this_round: CREATED_SEE_R3_3_TOP
+new_oral_draft_this_round: REVISED_R3_4_SAME_FILE
 independent_codex_review: NOT_RUN
 classroom_trial: NOT_RUN
 ```
