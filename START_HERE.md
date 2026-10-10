@@ -1,15 +1,26 @@
-# 从这里继续：第一讲整讲逻辑线返工，首单元已重接
+# 从这里继续：先设计课堂怎样推进，再研究选材和组稿
 
-更新：2026年10月10日。先核GitHub最新main，同一提交完整读[CURRENT_STATE.md](CURRENT_STATE.md)、[AGENTS.md](AGENTS.md)、[组稿Skill v0.2.2](skills/classroom-oral-workflow/SKILL.md)及[当前实际工作单 ORAL-LECTURE1-001](handoff/口播工作单_ORAL-LECTURE1-001.md)。入口状态优先于旧任务及文件标题。
+更新：2026-10-10。当前已按教师要求重整原口播流水线，**不再先找故事、再把故事接成课**。认可的课程总纲和每讲知识纲保留，本轮没有写或修改任何口播正文。
 
-## 当前真正断点
+## 阅读顺序
 
-教师先指出v2开头无前情，又指出**整讲缺少逻辑主线**，追问“换成长辛店后李凤鸣怎么接”。已在[第一讲内部修订稿](materials/第1讲整合试讲主版本/第一讲_故事与典故组稿返工v2_待教师审阅.md)原地将第一单元重新组织为**6月长辛店草案讨论开始→9月石景山李凤鸣小组具体提出意见→意见归集/草案修订→全国人大正式通过→回看1949共同纲领的历史背景**。两篇报道记录不同厂和不同阶段，不制造直接因果或建议全获采纳。已认可豆选641字不改，第一讲大纲不改。
+先核最新main，固定同一提交，依次读：
 
-当前`ORAL-LECTURE1-001`为`S3_LOGICAL_SPINE_REWORK_IN_PROGRESS`，首单元已局部写回，下一项是用S3新增的“知识线、叙事线、听者理解线”核**其他相邻单元**，再按S5审稿；不是宣称整讲已经合格或教师已重新认可，也不制作PPT、Word、PDF、不启动未获授权的Codex。
+1. [CURRENT_STATE.md](CURRENT_STATE.md)与[AGENTS.md](AGENTS.md)：授权、实际状态与协作边界。
+2. [唯一组稿Skill v0.3](skills/classroom-oral-workflow/SKILL.md)：新工序及停止点。
+3. 当前状态指向的[真实工作单 ORAL-LECTURE1-001](handoff/口播工作单_ORAL-LECTURE1-001.md)：不要读空模板后重新开工。
+4. [课程总纲内容分配](materials/宪法学八次课教学内容总表_讨论稿.md)，再读[第一讲内容大纲](materials/第1讲整合试讲主版本/内容提纲.md)，随后按Skill读取本次工序需要的研究和蒸馏。
 
-## 唯一写作流程
+## 当前任务和下一步
 
-[**classroom-oral-workflow／SKILL.md**](skills/classroom-oral-workflow/SKILL.md)仍是S0—S6唯一入口；原[备课模式](备课模式.md)、[课堂口播蒸馏技能](https://github.com/takehaya1111/classroom-oral-skills/blob/main/START_HERE.md)、law-professor及旧稿经验在其对应工序调用。既有成功样本和失败反馈不应因继续返工而被覆盖。
+当前为`WORKFLOW_REORGANIZED_LESSON_PLAN_PENDING`。原Skill、配套工序、模板和来源路由已经同步；下一步从**S1课堂推进初案**开始，经S2定向研究选材，形成S3**第一讲完整课堂讲述方案**，先交教师看。不是接着修长辛店或李凤鸣，也不直接再次生成整讲。
 
-[前一入口（固定提交）](https://github.com/takehaya1111/constitution-law-8-lessons/blob/8d230dd2d789811480ee1a273fa219f1c167ac2e/START_HERE.md)仍可查。
+新顺序：**双纲定位→课堂推进初案→定向研究选材→研究校准后的课堂方案→口播→审稿→教师评价**。已有知识不足先补必要基础；研究可反过来改变初案，不把初案当必须证明的结论。
+
+旧v1/v2口播只是参考与失败样本，原认可豆选段保留。大纲、所有现有口播和PPT/Word/PDF、本地旧资料及独立蒸馏仓本轮均不改。原[备课模式](备课模式.md)保留质量标准，具体执行次序以新Skill为准。
+
+## 直接继续的调用语
+
+“从本仓入口恢复，沿已认可课程总纲和第一讲知识纲，先说明整堂课怎样一步步推进，再按各步需要研究、选材并校准为完整课堂讲述方案。实际调用已有蒸馏与反馈；先交方案，不写整讲口播，不做配套。”
+
+旧S1是知识研究，新S1是课堂推进，不能机械继承完成标记。跨对话机制继续使用同一工作单和当前指针，未实测的恢复或课堂效果不标通过。[重整前入口](https://github.com/takehaya1111/constitution-law-8-lessons/blob/62952508a04ad8df94d76a0c1f2468b9388df25e/START_HERE.md)和全部历史可回查。
