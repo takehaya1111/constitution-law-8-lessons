@@ -88,4 +88,4 @@ Pro负责总体内容、研究、主要选材、课堂设计和当前主笔；Co
 
 “按classroom-oral-workflow，恢复认可双纲与当前工作单，从整体目标设计课堂推进，研究校准材料和实际内容容量。遇到局部反馈先诊断整体影响，再定点修改并联合复核。本次按明确授权交方案或口播，不自动制作配套。”
 
-本流程是结合项目要求、实际失败与公开教学设计资料形成的工作办法，不是经实验验证的普适教法。[设计依据与边界](references/source-map-and-feedback.md)及[当前任务](../../../handoff/口播工作单_ORAL-LECTURE1-001.md)可回查；[v0.3.0完整快照](https://github.com/takehaya1111/constitution-law-8-lessons/blob/c26d74f32f567e923281774124ed749f3eca62a4/skills/classroom-oral-workflow/SKILL.md)保留。
+本流程是结合项目要求、实际失败与公开教学设计资料形成的工作办法，不是经实验验证的普适教法。[设计依据与边界](references/source-map-and-feedback.md)及[当前任务](../../handoff/口播工作单_ORAL-LECTURE1-001.md)可回查；[v0.3.0完整快照](https://github.com/takehaya1111/constitution-law-8-lessons/blob/c26d74f32f567e923281774124ed749f3eca62a4/skills/classroom-oral-workflow/SKILL.md)保留。
