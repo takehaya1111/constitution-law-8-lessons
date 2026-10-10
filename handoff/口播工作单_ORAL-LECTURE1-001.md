@@ -1,8 +1,20 @@
-# 第一讲《宪法总论》完整课堂讲述方案｜待教师审阅
+# 第一讲《宪法总论》完整课堂讲述方案｜推进方案已获教师认可
 
-2026-10-10，ORAL-LECTURE1-001，r3.1。**本文件是按既有workflow v0.3实际完成的S1—S3产物，不是另一套组稿流程，也不是口播成稿。**课程总纲与本讲大纲不改。先看下面“这堂课怎样推进”及上下节方案；研究过程、来源和接续记录在后。
+2026-10-10，ORAL-LECTURE1-001，r3.2。**本文件是按既有workflow v0.3实际完成的S1—S3产物，不是另一套组稿流程，也不是口播成稿。**课程总纲与本讲大纲不改。先看下面“这堂课怎样推进”及上下节方案；研究过程、来源和接续记录在后。
 
 [本轮开始前的完整工作单](https://github.com/takehaya1111/constitution-law-8-lessons/blob/d4a617e4e9bf46114926f031e8563ba26b5f9610/handoff/口播工作单_ORAL-LECTURE1-001.md)与[旧试稿阶段记录](https://github.com/takehaya1111/constitution-law-8-lessons/blob/62952508a04ad8df94d76a0c1f2468b9388df25e/handoff/口播工作单_ORAL-LECTURE1-001.md)保留。旧v1/v2及认可豆选原文未改，本轮没有新增、修补口播正文。
+
+## 2026-10-10 教师认可方案与下一执行步（新反馈优先）
+
+教师读完上一轮第一讲完整课堂讲述方案后回复：**“好，符合，你告诉我下一步做什么”**。据此将**S3讲述推进方案的方向与组织安排**标记为教师认可，可进入S4口播表达验证；**不等于历史和法律事实都被教师独立核实，不等于口播稿已认可、两个45分钟已实测或整个Skill已经被验证**。既定全课和本讲大纲及本方案先行保留，避免未经理由重新排课。
+
+**下一项可执行任务（从S4开始）：**先在已认可的下节推进中，选取**6—30分钟这一段同一赔偿请求的连续知识链**：县公安局作为赔偿义务机关→请求人书写确有困难→国家赔偿法第十二条代书或口头申请、记入笔录→回到宪法第四十一条和普通法律的具体化关系。这段约占方案24分钟，**是一个连续课堂单元的计划教学预算，不是要求稿子机械读满24分钟或规定只能用三分钟试验**。
+
+主笔沿已有S1—S3实际结果作S4；在执笔前定向核所用宪法与国家赔偿法原文及必要经典出处，按已蒸馏讲法把具体行动、制度难点、对比与自然转场写入一份**真正连续、可口述的样段**。唯一需要在这段中使用的简短寓言候选是“郑人买履”，必须服从教学用途，不能把寓言当法律依据。故事前情、事实身份、例子为教学假设及法定条件都应清楚；不用旧v1/v2拼贴成品，不额外选第二个话题，也不自动修改已认可豆选641字。
+
+**S4样段完成后由作者依S5对照课堂方案实做首屏冷读、前后材料接力、自然口语、法条与依据审查，以及局部口述时间估算。**交教师看这一份连贯口播是否已经呈现所认可方案的教学风格。若尚不成立，按问题返S3或S4一次定点修正，不无休止精修。若获认可，再按同一讲述逻辑完成剩余上下两节正文、实际双45容量复算与必要审稿；最后由教师评价整讲。没有授权制作PPT/DOCX/PDF或启动独立Codex。
+
+**本轮只记录反馈和下一动作，没有实际生成新样段或执行S4/S5，不得把下一步计划填写为已完成。**
 
 ## 一、这堂课怎样推进
 
@@ -158,8 +170,8 @@
 task_id: ORAL-LECTURE1-001
 task_revision: r3.1
 workflow_version: 0.3.0
-current_mode: LESSON_PLAN_ONLY
-status: LESSON_PLAN_AWAITING_TEACHER_REVIEW
+current_mode: S4_REPRESENTATIVE_ORAL_SAMPLE
+status: LESSON_PLAN_APPROVED_S4_SAMPLE_NEXT
 main_input: d4a617e4e9bf46114926f031e8563ba26b5f9610
 oral_skill_input: 6e3c738efb242abd16af56416d0b1a2d9daf08b1
 S0: OUTLINE_SCOPE_RECOVERED
@@ -168,8 +180,8 @@ S2: DIRECTED_RESEARCH_DONE_TO_DECLARED_SCOPE
 S3: RESEARCH_CALIBRATED_PLAN_WRITTEN
 S4: NOT_STARTED
 S5_ORAL_REVIEW: NOT_RUN
-S6_PLAN_REVIEW: PENDING
-next_stop: TEACHER_REVIEW_OF_LESSON_PLAN
+S6_PLAN_REVIEW: APPROVED_FOR_S4
+next_stop: TEACHER_REVIEW_OF_REPRESENTATIVE_ORAL_SAMPLE
 new_oral_draft_this_round: NOT_CREATED
 independent_codex_review: NOT_RUN
 classroom_trial: NOT_RUN
