@@ -1,9 +1,0 @@
-{
-  "status": "旧版用时数据已由本轮逐段容量报告接替",
-  "historical_git_ref": "5a7f683:materials/第2讲实质备课/用时核算.json",
-  "current_input": "容量输入.json",
-  "current_report": "07_双45分钟容量报告.json",
-  "current_readable_report": "07_双45分钟容量报告.md",
-  "section_minutes": 45,
-  "note": "不再使用43加2的名义表证明容量；本轮源文、数字读法及不重叠活动见当前报告。"
-}
