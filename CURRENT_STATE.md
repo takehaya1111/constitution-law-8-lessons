@@ -1,52 +1,35 @@
-# 当前状态：真人写作研究与整讲底稿优先方案已形成，尚未开始新稿
+# 当前状态：整堂课堂口播机制的递归写作研究已形成，尚未实施新稿
 
-更新：2026-10-11。教师进一步指出，前轮将问题主要放在输入规则/上下文上仍可能是局部优化；提出从已认可大纲先写基本内容，再按真实内容研究丰富，要求论证真人写作过程和“指标合格不等于作品好”的问题。本轮据此研究并形成解决方案，**未把教师建议偷换为僵硬单向流程，也未开始新口播或受控模型试验**。
+2026-10-11。教师最新反馈明确校准：认可大纲相当于构思，但**构思时同步判断讲法和材料；写作时随文本继续决定研究与表达；初稿完成后从整堂课重新组织和核查**。不再先把故事、新闻、典故、金句、互动和分钟数当作零件分别备齐，再交给组稿者机械装配。保留社会时事与时髦语言的亲和价值，也保留课堂严肃性，不使用低俗、恶俗、贬损或消费苦难的笑点。
 
-## 当前任务指针
+## 唯一当前任务与实际成果
 
 ```yaml
 active_task_id: ORAL-LECTURE1-001
 active_work_order: handoff/口播工作单_ORAL-LECTURE1-001.md
-lesson_plan_revision: r4.1_HISTORICAL_NOT_NEWLY_APPROVED
+legacy_lesson_plan_revision: r4.1_NOT_TEACHER_APPROVED
 workflow_version: 0.3.2_FROZEN
-current_focus: HUMAN_COMPOSING_AND_COMPLETE_BASE_DRAFT_BEFORE_ENRICHMENT
-research_result: research/20261011_真人写作研究与整讲底稿优先方案.md
-status: RESEARCH_AND_CONTENT_FIRST_SOLUTION_PROPOSED_NOT_IMPLEMENTED
-course_input: b2e620cae39d2a5789b9206d8bd8fe7c2cf8cf7c
-approved_baseline: COURSE_AND_LESSON_OUTLINES_AND_PREVIOUSLY_RECORDED_ACCEPTANCE_ONLY
-new_solution_teacher_acceptance: NOT_YET_RECEIVED
-new_base_manuscript: NOT_WRITTEN
-new_enriched_manuscript: NOT_WRITTEN
-controlled_model_comparison: NOT_RUN_AND_NOT_CURRENT_FIRST_PRIORITY
-external_project_installation: NOT_RUN
-codex_independent_review: NOT_RUN
-live_oral_reading: NOT_RUN
-whole_dual45_validation: NOT_RUN
-proposed_next_deliverable: COMPLETE_FIRST_LECTURE_BASE_ORAL_DRAFT_WITH_TARGETED_ENRICHMENT_NEEDS
+current_focus: WHOLE_LESSON_RECURSIVE_COMPOSING_AND_HOLISTIC_JUDGMENT
+research_result: research/20261011_整体构思与递归写作_组稿机制重整研究.md
+status: HOLISTIC_RECURSIVE_COMPOSING_RESEARCH_COMPLETE_PROPOSAL_NOT_IMPLEMENTED
+approved_baseline: COURSE_AND_LESSON_OUTLINES_AND_RECORDED_APPROVED_BEAN_EXCERPT
+new_skill_implemented: NO
+new_draft_created: NO
+full_oral_readthrough_or_45x2_verified: NO
+independent_codex_review: NO
+next_stage: APPLY_OPEN_CONCEPTION_AND_RECURSIVE_SPEAKING_TO_FIRST_LECTURE_CONTINUOUS_DRAFT
 ```
 
-## 先读本轮方案
+**[直接读最新整体研究与重整方案](research/20261011_整体构思与递归写作_组稿机制重整研究.md)**：包含项目历次成功/失败综合、写作认知、课程目标对齐、口播出声修订、反向提纲、课堂幽默适宜性、复杂品质判断及反证；明确如何让构思、连续写作与整讲通稿形成可回返的实践，而不再使用独立素材块和逐项指标拼装。
 
-[**真人写作研究与整讲底稿优先方案**](research/20261011_真人写作研究与整讲底稿优先方案.md)。
+与[上一轮“基础稿优先”方案](research/20261011_真人写作研究与整讲底稿优先方案.md)的关系：赞同先产出能够连贯讲清的正文，**但纠正它可能变成“纯基础稿写完再外挂精彩素材”的单向流程**。有用的真实故事、时事和口语表达可从构思和第一版就自然出现；因稿研究后的改进允许改写或移动整个段落，不能仅追加。构思与真实成稿互相修正，大纲的知识范围和全课分工仍是硬边界。
 
-主要判断：认可大纲和必要知识准备之后，先形成上下两节**连续、基本解释充分、直接对学生说话的正文**；从实际稿件识别缺口并定向研究，对同一稿作展开、替换或重组，最后联合审读和核时长。不是在干巴巴的提纲外贴故事，也不把正文冻结为不可修改的骨架。写作本身会暴露知识和结构问题，可以带着具体问题返回研究；重大课程范围变化仍需说明。
+与[Gemini对照及Claude/Codex研究](research/20261011_Gemini口播对照与Claude_Codex写作项目研究.md)的关系：保留“直接讲给学生、减少后台制作说明、编辑维护原有自然语气”的观察；**不再把精简上下文A/B、外部工具安装或模型比稿当当前首要任务**。只有真实作品仍失败时再定向诊断。
 
-**本轮不把“先写基础稿”发布成新的普遍写作定律。**引用真人写作理论、写作发现研究、大学写作/演讲教学建议及复杂质量评价的批评，分别说明依据和适用限度。它们不是本班实验或AI效果验证。原本就有完整旧稿，不能误报为项目从未写过；真正要改的是如何把连续讲述作为后续研究与修订的实际基线。
+## 事实与使用边界
 
-## 相比前轮，哪项决定改变
+本次从main a17d30388656b96dcad815b428b3e68cd3d6b822恢复，回读认可第一讲知识纲、当前技能与双纲约定、之前两轮研究、r4.1案例方案、认可豆选及失败续写记录；外部研究按报告来源标示直接全文、出版页/ERIC摘要和适用限度。没有再读111份旧稿、所有蒸馏语料或整个教材，也无课堂效果试验。用户给出的Gemini文本保持私有原件状态，不整份复制到GitHub。
 
-上一轮[Gemini对照和写作项目报告](research/20261011_Gemini口播对照与Claude_Codex写作项目研究.md)仍保存，其中受众错位、有限主笔输入与保护声音的编辑原则继续有效；其“先进行完整输入/精简输入A/B”不再作为当前首要工作。教师要的是写好课程，不是以提示词比较取代实际作品生产。若后续仍失败，可定向调查输入或主笔能力，不自动开模型比赛。
+**本轮只保存研究与统一交接指针**，没有更改认可大纲、当前主Skill、r4.1旧方案、原豆选或任何口播/PPT/Office成品。这一重整机制需要在第一讲真实连续稿中验证，**不因为报告完成就宣布解决堆砌或真人味问题**。
 
-建议下一轮产物为**第一讲完整基础口播稿**，而不是又一张90分钟表或孤立小样；基础稿也要有充分理由、必要法条、前后连接与适用旧材料，并非缩到最短或故意枯燥。随后按实际缺口研究、充实同一稿，以整篇是否更有用、更自然来判断，不按故事/金句数量判成功。尚待教师对本方案决定；本轮没有执行新稿。
-
-两节各45分钟仍是最终要求；底稿和充实稿分别核真实内容与容量，不用未知语速和预设热烈互动填补时间。不取消故事、幽默、典故、思辨或当代联系，而是不强迫每段一次性配齐。
-
-## 保留、读取和交接边界
-
-[Skill v0.3.2](skills/classroom-oral-workflow/SKILL.md)继续冻结；全课纲、本讲纲、认可豆选、r4.1历史方案及全部旧正文保持不动。Gemini原附件未修改，也未整份上传公开仓库。原工作单保留历史，新的研究与任务优先级由本入口说明，不能从工作单旧“等待r4.1认可后写稿”直接恢复。
-
-本轮核最新main，读取当前状态、入口及前一研究报告相关段落；按本会话完整提供的313行Gemini源文回看具体解释与衔接，未把它当作法律权威。外部研究区分作者摘要、HTML原文和检索返回段落；没有声称全部论文全文阅读、没有新学生调查或声音记录。详细来源、失败访问与未做事项见本轮报告。
-
-本轮只新增研究提案和更新两个入口；不是组稿工作流已稳定验证，也没有安装写作项目、运行Codex、输出PPT/Word/PDF或新课件。
-
-[本轮前状态](https://github.com/takehaya1111/constitution-law-8-lessons/blob/b2e620cae39d2a5789b9206d8bd8fe7c2cf8cf7c/CURRENT_STATE.md)及其全部来源记录保留。
+[本次前的状态及尚未执行稿本记录](https://github.com/takehaya1111/constitution-law-8-lessons/blob/a17d30388656b96dcad815b428b3e68cd3d6b822/CURRENT_STATE.md)作为固定历史保留。
