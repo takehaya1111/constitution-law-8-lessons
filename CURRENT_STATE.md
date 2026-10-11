@@ -1,56 +1,51 @@
-# 当前状态：第一讲当代内容实际融合方案 r4.1 已形成，待教师评价
+# 当前状态：Gemini口播对照与写作项目研究完成，运行方式改进尚待验证
 
-2026-10-10。教师授权把已经建立的当代内容融合层实际用到第一讲，并要求继续以研究校准、避免局部优化。本轮已经在原r4.0整讲方案内完成**具体材料选择、五处进入—展开—转出讲法、替换位置及两节整体影响检查**。不再只是说明将来如何融合，也没有另建热点系统或改写大纲。
+更新：2026-10-11。教师已评价r4.1示例仍然“假大空”，随后提供一份Gemini口播Markdown，要求深度比较为何相对自然，并广泛调研Claude/Codex写稿项目。**这不是教师认可r4.1，也不是同意用Gemini全稿直接替代本课。**本轮完成的是实际文本对照、外部核心工作说明研究及改进提案；没有再升级Skill或重排整讲。
 
-## 唯一任务指针
+## 准确任务与读取指针
 
 ```yaml
 active_task_id: ORAL-LECTURE1-001
 active_work_order: handoff/口播工作单_ORAL-LECTURE1-001.md
 lesson_plan_revision: r4.1
 workflow_version: 0.3.2
-status: INTEGRATED_WHOLE_LESSON_PLAN_WITH_INSERTS_AWAIT_TEACHER
-course_input: 3634b32cc11c64d378180fe2da1ff72793331b14
-oral_skill_input: 5cbfacb79f0dbd90098cbab4741d5fd2883ab5bb
-last_completed_result: S2_RESEARCH_AND_S3_WHOLE_LESSON_APPLICATION_WITH_N1_N5
-approved_baseline: COURSE_AND_LESSON_OUTLINES_AND_EARLIER_PROGRESSION_DIRECTION
-new_plan_teacher_approval: NOT_RECEIVED
-S3_short_speaking_examples: N1_N5_WRITTEN_NOT_A_FULL_MANUSCRIPT
-plan_self_check: DONE_NOT_INDEPENDENT
-S4_full_manuscript: NOT_WRITTEN
-S5_full_dual45_text_validation: NOT_RUN
+current_focus: GEMINI_TEXT_COMPARISON_AND_WRITING_PROJECT_RESEARCH
+research_result: research/20261011_Gemini口播对照与Claude_Codex写作项目研究.md
+status: TEXT_COMPARISON_RESEARCH_COMPLETE_CONTROLLED_WRITING_TEST_NOT_RUN
+course_input: f0e1f8fa75ba04ddec3aaa26d4c6ba0c9bf71aca
+gemini_upload_lines: 313
+gemini_upload_sha256: 5096eb8aa9b7004504049c4087079e8c5c6928d97f20ffdebd1bb0db18e81e5c
+teacher_r4_1_response: EXAMPLES_STILL_ABSTRACT_AND_UNNATURAL
+gemini_reference_scope: RELATIVELY_NATURAL_REFERENCE_NOT_WHOLE_TEXT_APPROVAL
+new_skill_version: NOT_CREATED
+new_oral_draft: NOT_WRITTEN
+external_project_install_or_execution: NOT_RUN
+controlled_model_comparison: NOT_RUN
 codex_independent_review: NOT_RUN
-student_effect_test: NOT_RUN
-next_stage: TEACHER_REVIEW_OF_R4_1_THEN_AUTHORIZED_CONTINUOUS_DRAFTING
+whole_dual45_validation: NOT_RUN
+next_stage: TEST_STAGE_SPECIFIC_WRITER_INPUT_AND_VOICE_PRESERVING_EDIT_WITHIN_EXISTING_SYLLABUS
 ```
 
-**[直接读第一讲当代内容实际融合方案 r4.1](handoff/口播工作单_ORAL-LECTURE1-001.md)**。同一工作单已经包含完整上下节安排、五处实际口述示范N1—N5、采用和弃选判断、来源及时间影响，不需要教师自行把r4.0与一张热点清单拼接。
+## 本轮实际结论
 
-## 本轮具体融入了什么
+[**读完整研究报告：Gemini逐段对照、七个项目的实际机制与取舍、有限验证方案**](research/20261011_Gemini口播对照与Claude_Codex写作项目研究.md)。
 
-- **A1与B3共用新旧治安法第一条**。用2026-01-01施行的新修订治安法“根据宪法”作公安专业现实入口；下节再与2012修正文本第一条对读，解释明示依据不等于首次创造宪法效力，也不是全法合宪的自动证明。修订通过公布日为2025-06-27，不称2026年10月刚颁布；不扩展具体处罚和封存争议。
-- **A2末尾有限使用电影《极限审判》的虚构设定**。约75秒解释分析能力与法定职权不是同一条件，接回机关产生、负责、监督及依法行权。来源是2026-01-23主创专访页面的文字介绍；未看完整影片或视频，不编剧情。原设定有政府建立AI法庭，不能讲成机器擅自夺权；也不能把电影当现实法。没有“全班都看过”的判断。
-- **B2用短而具体的原创表达代替重复说明**。国家赔偿申请不是公文写作比赛；这句话只帮助区分记录方式与依法核查，条文的书写确有困难条件、必要请求事实理由和后续判断均保留，不另编人物或硬加寓言。
-- **B5改用2026-09-20中央网信办App通报做迁移检查**。只取正文中的11款注销功能问题、15个工作日整改要求和后续核查安排，替换原第64条迁移题。检测已做、整改被要求、结果是否已实现分开；未取得这批全部App后续核查结论，不因此断言后续不存在、均未整改或已整改。
+Gemini若干段落的优点是直接解释、连续给出理由、稳定衔接，而不是拥有更多故事和热梗。本项目旧样段却把“我们给假设再补一个条件”等编写操作与来源辩护读给学生。现有Skill其实早有“编辑说明留后台、直接口述”等条款，不能再把规则未落实解释成少了一份规定。
 
-长辛店、豆选认可原文、孙志刚案关键经过、1994通知与孟子凝练仍保留各自职责。严肃案件不加笑话，当代内容不逐段抢占知识中心；此前三个网络词继续仅为教师举例，不固定采用。
+“主笔加载的项目过程与审稿上下文过重”是有文本和外部工程建议支持的**工作假说**，尚未通过同模型控制比较；一个Gemini样本、未知的完整输入及设置，不能证明模型能力总体高低。样本中的提案主体、权利实现等表述还需独立法学审阅，第十二条具体任务实际被换成一般取信息问题；这不抵消教师对相对自然的判断。
 
-## 整体与容量结论
+拟改进：统筹者继续掌握双纲、全讲知识与容量；主笔得到整体位置、足够已核知识与材料、少量相关完整语气样本和必要约束；详细编辑检查分阶段使用，审后必须保护初稿中有效的自然表达。解释型参照用Gemini的具体优点，故事型参照保留已认可豆选，不统一套成一套戏剧情节。
 
-上节仍按11/14/15/5、下节10/8/11/10/6分别预算45分钟，非重叠个人阅读思考仍为3.5/4.5分钟。新法入口、电影短比较、真实条文对读、App迁移题均明确**替换原有同任务表述或活动，不是追加课时**。各项相加的算术已核，但没有全讲新口播，不能称两个45分钟已验证。
+## 项目调研范围
 
-七项大纲的知识去向和跨讲边界未改。B3材料改变是为了避免只围着国家赔偿再说一次抽象结论；B5用另一领域的真实工作材料检验迁移，不能据宪法第41条直接向平台主张国家赔偿。影视、原创比方、记者报道、法规正文及监管通报身份均单独说明。实际听感、幽默与理解尚无教师或学生证据。
+核读核心说明：KKKKhazix/human-writing、blader/humanizer、luquiluke/claude-book-skill（含Codex适配）、MiaIria/style-distiller、hanzhcn/laohan-skills、zenstory-ai/oh-story-claudecode、davila7/claude-code-templates中的content-research-writer。另外两项只作项目说明层次的线索，报告中区分阅读深度。没有将风格百分比、自动评分或项目自报效果当独立证据；不采用把他人经历改成教师亲历、篡改事实细节或按数量补笑点的规则。
 
-## 研究和读取边界
+本轮读完整313行上传稿，回读现行Skill和写作说明、历史3995字稿相关正文及已有源文，查官方工程建议与有限法律原文。未重读教材全书、全部旧稿、全部蒸馏语料，没有观看影片、执行外部脚本、安装项目或调用Gemini/Claude作新实验。
 
-本轮定向读取新旧治安法第一条及题注、宪法和立法法相关条文、国家赔偿法相关原文，中文主创专访文字、9月20日通报正文及后续检索、人脸规则备查；查CMU案例教学说明，并复核2026年幽默研究的可见摘要/讨论段。来源、未取得部分和弃选原因见工作单第八、九节。
+## 保留与下一步
 
-课程仓固定输入3634b32c；新读取入口、状态、当代融合说明和r4.0相关段，其余双纲、AGENTS、总Skill及已核历史材料复用本会话已提供且版本未变的内容。外部蒸馏main仍为5cbfacb，复用已读157—158等具体生成动作，未重新读157篇原作、111份旧稿或教材全书，未校听视频、看电影、读App附图名单或实测功能。
+课程总纲、本讲大纲、已认可豆选、原r4.1方案和全部口播正文不变；[Skill v0.3.2](skills/classroom-oral-workflow/SKILL.md)保持冻结。原Gemini附件未改、未自动整份公开到仓库，报告保留文件摘要、行定位、必要短引与哈希。
 
-本轮仅更新**原工作单和两个交接入口**；[总Skill v0.3.2](skills/classroom-oral-workflow/SKILL.md)与[融合操作说明](skills/classroom-oral-workflow/references/contemporary-integration.md)版本不变。没有独立Codex核查、PPT/Word/PDF、声音文件、新的完整口播或课堂效果试验。
+下一项候选不是再修改几十条Skill，而是在既有第一讲连续知识任务中，比较同一模型分别使用完整流程上下文与精简但足量的主笔输入时的实际正文；事实、整体任务与样本相同，审稿后还要检查是否磨掉原来的自然语气。**本轮只提出并限定此比较，没有执行，也不声称已清空当前对话。**未来是否由Codex或独立写作上下文执行，依教师实际授权；不要求新增其他模型。
 
-## 准确下一步
-
-先审r4.1中实际采用的材料、五处接法及其整堂位置。认可后在同一方案内连续组稿，不再另开一个与全讲脱离的样段测试或重整工作流；收到局部意见仍按整体诊断决定修改范围。N1—N5是可试说的方案示例，不构成全部90分钟作品，更不意味着教师已接受其幽默。
-
-[本轮开始前的完整状态与融合机制研究](https://github.com/takehaya1111/constitution-law-8-lessons/blob/3634b32cc11c64d378180fe2da1ff72793331b14/CURRENT_STATE.md)保留；[此前完整r4.0方案](https://github.com/takehaya1111/constitution-law-8-lessons/blob/3634b32cc11c64d378180fe2da1ff72793331b14/handoff/口播工作单_ORAL-LECTURE1-001.md)同样可回查。
+旧状态与全部r4.1取舍在[本轮前快照](https://github.com/takehaya1111/constitution-law-8-lessons/blob/f0e1f8fa75ba04ddec3aaa26d4c6ba0c9bf71aca/CURRENT_STATE.md)保留。教师指出局部问题仍按整体诊断处理，不以“真人味”取消准确性、故事、时效或两个45分钟。
