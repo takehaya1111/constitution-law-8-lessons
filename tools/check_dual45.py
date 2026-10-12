@@ -221,7 +221,9 @@ def make_report(input_path):
     config = json.loads(input_path.read_text(encoding="utf-8-sig"))
     source_path = input_path.parent / config["source"]
     require(sha(source_path) == config["source_sha256"], "主稿校验值已变化，须由内容负责人确认映射后更新输入")
-    require(config["speeds"] == SPEEDS and config["scenario_order"] == list(SCENARIOS), "须保留五速度和三活动情景")
+    speeds = config["speeds"]
+    require(speeds in (SPEEDS, [140, 150, 160, 170, 180, 200, 220])
+            and config["scenario_order"] == list(SCENARIOS), "须采用约定五档或七档速度和三活动情景")
     require(config["section_minutes"] == 45, "本检查器按两节各45分钟核算")
     source = source_path.read_text(encoding="utf-8-sig")
     continuous = config.get("source_layout") == "continuous_markdown"
@@ -241,7 +243,7 @@ def make_report(input_path):
         require(all(isinstance(v, (int, float)) and v >= 0 for v in a["seconds"].values()), "活动秒数非法")
     rows = []
     for section in SECTIONS:
-        for speed in SPEEDS:
+        for speed in speeds:
             choices = config["selections"][section][str(speed)]
             require(len(choices) == 3, "每速度须有三个明确选择")
             for scenario, choice in zip(SCENARIOS, choices):
@@ -262,7 +264,8 @@ def make_report(input_path):
             "git_head_at_run": commit, "execution": {"command": command, "status": "实际执行完成"},
             "inputs": {p.relative_to(ROOT).as_posix(): sha(p) for p in paths},
             "source": config["source"], "source_sha256": sha(source_path), "input_sha256": sha(input_path),
-            "reference_speed": config["reference_speed"], "source_layout": config.get("source_layout", "legacy_speech_sections"),
+            "reference_speed": config["reference_speed"], "speeds": speeds,
+            "source_layout": config.get("source_layout", "legacy_speech_sections"),
             "counts": counts, "activities": activities, "rows": rows,
             "checks": {"two_sections": True, "all_spoken_blocks_mapped_and_nonempty": True,
                        "source_hash_matches": True, "no_duplicate_source_or_cross_section_block": True,
@@ -279,8 +282,9 @@ def make_report(input_path):
 
 
 def markdown_report(report):
+    speed_count = {5: "五", 7: "七"}[len(report.get("speeds", SPEEDS))]
     out = ["# " + report["lesson"] + "双45分钟容量报告", "", "本报告由工具从当前主稿实际读取并生成。两节各自从0开始；余量为45减预测时长，负数表示超时。", "",
-           "五档速度均为分析假设，180仅为本次编排参照。先列相同主线的原始值，再列内容负责人明确选定的短讲/深化路径。空余不计作已备内容。", ""]
+           speed_count + "档速度均为分析假设，180仅为本次编排参照。先列相同主线的原始值，再列内容负责人明确选定的短讲/深化路径。空余不计作已备内容。", ""]
     for section, label in SECTIONS.items():
         main = next(r["original"] for r in report["rows"] if r["section"] == section and r["speed"] == 180 and r["scenario"] == "plan")
         out += ["## " + label + "：本节0—45分钟", "", f"主线纯汉字{main['han']}，口读校正后{main['spoken_han']}；计划独立活动{main['activity_seconds']/60:.2f}分钟。180参照下{main['estimated_minutes']:.2f}分钟，余量{main['remaining_minutes']:.2f}分钟。", "",
@@ -305,7 +309,7 @@ def markdown_report(report):
             a = r["adjusted"]
             out.append(f"- {SECTIONS[r['section']]}，{r['speed']}，{SCENARIOS[r['scenario']]}：{a['selection']}为{a['estimated_minutes']:.2f}分钟，余量{a['remaining_minutes']:.2f}分钟。{a['status']}。")
     else:
-        out.append("30个选定组合均处于42—45分钟的编排参考范围；这只说明当前假设和选择的计算结果。")
+        out.append(f"{len(report['rows'])}个选定组合均处于42—45分钟的编排参考范围；这只说明当前假设和选择的计算结果。")
     out += ["", "## 实际段落与活动", "", "完整正文、调用位置、用途及中段/收束前检查点留在同一主稿和教学安排。JSON保留每个分支真实标题、行号、口述校验值、逐项读法与每种路径累计时间，便于核对和在尚未开始的段落前调整。", "",
             "| 活动 | 所在段 | 计划秒 | 回应短秒 | 推进慢秒 | 是否独立计时 | 任务/依据 |", "|---|---|---:|---:|---:|---|---|"]
     for a in report["activities"]:

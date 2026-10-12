@@ -1,0 +1,5052 @@
+{
+  "lesson": "第一讲《宪法总论》第二步深化",
+  "generated_at": "2026-10-12T09:17:45.712351+00:00",
+  "git_head_at_run": "6008c62a12895257f30ccb0e4ebc714f7f2de931",
+  "execution": {
+    "command": "python tools/check_dual45.py --input \"research/20261012_第一讲第二步深化/04_容量输入.json\" --output \"research\\20261012_第一讲第二步深化\\04_双45容量报告\"",
+    "status": "实际执行完成"
+  },
+  "inputs": {
+    "research/20261012_第一讲第二步深化/04_容量输入.json": "8da6f164fbcea6313483acf7dcff27421065bbaefe9c3325d317a774833f61d6",
+    "research/20261012_第一讲第二步深化/../../materials/第1讲整合试讲主版本/口播工作稿_20261011_上下节连续初稿.md": "49e5e9abaf091c10daeb652d7726df7719b863a0449a5d1f7e8262c5ccc79a81",
+    "tools/check_dual45.py": "02fa507be7a4e36cfe4be46b96252f187a8234f6cab3724704ecd8fd31fe761d"
+  },
+  "source": "../../materials/第1讲整合试讲主版本/口播工作稿_20261011_上下节连续初稿.md",
+  "source_sha256": "49e5e9abaf091c10daeb652d7726df7719b863a0449a5d1f7e8262c5ccc79a81",
+  "input_sha256": "8da6f164fbcea6313483acf7dcff27421065bbaefe9c3325d317a774833f61d6",
+  "reference_speed": 180,
+  "speeds": [
+    140,
+    150,
+    160,
+    170,
+    180,
+    200,
+    220
+  ],
+  "source_layout": "continuous_markdown",
+  "counts": [
+    {
+      "id": "U1",
+      "section": "upper",
+      "kind": "main",
+      "source_heading": "上节｜宪法怎样安排一个国家的根本生活",
+      "speech_subheading": "一、国家已经建立，为什么还要制定宪法",
+      "source_line": 7,
+      "speech_parts": 1,
+      "han": 1303,
+      "zero_circle_count": 0,
+      "spoken_han": 1303,
+      "speech_sha256": "35f7c6fb49029a84cc298111680b5ffc33700f694a8580cfdf7b77cd52c650f6",
+      "readings": []
+    },
+    {
+      "id": "U2",
+      "section": "upper",
+      "kind": "main",
+      "source_heading": "上节｜宪法怎样安排一个国家的根本生活",
+      "speech_subheading": "二、从一本宪法里，看见整个国家的安排",
+      "source_line": 39,
+      "speech_parts": 1,
+      "han": 1033,
+      "zero_circle_count": 0,
+      "spoken_han": 1033,
+      "speech_sha256": "f04a16c4754f0fb2128b2e3d57f14cf14d49e3f889127f38899b8b7252551d29",
+      "readings": []
+    },
+    {
+      "id": "U3",
+      "section": "upper",
+      "kind": "main",
+      "source_heading": "上节｜宪法怎样安排一个国家的根本生活",
+      "speech_subheading": "三、普通法律这么要紧，为什么宪法仍是根本法",
+      "source_line": 69,
+      "speech_parts": 1,
+      "han": 1350,
+      "zero_circle_count": 0,
+      "spoken_han": 1350,
+      "speech_sha256": "dfbb2230475d85a530e26e9187c796d6d0c5fd1c0cd1089dc6587be0fb10fcff",
+      "readings": []
+    },
+    {
+      "id": "U4",
+      "section": "upper",
+      "kind": "main",
+      "source_heading": "上节｜宪法怎样安排一个国家的根本生活",
+      "speech_subheading": "四、根本的规则怎样保持稳定，又怎样改变",
+      "source_line": 103,
+      "speech_parts": 1,
+      "han": 554,
+      "zero_circle_count": 0,
+      "spoken_han": 554,
+      "speech_sha256": "7065ebf673d6442dfbeda45c7d2d46394207aa20e70f69865e7182cbc89a0ce6",
+      "readings": []
+    },
+    {
+      "id": "U5",
+      "section": "upper",
+      "kind": "main",
+      "source_heading": "上节｜宪法怎样安排一个国家的根本生活",
+      "speech_subheading": "五、把人民当家作主写成制度",
+      "source_line": 117,
+      "speech_parts": 1,
+      "han": 1126,
+      "zero_circle_count": 0,
+      "spoken_han": 1126,
+      "speech_sha256": "c2b7e79ff165fe395f22331be492e62683d6b1e6911ccb9438317e1985a082d5",
+      "readings": []
+    },
+    {
+      "id": "U6",
+      "section": "upper",
+      "kind": "main",
+      "source_heading": "上节｜宪法怎样安排一个国家的根本生活",
+      "speech_subheading": "六、机关怎样行动，人的权利怎样保障",
+      "source_line": 147,
+      "speech_parts": 1,
+      "han": 1864,
+      "zero_circle_count": 0,
+      "spoken_han": 1864,
+      "speech_sha256": "68c0b433f0027af9f7935a0c057f7f5e42ac88dcc7042683644fde7fb547d64c",
+      "readings": []
+    },
+    {
+      "id": "L1",
+      "section": "lower",
+      "kind": "main",
+      "source_heading": "下节｜一项宪法权利怎样进入具体生活",
+      "speech_subheading": "一、损害发生以后，向国家提出什么请求",
+      "source_line": 195,
+      "speech_parts": 1,
+      "han": 696,
+      "zero_circle_count": 1,
+      "spoken_han": 697,
+      "speech_sha256": "d930d8e8279eb33347ffb48d00adac20add4878f8235a3cdf162b4c4358975c2",
+      "readings": []
+    },
+    {
+      "id": "L2",
+      "section": "lower",
+      "kind": "main",
+      "source_heading": "下节｜一项宪法权利怎样进入具体生活",
+      "speech_subheading": "二、从“依法可以赔偿”到“这件事由谁负责”",
+      "source_line": 217,
+      "speech_parts": 1,
+      "han": 1234,
+      "zero_circle_count": 0,
+      "spoken_han": 1234,
+      "speech_sha256": "07406392b753624423f0b892db4bc7459af9baed3dd083a3785ce62a673651d5",
+      "readings": []
+    },
+    {
+      "id": "L3",
+      "section": "lower",
+      "kind": "main",
+      "source_heading": "下节｜一项宪法权利怎样进入具体生活",
+      "speech_subheading": "三、申请写不出来，权利怎样进入办理",
+      "source_line": 251,
+      "speech_parts": 1,
+      "han": 1366,
+      "zero_circle_count": 0,
+      "spoken_han": 1366,
+      "speech_sha256": "a6367f93974360c90a9f0fdd494615956761945cd052a5f9236ad9146a6a7d15",
+      "readings": []
+    },
+    {
+      "id": "L4",
+      "section": "lower",
+      "kind": "main",
+      "source_heading": "下节｜一项宪法权利怎样进入具体生活",
+      "speech_subheading": "四、宪法已经有效，为什么还需要普通法律",
+      "source_line": 285,
+      "speech_parts": 1,
+      "han": 1586,
+      "zero_circle_count": 2,
+      "spoken_han": 1588,
+      "speech_sha256": "425624e3dda320a48c25cf00e5b0898f2724e916f7818653ff5f9877e07e694a",
+      "readings": []
+    },
+    {
+      "id": "L5",
+      "section": "lower",
+      "kind": "main",
+      "source_heading": "下节｜一项宪法权利怎样进入具体生活",
+      "speech_subheading": "五、法律通过以后，还有哪些工作要做",
+      "source_line": 325,
+      "speech_parts": 1,
+      "han": 951,
+      "zero_circle_count": 0,
+      "spoken_han": 951,
+      "speech_sha256": "849a7e887566ed165b706d1137785cbc60468ca564b5338de96b5bb8a005fcee",
+      "readings": []
+    },
+    {
+      "id": "L6",
+      "section": "lower",
+      "kind": "main",
+      "source_heading": "下节｜一项宪法权利怎样进入具体生活",
+      "speech_subheading": "六、从规则的约束力，走到人的实际处境",
+      "source_line": 345,
+      "speech_parts": 1,
+      "han": 1411,
+      "zero_circle_count": 0,
+      "spoken_han": 1411,
+      "speech_sha256": "99ad3ba4b9d043a51f1c50bdc92253ce3cd85f0dd436c8bc57c95221ed95faf3",
+      "readings": []
+    }
+  ],
+  "activities": [
+    {
+      "id": "A1",
+      "block": "U2",
+      "seconds": {
+        "plan": 90,
+        "short": 60,
+        "slow": 120
+      },
+      "overlaps_speech": false,
+      "includes_teacher_feedback": false,
+      "description": "判断三件事中哪两件属于宪法直接处理的根本安排，写出选择和一句理由。此时教师不继续讲新内容；正文中的提问和讲评计入口述，不在本活动中重复加时。",
+      "scenario_reasons": {
+        "plan": "按正文独立思考90秒提示。",
+        "short": "阅读和写简短理由较快时假设60秒，非学生实测。",
+        "slow": "阅读和写简短理由需更多时间时假设120秒，非学生实测。"
+      }
+    },
+    {
+      "id": "A2",
+      "block": "U6",
+      "seconds": {
+        "plan": 120,
+        "short": 90,
+        "slow": 150
+      },
+      "overlaps_speech": false,
+      "includes_teacher_feedback": false,
+      "description": "判断“机关依法设立，所以它作出的每项决定都一定合法”省略了什么，写一至两句理由。此时教师不继续讲新内容；正文中的提问和讲评计入口述，不在本活动中重复加时。",
+      "scenario_reasons": {
+        "plan": "按正文独立思考120秒提示。",
+        "short": "阅读和写简短理由较快时假设90秒，非学生实测。",
+        "slow": "阅读和写简短理由需更多时间时假设150秒，非学生实测。"
+      }
+    },
+    {
+      "id": "A3",
+      "block": "L2",
+      "seconds": {
+        "plan": 90,
+        "short": 60,
+        "slow": 120
+      },
+      "overlaps_speech": false,
+      "includes_teacher_feedback": false,
+      "description": "分别写出甲目前可以判断什么、乙还缺哪类事实，不猜具体赔偿金额。此时教师不继续讲新内容；正文中的提问和讲评计入口述，不在本活动中重复加时。",
+      "scenario_reasons": {
+        "plan": "按正文独立思考90秒提示。",
+        "short": "阅读和写简短理由较快时假设60秒，非学生实测。",
+        "slow": "阅读和写简短理由需更多时间时假设120秒，非学生实测。"
+      }
+    },
+    {
+      "id": "A4",
+      "block": "L6",
+      "seconds": {
+        "plan": 120,
+        "short": 90,
+        "slow": 150
+      },
+      "overlaps_speech": false,
+      "includes_teacher_feedback": false,
+      "description": "用三句话区分规范要求、工作部署和个案实际办理，不把尚未取得的办理事实当成已发生。此时教师不继续讲新内容；正文中的提问和讲评计入口述，不在本活动中重复加时。",
+      "scenario_reasons": {
+        "plan": "按正文独立思考120秒提示。",
+        "short": "阅读和写简短理由较快时假设90秒，非学生实测。",
+        "slow": "阅读和写简短理由需更多时间时假设150秒，非学生实测。"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "section": "upper",
+      "speed": 140,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 210,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 55.1429,
+        "difference_from_45_minutes": 10.1429,
+        "remaining_minutes": -10.1429,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 9.3071
+          },
+          {
+            "block": "U2",
+            "start_minutes": 9.3071,
+            "end_minutes": 18.1857
+          },
+          {
+            "block": "U3",
+            "start_minutes": 18.1857,
+            "end_minutes": 27.8286
+          },
+          {
+            "block": "U4",
+            "start_minutes": 27.8286,
+            "end_minutes": 31.7857
+          },
+          {
+            "block": "U5",
+            "start_minutes": 31.7857,
+            "end_minutes": 39.8286
+          },
+          {
+            "block": "U6",
+            "start_minutes": 39.8286,
+            "end_minutes": 55.1429
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 210,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 55.1429,
+        "difference_from_45_minutes": 10.1429,
+        "remaining_minutes": -10.1429,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 9.3071
+          },
+          {
+            "block": "U2",
+            "start_minutes": 9.3071,
+            "end_minutes": 18.1857
+          },
+          {
+            "block": "U3",
+            "start_minutes": 18.1857,
+            "end_minutes": 27.8286
+          },
+          {
+            "block": "U4",
+            "start_minutes": 27.8286,
+            "end_minutes": 31.7857
+          },
+          {
+            "block": "U5",
+            "start_minutes": 31.7857,
+            "end_minutes": 39.8286
+          },
+          {
+            "block": "U6",
+            "start_minutes": 39.8286,
+            "end_minutes": 55.1429
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 140,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 150,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 54.1429,
+        "difference_from_45_minutes": 9.1429,
+        "remaining_minutes": -9.1429,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 9.3071
+          },
+          {
+            "block": "U2",
+            "start_minutes": 9.3071,
+            "end_minutes": 17.6857
+          },
+          {
+            "block": "U3",
+            "start_minutes": 17.6857,
+            "end_minutes": 27.3286
+          },
+          {
+            "block": "U4",
+            "start_minutes": 27.3286,
+            "end_minutes": 31.2857
+          },
+          {
+            "block": "U5",
+            "start_minutes": 31.2857,
+            "end_minutes": 39.3286
+          },
+          {
+            "block": "U6",
+            "start_minutes": 39.3286,
+            "end_minutes": 54.1429
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 150,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 54.1429,
+        "difference_from_45_minutes": 9.1429,
+        "remaining_minutes": -9.1429,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 9.3071
+          },
+          {
+            "block": "U2",
+            "start_minutes": 9.3071,
+            "end_minutes": 17.6857
+          },
+          {
+            "block": "U3",
+            "start_minutes": 17.6857,
+            "end_minutes": 27.3286
+          },
+          {
+            "block": "U4",
+            "start_minutes": 27.3286,
+            "end_minutes": 31.2857
+          },
+          {
+            "block": "U5",
+            "start_minutes": 31.2857,
+            "end_minutes": 39.3286
+          },
+          {
+            "block": "U6",
+            "start_minutes": 39.3286,
+            "end_minutes": 54.1429
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 140,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 270,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 56.1429,
+        "difference_from_45_minutes": 11.1429,
+        "remaining_minutes": -11.1429,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 9.3071
+          },
+          {
+            "block": "U2",
+            "start_minutes": 9.3071,
+            "end_minutes": 18.6857
+          },
+          {
+            "block": "U3",
+            "start_minutes": 18.6857,
+            "end_minutes": 28.3286
+          },
+          {
+            "block": "U4",
+            "start_minutes": 28.3286,
+            "end_minutes": 32.2857
+          },
+          {
+            "block": "U5",
+            "start_minutes": 32.2857,
+            "end_minutes": 40.3286
+          },
+          {
+            "block": "U6",
+            "start_minutes": 40.3286,
+            "end_minutes": 56.1429
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 270,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 56.1429,
+        "difference_from_45_minutes": 11.1429,
+        "remaining_minutes": -11.1429,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 9.3071
+          },
+          {
+            "block": "U2",
+            "start_minutes": 9.3071,
+            "end_minutes": 18.6857
+          },
+          {
+            "block": "U3",
+            "start_minutes": 18.6857,
+            "end_minutes": 28.3286
+          },
+          {
+            "block": "U4",
+            "start_minutes": 28.3286,
+            "end_minutes": 32.2857
+          },
+          {
+            "block": "U5",
+            "start_minutes": 32.2857,
+            "end_minutes": 40.3286
+          },
+          {
+            "block": "U6",
+            "start_minutes": 40.3286,
+            "end_minutes": 56.1429
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 150,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 210,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 51.7,
+        "difference_from_45_minutes": 6.7,
+        "remaining_minutes": -6.7,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 8.6867
+          },
+          {
+            "block": "U2",
+            "start_minutes": 8.6867,
+            "end_minutes": 17.0733
+          },
+          {
+            "block": "U3",
+            "start_minutes": 17.0733,
+            "end_minutes": 26.0733
+          },
+          {
+            "block": "U4",
+            "start_minutes": 26.0733,
+            "end_minutes": 29.7667
+          },
+          {
+            "block": "U5",
+            "start_minutes": 29.7667,
+            "end_minutes": 37.2733
+          },
+          {
+            "block": "U6",
+            "start_minutes": 37.2733,
+            "end_minutes": 51.7
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 210,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 51.7,
+        "difference_from_45_minutes": 6.7,
+        "remaining_minutes": -6.7,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 8.6867
+          },
+          {
+            "block": "U2",
+            "start_minutes": 8.6867,
+            "end_minutes": 17.0733
+          },
+          {
+            "block": "U3",
+            "start_minutes": 17.0733,
+            "end_minutes": 26.0733
+          },
+          {
+            "block": "U4",
+            "start_minutes": 26.0733,
+            "end_minutes": 29.7667
+          },
+          {
+            "block": "U5",
+            "start_minutes": 29.7667,
+            "end_minutes": 37.2733
+          },
+          {
+            "block": "U6",
+            "start_minutes": 37.2733,
+            "end_minutes": 51.7
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 150,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 150,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 50.7,
+        "difference_from_45_minutes": 5.7,
+        "remaining_minutes": -5.7,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 8.6867
+          },
+          {
+            "block": "U2",
+            "start_minutes": 8.6867,
+            "end_minutes": 16.5733
+          },
+          {
+            "block": "U3",
+            "start_minutes": 16.5733,
+            "end_minutes": 25.5733
+          },
+          {
+            "block": "U4",
+            "start_minutes": 25.5733,
+            "end_minutes": 29.2667
+          },
+          {
+            "block": "U5",
+            "start_minutes": 29.2667,
+            "end_minutes": 36.7733
+          },
+          {
+            "block": "U6",
+            "start_minutes": 36.7733,
+            "end_minutes": 50.7
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 150,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 50.7,
+        "difference_from_45_minutes": 5.7,
+        "remaining_minutes": -5.7,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 8.6867
+          },
+          {
+            "block": "U2",
+            "start_minutes": 8.6867,
+            "end_minutes": 16.5733
+          },
+          {
+            "block": "U3",
+            "start_minutes": 16.5733,
+            "end_minutes": 25.5733
+          },
+          {
+            "block": "U4",
+            "start_minutes": 25.5733,
+            "end_minutes": 29.2667
+          },
+          {
+            "block": "U5",
+            "start_minutes": 29.2667,
+            "end_minutes": 36.7733
+          },
+          {
+            "block": "U6",
+            "start_minutes": 36.7733,
+            "end_minutes": 50.7
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 150,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 270,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 52.7,
+        "difference_from_45_minutes": 7.7,
+        "remaining_minutes": -7.7,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 8.6867
+          },
+          {
+            "block": "U2",
+            "start_minutes": 8.6867,
+            "end_minutes": 17.5733
+          },
+          {
+            "block": "U3",
+            "start_minutes": 17.5733,
+            "end_minutes": 26.5733
+          },
+          {
+            "block": "U4",
+            "start_minutes": 26.5733,
+            "end_minutes": 30.2667
+          },
+          {
+            "block": "U5",
+            "start_minutes": 30.2667,
+            "end_minutes": 37.7733
+          },
+          {
+            "block": "U6",
+            "start_minutes": 37.7733,
+            "end_minutes": 52.7
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 270,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 52.7,
+        "difference_from_45_minutes": 7.7,
+        "remaining_minutes": -7.7,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 8.6867
+          },
+          {
+            "block": "U2",
+            "start_minutes": 8.6867,
+            "end_minutes": 17.5733
+          },
+          {
+            "block": "U3",
+            "start_minutes": 17.5733,
+            "end_minutes": 26.5733
+          },
+          {
+            "block": "U4",
+            "start_minutes": 26.5733,
+            "end_minutes": 30.2667
+          },
+          {
+            "block": "U5",
+            "start_minutes": 30.2667,
+            "end_minutes": 37.7733
+          },
+          {
+            "block": "U6",
+            "start_minutes": 37.7733,
+            "end_minutes": 52.7
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 160,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 210,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 48.6875,
+        "difference_from_45_minutes": 3.6875,
+        "remaining_minutes": -3.6875,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 8.1438
+          },
+          {
+            "block": "U2",
+            "start_minutes": 8.1438,
+            "end_minutes": 16.1
+          },
+          {
+            "block": "U3",
+            "start_minutes": 16.1,
+            "end_minutes": 24.5375
+          },
+          {
+            "block": "U4",
+            "start_minutes": 24.5375,
+            "end_minutes": 28.0
+          },
+          {
+            "block": "U5",
+            "start_minutes": 28.0,
+            "end_minutes": 35.0375
+          },
+          {
+            "block": "U6",
+            "start_minutes": 35.0375,
+            "end_minutes": 48.6875
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 210,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 48.6875,
+        "difference_from_45_minutes": 3.6875,
+        "remaining_minutes": -3.6875,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 8.1438
+          },
+          {
+            "block": "U2",
+            "start_minutes": 8.1438,
+            "end_minutes": 16.1
+          },
+          {
+            "block": "U3",
+            "start_minutes": 16.1,
+            "end_minutes": 24.5375
+          },
+          {
+            "block": "U4",
+            "start_minutes": 24.5375,
+            "end_minutes": 28.0
+          },
+          {
+            "block": "U5",
+            "start_minutes": 28.0,
+            "end_minutes": 35.0375
+          },
+          {
+            "block": "U6",
+            "start_minutes": 35.0375,
+            "end_minutes": 48.6875
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 160,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 150,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 47.6875,
+        "difference_from_45_minutes": 2.6875,
+        "remaining_minutes": -2.6875,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 8.1438
+          },
+          {
+            "block": "U2",
+            "start_minutes": 8.1438,
+            "end_minutes": 15.6
+          },
+          {
+            "block": "U3",
+            "start_minutes": 15.6,
+            "end_minutes": 24.0375
+          },
+          {
+            "block": "U4",
+            "start_minutes": 24.0375,
+            "end_minutes": 27.5
+          },
+          {
+            "block": "U5",
+            "start_minutes": 27.5,
+            "end_minutes": 34.5375
+          },
+          {
+            "block": "U6",
+            "start_minutes": 34.5375,
+            "end_minutes": 47.6875
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 150,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 47.6875,
+        "difference_from_45_minutes": 2.6875,
+        "remaining_minutes": -2.6875,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 8.1438
+          },
+          {
+            "block": "U2",
+            "start_minutes": 8.1438,
+            "end_minutes": 15.6
+          },
+          {
+            "block": "U3",
+            "start_minutes": 15.6,
+            "end_minutes": 24.0375
+          },
+          {
+            "block": "U4",
+            "start_minutes": 24.0375,
+            "end_minutes": 27.5
+          },
+          {
+            "block": "U5",
+            "start_minutes": 27.5,
+            "end_minutes": 34.5375
+          },
+          {
+            "block": "U6",
+            "start_minutes": 34.5375,
+            "end_minutes": 47.6875
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 160,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 270,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 49.6875,
+        "difference_from_45_minutes": 4.6875,
+        "remaining_minutes": -4.6875,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 8.1438
+          },
+          {
+            "block": "U2",
+            "start_minutes": 8.1438,
+            "end_minutes": 16.6
+          },
+          {
+            "block": "U3",
+            "start_minutes": 16.6,
+            "end_minutes": 25.0375
+          },
+          {
+            "block": "U4",
+            "start_minutes": 25.0375,
+            "end_minutes": 28.5
+          },
+          {
+            "block": "U5",
+            "start_minutes": 28.5,
+            "end_minutes": 35.5375
+          },
+          {
+            "block": "U6",
+            "start_minutes": 35.5375,
+            "end_minutes": 49.6875
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 270,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 49.6875,
+        "difference_from_45_minutes": 4.6875,
+        "remaining_minutes": -4.6875,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 8.1438
+          },
+          {
+            "block": "U2",
+            "start_minutes": 8.1438,
+            "end_minutes": 16.6
+          },
+          {
+            "block": "U3",
+            "start_minutes": 16.6,
+            "end_minutes": 25.0375
+          },
+          {
+            "block": "U4",
+            "start_minutes": 25.0375,
+            "end_minutes": 28.5
+          },
+          {
+            "block": "U5",
+            "start_minutes": 28.5,
+            "end_minutes": 35.5375
+          },
+          {
+            "block": "U6",
+            "start_minutes": 35.5375,
+            "end_minutes": 49.6875
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 170,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 210,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 46.0294,
+        "difference_from_45_minutes": 1.0294,
+        "remaining_minutes": -1.0294,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 7.6647
+          },
+          {
+            "block": "U2",
+            "start_minutes": 7.6647,
+            "end_minutes": 15.2412
+          },
+          {
+            "block": "U3",
+            "start_minutes": 15.2412,
+            "end_minutes": 23.1824
+          },
+          {
+            "block": "U4",
+            "start_minutes": 23.1824,
+            "end_minutes": 26.4412
+          },
+          {
+            "block": "U5",
+            "start_minutes": 26.4412,
+            "end_minutes": 33.0647
+          },
+          {
+            "block": "U6",
+            "start_minutes": 33.0647,
+            "end_minutes": 46.0294
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 210,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 46.0294,
+        "difference_from_45_minutes": 1.0294,
+        "remaining_minutes": -1.0294,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 7.6647
+          },
+          {
+            "block": "U2",
+            "start_minutes": 7.6647,
+            "end_minutes": 15.2412
+          },
+          {
+            "block": "U3",
+            "start_minutes": 15.2412,
+            "end_minutes": 23.1824
+          },
+          {
+            "block": "U4",
+            "start_minutes": 23.1824,
+            "end_minutes": 26.4412
+          },
+          {
+            "block": "U5",
+            "start_minutes": 26.4412,
+            "end_minutes": 33.0647
+          },
+          {
+            "block": "U6",
+            "start_minutes": 33.0647,
+            "end_minutes": 46.0294
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 170,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 150,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 45.0294,
+        "difference_from_45_minutes": 0.0294,
+        "remaining_minutes": -0.0294,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 7.6647
+          },
+          {
+            "block": "U2",
+            "start_minutes": 7.6647,
+            "end_minutes": 14.7412
+          },
+          {
+            "block": "U3",
+            "start_minutes": 14.7412,
+            "end_minutes": 22.6824
+          },
+          {
+            "block": "U4",
+            "start_minutes": 22.6824,
+            "end_minutes": 25.9412
+          },
+          {
+            "block": "U5",
+            "start_minutes": 25.9412,
+            "end_minutes": 32.5647
+          },
+          {
+            "block": "U6",
+            "start_minutes": 32.5647,
+            "end_minutes": 45.0294
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 150,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 45.0294,
+        "difference_from_45_minutes": 0.0294,
+        "remaining_minutes": -0.0294,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 7.6647
+          },
+          {
+            "block": "U2",
+            "start_minutes": 7.6647,
+            "end_minutes": 14.7412
+          },
+          {
+            "block": "U3",
+            "start_minutes": 14.7412,
+            "end_minutes": 22.6824
+          },
+          {
+            "block": "U4",
+            "start_minutes": 22.6824,
+            "end_minutes": 25.9412
+          },
+          {
+            "block": "U5",
+            "start_minutes": 25.9412,
+            "end_minutes": 32.5647
+          },
+          {
+            "block": "U6",
+            "start_minutes": 32.5647,
+            "end_minutes": 45.0294
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 170,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 270,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 47.0294,
+        "difference_from_45_minutes": 2.0294,
+        "remaining_minutes": -2.0294,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 7.6647
+          },
+          {
+            "block": "U2",
+            "start_minutes": 7.6647,
+            "end_minutes": 15.7412
+          },
+          {
+            "block": "U3",
+            "start_minutes": 15.7412,
+            "end_minutes": 23.6824
+          },
+          {
+            "block": "U4",
+            "start_minutes": 23.6824,
+            "end_minutes": 26.9412
+          },
+          {
+            "block": "U5",
+            "start_minutes": 26.9412,
+            "end_minutes": 33.5647
+          },
+          {
+            "block": "U6",
+            "start_minutes": 33.5647,
+            "end_minutes": 47.0294
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 270,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 47.0294,
+        "difference_from_45_minutes": 2.0294,
+        "remaining_minutes": -2.0294,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 7.6647
+          },
+          {
+            "block": "U2",
+            "start_minutes": 7.6647,
+            "end_minutes": 15.7412
+          },
+          {
+            "block": "U3",
+            "start_minutes": 15.7412,
+            "end_minutes": 23.6824
+          },
+          {
+            "block": "U4",
+            "start_minutes": 23.6824,
+            "end_minutes": 26.9412
+          },
+          {
+            "block": "U5",
+            "start_minutes": 26.9412,
+            "end_minutes": 33.5647
+          },
+          {
+            "block": "U6",
+            "start_minutes": 33.5647,
+            "end_minutes": 47.0294
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 180,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 210,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 43.6667,
+        "difference_from_45_minutes": -1.3333,
+        "remaining_minutes": 1.3333,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 7.2389
+          },
+          {
+            "block": "U2",
+            "start_minutes": 7.2389,
+            "end_minutes": 14.4778
+          },
+          {
+            "block": "U3",
+            "start_minutes": 14.4778,
+            "end_minutes": 21.9778
+          },
+          {
+            "block": "U4",
+            "start_minutes": 21.9778,
+            "end_minutes": 25.0556
+          },
+          {
+            "block": "U5",
+            "start_minutes": 25.0556,
+            "end_minutes": 31.3111
+          },
+          {
+            "block": "U6",
+            "start_minutes": 31.3111,
+            "end_minutes": 43.6667
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 210,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 43.6667,
+        "difference_from_45_minutes": -1.3333,
+        "remaining_minutes": 1.3333,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 7.2389
+          },
+          {
+            "block": "U2",
+            "start_minutes": 7.2389,
+            "end_minutes": 14.4778
+          },
+          {
+            "block": "U3",
+            "start_minutes": 14.4778,
+            "end_minutes": 21.9778
+          },
+          {
+            "block": "U4",
+            "start_minutes": 21.9778,
+            "end_minutes": 25.0556
+          },
+          {
+            "block": "U5",
+            "start_minutes": 25.0556,
+            "end_minutes": 31.3111
+          },
+          {
+            "block": "U6",
+            "start_minutes": 31.3111,
+            "end_minutes": 43.6667
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 180,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 150,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 42.6667,
+        "difference_from_45_minutes": -2.3333,
+        "remaining_minutes": 2.3333,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 7.2389
+          },
+          {
+            "block": "U2",
+            "start_minutes": 7.2389,
+            "end_minutes": 13.9778
+          },
+          {
+            "block": "U3",
+            "start_minutes": 13.9778,
+            "end_minutes": 21.4778
+          },
+          {
+            "block": "U4",
+            "start_minutes": 21.4778,
+            "end_minutes": 24.5556
+          },
+          {
+            "block": "U5",
+            "start_minutes": 24.5556,
+            "end_minutes": 30.8111
+          },
+          {
+            "block": "U6",
+            "start_minutes": 30.8111,
+            "end_minutes": 42.6667
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 150,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 42.6667,
+        "difference_from_45_minutes": -2.3333,
+        "remaining_minutes": 2.3333,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 7.2389
+          },
+          {
+            "block": "U2",
+            "start_minutes": 7.2389,
+            "end_minutes": 13.9778
+          },
+          {
+            "block": "U3",
+            "start_minutes": 13.9778,
+            "end_minutes": 21.4778
+          },
+          {
+            "block": "U4",
+            "start_minutes": 21.4778,
+            "end_minutes": 24.5556
+          },
+          {
+            "block": "U5",
+            "start_minutes": 24.5556,
+            "end_minutes": 30.8111
+          },
+          {
+            "block": "U6",
+            "start_minutes": 30.8111,
+            "end_minutes": 42.6667
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 180,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 270,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 44.6667,
+        "difference_from_45_minutes": -0.3333,
+        "remaining_minutes": 0.3333,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 7.2389
+          },
+          {
+            "block": "U2",
+            "start_minutes": 7.2389,
+            "end_minutes": 14.9778
+          },
+          {
+            "block": "U3",
+            "start_minutes": 14.9778,
+            "end_minutes": 22.4778
+          },
+          {
+            "block": "U4",
+            "start_minutes": 22.4778,
+            "end_minutes": 25.5556
+          },
+          {
+            "block": "U5",
+            "start_minutes": 25.5556,
+            "end_minutes": 31.8111
+          },
+          {
+            "block": "U6",
+            "start_minutes": 31.8111,
+            "end_minutes": 44.6667
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 270,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 44.6667,
+        "difference_from_45_minutes": -0.3333,
+        "remaining_minutes": 0.3333,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 7.2389
+          },
+          {
+            "block": "U2",
+            "start_minutes": 7.2389,
+            "end_minutes": 14.9778
+          },
+          {
+            "block": "U3",
+            "start_minutes": 14.9778,
+            "end_minutes": 22.4778
+          },
+          {
+            "block": "U4",
+            "start_minutes": 22.4778,
+            "end_minutes": 25.5556
+          },
+          {
+            "block": "U5",
+            "start_minutes": 25.5556,
+            "end_minutes": 31.8111
+          },
+          {
+            "block": "U6",
+            "start_minutes": 31.8111,
+            "end_minutes": 44.6667
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 200,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 210,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 39.65,
+        "difference_from_45_minutes": -5.35,
+        "remaining_minutes": 5.35,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 6.515
+          },
+          {
+            "block": "U2",
+            "start_minutes": 6.515,
+            "end_minutes": 13.18
+          },
+          {
+            "block": "U3",
+            "start_minutes": 13.18,
+            "end_minutes": 19.93
+          },
+          {
+            "block": "U4",
+            "start_minutes": 19.93,
+            "end_minutes": 22.7
+          },
+          {
+            "block": "U5",
+            "start_minutes": 22.7,
+            "end_minutes": 28.33
+          },
+          {
+            "block": "U6",
+            "start_minutes": 28.33,
+            "end_minutes": 39.65
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 210,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 39.65,
+        "difference_from_45_minutes": -5.35,
+        "remaining_minutes": 5.35,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 6.515
+          },
+          {
+            "block": "U2",
+            "start_minutes": 6.515,
+            "end_minutes": 13.18
+          },
+          {
+            "block": "U3",
+            "start_minutes": 13.18,
+            "end_minutes": 19.93
+          },
+          {
+            "block": "U4",
+            "start_minutes": 19.93,
+            "end_minutes": 22.7
+          },
+          {
+            "block": "U5",
+            "start_minutes": 22.7,
+            "end_minutes": 28.33
+          },
+          {
+            "block": "U6",
+            "start_minutes": 28.33,
+            "end_minutes": 39.65
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 200,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 150,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 38.65,
+        "difference_from_45_minutes": -6.35,
+        "remaining_minutes": 6.35,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 6.515
+          },
+          {
+            "block": "U2",
+            "start_minutes": 6.515,
+            "end_minutes": 12.68
+          },
+          {
+            "block": "U3",
+            "start_minutes": 12.68,
+            "end_minutes": 19.43
+          },
+          {
+            "block": "U4",
+            "start_minutes": 19.43,
+            "end_minutes": 22.2
+          },
+          {
+            "block": "U5",
+            "start_minutes": 22.2,
+            "end_minutes": 27.83
+          },
+          {
+            "block": "U6",
+            "start_minutes": 27.83,
+            "end_minutes": 38.65
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 150,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 38.65,
+        "difference_from_45_minutes": -6.35,
+        "remaining_minutes": 6.35,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 6.515
+          },
+          {
+            "block": "U2",
+            "start_minutes": 6.515,
+            "end_minutes": 12.68
+          },
+          {
+            "block": "U3",
+            "start_minutes": 12.68,
+            "end_minutes": 19.43
+          },
+          {
+            "block": "U4",
+            "start_minutes": 19.43,
+            "end_minutes": 22.2
+          },
+          {
+            "block": "U5",
+            "start_minutes": 22.2,
+            "end_minutes": 27.83
+          },
+          {
+            "block": "U6",
+            "start_minutes": 27.83,
+            "end_minutes": 38.65
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 200,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 270,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 40.65,
+        "difference_from_45_minutes": -4.35,
+        "remaining_minutes": 4.35,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 6.515
+          },
+          {
+            "block": "U2",
+            "start_minutes": 6.515,
+            "end_minutes": 13.68
+          },
+          {
+            "block": "U3",
+            "start_minutes": 13.68,
+            "end_minutes": 20.43
+          },
+          {
+            "block": "U4",
+            "start_minutes": 20.43,
+            "end_minutes": 23.2
+          },
+          {
+            "block": "U5",
+            "start_minutes": 23.2,
+            "end_minutes": 28.83
+          },
+          {
+            "block": "U6",
+            "start_minutes": 28.83,
+            "end_minutes": 40.65
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 270,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 40.65,
+        "difference_from_45_minutes": -4.35,
+        "remaining_minutes": 4.35,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 6.515
+          },
+          {
+            "block": "U2",
+            "start_minutes": 6.515,
+            "end_minutes": 13.68
+          },
+          {
+            "block": "U3",
+            "start_minutes": 13.68,
+            "end_minutes": 20.43
+          },
+          {
+            "block": "U4",
+            "start_minutes": 20.43,
+            "end_minutes": 23.2
+          },
+          {
+            "block": "U5",
+            "start_minutes": 23.2,
+            "end_minutes": 28.83
+          },
+          {
+            "block": "U6",
+            "start_minutes": 28.83,
+            "end_minutes": 40.65
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 220,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 210,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 36.3636,
+        "difference_from_45_minutes": -8.6364,
+        "remaining_minutes": 8.6364,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 5.9227
+          },
+          {
+            "block": "U2",
+            "start_minutes": 5.9227,
+            "end_minutes": 12.1182
+          },
+          {
+            "block": "U3",
+            "start_minutes": 12.1182,
+            "end_minutes": 18.2545
+          },
+          {
+            "block": "U4",
+            "start_minutes": 18.2545,
+            "end_minutes": 20.7727
+          },
+          {
+            "block": "U5",
+            "start_minutes": 20.7727,
+            "end_minutes": 25.8909
+          },
+          {
+            "block": "U6",
+            "start_minutes": 25.8909,
+            "end_minutes": 36.3636
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 210,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 36.3636,
+        "difference_from_45_minutes": -8.6364,
+        "remaining_minutes": 8.6364,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 5.9227
+          },
+          {
+            "block": "U2",
+            "start_minutes": 5.9227,
+            "end_minutes": 12.1182
+          },
+          {
+            "block": "U3",
+            "start_minutes": 12.1182,
+            "end_minutes": 18.2545
+          },
+          {
+            "block": "U4",
+            "start_minutes": 18.2545,
+            "end_minutes": 20.7727
+          },
+          {
+            "block": "U5",
+            "start_minutes": 20.7727,
+            "end_minutes": 25.8909
+          },
+          {
+            "block": "U6",
+            "start_minutes": 25.8909,
+            "end_minutes": 36.3636
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 220,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 150,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 35.3636,
+        "difference_from_45_minutes": -9.6364,
+        "remaining_minutes": 9.6364,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 5.9227
+          },
+          {
+            "block": "U2",
+            "start_minutes": 5.9227,
+            "end_minutes": 11.6182
+          },
+          {
+            "block": "U3",
+            "start_minutes": 11.6182,
+            "end_minutes": 17.7545
+          },
+          {
+            "block": "U4",
+            "start_minutes": 17.7545,
+            "end_minutes": 20.2727
+          },
+          {
+            "block": "U5",
+            "start_minutes": 20.2727,
+            "end_minutes": 25.3909
+          },
+          {
+            "block": "U6",
+            "start_minutes": 25.3909,
+            "end_minutes": 35.3636
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 150,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 35.3636,
+        "difference_from_45_minutes": -9.6364,
+        "remaining_minutes": 9.6364,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 5.9227
+          },
+          {
+            "block": "U2",
+            "start_minutes": 5.9227,
+            "end_minutes": 11.6182
+          },
+          {
+            "block": "U3",
+            "start_minutes": 11.6182,
+            "end_minutes": 17.7545
+          },
+          {
+            "block": "U4",
+            "start_minutes": 17.7545,
+            "end_minutes": 20.2727
+          },
+          {
+            "block": "U5",
+            "start_minutes": 20.2727,
+            "end_minutes": 25.3909
+          },
+          {
+            "block": "U6",
+            "start_minutes": 25.3909,
+            "end_minutes": 35.3636
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    },
+    {
+      "section": "upper",
+      "speed": 220,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 270,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 37.3636,
+        "difference_from_45_minutes": -7.6364,
+        "remaining_minutes": 7.6364,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 5.9227
+          },
+          {
+            "block": "U2",
+            "start_minutes": 5.9227,
+            "end_minutes": 12.6182
+          },
+          {
+            "block": "U3",
+            "start_minutes": 12.6182,
+            "end_minutes": 18.7545
+          },
+          {
+            "block": "U4",
+            "start_minutes": 18.7545,
+            "end_minutes": 21.2727
+          },
+          {
+            "block": "U5",
+            "start_minutes": 21.2727,
+            "end_minutes": 26.3909
+          },
+          {
+            "block": "U6",
+            "start_minutes": 26.3909,
+            "end_minutes": 37.3636
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6"
+        ],
+        "han": 7230,
+        "spoken_han": 7230,
+        "activity_seconds": 270,
+        "activities": [
+          "A1",
+          "A2"
+        ],
+        "estimated_minutes": 37.3636,
+        "difference_from_45_minutes": -7.6364,
+        "remaining_minutes": 7.6364,
+        "timeline": [
+          {
+            "block": "U1",
+            "start_minutes": 0,
+            "end_minutes": 5.9227
+          },
+          {
+            "block": "U2",
+            "start_minutes": 5.9227,
+            "end_minutes": 12.6182
+          },
+          {
+            "block": "U3",
+            "start_minutes": 12.6182,
+            "end_minutes": 18.7545
+          },
+          {
+            "block": "U4",
+            "start_minutes": 18.7545,
+            "end_minutes": 21.2727
+          },
+          {
+            "block": "U5",
+            "start_minutes": 21.2727,
+            "end_minutes": 26.3909
+          },
+          {
+            "block": "U6",
+            "start_minutes": 26.3909,
+            "end_minutes": 37.3636
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 140,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 210,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 55.2643,
+        "difference_from_45_minutes": 10.2643,
+        "remaining_minutes": -10.2643,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.9786
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.9786,
+            "end_minutes": 15.2929
+          },
+          {
+            "block": "L3",
+            "start_minutes": 15.2929,
+            "end_minutes": 25.05
+          },
+          {
+            "block": "L4",
+            "start_minutes": 25.05,
+            "end_minutes": 36.3929
+          },
+          {
+            "block": "L5",
+            "start_minutes": 36.3929,
+            "end_minutes": 43.1857
+          },
+          {
+            "block": "L6",
+            "start_minutes": 43.1857,
+            "end_minutes": 55.2643
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 210,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 55.2643,
+        "difference_from_45_minutes": 10.2643,
+        "remaining_minutes": -10.2643,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.9786
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.9786,
+            "end_minutes": 15.2929
+          },
+          {
+            "block": "L3",
+            "start_minutes": 15.2929,
+            "end_minutes": 25.05
+          },
+          {
+            "block": "L4",
+            "start_minutes": 25.05,
+            "end_minutes": 36.3929
+          },
+          {
+            "block": "L5",
+            "start_minutes": 36.3929,
+            "end_minutes": 43.1857
+          },
+          {
+            "block": "L6",
+            "start_minutes": 43.1857,
+            "end_minutes": 55.2643
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 140,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 150,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 54.2643,
+        "difference_from_45_minutes": 9.2643,
+        "remaining_minutes": -9.2643,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.9786
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.9786,
+            "end_minutes": 14.7929
+          },
+          {
+            "block": "L3",
+            "start_minutes": 14.7929,
+            "end_minutes": 24.55
+          },
+          {
+            "block": "L4",
+            "start_minutes": 24.55,
+            "end_minutes": 35.8929
+          },
+          {
+            "block": "L5",
+            "start_minutes": 35.8929,
+            "end_minutes": 42.6857
+          },
+          {
+            "block": "L6",
+            "start_minutes": 42.6857,
+            "end_minutes": 54.2643
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 150,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 54.2643,
+        "difference_from_45_minutes": 9.2643,
+        "remaining_minutes": -9.2643,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.9786
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.9786,
+            "end_minutes": 14.7929
+          },
+          {
+            "block": "L3",
+            "start_minutes": 14.7929,
+            "end_minutes": 24.55
+          },
+          {
+            "block": "L4",
+            "start_minutes": 24.55,
+            "end_minutes": 35.8929
+          },
+          {
+            "block": "L5",
+            "start_minutes": 35.8929,
+            "end_minutes": 42.6857
+          },
+          {
+            "block": "L6",
+            "start_minutes": 42.6857,
+            "end_minutes": 54.2643
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 140,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 270,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 56.2643,
+        "difference_from_45_minutes": 11.2643,
+        "remaining_minutes": -11.2643,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.9786
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.9786,
+            "end_minutes": 15.7929
+          },
+          {
+            "block": "L3",
+            "start_minutes": 15.7929,
+            "end_minutes": 25.55
+          },
+          {
+            "block": "L4",
+            "start_minutes": 25.55,
+            "end_minutes": 36.8929
+          },
+          {
+            "block": "L5",
+            "start_minutes": 36.8929,
+            "end_minutes": 43.6857
+          },
+          {
+            "block": "L6",
+            "start_minutes": 43.6857,
+            "end_minutes": 56.2643
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 270,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 56.2643,
+        "difference_from_45_minutes": 11.2643,
+        "remaining_minutes": -11.2643,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.9786
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.9786,
+            "end_minutes": 15.7929
+          },
+          {
+            "block": "L3",
+            "start_minutes": 15.7929,
+            "end_minutes": 25.55
+          },
+          {
+            "block": "L4",
+            "start_minutes": 25.55,
+            "end_minutes": 36.8929
+          },
+          {
+            "block": "L5",
+            "start_minutes": 36.8929,
+            "end_minutes": 43.6857
+          },
+          {
+            "block": "L6",
+            "start_minutes": 43.6857,
+            "end_minutes": 56.2643
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 150,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 210,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 51.8133,
+        "difference_from_45_minutes": 6.8133,
+        "remaining_minutes": -6.8133,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.6467
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.6467,
+            "end_minutes": 14.3733
+          },
+          {
+            "block": "L3",
+            "start_minutes": 14.3733,
+            "end_minutes": 23.48
+          },
+          {
+            "block": "L4",
+            "start_minutes": 23.48,
+            "end_minutes": 34.0667
+          },
+          {
+            "block": "L5",
+            "start_minutes": 34.0667,
+            "end_minutes": 40.4067
+          },
+          {
+            "block": "L6",
+            "start_minutes": 40.4067,
+            "end_minutes": 51.8133
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 210,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 51.8133,
+        "difference_from_45_minutes": 6.8133,
+        "remaining_minutes": -6.8133,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.6467
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.6467,
+            "end_minutes": 14.3733
+          },
+          {
+            "block": "L3",
+            "start_minutes": 14.3733,
+            "end_minutes": 23.48
+          },
+          {
+            "block": "L4",
+            "start_minutes": 23.48,
+            "end_minutes": 34.0667
+          },
+          {
+            "block": "L5",
+            "start_minutes": 34.0667,
+            "end_minutes": 40.4067
+          },
+          {
+            "block": "L6",
+            "start_minutes": 40.4067,
+            "end_minutes": 51.8133
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 150,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 150,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 50.8133,
+        "difference_from_45_minutes": 5.8133,
+        "remaining_minutes": -5.8133,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.6467
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.6467,
+            "end_minutes": 13.8733
+          },
+          {
+            "block": "L3",
+            "start_minutes": 13.8733,
+            "end_minutes": 22.98
+          },
+          {
+            "block": "L4",
+            "start_minutes": 22.98,
+            "end_minutes": 33.5667
+          },
+          {
+            "block": "L5",
+            "start_minutes": 33.5667,
+            "end_minutes": 39.9067
+          },
+          {
+            "block": "L6",
+            "start_minutes": 39.9067,
+            "end_minutes": 50.8133
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 150,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 50.8133,
+        "difference_from_45_minutes": 5.8133,
+        "remaining_minutes": -5.8133,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.6467
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.6467,
+            "end_minutes": 13.8733
+          },
+          {
+            "block": "L3",
+            "start_minutes": 13.8733,
+            "end_minutes": 22.98
+          },
+          {
+            "block": "L4",
+            "start_minutes": 22.98,
+            "end_minutes": 33.5667
+          },
+          {
+            "block": "L5",
+            "start_minutes": 33.5667,
+            "end_minutes": 39.9067
+          },
+          {
+            "block": "L6",
+            "start_minutes": 39.9067,
+            "end_minutes": 50.8133
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 150,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 270,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 52.8133,
+        "difference_from_45_minutes": 7.8133,
+        "remaining_minutes": -7.8133,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.6467
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.6467,
+            "end_minutes": 14.8733
+          },
+          {
+            "block": "L3",
+            "start_minutes": 14.8733,
+            "end_minutes": 23.98
+          },
+          {
+            "block": "L4",
+            "start_minutes": 23.98,
+            "end_minutes": 34.5667
+          },
+          {
+            "block": "L5",
+            "start_minutes": 34.5667,
+            "end_minutes": 40.9067
+          },
+          {
+            "block": "L6",
+            "start_minutes": 40.9067,
+            "end_minutes": 52.8133
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 270,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 52.8133,
+        "difference_from_45_minutes": 7.8133,
+        "remaining_minutes": -7.8133,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.6467
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.6467,
+            "end_minutes": 14.8733
+          },
+          {
+            "block": "L3",
+            "start_minutes": 14.8733,
+            "end_minutes": 23.98
+          },
+          {
+            "block": "L4",
+            "start_minutes": 23.98,
+            "end_minutes": 34.5667
+          },
+          {
+            "block": "L5",
+            "start_minutes": 34.5667,
+            "end_minutes": 40.9067
+          },
+          {
+            "block": "L6",
+            "start_minutes": 40.9067,
+            "end_minutes": 52.8133
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 160,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 210,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 48.7938,
+        "difference_from_45_minutes": 3.7938,
+        "remaining_minutes": -3.7938,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.3563
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.3563,
+            "end_minutes": 13.5688
+          },
+          {
+            "block": "L3",
+            "start_minutes": 13.5688,
+            "end_minutes": 22.1063
+          },
+          {
+            "block": "L4",
+            "start_minutes": 22.1063,
+            "end_minutes": 32.0312
+          },
+          {
+            "block": "L5",
+            "start_minutes": 32.0312,
+            "end_minutes": 37.975
+          },
+          {
+            "block": "L6",
+            "start_minutes": 37.975,
+            "end_minutes": 48.7938
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 210,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 48.7938,
+        "difference_from_45_minutes": 3.7938,
+        "remaining_minutes": -3.7938,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.3563
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.3563,
+            "end_minutes": 13.5688
+          },
+          {
+            "block": "L3",
+            "start_minutes": 13.5688,
+            "end_minutes": 22.1063
+          },
+          {
+            "block": "L4",
+            "start_minutes": 22.1063,
+            "end_minutes": 32.0312
+          },
+          {
+            "block": "L5",
+            "start_minutes": 32.0312,
+            "end_minutes": 37.975
+          },
+          {
+            "block": "L6",
+            "start_minutes": 37.975,
+            "end_minutes": 48.7938
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 160,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 150,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 47.7938,
+        "difference_from_45_minutes": 2.7938,
+        "remaining_minutes": -2.7938,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.3563
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.3563,
+            "end_minutes": 13.0688
+          },
+          {
+            "block": "L3",
+            "start_minutes": 13.0688,
+            "end_minutes": 21.6063
+          },
+          {
+            "block": "L4",
+            "start_minutes": 21.6063,
+            "end_minutes": 31.5313
+          },
+          {
+            "block": "L5",
+            "start_minutes": 31.5313,
+            "end_minutes": 37.475
+          },
+          {
+            "block": "L6",
+            "start_minutes": 37.475,
+            "end_minutes": 47.7938
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 150,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 47.7938,
+        "difference_from_45_minutes": 2.7938,
+        "remaining_minutes": -2.7938,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.3563
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.3563,
+            "end_minutes": 13.0688
+          },
+          {
+            "block": "L3",
+            "start_minutes": 13.0688,
+            "end_minutes": 21.6063
+          },
+          {
+            "block": "L4",
+            "start_minutes": 21.6063,
+            "end_minutes": 31.5313
+          },
+          {
+            "block": "L5",
+            "start_minutes": 31.5313,
+            "end_minutes": 37.475
+          },
+          {
+            "block": "L6",
+            "start_minutes": 37.475,
+            "end_minutes": 47.7938
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 160,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 270,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 49.7938,
+        "difference_from_45_minutes": 4.7938,
+        "remaining_minutes": -4.7938,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.3563
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.3563,
+            "end_minutes": 14.0688
+          },
+          {
+            "block": "L3",
+            "start_minutes": 14.0688,
+            "end_minutes": 22.6063
+          },
+          {
+            "block": "L4",
+            "start_minutes": 22.6063,
+            "end_minutes": 32.5312
+          },
+          {
+            "block": "L5",
+            "start_minutes": 32.5312,
+            "end_minutes": 38.475
+          },
+          {
+            "block": "L6",
+            "start_minutes": 38.475,
+            "end_minutes": 49.7938
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 270,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 49.7938,
+        "difference_from_45_minutes": 4.7938,
+        "remaining_minutes": -4.7938,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.3563
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.3563,
+            "end_minutes": 14.0688
+          },
+          {
+            "block": "L3",
+            "start_minutes": 14.0688,
+            "end_minutes": 22.6063
+          },
+          {
+            "block": "L4",
+            "start_minutes": 22.6063,
+            "end_minutes": 32.5312
+          },
+          {
+            "block": "L5",
+            "start_minutes": 32.5312,
+            "end_minutes": 38.475
+          },
+          {
+            "block": "L6",
+            "start_minutes": 38.475,
+            "end_minutes": 49.7938
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 170,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 210,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 46.1294,
+        "difference_from_45_minutes": 1.1294,
+        "remaining_minutes": -1.1294,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.1
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.1,
+            "end_minutes": 12.8588
+          },
+          {
+            "block": "L3",
+            "start_minutes": 12.8588,
+            "end_minutes": 20.8941
+          },
+          {
+            "block": "L4",
+            "start_minutes": 20.8941,
+            "end_minutes": 30.2353
+          },
+          {
+            "block": "L5",
+            "start_minutes": 30.2353,
+            "end_minutes": 35.8294
+          },
+          {
+            "block": "L6",
+            "start_minutes": 35.8294,
+            "end_minutes": 46.1294
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 210,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 46.1294,
+        "difference_from_45_minutes": 1.1294,
+        "remaining_minutes": -1.1294,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.1
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.1,
+            "end_minutes": 12.8588
+          },
+          {
+            "block": "L3",
+            "start_minutes": 12.8588,
+            "end_minutes": 20.8941
+          },
+          {
+            "block": "L4",
+            "start_minutes": 20.8941,
+            "end_minutes": 30.2353
+          },
+          {
+            "block": "L5",
+            "start_minutes": 30.2353,
+            "end_minutes": 35.8294
+          },
+          {
+            "block": "L6",
+            "start_minutes": 35.8294,
+            "end_minutes": 46.1294
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 170,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 150,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 45.1294,
+        "difference_from_45_minutes": 0.1294,
+        "remaining_minutes": -0.1294,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.1
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.1,
+            "end_minutes": 12.3588
+          },
+          {
+            "block": "L3",
+            "start_minutes": 12.3588,
+            "end_minutes": 20.3941
+          },
+          {
+            "block": "L4",
+            "start_minutes": 20.3941,
+            "end_minutes": 29.7353
+          },
+          {
+            "block": "L5",
+            "start_minutes": 29.7353,
+            "end_minutes": 35.3294
+          },
+          {
+            "block": "L6",
+            "start_minutes": 35.3294,
+            "end_minutes": 45.1294
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 150,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 45.1294,
+        "difference_from_45_minutes": 0.1294,
+        "remaining_minutes": -0.1294,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.1
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.1,
+            "end_minutes": 12.3588
+          },
+          {
+            "block": "L3",
+            "start_minutes": 12.3588,
+            "end_minutes": 20.3941
+          },
+          {
+            "block": "L4",
+            "start_minutes": 20.3941,
+            "end_minutes": 29.7353
+          },
+          {
+            "block": "L5",
+            "start_minutes": 29.7353,
+            "end_minutes": 35.3294
+          },
+          {
+            "block": "L6",
+            "start_minutes": 35.3294,
+            "end_minutes": 45.1294
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 170,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 270,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 47.1294,
+        "difference_from_45_minutes": 2.1294,
+        "remaining_minutes": -2.1294,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.1
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.1,
+            "end_minutes": 13.3588
+          },
+          {
+            "block": "L3",
+            "start_minutes": 13.3588,
+            "end_minutes": 21.3941
+          },
+          {
+            "block": "L4",
+            "start_minutes": 21.3941,
+            "end_minutes": 30.7353
+          },
+          {
+            "block": "L5",
+            "start_minutes": 30.7353,
+            "end_minutes": 36.3294
+          },
+          {
+            "block": "L6",
+            "start_minutes": 36.3294,
+            "end_minutes": 47.1294
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 270,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 47.1294,
+        "difference_from_45_minutes": 2.1294,
+        "remaining_minutes": -2.1294,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 4.1
+          },
+          {
+            "block": "L2",
+            "start_minutes": 4.1,
+            "end_minutes": 13.3588
+          },
+          {
+            "block": "L3",
+            "start_minutes": 13.3588,
+            "end_minutes": 21.3941
+          },
+          {
+            "block": "L4",
+            "start_minutes": 21.3941,
+            "end_minutes": 30.7353
+          },
+          {
+            "block": "L5",
+            "start_minutes": 30.7353,
+            "end_minutes": 36.3294
+          },
+          {
+            "block": "L6",
+            "start_minutes": 36.3294,
+            "end_minutes": 47.1294
+          }
+        ],
+        "status": "超45分钟，当前选择未覆盖"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 180,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 210,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 43.7611,
+        "difference_from_45_minutes": -1.2389,
+        "remaining_minutes": 1.2389,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.8722
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.8722,
+            "end_minutes": 12.2278
+          },
+          {
+            "block": "L3",
+            "start_minutes": 12.2278,
+            "end_minutes": 19.8167
+          },
+          {
+            "block": "L4",
+            "start_minutes": 19.8167,
+            "end_minutes": 28.6389
+          },
+          {
+            "block": "L5",
+            "start_minutes": 28.6389,
+            "end_minutes": 33.9222
+          },
+          {
+            "block": "L6",
+            "start_minutes": 33.9222,
+            "end_minutes": 43.7611
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 210,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 43.7611,
+        "difference_from_45_minutes": -1.2389,
+        "remaining_minutes": 1.2389,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.8722
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.8722,
+            "end_minutes": 12.2278
+          },
+          {
+            "block": "L3",
+            "start_minutes": 12.2278,
+            "end_minutes": 19.8167
+          },
+          {
+            "block": "L4",
+            "start_minutes": 19.8167,
+            "end_minutes": 28.6389
+          },
+          {
+            "block": "L5",
+            "start_minutes": 28.6389,
+            "end_minutes": 33.9222
+          },
+          {
+            "block": "L6",
+            "start_minutes": 33.9222,
+            "end_minutes": 43.7611
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 180,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 150,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 42.7611,
+        "difference_from_45_minutes": -2.2389,
+        "remaining_minutes": 2.2389,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.8722
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.8722,
+            "end_minutes": 11.7278
+          },
+          {
+            "block": "L3",
+            "start_minutes": 11.7278,
+            "end_minutes": 19.3167
+          },
+          {
+            "block": "L4",
+            "start_minutes": 19.3167,
+            "end_minutes": 28.1389
+          },
+          {
+            "block": "L5",
+            "start_minutes": 28.1389,
+            "end_minutes": 33.4222
+          },
+          {
+            "block": "L6",
+            "start_minutes": 33.4222,
+            "end_minutes": 42.7611
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 150,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 42.7611,
+        "difference_from_45_minutes": -2.2389,
+        "remaining_minutes": 2.2389,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.8722
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.8722,
+            "end_minutes": 11.7278
+          },
+          {
+            "block": "L3",
+            "start_minutes": 11.7278,
+            "end_minutes": 19.3167
+          },
+          {
+            "block": "L4",
+            "start_minutes": 19.3167,
+            "end_minutes": 28.1389
+          },
+          {
+            "block": "L5",
+            "start_minutes": 28.1389,
+            "end_minutes": 33.4222
+          },
+          {
+            "block": "L6",
+            "start_minutes": 33.4222,
+            "end_minutes": 42.7611
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 180,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 270,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 44.7611,
+        "difference_from_45_minutes": -0.2389,
+        "remaining_minutes": 0.2389,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.8722
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.8722,
+            "end_minutes": 12.7278
+          },
+          {
+            "block": "L3",
+            "start_minutes": 12.7278,
+            "end_minutes": 20.3167
+          },
+          {
+            "block": "L4",
+            "start_minutes": 20.3167,
+            "end_minutes": 29.1389
+          },
+          {
+            "block": "L5",
+            "start_minutes": 29.1389,
+            "end_minutes": 34.4222
+          },
+          {
+            "block": "L6",
+            "start_minutes": 34.4222,
+            "end_minutes": 44.7611
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 270,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 44.7611,
+        "difference_from_45_minutes": -0.2389,
+        "remaining_minutes": 0.2389,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.8722
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.8722,
+            "end_minutes": 12.7278
+          },
+          {
+            "block": "L3",
+            "start_minutes": 12.7278,
+            "end_minutes": 20.3167
+          },
+          {
+            "block": "L4",
+            "start_minutes": 20.3167,
+            "end_minutes": 29.1389
+          },
+          {
+            "block": "L5",
+            "start_minutes": 29.1389,
+            "end_minutes": 34.4222
+          },
+          {
+            "block": "L6",
+            "start_minutes": 34.4222,
+            "end_minutes": 44.7611
+          }
+        ],
+        "status": "42—45分钟条件估算范围"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 200,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 210,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 39.735,
+        "difference_from_45_minutes": -5.265,
+        "remaining_minutes": 5.265,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.485
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.485,
+            "end_minutes": 11.155
+          },
+          {
+            "block": "L3",
+            "start_minutes": 11.155,
+            "end_minutes": 17.985
+          },
+          {
+            "block": "L4",
+            "start_minutes": 17.985,
+            "end_minutes": 25.925
+          },
+          {
+            "block": "L5",
+            "start_minutes": 25.925,
+            "end_minutes": 30.68
+          },
+          {
+            "block": "L6",
+            "start_minutes": 30.68,
+            "end_minutes": 39.735
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 210,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 39.735,
+        "difference_from_45_minutes": -5.265,
+        "remaining_minutes": 5.265,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.485
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.485,
+            "end_minutes": 11.155
+          },
+          {
+            "block": "L3",
+            "start_minutes": 11.155,
+            "end_minutes": 17.985
+          },
+          {
+            "block": "L4",
+            "start_minutes": 17.985,
+            "end_minutes": 25.925
+          },
+          {
+            "block": "L5",
+            "start_minutes": 25.925,
+            "end_minutes": 30.68
+          },
+          {
+            "block": "L6",
+            "start_minutes": 30.68,
+            "end_minutes": 39.735
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 200,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 150,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 38.735,
+        "difference_from_45_minutes": -6.265,
+        "remaining_minutes": 6.265,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.485
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.485,
+            "end_minutes": 10.655
+          },
+          {
+            "block": "L3",
+            "start_minutes": 10.655,
+            "end_minutes": 17.485
+          },
+          {
+            "block": "L4",
+            "start_minutes": 17.485,
+            "end_minutes": 25.425
+          },
+          {
+            "block": "L5",
+            "start_minutes": 25.425,
+            "end_minutes": 30.18
+          },
+          {
+            "block": "L6",
+            "start_minutes": 30.18,
+            "end_minutes": 38.735
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 150,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 38.735,
+        "difference_from_45_minutes": -6.265,
+        "remaining_minutes": 6.265,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.485
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.485,
+            "end_minutes": 10.655
+          },
+          {
+            "block": "L3",
+            "start_minutes": 10.655,
+            "end_minutes": 17.485
+          },
+          {
+            "block": "L4",
+            "start_minutes": 17.485,
+            "end_minutes": 25.425
+          },
+          {
+            "block": "L5",
+            "start_minutes": 25.425,
+            "end_minutes": 30.18
+          },
+          {
+            "block": "L6",
+            "start_minutes": 30.18,
+            "end_minutes": 38.735
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 200,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 270,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 40.735,
+        "difference_from_45_minutes": -4.265,
+        "remaining_minutes": 4.265,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.485
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.485,
+            "end_minutes": 11.655
+          },
+          {
+            "block": "L3",
+            "start_minutes": 11.655,
+            "end_minutes": 18.485
+          },
+          {
+            "block": "L4",
+            "start_minutes": 18.485,
+            "end_minutes": 26.425
+          },
+          {
+            "block": "L5",
+            "start_minutes": 26.425,
+            "end_minutes": 31.18
+          },
+          {
+            "block": "L6",
+            "start_minutes": 31.18,
+            "end_minutes": 40.735
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 270,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 40.735,
+        "difference_from_45_minutes": -4.265,
+        "remaining_minutes": 4.265,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.485
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.485,
+            "end_minutes": 11.655
+          },
+          {
+            "block": "L3",
+            "start_minutes": 11.655,
+            "end_minutes": 18.485
+          },
+          {
+            "block": "L4",
+            "start_minutes": 18.485,
+            "end_minutes": 26.425
+          },
+          {
+            "block": "L5",
+            "start_minutes": 26.425,
+            "end_minutes": 31.18
+          },
+          {
+            "block": "L6",
+            "start_minutes": 31.18,
+            "end_minutes": 40.735
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 220,
+      "scenario": "plan",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 210,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 36.4409,
+        "difference_from_45_minutes": -8.5591,
+        "remaining_minutes": 8.5591,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.1682
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.1682,
+            "end_minutes": 10.2773
+          },
+          {
+            "block": "L3",
+            "start_minutes": 10.2773,
+            "end_minutes": 16.4864
+          },
+          {
+            "block": "L4",
+            "start_minutes": 16.4864,
+            "end_minutes": 23.7045
+          },
+          {
+            "block": "L5",
+            "start_minutes": 23.7045,
+            "end_minutes": 28.0273
+          },
+          {
+            "block": "L6",
+            "start_minutes": 28.0273,
+            "end_minutes": 36.4409
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 210,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 36.4409,
+        "difference_from_45_minutes": -8.5591,
+        "remaining_minutes": 8.5591,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.1682
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.1682,
+            "end_minutes": 10.2773
+          },
+          {
+            "block": "L3",
+            "start_minutes": 10.2773,
+            "end_minutes": 16.4864
+          },
+          {
+            "block": "L4",
+            "start_minutes": 16.4864,
+            "end_minutes": 23.7045
+          },
+          {
+            "block": "L5",
+            "start_minutes": 23.7045,
+            "end_minutes": 28.0273
+          },
+          {
+            "block": "L6",
+            "start_minutes": 28.0273,
+            "end_minutes": 36.4409
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 220,
+      "scenario": "short",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 150,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 35.4409,
+        "difference_from_45_minutes": -9.5591,
+        "remaining_minutes": 9.5591,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.1682
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.1682,
+            "end_minutes": 9.7773
+          },
+          {
+            "block": "L3",
+            "start_minutes": 9.7773,
+            "end_minutes": 15.9864
+          },
+          {
+            "block": "L4",
+            "start_minutes": 15.9864,
+            "end_minutes": 23.2045
+          },
+          {
+            "block": "L5",
+            "start_minutes": 23.2045,
+            "end_minutes": 27.5273
+          },
+          {
+            "block": "L6",
+            "start_minutes": 27.5273,
+            "end_minutes": 35.4409
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 150,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 35.4409,
+        "difference_from_45_minutes": -9.5591,
+        "remaining_minutes": 9.5591,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.1682
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.1682,
+            "end_minutes": 9.7773
+          },
+          {
+            "block": "L3",
+            "start_minutes": 9.7773,
+            "end_minutes": 15.9864
+          },
+          {
+            "block": "L4",
+            "start_minutes": 15.9864,
+            "end_minutes": 23.2045
+          },
+          {
+            "block": "L5",
+            "start_minutes": 23.2045,
+            "end_minutes": 27.5273
+          },
+          {
+            "block": "L6",
+            "start_minutes": 27.5273,
+            "end_minutes": 35.4409
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    },
+    {
+      "section": "lower",
+      "speed": 220,
+      "scenario": "slow",
+      "original": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 270,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 37.4409,
+        "difference_from_45_minutes": -7.5591,
+        "remaining_minutes": 7.5591,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.1682
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.1682,
+            "end_minutes": 10.7773
+          },
+          {
+            "block": "L3",
+            "start_minutes": 10.7773,
+            "end_minutes": 16.9864
+          },
+          {
+            "block": "L4",
+            "start_minutes": 16.9864,
+            "end_minutes": 24.2045
+          },
+          {
+            "block": "L5",
+            "start_minutes": 24.2045,
+            "end_minutes": 28.5273
+          },
+          {
+            "block": "L6",
+            "start_minutes": 28.5273,
+            "end_minutes": 37.4409
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      },
+      "adjusted": {
+        "selection": "main",
+        "selected_blocks": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "han": 7244,
+        "spoken_han": 7247,
+        "activity_seconds": 270,
+        "activities": [
+          "A3",
+          "A4"
+        ],
+        "estimated_minutes": 37.4409,
+        "difference_from_45_minutes": -7.5591,
+        "remaining_minutes": 7.5591,
+        "timeline": [
+          {
+            "block": "L1",
+            "start_minutes": 0,
+            "end_minutes": 3.1682
+          },
+          {
+            "block": "L2",
+            "start_minutes": 3.1682,
+            "end_minutes": 10.7773
+          },
+          {
+            "block": "L3",
+            "start_minutes": 10.7773,
+            "end_minutes": 16.9864
+          },
+          {
+            "block": "L4",
+            "start_minutes": 16.9864,
+            "end_minutes": 24.2045
+          },
+          {
+            "block": "L5",
+            "start_minutes": 24.2045,
+            "end_minutes": 28.5273
+          },
+          {
+            "block": "L6",
+            "start_minutes": 28.5273,
+            "end_minutes": 37.4409
+          }
+        ],
+        "status": "低于42分钟参考，余量较大需明示"
+      }
+    }
+  ],
+  "checks": {
+    "two_sections": true,
+    "all_spoken_blocks_mapped_and_nonempty": true,
+    "source_hash_matches": true,
+    "no_duplicate_source_or_cross_section_block": true,
+    "exclusive_replacements": true,
+    "activities_exclude_teacher_feedback": true,
+    "overlapping_activities_not_added": true,
+    "timeline_equals_total": true
+  },
+  "notes": [
+    "口述源是当前唯一Markdown工作稿；旧口播容量输入和旧07号报告不参与本轮正文提取。旧输入仅作格式参照及五档工具兼容核对，未复制旧结果。",
+    "上、下节各六个实际小节全部映射；标题、四处方括号提示、脚注标记和文末教师备查均不口述。正文中的题目、法条与讲评计入口述。",
+    "每节独立思考按90秒、120秒编排，默认共3.5分钟；短情景为60秒、90秒共2.5分钟，长情景为120秒、150秒共4.5分钟。三情景互斥，不累加。",
+    "180字/分是包含正常停连的编排参照，不是教师实测；不得再给自然停顿加一份时间。三活动情景不预设热烈讨论或逐个发言。",
+    "本轮直接运行仓库tools/check_dual45.py；该工具读取输入所列七档速度，同时兼容旧五档输入。正文提取、口读校正、活动与累计算术复用原工具，工具不决定内容取舍。",
+    "默认主线不计文末四个调节备段。它们由本工具原spoken_count单独计数；短讲替换尚未开始的指定内容，补充只在确有时间时选用，互斥内容不累加。本报告没有新增选择平台。",
+    "结果为条件估算；慢速超时、快速不足如实报告，空余不当作已写内容，没有真人试讲或学生学习效果验证。",
+    "上节短讲：232口读字，替换U4全文554字，减少322字；180字/分下约减少1.79分钟。短稿保留“全体代表不是到场代表”。",
+    "上节补充：463口读字，单独选用在180字/分下约增加2.57分钟；须有实际时间，不计入默认主线或与短讲同时累计。",
+    "下节短讲：146口读字，替换L4中“这里用一部”起至“依法保护权利，需要结合相应的法律制度。”止的444字，减少298字；180字/分下约减少1.66分钟。这是L4局部替换。",
+    "下节补充：436口读字，单独选用在180字/分下约增加2.42分钟；须有实际时间，不计入默认主线或与短讲同时累计。",
+    "限定调节例：170字/分、每节3.5分钟独立思考，分别只替换本节短稿时，上节44.14分钟、下节44.38分钟。",
+    "限定调节例：200字/分、每节确需4.5分钟独立思考，分别只加入本节补充段时，上节42.97分钟、下节42.91分钟；不得为补时延长思考。",
+    "180默认主线余量约1.33/1.24分钟，直接加入各节补充段会超45分钟。四个备段只用于少量调节，不能覆盖全部七档语速及三种活动情景；140—160即使改短稿仍超时，220即使加补充仍明显不足。",
+    "旧五档兼容已用同一旧输入，与改动前HEAD版本的工具逐项核对：段落计数、活动、30组合结果及Markdown相同；旧报告没有重写。本轮实际执行七档真实CLI，未在运行时改模块全局变量。"
+  ],
+  "limits": [
+    "所有速度为分析假设，180仅为编排参照；没有真人计时或学习效果资料。",
+    "纯汉字保留旧版口径；口读量另计〇及数字、百分比、条号和缩写读法，明细可回查。",
+    "年份逐位读，条号按整数读；字母名称用中文近似音节估计，可通过 speech_readings 指定实际读法。",
+    "仅统计所选讲述与不重叠活动；短讲替换原口述并保留原任务，深化仅在选用时加入。",
+    "42—45分钟仅作本轮编排参考；空余未冒称已备内容，报告不保证实讲严格45分钟。",
+    "活动是否合理、短讲是否保住依据与论证质量仍须人工审阅；程序仅核数据声明及算术。",
+    "中途选择仅适用于尚未开始的整段；已讲长稿不可从头再读短稿。超出设定情景的困难未保证覆盖。"
+  ]
+}
