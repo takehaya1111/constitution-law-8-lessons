@@ -19,11 +19,11 @@
 
 ## 输入与必读导航
 
-课程输入固定为`takehaya1111/constitution-law-8-lessons@b00e4db5781037b4c74a5bec77e887299111d168`；本任务以后按最新main发现断点，再固定同一提交读取相关任务文件。主线与质量沿用[组稿Skill](../skills/classroom-oral-workflow/SKILL.md)、[认可知识纲](../materials/第1讲整合试讲主版本/内容提纲.md)及[备课模式](../备课模式.md)。大纲中旧“待认可”时态不覆盖已写入当前状态的教师认可。
+课程输入固定为`takehaya1111/constitution-law-8-lessons@b00e4db5781037b4c74a5bec77e887299111d168`；本任务以后按最新main发现断点，再固定同一提交读取相关任务文件。主线与质量沿用[组稿Skill](https://github.com/takehaya1111/constitution-law-8-lessons/blob/bc02af4fec26889457be19558c84a687d225776a/skills/classroom-oral-workflow/SKILL.md)、[认可知识纲](../materials/第1讲整合试讲主版本/内容提纲.md)及[备课模式](https://github.com/takehaya1111/constitution-law-8-lessons/blob/bc02af4fec26889457be19558c84a687d225776a/%E5%A4%87%E8%AF%BE%E6%A8%A1%E5%BC%8F.md)。大纲中旧“待认可”时态不覆盖已写入当前状态的教师认可。
 
 蒸馏输入固定为`takehaya1111/classroom-oral-skills@683771131bc3375f4bd39e13970c58d43f22289f`。本轮实际读其START_HERE、SKILL和故事说明前32行；既有P编号不作为实际使用证明。接手时读[故事选材与组织](https://github.com/takehaya1111/classroom-oral-skills/blob/683771131bc3375f4bd39e13970c58d43f22289f/skills/sanyue-oral-writing/references/story-selection-and-telling.md)的选材、事实门槛和讲述次序，以及[质量检查](https://github.com/takehaya1111/classroom-oral-skills/blob/683771131bc3375f4bd39e13970c58d43f22289f/skills/sanyue-oral-writing/quality-checks.md)。只有发现新缺口时才扩展模式、索引或原作，不要求重复读148篇/111篇。
 
-本仓S4必读[编排与执笔](../skills/classroom-oral-workflow/references/composition-and-writing.md)，S5必读[审稿返修](../skills/classroom-oral-workflow/references/review-and-repair.md)。用户的law-professor原提示词已保存在[本地资产](../skills/classroom-oral-workflow/assets/law-professor.original.md)；概念、案例和历史深化有效，为字数扩题的要求不覆盖认可大纲。
+本仓S4必读[编排与执笔](https://github.com/takehaya1111/constitution-law-8-lessons/blob/bc02af4fec26889457be19558c84a687d225776a/skills/classroom-oral-workflow/references/composition-and-writing.md)，S5必读[审稿返修](https://github.com/takehaya1111/constitution-law-8-lessons/blob/bc02af4fec26889457be19558c84a687d225776a/skills/classroom-oral-workflow/references/review-and-repair.md)。用户的law-professor原提示词已保存在[本地资产](https://github.com/takehaya1111/constitution-law-8-lessons/blob/bc02af4fec26889457be19558c84a687d225776a/skills/classroom-oral-workflow/assets/law-professor.original.md)；概念、案例和历史深化有效，为字数扩题的要求不覆盖认可大纲。
 
 ## S0｜本次解释任务与边界（完成）
 

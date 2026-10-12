@@ -27,7 +27,7 @@
 ### O：本项目失败稿与现行工作说明
 
 - [原3995字国家赔偿连续样段](https://github.com/takehaya1111/constitution-law-8-lessons/blob/4d09152d35c627c086667c72d8063baba0c082b5/materials/第1讲整合试讲主版本/口播试写_国家赔偿请求连续单元_S4待教师审阅.md)，本轮重读实际正文相关段；它不是与Gemini同题同设置生成的严格基线。
-- [Skill v0.3.2](../skills/classroom-oral-workflow/SKILL.md)、[S1/S3/S4操作](../skills/classroom-oral-workflow/references/composition-and-writing.md)及本会话已有同版本课程源文。现有文件已要求自然口述、限定条件准确、编辑过程留后台，不能把“已有规则未落实”再报告成“首次发现需要这一条规则”。
+- [Skill v0.3.2](https://github.com/takehaya1111/constitution-law-8-lessons/blob/bc02af4fec26889457be19558c84a687d225776a/skills/classroom-oral-workflow/SKILL.md)、[S1/S3/S4操作](https://github.com/takehaya1111/constitution-law-8-lessons/blob/bc02af4fec26889457be19558c84a687d225776a/skills/classroom-oral-workflow/references/composition-and-writing.md)及本会话已有同版本课程源文。现有文件已要求自然口述、限定条件准确、编辑过程留后台，不能把“已有规则未落实”再报告成“首次发现需要这一条规则”。
 - [认可豆选与未认可续写](../materials/第1讲整合试讲主版本/口播试写_豆选与权利保障.md)：认可只属于其中原豆选641字，不扩大为后续全部内容。
 
 ## 三、逐处对照：相对自然的具体来源

@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-12",
+  "checks": "PASS",
+  "course_initial_input": "bc02af4fec26889457be19558c84a687d225776a",
+  "course_preservation_baseline_after_remote_sync": "76e48ac796d3526da0e791c2118a21e0cb2b0521",
+  "method_content_commit": "0d78a5b67255ccd0c27a5c13c4b952d3b47b0b97",
+  "method_main_before_course_publish": "ded0ad185b725c4cc08e90df54763b87543a46ef",
+  "protected_files": 850,
+  "byte_unchanged": 842,
+  "changed_only_metadata_or_historical_links": [
+    "materials/宪法学八次课体系_讨论稿.md",
+    "materials/宪法学八次课教学内容总表_讨论稿.md",
+    "materials/宪法学课程教学大纲_内容稿.md",
+    "materials/第1讲整合试讲主版本/内容提纲.md",
+    "materials/第2讲实质备课/内容提纲.md",
+    "materials/第8讲_宪法实施与监督_规划稿.md",
+    "research/20261008_大纲依据_必要元素与故事性研究.md",
+    "research/20261011_Gemini口播对照与Claude_Codex写作项目研究.md"
+  ],
+  "six_outlines_knowledge_blocks_exact": true,
+  "historical_link_only_files": [
+    "handoff/20261007_第一讲单讲打磨_交接.md",
+    "handoff/20261007_阶段A提纲与模式交接.md",
+    "handoff/20261007_阶段B明确取舍执行与交接.md",
+    "handoff/口播工作单_ORAL-HANDOFF-001.md",
+    "research/20261008_大纲依据_必要元素与故事性研究.md",
+    "research/20261011_Gemini口播对照与Claude_Codex写作项目研究.md"
+  ],
+  "remote_new_work_byte_unchanged_sha256": {
+    "materials/第1讲整合试讲主版本/口播工作稿_20261011_上下节连续初稿.md": "75a4df3da59001682c6dcf1176f48de8e935d40684229ccb14e50ba616c3c2b1",
+    "research/20261012_真实优秀口播讲稿对读_法律课堂与公众演说.md": "bc8dce5846517560ccde6bd956930a66bc8489322113b5f658625a8b5dee88d3"
+  },
+  "latest_course_progress_and_capacity_body_unchanged": true,
+  "course_active_skill_files": 0,
+  "course_profile": "课程条件.md",
+  "archive_exact_original_slices": 22,
+  "navigation_relative_links_checked": 145,
+  "new_broken_navigation_links": [],
+  "preexisting_unrelated_missing_paths": [],
+  "method_migration_manifest_files_rechecked": 8,
+  "reading_scope": "入口、六份知识文件变更段、迁移八文件与选定来源切片；新远端稿件与研究仅进行版本差额和字节保全，未做内容核稿；未重读全教材或全部历史原作。",
+  "not_run": [
+    "课程写作",
+    "课程容量复算",
+    "Office导出",
+    "新课件",
+    "技能安装",
+    "真人试讲",
+    "学习效果验证"
+  ]
+}
