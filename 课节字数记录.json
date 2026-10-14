@@ -334,10 +334,66 @@
       "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
       "status": "并行提交完整稿，待教师审阅；本轮仅合并保留及机械计数",
       "integration_note": "第六讲四份文件保持并行提交字节，未在本轮开展内容回查。本条采用全课统一正文提取绑定口述校验值，原独立容量文件规范化不同，汉字与口读量一致；原文件不改。"
+    },
+    {
+      "lesson_number": 7,
+      "source": "materials/第7讲实质备课/01_完整讲述.md",
+      "source_sha256": "bd4cd5bc4a8893e81757f542ebfab4c6fba5c2e8b6420d9b6eb02818785303fd",
+      "upper": {
+        "han": 8247,
+        "spoken_han": 8279,
+        "speech_sha256": "2434a5379ba8d24a298300a88bbd8d2f5405d411bd13f584a4685c0e43471cc8",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            47.0,
+            48.0
+          ],
+          "200": [
+            42.4,
+            43.4
+          ]
+        },
+        "estimated_minutes_range": [
+          42.4,
+          48.0
+        ]
+      },
+      "lower": {
+        "han": 8429,
+        "spoken_han": 8456,
+        "speech_sha256": "8e0389c1c322eb057ebe916ac19f57bbc40cb9333ab6f9b21ea369a290e2d908",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            48.0,
+            49.0
+          ],
+          "200": [
+            43.3,
+            44.3
+          ]
+        },
+        "estimated_minutes_range": [
+          43.3,
+          49.0
+        ]
+      },
+      "course_input_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "status": "按现行分纲新组写完整口述，待教师审阅",
+      "execution_note": "本讲为按分纲新组写，非既有稿修订；计数口径先用第五、六讲复算逐字节复现后才使用。自检实际修正三处：第62条项下误列第67条人事任免分句、全篇半角引号与既有全角体例不符、单元与上下节指代混用。"
     }
   ],
-  "remaining_lessons": "第七至八讲尚未按当前流程交付完整Markdown口述，不以旧教案或PPT备注代填字数",
-  "limits": "当前第一至五讲均有完整待审稿；第五讲本轮依据同版v0.4.9回查，前四讲保持。旧生成史与原认可不倒写，原第五讲制作身份由教师报告为wb使用ds v4.1。retained_versions保留固定提交旧稿，不能以当前同路径正文复算旧数。语速与活动均为条件粗估，未真人计时，不证明教学效果。 第六讲为本轮同步时接入的并行完整稿，只核文件与计数，不纳入第五讲内容核稿结论。",
+  "remaining_lessons": "第八讲尚未按当前流程交付完整Markdown口述，不以旧教案或PPT备注代填字数",
+  "limits": "当前第一至五讲均有完整待审稿；第五讲本轮依据同版v0.4.9回查，前四讲保持。旧生成史与原认可不倒写，原第五讲制作身份由教师报告为wb使用ds v4.1。retained_versions保留固定提交旧稿，不能以当前同路径正文复算旧数。语速与活动均为条件粗估，未真人计时，不证明教学效果。 第六讲为本轮同步时接入的并行完整稿，只核文件与计数，不纳入第五讲内容核稿结论。 第七讲为按现行分纲新组写的完整稿，教材依据为出版时文本；第七单元已写出2018年监察法与2024年修正、2025年6月1日施行的时点差，具体措施须另核现行文本。",
   "retained_versions": [
     {
       "lesson_number": 1,
