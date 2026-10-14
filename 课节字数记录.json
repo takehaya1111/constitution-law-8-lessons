@@ -5,60 +5,61 @@
   "lessons": [
     {
       "lesson_number": 1,
-      "source": "materials/第1讲整合试讲主版本/口播修订稿_20261014_依现行分纲.md",
-      "source_sha256": "d987a0985fd53e6a36efc61c1f2bd68f046e8dfe33b76d0e3bb8ec0f9597baf5",
-      "course_input_revision": "b88f798f90787c4d9ef6aa34b36bbcd69482d817",
-      "method_version": "v0.4.8",
-      "method_revision": "484bcbc5896288aad0b02eb2d3c74057abdb1479",
+      "source": "materials/第1讲整合试讲主版本/口播修订稿_20261014_合并版.md",
+      "source_sha256": "ffec4fb6c3694722def290d83825ba3f857ee9a2756da891951afa5cf4f56fb1",
+      "source_revision": "11d24885ff918fe144065775aae2b36fd52e35f0",
+      "method_note": "合并版由并行对话提交并设为本讲当前基准；该次提交未明确处理技能版本，本轮只核字数与版本绑定，不补写执行史或追加内容审查结论。",
       "based_on": {
-        "source": "materials/第1讲整合试讲主版本/口播工作稿_20261011_上下节连续初稿.md",
-        "source_sha256": "bfd40e4a6def582ea37862b66f94019ea54c51e38d1e2c2b0f7a4e3bed72ff6f"
+        "source": "materials/第1讲整合试讲主版本/口播修订稿_20261014_依现行分纲.md",
+        "source_sha256": "d987a0985fd53e6a36efc61c1f2bd68f046e8dfe33b76d0e3bb8ec0f9597baf5",
+        "method_version": "v0.4.8",
+        "method_revision": "484bcbc5896288aad0b02eb2d3c74057abdb1479"
       },
-      "status": "按现行分纲定点更新，待教师审阅",
+      "status": "合并基准版，待教师审阅；正文原样保留并行提交",
       "upper": {
-        "han": 7969,
-        "spoken_han": 7969,
-        "speech_sha256": "25783f0e6f935fc0b756c72a138306cd382fac59edf10c9bc5049b907cbbec9e",
+        "han": 8170,
+        "spoken_han": 8170,
+        "speech_sha256": "aedbbcd2b64a2bc19c029f201dd8bb3e7664485c7c6325ee11778e9a426d9917",
         "nonoverlap_thinking_minutes_range": [
           3,
           4
         ],
         "estimated_minutes_by_speed": {
           "180": [
-            47.3,
-            48.3
+            48.4,
+            49.4
           ],
           "200": [
-            42.8,
-            43.8
+            43.9,
+            44.9
           ]
         },
         "estimated_minutes_range": [
-          42.8,
-          48.3
+          43.9,
+          49.4
         ]
       },
       "lower": {
-        "han": 7847,
-        "spoken_han": 7851,
-        "speech_sha256": "58fbedd66990ff1cfc1d7f0c377285c0e590e0dc652c9105a5f24440d9bdcbd1",
+        "han": 8042,
+        "spoken_han": 8047,
+        "speech_sha256": "a91fb52bbf01b1789ca12fe48133afb6c729cb3df6bce883c473e64f7a2347bf",
         "nonoverlap_thinking_minutes_range": [
           3,
           4
         ],
         "estimated_minutes_by_speed": {
           "180": [
-            46.6,
-            47.6
+            47.7,
+            48.7
           ],
           "200": [
-            42.3,
-            43.3
+            43.2,
+            44.2
           ]
         },
         "estimated_minutes_range": [
-          42.3,
-          47.6
+          43.2,
+          48.7
         ]
       }
     },
@@ -176,8 +177,27 @@
     }
   ],
   "remaining_lessons": "第五至八讲尚未按当前流程交付完整Markdown口述，不以旧教案或PPT备注代填字数",
-  "limits": "当前表第二讲为v0.4.9解释研究后重组稿，其他讲次及其执行版本保持。retained_versions保留旧稿；含source_revision的条目须从对应提交读取，不能拿当前同路径文件复算。语速与活动为粗估，未真人计时。",
+  "limits": "当前表第二讲为v0.4.9解释研究后重组稿；第一讲接并行提交的合并基准版，本轮仅重计绑定，未改正文或补写该次执行史；第三四讲保持。retained_versions保留旧稿；含source_revision的条目须从对应提交读取，不能拿当前同路径文件复算。语速与活动为粗估，未真人计时。",
   "retained_versions": [
+    {
+      "lesson_number": 1,
+      "source": "materials/第1讲整合试讲主版本/口播修订稿_20261014_依现行分纲.md",
+      "source_sha256": "d987a0985fd53e6a36efc61c1f2bd68f046e8dfe33b76d0e3bb8ec0f9597baf5",
+      "course_input_revision": "b88f798f90787c4d9ef6aa34b36bbcd69482d817",
+      "method_version": "v0.4.8",
+      "method_revision": "484bcbc5896288aad0b02eb2d3c74057abdb1479",
+      "status": "合并基准版的底稿，原文件与计数保留；完整前轮容量另见research/20261014_前三讲修订稿容量.json",
+      "upper": {
+        "han": 7969,
+        "spoken_han": 7969,
+        "speech_sha256": "25783f0e6f935fc0b756c72a138306cd382fac59edf10c9bc5049b907cbbec9e"
+      },
+      "lower": {
+        "han": 7847,
+        "spoken_han": 7851,
+        "speech_sha256": "58fbedd66990ff1cfc1d7f0c377285c0e590e0dc652c9105a5f24440d9bdcbd1"
+      }
+    },
     {
       "lesson_number": 1,
       "source": "materials/第1讲整合试讲主版本/口播工作稿_20261011_上下节连续初稿.md",
