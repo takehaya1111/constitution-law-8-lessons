@@ -212,10 +212,66 @@
         "source_sha256": "385c2f3528f71d48d8dc9e14f9142125e57fb56c3ce936e56969ec29ba19799e"
       },
       "status": "按v0.4.9回查解释与论证后必要修订，待教师审阅"
+    },
+    {
+      "lesson_number": 5,
+      "source": "materials/第5讲实质备课/01_完整讲述.md",
+      "source_sha256": "d2f4fb0a01bbd649c9fab42961e9d9cf3596a68a2d6d0770cd9d8dead700b90e",
+      "source_revision": "21cb6888960a248599d4422d6fed27c113971dd1",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "status": "并行对话提交完整稿，待教师审阅；本轮仅合并保留并机械重计",
+      "integration_note": "全文及原容量文件均保持并行提交字节。本条使用全课统一正文提取计算speech_sha256，与原独立容量文件的规范化不同，汉字与口读量一致；未在本轮开展第五讲内容核稿。",
+      "upper": {
+        "han": 8386,
+        "spoken_han": 8392,
+        "speech_sha256": "07dbaabd1986b025505c70f64e833cb17f16fb2012edcf67e030c1b6c525d6bb",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            47.6,
+            48.6
+          ],
+          "200": [
+            43,
+            44
+          ]
+        },
+        "estimated_minutes_range": [
+          43,
+          48.6
+        ]
+      },
+      "lower": {
+        "han": 8121,
+        "spoken_han": 8124,
+        "speech_sha256": "aa373ec92e6a6cc5bbaf65c30c1114a4326d2b3bce0d6883e807724a8b689f8d",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            46.1,
+            47.1
+          ],
+          "200": [
+            41.6,
+            42.6
+          ]
+        },
+        "estimated_minutes_range": [
+          41.6,
+          47.1
+        ]
+      }
     }
   ],
-  "remaining_lessons": "第五至八讲尚未按当前流程交付完整Markdown口述，不以旧教案或PPT备注代填字数",
-  "limits": "第一、三、四讲为本轮v0.4.9据稿研究后修订，第二讲保留前轮v0.4.9重组稿；原生成史不倒写。retained_versions中的历史条目按source_revision取原正文，不能拿当前同路径文件复算。各节语速与独立活动为条件粗估，慢端部分接近50分钟，未真人计时。",
+  "remaining_lessons": "第六至八讲尚未按当前流程交付完整Markdown口述，不以旧教案或PPT备注代填字数",
+  "limits": "第一、三、四讲为本轮v0.4.9据稿研究后修订，第二讲保留前轮v0.4.9重组稿；原生成史不倒写。retained_versions中的历史条目按source_revision取原正文，不能拿当前同路径文件复算。各节语速与独立活动为条件粗估，慢端部分接近50分钟，未真人计时。 第五讲接入并行提交，原正文和独立容量记录不改；本表只重新统一口述提取绑定，不增加其内容审查结论。",
   "retained_versions": [
     {
       "lesson_number": 1,
