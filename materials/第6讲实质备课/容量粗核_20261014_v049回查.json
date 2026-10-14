@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-14",
+  "lesson_number": 6,
+  "source": "materials/第6讲实质备课/01_完整讲述.md",
+  "source_sha256": "e2f71acdc78ee151ced18736d931d76e98a55d51a5ac2fab109d89c2cc3c2131",
+  "upper": {
+    "han": 7877,
+    "spoken_han": 7879,
+    "speech_sha256": "7e25d56b50a485b4994612e0a0a022a3f452b0fc4a0f5815afbd6174320c38fa",
+    "nonoverlap_thinking_minutes_range": [
+      1,
+      2
+    ],
+    "estimated_minutes_by_speed": {
+      "180": [
+        44.8,
+        45.8
+      ],
+      "200": [
+        40.4,
+        41.4
+      ]
+    },
+    "estimated_minutes_range": [
+      40.4,
+      45.8
+    ],
+    "activity_cues": [
+      "【独立思考约一至两分钟：写出比较对象，并写一句“这个理由最多能支持到……”。教师此时暂停讲述。】"
+    ]
+  },
+  "lower": {
+    "han": 8317,
+    "spoken_han": 8320,
+    "speech_sha256": "4a088573c7db18c05f425484f070ad3dd239c25fe6c9cb8b2132a322332d9c5a",
+    "nonoverlap_thinking_minutes_range": [
+      1,
+      2
+    ],
+    "estimated_minutes_by_speed": {
+      "180": [
+        47.2,
+        48.2
+      ],
+      "200": [
+        42.6,
+        43.6
+      ]
+    },
+    "estimated_minutes_range": [
+      42.6,
+      48.2
+    ],
+    "activity_cues": [
+      "【独立思考约一至两分钟：指出国家秘密定义中不满足的条件，并说明为什么不能据此直接认定可以任意传播。教师此时暂停讲述。】"
+    ]
+  },
+  "counter": "tools/check_dual45.py::spoken_count",
+  "counting_scope": "完整Markdown正文；去标题和【课堂提示】，正文原文、提问、讲评计入；数字条号按现有函数折算口读",
+  "course_input_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
+  "method_version": "v0.4.9",
+  "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+  "based_on": {
+    "source": "materials/第6讲实质备课/01_完整讲述.md",
+    "source_revision": "ea37eb7cf77e66773959342a0a73d8bff6b2fe73",
+    "source_sha256": "790819044c20691e1a7e689ff254f6669bbab006929664789d94d700f02de4db"
+  },
+  "textbook_original": {
+    "file": "textbook/宪法学_马工程_第二版_完整教材.pdf",
+    "bytes": 54022789,
+    "pages": 373,
+    "sha256": "66ddd16f430bc1f8d7ffbaae62e092f3c1ce81096f3987478208d50e0b078f7b"
+  },
+  "read_scope": {
+    "main": "第六章第二节印刷199—219／PDF214—234，从第二节正文标题起，至第三节正文标题前",
+    "supplement": "第三节印刷219—226／PDF234—241，读至思考题前；两节在PDF234页相接",
+    "root_original_pages_viewed": [
+      215,
+      217,
+      226,
+      230,
+      235,
+      239,
+      241
+    ]
+  },
+  "status": "按v0.4.9回查解释论证，必要研究与修订后完整稿，待教师审阅",
+  "notes": [
+    "本数据与全课记录使用同一正文提取；speech_sha256绑定去标题及课堂提示后、换行为LF的正文文字，不是文件字节SHA。",
+    "语速180—200口读字/分钟，各节一次独立思考1—2分钟；上节较快假设可能短约4.6分钟，下节较慢假设可能长约3.2分钟，待实际试讲校准。",
+    "原数据保留固定提交身份；原容量的章节分段PDF点位有误，新数据按正文标题核准。",
+    "容量是条件粗估，未真人计时，不证明教学效果。"
+  ]
+}

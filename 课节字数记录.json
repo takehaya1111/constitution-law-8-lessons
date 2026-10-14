@@ -282,62 +282,66 @@
     {
       "lesson_number": 6,
       "source": "materials/第6讲实质备课/01_完整讲述.md",
-      "source_sha256": "790819044c20691e1a7e689ff254f6669bbab006929664789d94d700f02de4db",
+      "source_sha256": "e2f71acdc78ee151ced18736d931d76e98a55d51a5ac2fab109d89c2cc3c2131",
       "upper": {
-        "han": 8338,
-        "spoken_han": 8338,
-        "speech_sha256": "2676e516c62e12fb8bcbec47745b823c5ed568449f8c75585661f2d96e62d3d4",
+        "han": 7877,
+        "spoken_han": 7879,
+        "speech_sha256": "7e25d56b50a485b4994612e0a0a022a3f452b0fc4a0f5815afbd6174320c38fa",
         "nonoverlap_thinking_minutes_range": [
           1,
           2
         ],
         "estimated_minutes_by_speed": {
           "180": [
-            47.3,
-            48.3
+            44.8,
+            45.8
           ],
           "200": [
-            42.7,
-            43.7
+            40.4,
+            41.4
           ]
         },
         "estimated_minutes_range": [
-          42.7,
-          48.3
+          40.4,
+          45.8
         ]
       },
       "lower": {
-        "han": 8406,
-        "spoken_han": 8406,
-        "speech_sha256": "c086767e984dc383e6253c3476ed505fed7981d555aa5e61319d7e4e2818a8fe",
+        "han": 8317,
+        "spoken_han": 8320,
+        "speech_sha256": "4a088573c7db18c05f425484f070ad3dd239c25fe6c9cb8b2132a322332d9c5a",
         "nonoverlap_thinking_minutes_range": [
           1,
           2
         ],
         "estimated_minutes_by_speed": {
           "180": [
-            47.7,
-            48.7
+            47.2,
+            48.2
           ],
           "200": [
-            43,
-            44
+            42.6,
+            43.6
           ]
         },
         "estimated_minutes_range": [
-          43,
-          48.7
+          42.6,
+          48.2
         ]
       },
-      "source_revision": "ea37eb7cf77e66773959342a0a73d8bff6b2fe73",
+      "course_input_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
       "method_version": "v0.4.9",
       "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
-      "status": "并行提交完整稿，待教师审阅；本轮仅合并保留及机械计数",
-      "integration_note": "第六讲四份文件保持并行提交字节，未在本轮开展内容回查。本条采用全课统一正文提取绑定口述校验值，原独立容量文件规范化不同，汉字与口读量一致；原文件不改。"
+      "based_on": {
+        "source": "materials/第6讲实质备课/01_完整讲述.md",
+        "source_revision": "ea37eb7cf77e66773959342a0a73d8bff6b2fe73",
+        "source_sha256": "790819044c20691e1a7e689ff254f6669bbab006929664789d94d700f02de4db"
+      },
+      "status": "按v0.4.9回查原完整稿，补研究与必要调整，待教师审阅"
     }
   ],
   "remaining_lessons": "第七至八讲尚未按当前流程交付完整Markdown口述，不以旧教案或PPT备注代填字数",
-  "limits": "当前第一至五讲均有完整待审稿；第五讲本轮依据同版v0.4.9回查，前四讲保持。旧生成史与原认可不倒写，原第五讲制作身份由教师报告为wb使用ds v4.1。retained_versions保留固定提交旧稿，不能以当前同路径正文复算旧数。语速与活动均为条件粗估，未真人计时，不证明教学效果。 第六讲为本轮同步时接入的并行完整稿，只核文件与计数，不纳入第五讲内容核稿结论。",
+  "limits": "第一至六讲已有完整待审稿，第六讲本轮按同版v0.4.9实际回查并补研究调整，前五讲保持。旧生成史、原认可与本轮处理分开；第六讲原制作模型未由教师提供，不继承第五讲wb、ds v4.1身份。retained_versions按固定提交读取，不能用当前同路径复算旧数。语速与活动是条件粗估，未真人计时，不证明教学效果。",
   "retained_versions": [
     {
       "lesson_number": 1,
@@ -655,6 +659,63 @@
         "model": "ds v4.1",
         "note": "用户提供的制作身份，未据此推断后台调用细节。"
       }
+    },
+    {
+      "lesson_number": 6,
+      "source": "materials/第6讲实质备课/01_完整讲述.md",
+      "source_sha256": "790819044c20691e1a7e689ff254f6669bbab006929664789d94d700f02de4db",
+      "upper": {
+        "han": 8338,
+        "spoken_han": 8338,
+        "speech_sha256": "2676e516c62e12fb8bcbec47745b823c5ed568449f8c75585661f2d96e62d3d4",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            47.3,
+            48.3
+          ],
+          "200": [
+            42.7,
+            43.7
+          ]
+        },
+        "estimated_minutes_range": [
+          42.7,
+          48.3
+        ]
+      },
+      "lower": {
+        "han": 8406,
+        "spoken_han": 8406,
+        "speech_sha256": "c086767e984dc383e6253c3476ed505fed7981d555aa5e61319d7e4e2818a8fe",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            47.7,
+            48.7
+          ],
+          "200": [
+            43,
+            44
+          ]
+        },
+        "estimated_minutes_range": [
+          43,
+          48.7
+        ]
+      },
+      "source_revision": "ea37eb7cf77e66773959342a0a73d8bff6b2fe73",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "status": "并行提交完整稿，待教师审阅；本轮仅合并保留及机械计数",
+      "integration_note": "第六讲四份文件保持并行提交字节，未在本轮开展内容回查。本条采用全课统一正文提取绑定口述校验值，原独立容量文件规范化不同，汉字与口读量一致；原文件不改。",
+      "archive_note": "本轮第六讲解释论证回查前版本；原执行声明、机械同步身份与数值保留，正文按source_revision读取。"
     }
   ]
 }
