@@ -318,52 +318,52 @@
       "upper": {
         "han": 7871,
         "spoken_han": 7873,
-        "speech_sha256": "addb0ca54b21cfb70d63f2abba8535ba2b3af379dc659e1865795a53a14bfdd4",
+        "speech_sha256": "",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
         "estimated_minutes_by_speed": {
           "180": [
-            44.7,
+            45.7,
             45.7
           ],
           "200": [
             40.4,
-            41.4
+            40.4
           ]
         },
         "estimated_minutes_range": [
           40.4,
           45.7
-        ],
-        "nonoverlap_thinking_minutes_range": [
-          1,
-          2
         ]
       },
       "lower": {
         "han": 8273,
         "spoken_han": 8276,
-        "speech_sha256": "0b1062f1111520b7515061d370fa1284425d9b3813c8d11193123c62d93ca7da",
+        "speech_sha256": "",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
         "estimated_minutes_by_speed": {
           "180": [
-            47,
-            48
+            48.0,
+            48.0
           ],
           "200": [
             42.4,
-            43.4
+            42.4
           ]
         },
         "estimated_minutes_range": [
           42.4,
-          48
-        ],
-        "nonoverlap_thinking_minutes_range": [
-          1,
-          2
+          48.0
         ]
       },
       "method_version": "v0.4.9",
       "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
-      "status": "按v0.4.9回查原完整稿，补研究与必要调整，合入并行口述编辑后待教师审阅",
+      "status": "经并行会话v0.4.9回查修订、并含本轮去除成段照搬改动，待教师审阅",
       "course_input_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
       "integration_revision": "9deed1abba6586f9755fc9f4f7681e32b52a4012",
       "based_on": {
@@ -372,7 +372,8 @@
         "source_sha256": "790819044c20691e1a7e689ff254f6669bbab006929664789d94d700f02de4db"
       },
       "execution_note": "本轮实际连续教材阅读、必要原规范研究、完整独立读者检查、归属核证及合并全文检查见materials/第6讲实质备课/研究/20261014_v049解释论证回查.md；没有改技能或倒写原作者执行史。",
-      "counting_note": "去标题及【课堂提示】，数字按既有函数折算；speech_sha256使用同一LF正文提取。"
+      "counting_note": "去标题及【课堂提示】，数字按既有函数折算；speech_sha256使用同一LF正文提取。",
+      "integration_note": "本讲有两轮改动叠加：本轮\"去除成段照搬\"（改前34.3%／最长122字）与并行会话的v0.4.9解释论证回查。表中数值与source_sha256按并行修订后的当前正文重算；去照搬本身的效果为该轮改后的2.5%／最长38字。speech_sha256 待按全课统一提取补录。"
     },
     {
       "lesson_number": 7,
