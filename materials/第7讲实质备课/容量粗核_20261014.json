@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-14",
+  "lesson_number": 7,
+  "source": "materials/第7讲实质备课/01_完整讲述.md",
+  "source_sha256": "7a58ba6f00f538ec8a90cbe58f5eeef8c78ccb6980c98cec22aa5c82ea57d74f",
+  "counter": "tools/check_dual45.py::spoken_count",
+  "counting_scope": "去标题、【课堂提示】与引用行后统计汉字及折算口读量",
+  "method_version": "v0.4.9",
+  "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+  "textbook_original": {
+    "file": "textbook/宪法学_马工程_第二版_完整教材.pdf",
+    "bytes": 54022789,
+    "pages": 373,
+    "sha256": "66ddd16f430bc1f8d7ffbaae62e092f3c1ce81096f3987478208d50e0b078f7b"
+  },
+  "read_scope": {
+    "main": "第七章第一节至第十节 印刷228—290页（PDF243—305），63页连续无缺页",
+    "supplement": "宪法第2、3、37、40、57、58、62、67、69、70、79、80、81、82、85、89、92、93、94、95、96、97、105、107、110、112、115、116、123、127、128、131、132、133、134、136、137、138、140条按仓内官方文本逐条对读；监察法2024年修正（2025年6月1日施行）时点另行核准"
+  },
+  "status": "按现行分纲新组写、经独立审读上下文核对、并按口播体例做去除成段照搬的改写后，待教师审阅",
+  "upper": {
+    "han": 8396,
+    "spoken_han": 8428,
+    "speech_sha256": "8c59e5058b25c60d787a3287c7b913659ea8f868278d6685e143a527d4510d3c",
+    "nonoverlap_thinking_minutes_range": [
+      1,
+      2
+    ],
+    "estimated_minutes_by_speed": {
+      "180": [
+        46.8,
+        48.8
+      ],
+      "200": [
+        42.1,
+        44.1
+      ]
+    },
+    "estimated_minutes_range": [
+      42.1,
+      48.8
+    ]
+  },
+  "lower": {
+    "han": 8474,
+    "spoken_han": 8501,
+    "speech_sha256": "e13881bd623b14691e22d6c7597502daf8eb748dc4f1943dccb0c731c35bf2b8",
+    "nonoverlap_thinking_minutes_range": [
+      1,
+      2
+    ],
+    "estimated_minutes_by_speed": {
+      "180": [
+        47.2,
+        49.2
+      ],
+      "200": [
+        42.5,
+        44.5
+      ]
+    },
+    "estimated_minutes_range": [
+      42.5,
+      49.2
+    ]
+  },
+  "verbatim_overlap": {
+    "tool": "tools/check_verbatim_overlap.py",
+    "min_run": 16,
+    "sources": [
+      "教材第七章印刷228—290页连续原文",
+      "宪法官方文本"
+    ],
+    "before": {
+      "hit": 4879,
+      "pct": 29.2,
+      "longest": 107
+    },
+    "after": {
+      "hit": 2506,
+      "pct": 14.6,
+      "longest": 37
+    },
+    "note": "改写原则：连续照搬一般不超过约25字；说明性长句改为讲解；清单改为归类；只有\"原话本身是考点\"（定义、要背的口号、关键短语）才整句保留，并在正文标明是原话。"
+  },
+  "notes": [
+    "计数与课节字数记录.md一致；上节汉字8396、口读8428，下节汉字8474、口读8501。",
+    "每节一次独立思考，提示为\"约一至两分钟\"，故不重叠活动按区间1—2分钟计。",
+    "speech_sha256为本机按同口径自算；课程JSON另用全课统一提取，两者规范化不同。",
+    "未真人计时；容量按180—200口读字/分钟假设。",
+    "本稿经不继承作者自评的独立审读上下文核对后修订，并另做一次\"去除成段照搬\"的口播体例改写。"
+  ]
+}

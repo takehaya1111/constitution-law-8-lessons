@@ -1,29 +1,29 @@
 {
   "date": "2026-10-14",
   "counter": "tools/check_dual45.py::spoken_count",
-  "counting_scope": "实际当前完整Markdown口述正文；去标题和【课堂提示】后分别统计汉字及折算口读量，不计来源、备查或制作说明",
+  "counting_scope": "实际当前完整Markdown口述正文；去标题、【课堂提示】及第七讲的ASCII方括号课堂提示后，统计正文汉字与折算口读量，不计制作说明",
   "lessons": [
     {
       "lesson_number": 1,
       "source": "materials/第1讲整合试讲主版本/口播修订稿_20261014_合并版.md",
-      "source_sha256": "14002112f776f5bf67df60ec8e2fc2c331f139abf4ea12c433bab1505d0121be",
+      "source_sha256": "856758cfbeb9aaff4677f78ff0dffb86c5d5b7c1e74fbcb0eb70063f6149426d",
       "upper": {
-        "han": 8186,
-        "spoken_han": 8186,
-        "speech_sha256": "73248ab6cf044ea4bb214e4e94a0bb28a1e0e6043f7f2aee3be1752efbf3f446",
+        "han": 8220,
+        "spoken_han": 8220,
+        "speech_sha256": "abaf5bdd99d2161e4eecbcf51ed3cdb5e48adaa9771d1a70fea61350f3f48fab",
         "estimated_minutes_by_speed": {
           "180": [
-            48.5,
-            49.5
+            48.7,
+            49.7
           ],
           "200": [
-            43.9,
-            44.9
+            44.1,
+            45.1
           ]
         },
         "estimated_minutes_range": [
-          43.9,
-          49.5
+          44.1,
+          49.7
         ],
         "nonoverlap_thinking_minutes_range": [
           3,
@@ -31,22 +31,22 @@
         ]
       },
       "lower": {
-        "han": 8275,
-        "spoken_han": 8280,
-        "speech_sha256": "9aa3be33174ba6738280265a746a4cf843c0a3ae4dcae6d0468d27a427edb696",
+        "han": 8362,
+        "spoken_han": 8367,
+        "speech_sha256": "7f9ec5bc5d8b355b2710de7b48d4b722219f3c68f5ad0c3d4aaffd928357aefd",
         "estimated_minutes_by_speed": {
           "180": [
-            49,
-            50
+            49.5,
+            50.5
           ],
           "200": [
-            44.4,
-            45.4
+            44.8,
+            45.8
           ]
         },
         "estimated_minutes_range": [
-          44.4,
-          50
+          44.8,
+          50.5
         ],
         "nonoverlap_thinking_minutes_range": [
           3,
@@ -61,12 +61,16 @@
         "source_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
         "source_sha256": "ffec4fb6c3694722def290d83825ba3f857ee9a2756da891951afa5cf4f56fb1"
       },
-      "status": "按v0.4.9回查解释与论证后必要修订，待教师审阅"
+      "status": "按教师要求去除成段照搬后，待教师审阅",
+      "execution_note": "按教师要求做\"去除成段照搬\"的体例改写：与教材连续页及官方宪法文本的连续重合（≥16字）显著下降；改写后另开不继承改写者自评的独立上下文核验条号、款项与内容完整性，核验查出的问题已逐处回改。详见 research/20261014_口播体例照搬清查.md。",
+      "source_revision": "9deed1abba6586f9755fc9f4f7681e32b52a4012",
+      "integration_counting_note": "正文及该讲原制作文件保持9deed1a提交字节；本轮仅接齐机械计数、双速度估算和版本绑定，不认领其制作或内容审查。",
+      "counting_note": "去标题及【课堂提示】，数字按既有函数折算；speech_sha256使用同一LF正文提取。两次思考相加为每节3—4分钟，纠正并行条目的1.5—2分钟。"
     },
     {
       "lesson_number": 2,
       "source": "materials/第2讲实质备课/口播修订稿_20261014_依现行分纲.md",
-      "source_sha256": "38fc20396832dc6a769227199fa5192785a64e56b72a2d8e31dfef8403121c82",
+      "source_sha256": "43eaedee094a26f872243f2ac368e25ea74da60945bd157fd13b06d8a02fb89a",
       "course_input_revision": "aade6a16b2572b0ef78dde00e135f3247c53c82f",
       "method_version": "v0.4.9",
       "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
@@ -75,77 +79,93 @@
         "source_revision": "aade6a16b2572b0ef78dde00e135f3247c53c82f",
         "source_sha256": "8dd9f688562d68ddf4de4b6f18d424f607bf386155014a5ec7606bd52a705d31"
       },
-      "status": "解释研究后重组下节，完整稿待教师审阅",
+      "status": "按教师要求去除成段照搬后，待教师审阅",
       "upper": {
-        "han": 7795,
-        "spoken_han": 8121,
-        "speech_sha256": "c7471d3dd0bbcaa6f0c57a2720b5124c4c546cd79afe49dfa4f8195b088c3c4e",
-        "nonoverlap_reading_minutes": 3,
-        "estimated_minutes": [
-          48.1,
-          43.6
-        ],
-        "estimated_minutes_range": [
-          43.6,
-          48.1
-        ]
-      },
-      "lower": {
-        "han": 7532,
-        "spoken_han": 7757,
-        "speech_sha256": "de71f95441683c1ad7b1b85a56d78da4a58b413beeeec313c62ba5a0da4ebbf0",
-        "nonoverlap_reading_minutes": 3,
-        "estimated_minutes": [
-          46.1,
-          41.8
-        ],
-        "estimated_minutes_range": [
-          41.8,
-          46.1
-        ]
-      }
-    },
-    {
-      "lesson_number": 3,
-      "source": "materials/第3讲实质备课/口播修订稿_20261014_依现行分纲.md",
-      "source_sha256": "d00f1bfec72bf826c94a3e7a09bc0e778f04f9655aba711d493ced3b3b554787",
-      "upper": {
-        "han": 8191,
-        "spoken_han": 8200,
-        "speech_sha256": "d030d393ca52eea1e8c6a2bcf9c433904b57ff6cd86e7ba34fd9b1e59b1fe6e2",
+        "han": 7838,
+        "spoken_han": 8164,
+        "speech_sha256": "848a38fd8fecd02c3954b08fbab1107318d214f45a4b81dd97f275a02b52d782",
         "estimated_minutes_by_speed": {
           "180": [
-            48.6,
-            48.6
+            48.4,
+            48.4
           ],
           "200": [
-            44,
-            44
+            43.8,
+            43.8
           ]
         },
         "estimated_minutes_range": [
-          44,
-          48.6
+          43.8,
+          48.4
         ],
         "nonoverlap_reading_minutes": 3
       },
       "lower": {
-        "han": 8115,
-        "spoken_han": 8119,
-        "speech_sha256": "0891ccecc540f3b7713cceb99ecdcd3b9692dd0493d99f963e08de5f42f89561",
+        "han": 7545,
+        "spoken_han": 7770,
+        "speech_sha256": "1357dc5b9f27d71179f0569815f6cb5f19e83acd1a3c185fff6d8d955871c33b",
         "estimated_minutes_by_speed": {
           "180": [
-            48.1,
-            48.1
+            46.2,
+            46.2
           ],
           "200": [
-            43.6,
-            43.6
+            41.9,
+            41.9
           ]
         },
         "estimated_minutes_range": [
-          43.6,
-          48.1
+          41.9,
+          46.2
+        ],
+        "nonoverlap_reading_minutes": 3
+      },
+      "execution_note": "按教师要求做\"去除成段照搬\"的体例改写：与教材连续页及官方宪法文本的连续重合（≥16字）显著下降；改写后另开不继承改写者自评的独立上下文核验条号、款项与内容完整性，核验查出的问题已逐处回改。详见 research/20261014_口播体例照搬清查.md。",
+      "source_revision": "9deed1abba6586f9755fc9f4f7681e32b52a4012",
+      "integration_counting_note": "正文及该讲原制作文件保持9deed1a提交字节；本轮仅接齐机械计数、双速度估算和版本绑定，不认领其制作或内容审查。",
+      "counting_note": "去标题及【课堂提示】，数字按既有函数折算；speech_sha256使用同一LF正文提取。"
+    },
+    {
+      "lesson_number": 3,
+      "source": "materials/第3讲实质备课/口播修订稿_20261014_依现行分纲.md",
+      "source_sha256": "3af0ab5196d3bb96a3635029baaf70e12c6a2e07c7fb935d472121bb95dfc714",
+      "upper": {
+        "han": 8351,
+        "spoken_han": 8360,
+        "speech_sha256": "98d6324ef1c846faa2adc7ab91563b8df406c8fc8f9530e4331d1f2fa9a28c8f",
+        "estimated_minutes_by_speed": {
+          "180": [
+            49.4,
+            49.4
+          ],
+          "200": [
+            44.8,
+            44.8
+          ]
+        },
+        "estimated_minutes_range": [
+          44.8,
+          49.4
+        ],
+        "nonoverlap_reading_minutes": 3
+      },
+      "lower": {
+        "han": 8294,
+        "spoken_han": 8298,
+        "speech_sha256": "b27bff3d9942b0bd2d0dcbe2207fecac1165113cbfaae182690db991755fde9c",
+        "estimated_minutes_by_speed": {
+          "180": [
+            49.1,
+            49.1
+          ],
+          "200": [
+            44.5,
+            44.5
+          ]
+        },
+        "estimated_minutes_range": [
+          44.5,
+          49.1
         ],
         "nonoverlap_reading_minutes": 3
       },
@@ -157,49 +177,53 @@
         "source_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
         "source_sha256": "fa06b4ac9b7fca5e4aeeafaeb35830afe78dc52f71c7b922554d9fbd4854cea6"
       },
-      "status": "按v0.4.9回查解释与论证后必要修订，待教师审阅"
+      "status": "按教师要求去除成段照搬后，待教师审阅",
+      "execution_note": "按教师要求做\"去除成段照搬\"的体例改写：与教材连续页及官方宪法文本的连续重合（≥16字）显著下降；改写后另开不继承改写者自评的独立上下文核验条号、款项与内容完整性，核验查出的问题已逐处回改。详见 research/20261014_口播体例照搬清查.md。",
+      "source_revision": "9deed1abba6586f9755fc9f4f7681e32b52a4012",
+      "integration_counting_note": "正文及该讲原制作文件保持9deed1a提交字节；本轮仅接齐机械计数、双速度估算和版本绑定，不认领其制作或内容审查。",
+      "counting_note": "去标题及【课堂提示】，数字按既有函数折算；speech_sha256使用同一LF正文提取。"
     },
     {
       "lesson_number": 4,
       "source": "materials/第4讲实质备课/01_完整讲述.md",
-      "source_sha256": "87dbc473ea7dc5c83a2ff7a0676a6d5933c0863a8ffdc66ead9e49be857b3b8a",
+      "source_sha256": "f582bac434eb38c8054f9cffb45ee300d1634eac12cc6f9b0fde76e3269b12cf",
       "upper": {
-        "han": 8506,
-        "spoken_han": 8558,
-        "speech_sha256": "b4c764fed8d23fb2696bffdd2995f2ea9bfa16a0011a6f8786fc4fd1bc018fa6",
+        "han": 8649,
+        "spoken_han": 8701,
+        "speech_sha256": "f0f294a52436c7c2e7352ccc48c270c753fbf9d42a298310e48a694ccd84d605",
         "estimated_minutes_by_speed": {
           "180": [
-            49.5,
-            49.5
+            50.3,
+            50.3
           ],
           "200": [
-            44.8,
-            44.8
+            45.5,
+            45.5
           ]
         },
         "estimated_minutes_range": [
-          44.8,
-          49.5
+          45.5,
+          50.3
         ],
         "nonoverlap_thinking_minutes": 2
       },
       "lower": {
-        "han": 8062,
-        "spoken_han": 8094,
-        "speech_sha256": "1af2d96ce152f1f22e582ec95aa4b570c0d0313645a8ccc5fa2e69f7ad9a492c",
+        "han": 8131,
+        "spoken_han": 8163,
+        "speech_sha256": "036b7102ee843819060a5df7d7d4aed3e2695865ccad3d80b65384078b83da20",
         "estimated_minutes_by_speed": {
           "180": [
-            47,
-            47
+            47.4,
+            47.4
           ],
           "200": [
-            42.5,
-            42.5
+            42.8,
+            42.8
           ]
         },
         "estimated_minutes_range": [
-          42.5,
-          47
+          42.8,
+          47.4
         ],
         "nonoverlap_thinking_minutes": 2
       },
@@ -211,24 +235,47 @@
         "source_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
         "source_sha256": "385c2f3528f71d48d8dc9e14f9142125e57fb56c3ce936e56969ec29ba19799e"
       },
-      "status": "按v0.4.9回查解释与论证后必要修订，待教师审阅"
+      "status": "按教师要求去除成段照搬后，待教师审阅",
+      "execution_note": "按教师要求做\"去除成段照搬\"的体例改写：与教材连续页及官方宪法文本的连续重合（≥16字）显著下降；改写后另开不继承改写者自评的独立上下文核验条号、款项与内容完整性，核验查出的问题已逐处回改。详见 research/20261014_口播体例照搬清查.md。",
+      "source_revision": "9deed1abba6586f9755fc9f4f7681e32b52a4012",
+      "integration_counting_note": "正文及该讲原制作文件保持9deed1a提交字节；本轮仅接齐机械计数、双速度估算和版本绑定，不认领其制作或内容审查。",
+      "counting_note": "去标题及【课堂提示】，数字按既有函数折算；speech_sha256使用同一LF正文提取。"
     },
     {
       "lesson_number": 5,
       "source": "materials/第5讲实质备课/01_完整讲述.md",
-      "source_sha256": "be79210d4646a417f3cd446c542e72d7f1ea204a253dd297f8333eb575693e59",
+      "source_sha256": "1a9c8c341ebd439ecfd86c230e8bb9a7325740d5fa1cb1b5b7630ffe48483fba",
       "upper": {
-        "han": 8361,
-        "spoken_han": 8369,
-        "speech_sha256": "60be8b45d7b9504f0ae5416d127b04b638bb30a738e211adff6e661fefb3f143",
+        "han": 8711,
+        "spoken_han": 8719,
+        "speech_sha256": "ca9403a207ebf833945facd9e8d210b48324e0f9f714da16b9a6b78b1fe5ba70",
+        "estimated_minutes_by_speed": {
+          "180": [
+            49.4,
+            50.4
+          ],
+          "200": [
+            44.6,
+            45.6
+          ]
+        },
+        "estimated_minutes_range": [
+          44.6,
+          50.4
+        ],
         "nonoverlap_thinking_minutes_range": [
           1,
           2
-        ],
+        ]
+      },
+      "lower": {
+        "han": 8346,
+        "spoken_han": 8351,
+        "speech_sha256": "1842203a46305e7d7f84196711fe0028c3b3b6e9f5cf200b2452f435b2795fdc",
         "estimated_minutes_by_speed": {
           "180": [
-            47.5,
-            48.5
+            47.4,
+            48.4
           ],
           "200": [
             42.8,
@@ -237,30 +284,11 @@
         },
         "estimated_minutes_range": [
           42.8,
-          48.5
-        ]
-      },
-      "lower": {
-        "han": 8366,
-        "spoken_han": 8371,
-        "speech_sha256": "c0b26951516092f260138a1ab4f1af7a043d87634f977c17ae496c423f634179",
+          48.4
+        ],
         "nonoverlap_thinking_minutes_range": [
           1,
           2
-        ],
-        "estimated_minutes_by_speed": {
-          "180": [
-            47.5,
-            48.5
-          ],
-          "200": [
-            42.9,
-            43.9
-          ]
-        },
-        "estimated_minutes_range": [
-          42.9,
-          48.5
         ]
       },
       "course_input_revision": "b3c33cd164302207b242422211b3f5fc03923459",
@@ -277,24 +305,24 @@
         "model": "ds v4.1",
         "note": "用户提供的制作身份，未据此推断后台调用细节。"
       },
-      "status": "按v0.4.9回查原完整稿，补研究与必要调整，待教师审阅"
+      "status": "按教师要求去除成段照搬后，待教师审阅",
+      "execution_note": "按教师要求做\"去除成段照搬\"的体例改写：与教材连续页及官方宪法文本的连续重合（≥16字）显著下降；改写后另开不继承改写者自评的独立上下文核验条号、款项与内容完整性，核验查出的问题已逐处回改。详见 research/20261014_口播体例照搬清查.md。",
+      "source_revision": "9deed1abba6586f9755fc9f4f7681e32b52a4012",
+      "integration_counting_note": "正文及该讲原制作文件保持9deed1a提交字节；本轮仅接齐机械计数、双速度估算和版本绑定，不认领其制作或内容审查。",
+      "counting_note": "去标题及【课堂提示】，数字按既有函数折算；speech_sha256使用同一LF正文提取。"
     },
     {
       "lesson_number": 6,
       "source": "materials/第6讲实质备课/01_完整讲述.md",
-      "source_sha256": "e2f71acdc78ee151ced18736d931d76e98a55d51a5ac2fab109d89c2cc3c2131",
+      "source_sha256": "f31a0f1504af53418556357fe633c0ad5b95ba274d187945c4e48f630ae20114",
       "upper": {
-        "han": 7877,
-        "spoken_han": 7879,
-        "speech_sha256": "7e25d56b50a485b4994612e0a0a022a3f452b0fc4a0f5815afbd6174320c38fa",
-        "nonoverlap_thinking_minutes_range": [
-          1,
-          2
-        ],
+        "han": 7871,
+        "spoken_han": 7873,
+        "speech_sha256": "addb0ca54b21cfb70d63f2abba8535ba2b3af379dc659e1865795a53a14bfdd4",
         "estimated_minutes_by_speed": {
           "180": [
-            44.8,
-            45.8
+            44.7,
+            45.7
           ],
           "200": [
             40.4,
@@ -303,45 +331,111 @@
         },
         "estimated_minutes_range": [
           40.4,
-          45.8
-        ]
-      },
-      "lower": {
-        "han": 8317,
-        "spoken_han": 8320,
-        "speech_sha256": "4a088573c7db18c05f425484f070ad3dd239c25fe6c9cb8b2132a322332d9c5a",
+          45.7
+        ],
         "nonoverlap_thinking_minutes_range": [
           1,
           2
-        ],
+        ]
+      },
+      "lower": {
+        "han": 8273,
+        "spoken_han": 8276,
+        "speech_sha256": "0b1062f1111520b7515061d370fa1284425d9b3813c8d11193123c62d93ca7da",
         "estimated_minutes_by_speed": {
           "180": [
-            47.2,
-            48.2
+            47,
+            48
           ],
           "200": [
-            42.6,
-            43.6
+            42.4,
+            43.4
           ]
         },
         "estimated_minutes_range": [
-          42.6,
-          48.2
+          42.4,
+          48
+        ],
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
         ]
       },
-      "course_input_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
       "method_version": "v0.4.9",
       "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "status": "按v0.4.9回查原完整稿，补研究与必要调整，合入并行口述编辑后待教师审阅",
+      "course_input_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
+      "integration_revision": "9deed1abba6586f9755fc9f4f7681e32b52a4012",
       "based_on": {
         "source": "materials/第6讲实质备课/01_完整讲述.md",
         "source_revision": "ea37eb7cf77e66773959342a0a73d8bff6b2fe73",
         "source_sha256": "790819044c20691e1a7e689ff254f6669bbab006929664789d94d700f02de4db"
       },
-      "status": "按v0.4.9回查原完整稿，补研究与必要调整，待教师审阅"
+      "execution_note": "本轮实际连续教材阅读、必要原规范研究、完整独立读者检查、归属核证及合并全文检查见materials/第6讲实质备课/研究/20261014_v049解释论证回查.md；没有改技能或倒写原作者执行史。",
+      "counting_note": "去标题及【课堂提示】，数字按既有函数折算；speech_sha256使用同一LF正文提取。"
+    },
+    {
+      "lesson_number": 7,
+      "source": "materials/第7讲实质备课/01_完整讲述.md",
+      "source_sha256": "7a58ba6f00f538ec8a90cbe58f5eeef8c78ccb6980c98cec22aa5c82ea57d74f",
+      "upper": {
+        "han": 8246,
+        "spoken_han": 8278,
+        "speech_sha256": "638efee83d3c7a2519bc22125816b4a684768c78e06beff02a8bd2ea7f86ebae",
+        "estimated_minutes_by_speed": {
+          "180": [
+            47,
+            48
+          ],
+          "200": [
+            42.4,
+            43.4
+          ]
+        },
+        "estimated_minutes_range": [
+          42.4,
+          48
+        ],
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ]
+      },
+      "lower": {
+        "han": 8340,
+        "spoken_han": 8367,
+        "speech_sha256": "5d29f7201eb261ca0df77e7843e0f297c6c32923ac72465a9b9f81903259a8be",
+        "estimated_minutes_by_speed": {
+          "180": [
+            47.5,
+            48.5
+          ],
+          "200": [
+            42.8,
+            43.8
+          ]
+        },
+        "estimated_minutes_range": [
+          42.8,
+          48.5
+        ],
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ]
+      },
+      "course_input_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "status": "按现行分纲新组写、经独立审读上下文核对、并按口播体例去除成段照搬后，待教师审阅",
+      "execution_note": "本讲为按分纲新组写，非既有稿修订。整讲检查另开了两个不继承作者自评的独立审读上下文（首读、内容与事实核对），据其报告改正了第128/134条误用（应为第133/138条）、第79条并挂第82条、第95条并挂自治机关款、第70条引1982年旧表述、自治条例制定主体误记为人民政府等，以及四处把分纲概括冒称\"教材\"。此后又按教师意见做了一次\"口播体例\"清查：用tools/check_verbatim_overlap.py比对，与教材及宪法连续重合（>=16字）由29.2%（最长107字）降到14.6%（最长37字），删去的是成段照搬的条文与清单，补回的是讲解性内容，字数净增约135。计数口径先用第五、六讲复算逐字节复现后才使用。",
+      "source_revision": "9deed1abba6586f9755fc9f4f7681e32b52a4012",
+      "integration_counting_note": "正文及该讲原制作文件保持9deed1a提交字节；本轮仅接齐机械计数、双速度估算和版本绑定，不认领其制作或内容审查。",
+      "counting_note": "按全课去标题及课堂提示口径，另去掉本稿的ASCII方括号课堂提示；原容量文件不改，原计数快照保留。"
     }
   ],
-  "remaining_lessons": "第七至八讲尚未按当前流程交付完整Markdown口述，不以旧教案或PPT备注代填字数",
-  "limits": "第一至六讲已有完整待审稿，第六讲本轮按同版v0.4.9实际回查并补研究调整，前五讲保持。旧生成史、原认可与本轮处理分开；第六讲原制作模型未由教师提供，不继承第五讲wb、ds v4.1身份。retained_versions按固定提交读取，不能用当前同路径复算旧数。语速与活动是条件粗估，未真人计时，不证明教学效果。",
+  "remaining_lessons": "第八讲尚未按当前流程交付完整Markdown口述；既有成熟研究和教学材料保留，不以旧教案或PPT备注代填字数",
+  "limits": "第六讲本轮实际回查并补研究修订，合入9deed1a并行口述编辑；第一至五讲及第七讲正文保持该并行提交，本轮只校机械字数与估算，不认领其内容核稿。第六讲原模型未由教师提供，不继承第五讲wb、ds v4.1身份。历史条目按固定提交及当时计数口径读取，旧认可不移记新稿；第一讲活动相加为3—4分钟，第七讲原容量曾计入ASCII课堂提示，现全课记录纠正且保留原快照。未真人计时，不证明教学效果。",
   "retained_versions": [
     {
       "lesson_number": 1,
@@ -360,7 +454,9 @@
         "han": 7847,
         "spoken_han": 7851,
         "speech_sha256": "58fbedd66990ff1cfc1d7f0c377285c0e590e0dc652c9105a5f24440d9bdcbd1"
-      }
+      },
+      "source_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
+      "fixed_snapshot_note": "本轮补明能够独立恢复同SHA原字节的固定课程快照，不表示原制作发生于该提交，不改旧认可或方法历史。"
     },
     {
       "lesson_number": 1,
@@ -376,7 +472,9 @@
         "spoken_han": 7851,
         "speech_sha256": "56867be68028bc4ce381a84ab5d9c342daf35a10b058783a31a9fdebf93c8950"
       },
-      "status": "教师基本认可保留稿"
+      "status": "教师基本认可保留稿",
+      "source_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
+      "fixed_snapshot_note": "本轮补明能够独立恢复同SHA原字节的固定课程快照，不表示原制作发生于该提交，不改旧认可或方法历史。"
     },
     {
       "lesson_number": 2,
@@ -392,7 +490,9 @@
         "spoken_han": 7842,
         "speech_sha256": "56e1e79f2179b6577f790d070c4de98e75357642ec431c59a290353fd6b9851a"
       },
-      "status": "教师明确认可完整稿"
+      "status": "教师明确认可完整稿",
+      "source_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
+      "fixed_snapshot_note": "本轮补明能够独立恢复同SHA原字节的固定课程快照，不表示原制作发生于该提交，不改旧认可或方法历史。"
     },
     {
       "lesson_number": 3,
@@ -418,7 +518,9 @@
           40.8
         ]
       },
-      "status": "本次新稿，待教师审阅"
+      "status": "本次新稿，待教师审阅",
+      "source_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
+      "fixed_snapshot_note": "本轮补明能够独立恢复同SHA原字节的固定课程快照，不表示原制作发生于该提交，不改旧认可或方法历史。"
     },
     {
       "lesson_number": 2,
@@ -661,6 +763,292 @@
       }
     },
     {
+      "lesson_number": 1,
+      "source": "materials/第1讲整合试讲主版本/口播修订稿_20261014_合并版.md",
+      "source_sha256": "14002112f776f5bf67df60ec8e2fc2c331f139abf4ea12c433bab1505d0121be",
+      "upper": {
+        "han": 8186,
+        "spoken_han": 8186,
+        "speech_sha256": "73248ab6cf044ea4bb214e4e94a0bb28a1e0e6043f7f2aee3be1752efbf3f446",
+        "estimated_minutes_by_speed": {
+          "180": [
+            48.5,
+            49.5
+          ],
+          "200": [
+            43.9,
+            44.9
+          ]
+        },
+        "estimated_minutes_range": [
+          43.9,
+          49.5
+        ],
+        "nonoverlap_thinking_minutes_range": [
+          3,
+          4
+        ]
+      },
+      "lower": {
+        "han": 8275,
+        "spoken_han": 8280,
+        "speech_sha256": "9aa3be33174ba6738280265a746a4cf843c0a3ae4dcae6d0468d27a427edb696",
+        "estimated_minutes_by_speed": {
+          "180": [
+            49,
+            50
+          ],
+          "200": [
+            44.4,
+            45.4
+          ]
+        },
+        "estimated_minutes_range": [
+          44.4,
+          50
+        ],
+        "nonoverlap_thinking_minutes_range": [
+          3,
+          4
+        ]
+      },
+      "course_input_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "based_on": {
+        "source": "materials/第1讲整合试讲主版本/口播修订稿_20261014_合并版.md",
+        "source_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
+        "source_sha256": "ffec4fb6c3694722def290d83825ba3f857ee9a2756da891951afa5cf4f56fb1"
+      },
+      "status": "按v0.4.9回查解释与论证后必要修订，待教师审阅",
+      "source_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
+      "archive_note": "并行口述体例编辑之前的当前完整待审稿；原方法和认可状态不变，按510a2f2固定提交读取。"
+    },
+    {
+      "lesson_number": 2,
+      "source": "materials/第2讲实质备课/口播修订稿_20261014_依现行分纲.md",
+      "source_sha256": "38fc20396832dc6a769227199fa5192785a64e56b72a2d8e31dfef8403121c82",
+      "course_input_revision": "aade6a16b2572b0ef78dde00e135f3247c53c82f",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "based_on": {
+        "source": "materials/第2讲实质备课/口播修订稿_20261014_依现行分纲.md",
+        "source_revision": "aade6a16b2572b0ef78dde00e135f3247c53c82f",
+        "source_sha256": "8dd9f688562d68ddf4de4b6f18d424f607bf386155014a5ec7606bd52a705d31"
+      },
+      "status": "解释研究后重组下节，完整稿待教师审阅",
+      "upper": {
+        "han": 7795,
+        "spoken_han": 8121,
+        "speech_sha256": "c7471d3dd0bbcaa6f0c57a2720b5124c4c546cd79afe49dfa4f8195b088c3c4e",
+        "nonoverlap_reading_minutes": 3,
+        "estimated_minutes": [
+          48.1,
+          43.6
+        ],
+        "estimated_minutes_range": [
+          43.6,
+          48.1
+        ]
+      },
+      "lower": {
+        "han": 7532,
+        "spoken_han": 7757,
+        "speech_sha256": "de71f95441683c1ad7b1b85a56d78da4a58b413beeeec313c62ba5a0da4ebbf0",
+        "nonoverlap_reading_minutes": 3,
+        "estimated_minutes": [
+          46.1,
+          41.8
+        ],
+        "estimated_minutes_range": [
+          41.8,
+          46.1
+        ]
+      },
+      "source_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
+      "archive_note": "并行口述体例编辑之前的当前完整待审稿；原方法和认可状态不变，按510a2f2固定提交读取。"
+    },
+    {
+      "lesson_number": 3,
+      "source": "materials/第3讲实质备课/口播修订稿_20261014_依现行分纲.md",
+      "source_sha256": "d00f1bfec72bf826c94a3e7a09bc0e778f04f9655aba711d493ced3b3b554787",
+      "upper": {
+        "han": 8191,
+        "spoken_han": 8200,
+        "speech_sha256": "d030d393ca52eea1e8c6a2bcf9c433904b57ff6cd86e7ba34fd9b1e59b1fe6e2",
+        "estimated_minutes_by_speed": {
+          "180": [
+            48.6,
+            48.6
+          ],
+          "200": [
+            44,
+            44
+          ]
+        },
+        "estimated_minutes_range": [
+          44,
+          48.6
+        ],
+        "nonoverlap_reading_minutes": 3
+      },
+      "lower": {
+        "han": 8115,
+        "spoken_han": 8119,
+        "speech_sha256": "0891ccecc540f3b7713cceb99ecdcd3b9692dd0493d99f963e08de5f42f89561",
+        "estimated_minutes_by_speed": {
+          "180": [
+            48.1,
+            48.1
+          ],
+          "200": [
+            43.6,
+            43.6
+          ]
+        },
+        "estimated_minutes_range": [
+          43.6,
+          48.1
+        ],
+        "nonoverlap_reading_minutes": 3
+      },
+      "course_input_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "based_on": {
+        "source": "materials/第3讲实质备课/口播修订稿_20261014_依现行分纲.md",
+        "source_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
+        "source_sha256": "fa06b4ac9b7fca5e4aeeafaeb35830afe78dc52f71c7b922554d9fbd4854cea6"
+      },
+      "status": "按v0.4.9回查解释与论证后必要修订，待教师审阅",
+      "source_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
+      "archive_note": "并行口述体例编辑之前的当前完整待审稿；原方法和认可状态不变，按510a2f2固定提交读取。"
+    },
+    {
+      "lesson_number": 4,
+      "source": "materials/第4讲实质备课/01_完整讲述.md",
+      "source_sha256": "87dbc473ea7dc5c83a2ff7a0676a6d5933c0863a8ffdc66ead9e49be857b3b8a",
+      "upper": {
+        "han": 8506,
+        "spoken_han": 8558,
+        "speech_sha256": "b4c764fed8d23fb2696bffdd2995f2ea9bfa16a0011a6f8786fc4fd1bc018fa6",
+        "estimated_minutes_by_speed": {
+          "180": [
+            49.5,
+            49.5
+          ],
+          "200": [
+            44.8,
+            44.8
+          ]
+        },
+        "estimated_minutes_range": [
+          44.8,
+          49.5
+        ],
+        "nonoverlap_thinking_minutes": 2
+      },
+      "lower": {
+        "han": 8062,
+        "spoken_han": 8094,
+        "speech_sha256": "1af2d96ce152f1f22e582ec95aa4b570c0d0313645a8ccc5fa2e69f7ad9a492c",
+        "estimated_minutes_by_speed": {
+          "180": [
+            47,
+            47
+          ],
+          "200": [
+            42.5,
+            42.5
+          ]
+        },
+        "estimated_minutes_range": [
+          42.5,
+          47
+        ],
+        "nonoverlap_thinking_minutes": 2
+      },
+      "course_input_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "based_on": {
+        "source": "materials/第4讲实质备课/01_完整讲述.md",
+        "source_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
+        "source_sha256": "385c2f3528f71d48d8dc9e14f9142125e57fb56c3ce936e56969ec29ba19799e"
+      },
+      "status": "按v0.4.9回查解释与论证后必要修订，待教师审阅",
+      "source_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
+      "archive_note": "并行口述体例编辑之前的当前完整待审稿；原方法和认可状态不变，按510a2f2固定提交读取。"
+    },
+    {
+      "lesson_number": 5,
+      "source": "materials/第5讲实质备课/01_完整讲述.md",
+      "source_sha256": "be79210d4646a417f3cd446c542e72d7f1ea204a253dd297f8333eb575693e59",
+      "upper": {
+        "han": 8361,
+        "spoken_han": 8369,
+        "speech_sha256": "60be8b45d7b9504f0ae5416d127b04b638bb30a738e211adff6e661fefb3f143",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            47.5,
+            48.5
+          ],
+          "200": [
+            42.8,
+            43.8
+          ]
+        },
+        "estimated_minutes_range": [
+          42.8,
+          48.5
+        ]
+      },
+      "lower": {
+        "han": 8366,
+        "spoken_han": 8371,
+        "speech_sha256": "c0b26951516092f260138a1ab4f1af7a043d87634f977c17ae496c423f634179",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            47.5,
+            48.5
+          ],
+          "200": [
+            42.9,
+            43.9
+          ]
+        },
+        "estimated_minutes_range": [
+          42.9,
+          48.5
+        ]
+      },
+      "course_input_revision": "b3c33cd164302207b242422211b3f5fc03923459",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "based_on": {
+        "source": "materials/第5讲实质备课/01_完整讲述.md",
+        "source_revision": "b3c33cd164302207b242422211b3f5fc03923459",
+        "source_sha256": "d2f4fb0a01bbd649c9fab42961e9d9cf3596a68a2d6d0770cd9d8dead700b90e"
+      },
+      "original_production": {
+        "reported_by": "教师于2026-10-14本轮说明",
+        "tool": "wb",
+        "model": "ds v4.1",
+        "note": "用户提供的制作身份，未据此推断后台调用细节。"
+      },
+      "status": "按v0.4.9回查原完整稿，补研究与必要调整，待教师审阅",
+      "source_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
+      "archive_note": "并行口述体例编辑之前的当前完整待审稿；原方法和认可状态不变，按510a2f2固定提交读取。"
+    },
+    {
       "lesson_number": 6,
       "source": "materials/第6讲实质备课/01_完整讲述.md",
       "source_sha256": "790819044c20691e1a7e689ff254f6669bbab006929664789d94d700f02de4db",
@@ -715,7 +1103,125 @@
       "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
       "status": "并行提交完整稿，待教师审阅；本轮仅合并保留及机械计数",
       "integration_note": "第六讲四份文件保持并行提交字节，未在本轮开展内容回查。本条采用全课统一正文提取绑定口述校验值，原独立容量文件规范化不同，汉字与口读量一致；原文件不改。",
-      "archive_note": "本轮第六讲解释论证回查前版本；原执行声明、机械同步身份与数值保留，正文按source_revision读取。"
+      "archive_note": "第六讲原生产稿及前轮机械同步版本；按固定提交读取，不用当前同路径复算。"
+    },
+    {
+      "lesson_number": 6,
+      "source": "materials/第6讲实质备课/01_完整讲述.md",
+      "source_sha256": "397703cfe2c0171f3f481f88e656482855e1ead7ffb5c53930a56fab70969a5f",
+      "upper": {
+        "han": 8523,
+        "spoken_han": 8523,
+        "speech_sha256": "f7eedbf2e8392c1f485c13510e4b7ea76283a5be15a4131d0b287d992df489cd",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            49.4,
+            49.4
+          ],
+          "200": [
+            43.6,
+            43.6
+          ]
+        },
+        "estimated_minutes_range": [
+          43.6,
+          49.4
+        ]
+      },
+      "lower": {
+        "han": 8387,
+        "spoken_han": 8387,
+        "speech_sha256": "b36ae9e533243cb8544dbf690fbe5fbf93bfc60c86b66fa47cd753abb6c5cb01",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            48.6,
+            48.6
+          ],
+          "200": [
+            42.9,
+            42.9
+          ]
+        },
+        "estimated_minutes_range": [
+          42.9,
+          48.6
+        ]
+      },
+      "source_revision": "9deed1abba6586f9755fc9f4f7681e32b52a4012",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "status": "按教师要求去除成段照搬后，待教师审阅",
+      "integration_note": "第六讲四份文件保持并行提交字节，未在本轮开展内容回查。本条采用全课统一正文提取绑定口述校验值，原独立容量文件规范化不同，汉字与口读量一致；原文件不改。",
+      "execution_note": "按教师要求做\"去除成段照搬\"的体例改写：与教材连续页及官方宪法文本的连续重合（≥16字）显著下降；改写后另开不继承改写者自评的独立上下文核验条号、款项与内容完整性，核验查出的问题已逐处回改。详见 research/20261014_口播体例照搬清查.md。",
+      "reported_source_revision": "ea37eb7cf77e66773959342a0a73d8bff6b2fe73",
+      "archive_note": "并行去长段照搬后的第六讲，尚未合入本轮解释论证修订；原报告身份保留，正文以9deed1a读取，原条目source_revision指ea37不再冒充该正文。"
+    },
+    {
+      "lesson_number": 7,
+      "source": "materials/第7讲实质备课/01_完整讲述.md",
+      "source_sha256": "7a58ba6f00f538ec8a90cbe58f5eeef8c78ccb6980c98cec22aa5c82ea57d74f",
+      "upper": {
+        "han": 8396,
+        "spoken_han": 8428,
+        "speech_sha256": "8c59e5058b25c60d787a3287c7b913659ea8f868278d6685e143a527d4510d3c",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            46.8,
+            48.8
+          ],
+          "200": [
+            43.1,
+            44.1
+          ]
+        },
+        "estimated_minutes_range": [
+          43.1,
+          48.8
+        ]
+      },
+      "lower": {
+        "han": 8474,
+        "spoken_han": 8501,
+        "speech_sha256": "e13881bd623b14691e22d6c7597502daf8eb748dc4f1943dccb0c731c35bf2b8",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            47.2,
+            49.2
+          ],
+          "200": [
+            43.5,
+            44.5
+          ]
+        },
+        "estimated_minutes_range": [
+          43.5,
+          49.2
+        ]
+      },
+      "course_input_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "status": "按现行分纲新组写、经独立审读上下文核对、并按口播体例去除成段照搬后，待教师审阅",
+      "execution_note": "本讲为按分纲新组写，非既有稿修订。整讲检查另开了两个不继承作者自评的独立审读上下文（首读、内容与事实核对），据其报告改正了第128/134条误用（应为第133/138条）、第79条并挂第82条、第95条并挂自治机关款、第70条引1982年旧表述、自治条例制定主体误记为人民政府等，以及四处把分纲概括冒称\"教材\"。此后又按教师意见做了一次\"口播体例\"清查：用tools/check_verbatim_overlap.py比对，与教材及宪法连续重合（>=16字）由29.2%（最长107字）降到14.6%（最长37字），删去的是成段照搬的条文与清单，补回的是讲解性内容，字数净增约135。计数口径先用第五、六讲复算逐字节复现后才使用。",
+      "source_revision": "9deed1abba6586f9755fc9f4f7681e32b52a4012",
+      "reported_source_revision": null,
+      "archive_note": "第七讲并行原计数快照；原提取未排除ASCII方括号课堂提示，当前仅修正机械口径，正文保持同一字节。"
     }
   ]
 }

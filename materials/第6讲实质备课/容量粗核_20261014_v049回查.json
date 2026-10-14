@@ -2,19 +2,15 @@
   "date": "2026-10-14",
   "lesson_number": 6,
   "source": "materials/第6讲实质备课/01_完整讲述.md",
-  "source_sha256": "e2f71acdc78ee151ced18736d931d76e98a55d51a5ac2fab109d89c2cc3c2131",
+  "source_sha256": "f31a0f1504af53418556357fe633c0ad5b95ba274d187945c4e48f630ae20114",
   "upper": {
-    "han": 7877,
-    "spoken_han": 7879,
-    "speech_sha256": "7e25d56b50a485b4994612e0a0a022a3f452b0fc4a0f5815afbd6174320c38fa",
-    "nonoverlap_thinking_minutes_range": [
-      1,
-      2
-    ],
+    "han": 7871,
+    "spoken_han": 7873,
+    "speech_sha256": "addb0ca54b21cfb70d63f2abba8535ba2b3af379dc659e1865795a53a14bfdd4",
     "estimated_minutes_by_speed": {
       "180": [
-        44.8,
-        45.8
+        44.7,
+        45.7
       ],
       "200": [
         40.4,
@@ -23,36 +19,40 @@
     },
     "estimated_minutes_range": [
       40.4,
-      45.8
+      45.7
     ],
     "activity_cues": [
       "【独立思考约一至两分钟：写出比较对象，并写一句“这个理由最多能支持到……”。教师此时暂停讲述。】"
-    ]
-  },
-  "lower": {
-    "han": 8317,
-    "spoken_han": 8320,
-    "speech_sha256": "4a088573c7db18c05f425484f070ad3dd239c25fe6c9cb8b2132a322332d9c5a",
+    ],
     "nonoverlap_thinking_minutes_range": [
       1,
       2
-    ],
+    ]
+  },
+  "lower": {
+    "han": 8273,
+    "spoken_han": 8276,
+    "speech_sha256": "0b1062f1111520b7515061d370fa1284425d9b3813c8d11193123c62d93ca7da",
     "estimated_minutes_by_speed": {
       "180": [
-        47.2,
-        48.2
+        47,
+        48
       ],
       "200": [
-        42.6,
-        43.6
+        42.4,
+        43.4
       ]
     },
     "estimated_minutes_range": [
-      42.6,
-      48.2
+      42.4,
+      48
     ],
     "activity_cues": [
       "【独立思考约一至两分钟：指出国家秘密定义中不满足的条件，并说明为什么不能据此直接认定可以任意传播。教师此时暂停讲述。】"
+    ],
+    "nonoverlap_thinking_minutes_range": [
+      1,
+      2
     ]
   },
   "counter": "tools/check_dual45.py::spoken_count",
@@ -87,8 +87,9 @@
   "status": "按v0.4.9回查解释论证，必要研究与修订后完整稿，待教师审阅",
   "notes": [
     "本数据与全课记录使用同一正文提取；speech_sha256绑定去标题及课堂提示后、换行为LF的正文文字，不是文件字节SHA。",
-    "语速180—200口读字/分钟，各节一次独立思考1—2分钟；上节较快假设可能短约4.6分钟，下节较慢假设可能长约3.2分钟，待实际试讲校准。",
+    "语速180—200口读字/分钟，各节一次独立思考1—2分钟；上节较快假设可能短约4.6分钟，下节较慢假设可能长约3分钟，待实际试讲校准。",
     "原数据保留固定提交身份；原容量的章节分段PDF点位有误，新数据按正文标题核准。",
     "容量是条件粗估，未真人计时，不证明教学效果。"
-  ]
+  ],
+  "integration_revision": "9deed1abba6586f9755fc9f4f7681e32b52a4012"
 }
