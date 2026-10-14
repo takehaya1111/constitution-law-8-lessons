@@ -6,51 +6,51 @@
     {
       "lesson_number": 1,
       "source": "materials/第1讲整合试讲主版本/口播修订稿_20261014_合并版.md",
-      "source_sha256": "14002112f776f5bf67df60ec8e2fc2c331f139abf4ea12c433bab1505d0121be",
+      "source_sha256": "856758cfbeb9aaff4677f78ff0dffb86c5d5b7c1e74fbcb0eb70063f6149426d",
       "upper": {
-        "han": 8186,
-        "spoken_han": 8186,
-        "speech_sha256": "73248ab6cf044ea4bb214e4e94a0bb28a1e0e6043f7f2aee3be1752efbf3f446",
+        "han": 8220,
+        "spoken_han": 8220,
+        "speech_sha256": "5dda9bf42738f4e97568c1bd6a4f03a84cb1f7de7f8505c179a3cab31f009205",
+        "nonoverlap_thinking_minutes_range": [
+          1.5,
+          2
+        ],
         "estimated_minutes_by_speed": {
           "180": [
-            48.5,
-            49.5
+            47.7,
+            47.7
           ],
           "200": [
-            43.9,
-            44.9
+            42.6,
+            42.6
           ]
         },
         "estimated_minutes_range": [
-          43.9,
-          49.5
-        ],
-        "nonoverlap_thinking_minutes_range": [
-          3,
-          4
+          42.6,
+          47.7
         ]
       },
       "lower": {
-        "han": 8275,
-        "spoken_han": 8280,
-        "speech_sha256": "9aa3be33174ba6738280265a746a4cf843c0a3ae4dcae6d0468d27a427edb696",
+        "han": 8362,
+        "spoken_han": 8367,
+        "speech_sha256": "d6f46e2362fe2dbdf1c62c2bedfca2ba75544e598be749e10e74dfdc30fdcd40",
+        "nonoverlap_thinking_minutes_range": [
+          1.5,
+          2
+        ],
         "estimated_minutes_by_speed": {
           "180": [
-            49,
-            50
+            48.5,
+            48.5
           ],
           "200": [
-            44.4,
-            45.4
+            43.3,
+            43.3
           ]
         },
         "estimated_minutes_range": [
-          44.4,
-          50
-        ],
-        "nonoverlap_thinking_minutes_range": [
-          3,
-          4
+          43.3,
+          48.5
         ]
       },
       "course_input_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
@@ -61,12 +61,13 @@
         "source_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
         "source_sha256": "ffec4fb6c3694722def290d83825ba3f857ee9a2756da891951afa5cf4f56fb1"
       },
-      "status": "按v0.4.9回查解释与论证后必要修订，待教师审阅"
+      "status": "按教师要求去除成段照搬后，待教师审阅",
+      "execution_note": "按教师要求做\"去除成段照搬\"的体例改写：与教材连续页及官方宪法文本的连续重合（≥16字）显著下降；改写后另开不继承改写者自评的独立上下文核验条号、款项与内容完整性，核验查出的问题已逐处回改。详见 research/20261014_口播体例照搬清查.md。"
     },
     {
       "lesson_number": 2,
       "source": "materials/第2讲实质备课/口播修订稿_20261014_依现行分纲.md",
-      "source_sha256": "38fc20396832dc6a769227199fa5192785a64e56b72a2d8e31dfef8403121c82",
+      "source_sha256": "43eaedee094a26f872243f2ac368e25ea74da60945bd157fd13b06d8a02fb89a",
       "course_input_revision": "aade6a16b2572b0ef78dde00e135f3247c53c82f",
       "method_version": "v0.4.9",
       "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
@@ -75,79 +76,104 @@
         "source_revision": "aade6a16b2572b0ef78dde00e135f3247c53c82f",
         "source_sha256": "8dd9f688562d68ddf4de4b6f18d424f607bf386155014a5ec7606bd52a705d31"
       },
-      "status": "解释研究后重组下节，完整稿待教师审阅",
+      "status": "按教师要求去除成段照搬后，待教师审阅",
       "upper": {
-        "han": 7795,
-        "spoken_han": 8121,
-        "speech_sha256": "c7471d3dd0bbcaa6f0c57a2720b5124c4c546cd79afe49dfa4f8195b088c3c4e",
-        "nonoverlap_reading_minutes": 3,
-        "estimated_minutes": [
-          48.1,
-          43.6
+        "han": 7838,
+        "spoken_han": 8164,
+        "speech_sha256": "1b815469014101ea6b0037aae69d5db4efd83082652ce4520b0377067a48a8c3",
+        "nonoverlap_thinking_minutes_range": [
+          3,
+          3
         ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            48.4,
+            48.4
+          ],
+          "200": [
+            43.8,
+            43.8
+          ]
+        },
         "estimated_minutes_range": [
-          43.6,
-          48.1
+          43.8,
+          48.4
         ]
       },
       "lower": {
-        "han": 7532,
-        "spoken_han": 7757,
-        "speech_sha256": "de71f95441683c1ad7b1b85a56d78da4a58b413beeeec313c62ba5a0da4ebbf0",
-        "nonoverlap_reading_minutes": 3,
-        "estimated_minutes": [
-          46.1,
-          41.8
+        "han": 7545,
+        "spoken_han": 7770,
+        "speech_sha256": "466a16eb842b560d7fec253f962b2dae5cd5b4deb3bbc445a465756986a3dfa3",
+        "nonoverlap_thinking_minutes_range": [
+          3,
+          3
         ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            46.2,
+            46.2
+          ],
+          "200": [
+            41.9,
+            41.9
+          ]
+        },
         "estimated_minutes_range": [
-          41.8,
-          46.1
+          41.9,
+          46.2
         ]
-      }
+      },
+      "execution_note": "按教师要求做\"去除成段照搬\"的体例改写：与教材连续页及官方宪法文本的连续重合（≥16字）显著下降；改写后另开不继承改写者自评的独立上下文核验条号、款项与内容完整性，核验查出的问题已逐处回改。详见 research/20261014_口播体例照搬清查.md。"
     },
     {
       "lesson_number": 3,
       "source": "materials/第3讲实质备课/口播修订稿_20261014_依现行分纲.md",
-      "source_sha256": "d00f1bfec72bf826c94a3e7a09bc0e778f04f9655aba711d493ced3b3b554787",
+      "source_sha256": "3af0ab5196d3bb96a3635029baaf70e12c6a2e07c7fb935d472121bb95dfc714",
       "upper": {
-        "han": 8191,
-        "spoken_han": 8200,
-        "speech_sha256": "d030d393ca52eea1e8c6a2bcf9c433904b57ff6cd86e7ba34fd9b1e59b1fe6e2",
+        "han": 8351,
+        "spoken_han": 8360,
+        "speech_sha256": "10076c520ffb301bac0f6ff146aa0884e14f89f2f93d6d28df71180f0d03b093",
+        "nonoverlap_thinking_minutes_range": [
+          3,
+          3
+        ],
         "estimated_minutes_by_speed": {
           "180": [
-            48.6,
-            48.6
+            49.4,
+            49.4
           ],
           "200": [
-            44,
-            44
+            44.8,
+            44.8
           ]
         },
         "estimated_minutes_range": [
-          44,
-          48.6
-        ],
-        "nonoverlap_reading_minutes": 3
+          44.8,
+          49.4
+        ]
       },
       "lower": {
-        "han": 8115,
-        "spoken_han": 8119,
-        "speech_sha256": "0891ccecc540f3b7713cceb99ecdcd3b9692dd0493d99f963e08de5f42f89561",
+        "han": 8294,
+        "spoken_han": 8298,
+        "speech_sha256": "e30545a174d1daf53935e46b1029d3bad687ea5857388eb5f8d5c4b3c211abe3",
+        "nonoverlap_thinking_minutes_range": [
+          3,
+          3
+        ],
         "estimated_minutes_by_speed": {
           "180": [
-            48.1,
-            48.1
+            49.1,
+            49.1
           ],
           "200": [
-            43.6,
-            43.6
+            44.5,
+            44.5
           ]
         },
         "estimated_minutes_range": [
-          43.6,
-          48.1
-        ],
-        "nonoverlap_reading_minutes": 3
+          44.5,
+          49.1
+        ]
       },
       "course_input_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
       "method_version": "v0.4.9",
@@ -157,51 +183,58 @@
         "source_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
         "source_sha256": "fa06b4ac9b7fca5e4aeeafaeb35830afe78dc52f71c7b922554d9fbd4854cea6"
       },
-      "status": "按v0.4.9回查解释与论证后必要修订，待教师审阅"
+      "status": "按教师要求去除成段照搬后，待教师审阅",
+      "execution_note": "按教师要求做\"去除成段照搬\"的体例改写：与教材连续页及官方宪法文本的连续重合（≥16字）显著下降；改写后另开不继承改写者自评的独立上下文核验条号、款项与内容完整性，核验查出的问题已逐处回改。详见 research/20261014_口播体例照搬清查.md。"
     },
     {
       "lesson_number": 4,
       "source": "materials/第4讲实质备课/01_完整讲述.md",
-      "source_sha256": "87dbc473ea7dc5c83a2ff7a0676a6d5933c0863a8ffdc66ead9e49be857b3b8a",
+      "source_sha256": "f582bac434eb38c8054f9cffb45ee300d1634eac12cc6f9b0fde76e3269b12cf",
       "upper": {
-        "han": 8506,
-        "spoken_han": 8558,
-        "speech_sha256": "b4c764fed8d23fb2696bffdd2995f2ea9bfa16a0011a6f8786fc4fd1bc018fa6",
+        "han": 8649,
+        "spoken_han": 8701,
+        "speech_sha256": "ba987659a6f0b5fd0913e021e047c6c5caf60d80be10b29b69e1db99f6595d44",
+        "nonoverlap_thinking_minutes_range": [
+          2,
+          2
+        ],
         "estimated_minutes_by_speed": {
           "180": [
-            49.5,
-            49.5
+            50.3,
+            50.3
           ],
           "200": [
-            44.8,
-            44.8
+            45.5,
+            45.5
           ]
         },
         "estimated_minutes_range": [
-          44.8,
-          49.5
-        ],
-        "nonoverlap_thinking_minutes": 2
+          45.5,
+          50.3
+        ]
       },
       "lower": {
-        "han": 8062,
-        "spoken_han": 8094,
-        "speech_sha256": "1af2d96ce152f1f22e582ec95aa4b570c0d0313645a8ccc5fa2e69f7ad9a492c",
+        "han": 8131,
+        "spoken_han": 8163,
+        "speech_sha256": "bfc2df78881ac99965570484e53ce0e94c7f08a26e7a1e7c1726f25e32f08fb4",
+        "nonoverlap_thinking_minutes_range": [
+          2,
+          2
+        ],
         "estimated_minutes_by_speed": {
           "180": [
-            47,
-            47
+            47.4,
+            47.4
           ],
           "200": [
-            42.5,
-            42.5
+            42.8,
+            42.8
           ]
         },
         "estimated_minutes_range": [
-          42.5,
-          47
-        ],
-        "nonoverlap_thinking_minutes": 2
+          42.8,
+          47.4
+        ]
       },
       "course_input_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
       "method_version": "v0.4.9",
@@ -211,56 +244,57 @@
         "source_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
         "source_sha256": "385c2f3528f71d48d8dc9e14f9142125e57fb56c3ce936e56969ec29ba19799e"
       },
-      "status": "按v0.4.9回查解释与论证后必要修订，待教师审阅"
+      "status": "按教师要求去除成段照搬后，待教师审阅",
+      "execution_note": "按教师要求做\"去除成段照搬\"的体例改写：与教材连续页及官方宪法文本的连续重合（≥16字）显著下降；改写后另开不继承改写者自评的独立上下文核验条号、款项与内容完整性，核验查出的问题已逐处回改。详见 research/20261014_口播体例照搬清查.md。"
     },
     {
       "lesson_number": 5,
       "source": "materials/第5讲实质备课/01_完整讲述.md",
-      "source_sha256": "be79210d4646a417f3cd446c542e72d7f1ea204a253dd297f8333eb575693e59",
+      "source_sha256": "1a9c8c341ebd439ecfd86c230e8bb9a7325740d5fa1cb1b5b7630ffe48483fba",
       "upper": {
-        "han": 8361,
-        "spoken_han": 8369,
-        "speech_sha256": "60be8b45d7b9504f0ae5416d127b04b638bb30a738e211adff6e661fefb3f143",
+        "han": 8711,
+        "spoken_han": 8719,
+        "speech_sha256": "2870f49966f446e5030fe6613e6c45499cd6e761b4bc137a93f0e0c4e59731d1",
         "nonoverlap_thinking_minutes_range": [
           1,
           2
         ],
         "estimated_minutes_by_speed": {
           "180": [
-            47.5,
-            48.5
+            50.4,
+            50.4
+          ],
+          "200": [
+            44.6,
+            44.6
+          ]
+        },
+        "estimated_minutes_range": [
+          44.6,
+          50.4
+        ]
+      },
+      "lower": {
+        "han": 8346,
+        "spoken_han": 8351,
+        "speech_sha256": "0acb9b6e3cda1ed046231d6fdce679535a68e0c231e905005dc356208e7d64b3",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            48.4,
+            48.4
           ],
           "200": [
             42.8,
-            43.8
+            42.8
           ]
         },
         "estimated_minutes_range": [
           42.8,
-          48.5
-        ]
-      },
-      "lower": {
-        "han": 8366,
-        "spoken_han": 8371,
-        "speech_sha256": "c0b26951516092f260138a1ab4f1af7a043d87634f977c17ae496c423f634179",
-        "nonoverlap_thinking_minutes_range": [
-          1,
-          2
-        ],
-        "estimated_minutes_by_speed": {
-          "180": [
-            47.5,
-            48.5
-          ],
-          "200": [
-            42.9,
-            43.9
-          ]
-        },
-        "estimated_minutes_range": [
-          42.9,
-          48.5
+          48.4
         ]
       },
       "course_input_revision": "b3c33cd164302207b242422211b3f5fc03923459",
@@ -277,63 +311,65 @@
         "model": "ds v4.1",
         "note": "用户提供的制作身份，未据此推断后台调用细节。"
       },
-      "status": "按v0.4.9回查原完整稿，补研究与必要调整，待教师审阅"
+      "status": "按教师要求去除成段照搬后，待教师审阅",
+      "execution_note": "按教师要求做\"去除成段照搬\"的体例改写：与教材连续页及官方宪法文本的连续重合（≥16字）显著下降；改写后另开不继承改写者自评的独立上下文核验条号、款项与内容完整性，核验查出的问题已逐处回改。详见 research/20261014_口播体例照搬清查.md。"
     },
     {
       "lesson_number": 6,
       "source": "materials/第6讲实质备课/01_完整讲述.md",
-      "source_sha256": "790819044c20691e1a7e689ff254f6669bbab006929664789d94d700f02de4db",
+      "source_sha256": "397703cfe2c0171f3f481f88e656482855e1ead7ffb5c53930a56fab70969a5f",
       "upper": {
-        "han": 8338,
-        "spoken_han": 8338,
-        "speech_sha256": "2676e516c62e12fb8bcbec47745b823c5ed568449f8c75585661f2d96e62d3d4",
+        "han": 8523,
+        "spoken_han": 8523,
+        "speech_sha256": "f7eedbf2e8392c1f485c13510e4b7ea76283a5be15a4131d0b287d992df489cd",
         "nonoverlap_thinking_minutes_range": [
           1,
           2
         ],
         "estimated_minutes_by_speed": {
           "180": [
-            47.3,
-            48.3
+            49.4,
+            49.4
           ],
           "200": [
-            42.7,
-            43.7
+            43.6,
+            43.6
           ]
         },
         "estimated_minutes_range": [
-          42.7,
-          48.3
+          43.6,
+          49.4
         ]
       },
       "lower": {
-        "han": 8406,
-        "spoken_han": 8406,
-        "speech_sha256": "c086767e984dc383e6253c3476ed505fed7981d555aa5e61319d7e4e2818a8fe",
+        "han": 8387,
+        "spoken_han": 8387,
+        "speech_sha256": "b36ae9e533243cb8544dbf690fbe5fbf93bfc60c86b66fa47cd753abb6c5cb01",
         "nonoverlap_thinking_minutes_range": [
           1,
           2
         ],
         "estimated_minutes_by_speed": {
           "180": [
-            47.7,
-            48.7
+            48.6,
+            48.6
           ],
           "200": [
-            43,
-            44
+            42.9,
+            42.9
           ]
         },
         "estimated_minutes_range": [
-          43,
-          48.7
+          42.9,
+          48.6
         ]
       },
       "source_revision": "ea37eb7cf77e66773959342a0a73d8bff6b2fe73",
       "method_version": "v0.4.9",
       "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
-      "status": "并行提交完整稿，待教师审阅；本轮仅合并保留及机械计数",
-      "integration_note": "第六讲四份文件保持并行提交字节，未在本轮开展内容回查。本条采用全课统一正文提取绑定口述校验值，原独立容量文件规范化不同，汉字与口读量一致；原文件不改。"
+      "status": "按教师要求去除成段照搬后，待教师审阅",
+      "integration_note": "第六讲四份文件保持并行提交字节，未在本轮开展内容回查。本条采用全课统一正文提取绑定口述校验值，原独立容量文件规范化不同，汉字与口读量一致；原文件不改。",
+      "execution_note": "按教师要求做\"去除成段照搬\"的体例改写：与教材连续页及官方宪法文本的连续重合（≥16字）显著下降；改写后另开不继承改写者自评的独立上下文核验条号、款项与内容完整性，核验查出的问题已逐处回改。详见 research/20261014_口播体例照搬清查.md。"
     },
     {
       "lesson_number": 7,
@@ -353,12 +389,12 @@
             48.8
           ],
           "200": [
-            42.1,
+            43.1,
             44.1
           ]
         },
         "estimated_minutes_range": [
-          42.1,
+          43.1,
           48.8
         ]
       },
@@ -376,12 +412,12 @@
             49.2
           ],
           "200": [
-            42.5,
+            43.5,
             44.5
           ]
         },
         "estimated_minutes_range": [
-          42.5,
+          43.5,
           49.2
         ]
       },
