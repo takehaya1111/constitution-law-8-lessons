@@ -1,32 +1,40 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "source": "修订稿.md",
-  "source_sha256": "d0f87f8864f17ea47254a413ee42f69ad1963ff6dc559aef5a3034d11e06a207",
+  "source_sha256": "fb7046e3bf65e68e66708e452ae999240b322d3a3d30556f1fea7d5cf490333c",
   "counter": "tools/check_dual45.py::spoken_count",
-  "excluded": "标题、教师暂停提示；口述法条、问题与讲评计入",
-  "actual_spoken_count": 3029,
+  "excluded": "标题、教师暂停提示；整讲开头的待审阅说明不属上节口述；正文法条、问题与讲评计入",
+  "actual_spoken_count": 2825,
   "nonoverlap_reading_minutes": 3,
   "speeds_assumed": [
     180,
     200
   ],
   "unit_estimated_minutes": [
-    19.8,
-    18.1
+    18.7,
+    17.1
   ],
   "hypothetical_insertion_only": true,
+  "original_lecture_source": "materials/第2讲实质备课/01_完整讲述.md",
+  "original_lecture_sha256": "c4461e78cd2b0f0b96ee39a68ef95fc5014c7dc059127bddeda892a9c3f9c648",
   "original_upper_spoken": 7592,
   "original_unit_spoken": 2726,
   "unchanged_upper_outside_unit": 4866,
-  "upper_if_inserted_spoken": 7895,
+  "upper_if_inserted_spoken": 7691,
+  "upper_nonoverlap_reading_minutes": 3,
   "upper_if_inserted_estimated_minutes": [
-    46.9,
-    42.5
+    45.7,
+    41.5
   ],
   "unchanged_lower_spoken": 7850,
+  "lower_nonoverlap_reading_minutes": 3,
   "unchanged_lower_estimated_minutes": [
     46.6,
     42.2
   ],
-  "limits": "未合入整讲，未更新原正式容量文件；语速是假设，未真人计时，估算不证明学习效果"
+  "boundaries": "上节从## 上节到## 下节之前；替换范围为### 六、到### 七、之前。原上节唯一阅读在旧单元内，替入时被新阅读取代，不重复加时。下节另有一次3分钟阅读。",
+  "archived_submitted_draft_sha256": "66e5f6b4910e3eb785fca69425d598b952dd801d35f577734473cb6930fe4f7a",
+  "archived_submitted_draft_spoken": 3052,
+  "prior_initial_draft_record": "03:46初稿此前执行记录为3053口读字、加3分钟阅读约18.3—20分钟；与03:52送审稿及当前收尾稿分别保留。",
+  "limits": "未合入整讲，未更新原正式容量文件；语速是假设，未真人计时。一般停连不另加，不假计学生讨论，估算不证明学习效果。"
 }

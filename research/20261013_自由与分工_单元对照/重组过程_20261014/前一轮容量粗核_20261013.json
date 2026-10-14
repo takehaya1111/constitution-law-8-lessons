@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-13",
+  "source": "修订稿.md",
+  "source_sha256": "d0f87f8864f17ea47254a413ee42f69ad1963ff6dc559aef5a3034d11e06a207",
+  "counter": "tools/check_dual45.py::spoken_count",
+  "excluded": "标题、教师暂停提示；口述法条、问题与讲评计入",
+  "actual_spoken_count": 3029,
+  "nonoverlap_reading_minutes": 3,
+  "speeds_assumed": [
+    180,
+    200
+  ],
+  "unit_estimated_minutes": [
+    19.8,
+    18.1
+  ],
+  "hypothetical_insertion_only": true,
+  "original_upper_spoken": 7592,
+  "original_unit_spoken": 2726,
+  "unchanged_upper_outside_unit": 4866,
+  "upper_if_inserted_spoken": 7895,
+  "upper_if_inserted_estimated_minutes": [
+    46.9,
+    42.5
+  ],
+  "unchanged_lower_spoken": 7850,
+  "unchanged_lower_estimated_minutes": [
+    46.6,
+    42.2
+  ],
+  "limits": "未合入整讲，未更新原正式容量文件；语速是假设，未真人计时，估算不证明学习效果"
+}
