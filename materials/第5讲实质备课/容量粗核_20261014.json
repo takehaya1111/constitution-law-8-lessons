@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-14",
+  "lesson_number": 5,
+  "source": "materials/第5讲实质备课/01_完整讲述.md",
+  "source_sha256": "d2f4fb0a01bbd649c9fab42961e9d9cf3596a68a2d6d0770cd9d8dead700b90e",
+  "counter": "tools/check_dual45.py::spoken_count",
+  "counting_scope": "去标题、【课堂提示】与引用行后统计汉字及折算口读量",
+  "method_version": "v0.4.9",
+  "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+  "textbook_original": {
+    "file": "textbook/宪法学_马工程_第二版_完整教材.pdf",
+    "bytes": 54022789,
+    "pages": 373,
+    "sha256": "66ddd16f430bc1f8d7ffbaae62e092f3c1ce81096f3987478208d50e0b078f7b",
+    "verified_recalled_page_images": [
+      200,
+      214
+    ]
+  },
+  "read_scope": {
+    "main": "第六章第一节 印刷185—199（PDF200—214），终点为第199页正文第二节标题前",
+    "supplement": "第一章第五节 对人效力、对事效力 印刷45—47（PDF60—62）"
+  },
+  "status": "按现行分纲新组写完整口述，待教师审阅",
+  "upper": {
+    "han": 8386,
+    "spoken_han": 8392,
+    "speech_sha256": "cfd1f41c27a6909f9245f43990edcbbcc147eb42976991d8accd544ea1fcaf57",
+    "nonoverlap_thinking_minutes_range": [
+      1,
+      2
+    ],
+    "estimated_minutes_by_speed": {
+      "180": [
+        47.6,
+        48.6
+      ],
+      "200": [
+        43.0,
+        44.0
+      ]
+    },
+    "estimated_minutes_range": [
+      43.0,
+      48.6
+    ]
+  },
+  "lower": {
+    "han": 8121,
+    "spoken_han": 8124,
+    "speech_sha256": "9d347eea92bacee020f57af9da1e3a941bdbd94905548d67877da7bb273e03ba",
+    "nonoverlap_thinking_minutes_range": [
+      1,
+      2
+    ],
+    "estimated_minutes_by_speed": {
+      "180": [
+        46.1,
+        47.1
+      ],
+      "200": [
+        41.6,
+        42.6
+      ]
+    },
+    "estimated_minutes_range": [
+      41.6,
+      47.1
+    ]
+  },
+  "notes": [
+    "与课节字数记录.md一致：上节8386/8392、下节8121/8124。",
+    "speech_sha256为本机按同口径自算值，用于绑定本次统计文本。课程既有课节字数记录.json所用的规范化方式本机未能复现（穷举128种清洗组合未中），故本文件独立成篇，未改写该JSON。",
+    "未真人计时；容量按180—200口读字/分钟假设，各节计入一次独立思考1—2分钟。"
+  ]
+}
