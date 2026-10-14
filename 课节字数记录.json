@@ -216,62 +216,72 @@
     {
       "lesson_number": 5,
       "source": "materials/第5讲实质备课/01_完整讲述.md",
-      "source_sha256": "d2f4fb0a01bbd649c9fab42961e9d9cf3596a68a2d6d0770cd9d8dead700b90e",
-      "source_revision": "21cb6888960a248599d4422d6fed27c113971dd1",
-      "method_version": "v0.4.9",
-      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
-      "status": "并行对话提交完整稿，待教师审阅；本轮仅合并保留并机械重计",
-      "integration_note": "全文及原容量文件均保持并行提交字节。本条使用全课统一正文提取计算speech_sha256，与原独立容量文件的规范化不同，汉字与口读量一致；未在本轮开展第五讲内容核稿。",
+      "source_sha256": "be79210d4646a417f3cd446c542e72d7f1ea204a253dd297f8333eb575693e59",
       "upper": {
-        "han": 8386,
-        "spoken_han": 8392,
-        "speech_sha256": "07dbaabd1986b025505c70f64e833cb17f16fb2012edcf67e030c1b6c525d6bb",
+        "han": 8361,
+        "spoken_han": 8369,
+        "speech_sha256": "60be8b45d7b9504f0ae5416d127b04b638bb30a738e211adff6e661fefb3f143",
         "nonoverlap_thinking_minutes_range": [
           1,
           2
         ],
         "estimated_minutes_by_speed": {
           "180": [
-            47.6,
-            48.6
+            47.5,
+            48.5
           ],
           "200": [
-            43,
-            44
+            42.8,
+            43.8
           ]
         },
         "estimated_minutes_range": [
-          43,
-          48.6
+          42.8,
+          48.5
         ]
       },
       "lower": {
-        "han": 8121,
-        "spoken_han": 8124,
-        "speech_sha256": "aa373ec92e6a6cc5bbaf65c30c1114a4326d2b3bce0d6883e807724a8b689f8d",
+        "han": 8366,
+        "spoken_han": 8371,
+        "speech_sha256": "c0b26951516092f260138a1ab4f1af7a043d87634f977c17ae496c423f634179",
         "nonoverlap_thinking_minutes_range": [
           1,
           2
         ],
         "estimated_minutes_by_speed": {
           "180": [
-            46.1,
-            47.1
+            47.5,
+            48.5
           ],
           "200": [
-            41.6,
-            42.6
+            42.9,
+            43.9
           ]
         },
         "estimated_minutes_range": [
-          41.6,
-          47.1
+          42.9,
+          48.5
         ]
-      }
+      },
+      "course_input_revision": "b3c33cd164302207b242422211b3f5fc03923459",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "based_on": {
+        "source": "materials/第5讲实质备课/01_完整讲述.md",
+        "source_revision": "b3c33cd164302207b242422211b3f5fc03923459",
+        "source_sha256": "d2f4fb0a01bbd649c9fab42961e9d9cf3596a68a2d6d0770cd9d8dead700b90e"
+      },
+      "original_production": {
+        "reported_by": "教师于2026-10-14本轮说明",
+        "tool": "wb",
+        "model": "ds v4.1",
+        "note": "用户提供的制作身份，未据此推断后台调用细节。"
+      },
+      "status": "按v0.4.9回查原完整稿，补研究与必要调整，待教师审阅"
     }
   ],
   "remaining_lessons": "第六至八讲尚未按当前流程交付完整Markdown口述，不以旧教案或PPT备注代填字数",
-  "limits": "第一、三、四讲为本轮v0.4.9据稿研究后修订，第二讲保留前轮v0.4.9重组稿；原生成史不倒写。retained_versions中的历史条目按source_revision取原正文，不能拿当前同路径文件复算。各节语速与独立活动为条件粗估，慢端部分接近50分钟，未真人计时。 第五讲接入并行提交，原正文和独立容量记录不改；本表只重新统一口述提取绑定，不增加其内容审查结论。",
+  "limits": "当前第一至五讲均有完整待审稿；第五讲本轮依据同版v0.4.9回查，前四讲保持。旧生成史与原认可不倒写，原第五讲制作身份由教师报告为wb使用ds v4.1。retained_versions保留固定提交旧稿，不能以当前同路径正文复算旧数。语速与活动均为条件粗估，未真人计时，不证明教学效果。",
   "retained_versions": [
     {
       "lesson_number": 1,
@@ -526,6 +536,69 @@
       "status": "按现行总纲与第四讲分纲完成，待教师审阅",
       "source_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
       "archive_note": "本轮v0.4.9回查前的完整待审稿；旧状态和执行史保留，正文按source_revision回查。"
+    },
+    {
+      "lesson_number": 5,
+      "source": "materials/第5讲实质备课/01_完整讲述.md",
+      "source_sha256": "d2f4fb0a01bbd649c9fab42961e9d9cf3596a68a2d6d0770cd9d8dead700b90e",
+      "source_revision": "21cb6888960a248599d4422d6fed27c113971dd1",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "status": "并行对话提交完整稿，待教师审阅；本轮仅合并保留并机械重计",
+      "integration_note": "全文及原容量文件均保持并行提交字节。本条使用全课统一正文提取计算speech_sha256，与原独立容量文件的规范化不同，汉字与口读量一致；未在本轮开展第五讲内容核稿。",
+      "upper": {
+        "han": 8386,
+        "spoken_han": 8392,
+        "speech_sha256": "07dbaabd1986b025505c70f64e833cb17f16fb2012edcf67e030c1b6c525d6bb",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            47.6,
+            48.6
+          ],
+          "200": [
+            43,
+            44
+          ]
+        },
+        "estimated_minutes_range": [
+          43,
+          48.6
+        ]
+      },
+      "lower": {
+        "han": 8121,
+        "spoken_han": 8124,
+        "speech_sha256": "aa373ec92e6a6cc5bbaf65c30c1114a4326d2b3bce0d6883e807724a8b689f8d",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            46.1,
+            47.1
+          ],
+          "200": [
+            41.6,
+            42.6
+          ]
+        },
+        "estimated_minutes_range": [
+          41.6,
+          47.1
+        ]
+      },
+      "archive_note": "第五讲原生产稿，本轮解释论证回查前版本；原执行声明及计数保留，正文按source_revision读取。",
+      "production_identity": {
+        "reported_by": "教师于2026-10-14本轮说明",
+        "tool": "wb",
+        "model": "ds v4.1",
+        "note": "用户提供的制作身份，未据此推断后台调用细节。"
+      }
     }
   ]
 }

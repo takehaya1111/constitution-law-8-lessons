@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-14",
+  "lesson_number": 5,
+  "source": "materials/第5讲实质备课/01_完整讲述.md",
+  "source_sha256": "be79210d4646a417f3cd446c542e72d7f1ea204a253dd297f8333eb575693e59",
+  "upper": {
+    "han": 8361,
+    "spoken_han": 8369,
+    "speech_sha256": "60be8b45d7b9504f0ae5416d127b04b638bb30a738e211adff6e661fefb3f143",
+    "nonoverlap_thinking_minutes_range": [
+      1,
+      2
+    ],
+    "estimated_minutes_by_speed": {
+      "180": [
+        47.5,
+        48.5
+      ],
+      "200": [
+        42.8,
+        43.8
+      ]
+    },
+    "estimated_minutes_range": [
+      42.8,
+      48.5
+    ],
+    "activity_cues": [
+      "【独立思考约一至两分钟：分别写出两件事中“可以要求谁”“依据哪一类规范”。教师此时暂停讲述。】"
+    ],
+    "units": [
+      {
+        "title": "一、人权：人的生存发展为什么需要自由和平等",
+        "spoken_han": 1432
+      },
+      {
+        "title": "二、权利是什么：一种可以要求的资格",
+        "spoken_han": 2758
+      },
+      {
+        "title": "三、基本权利的特征和分类有什么用",
+        "spoken_han": 1675
+      },
+      {
+        "title": "四、基本权利的主体：谁可以主张",
+        "spoken_han": 2504
+      }
+    ]
+  },
+  "lower": {
+    "han": 8366,
+    "spoken_han": 8371,
+    "speech_sha256": "c0b26951516092f260138a1ab4f1af7a043d87634f977c17ae496c423f634179",
+    "nonoverlap_thinking_minutes_range": [
+      1,
+      2
+    ],
+    "estimated_minutes_by_speed": {
+      "180": [
+        47.5,
+        48.5
+      ],
+      "200": [
+        42.9,
+        43.9
+      ]
+    },
+    "estimated_minutes_range": [
+      42.9,
+      48.5
+    ],
+    "activity_cues": [
+      "【独立思考约一至两分钟：写出三点，不下合法或违法结论。教师此时暂停讲述。】"
+    ],
+    "units": [
+      {
+        "title": "五、基本权利的效力：约束谁",
+        "spoken_han": 2534
+      },
+      {
+        "title": "六、国家为权利做哪几件事",
+        "spoken_han": 1245
+      },
+      {
+        "title": "七、限制一项权利，凭什么",
+        "spoken_han": 2576
+      },
+      {
+        "title": "八、一次有充分材料的有限判断",
+        "spoken_han": 2016
+      }
+    ]
+  },
+  "course_input_revision": "b3c33cd164302207b242422211b3f5fc03923459",
+  "method_version": "v0.4.9",
+  "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+  "counter": "tools/check_dual45.py::spoken_count",
+  "counting_scope": "实际当前完整Markdown口述正文；去标题和【课堂提示】后分别统计汉字及折算口读量，不计来源、备查或制作说明",
+  "original_production": {
+    "reported_by": "教师于2026-10-14本轮说明",
+    "tool": "wb",
+    "model": "ds v4.1",
+    "note": "用户提供的制作身份，未据此推断后台调用细节。"
+  },
+  "status": "按v0.4.9回查原完整稿，补研究与必要调整，待教师审阅",
+  "old_version": {
+    "source_revision": "21cb6888960a248599d4422d6fed27c113971dd1",
+    "source_sha256": "d2f4fb0a01bbd649c9fab42961e9d9cf3596a68a2d6d0770cd9d8dead700b90e",
+    "upper_spoken_han": 8392,
+    "lower_spoken_han": 8124
+  },
+  "assessment": "上下节每节一次1—2分钟独立思考，提示与输入版不变。按180—200口读字/分钟粗估上节42.8—48.5、下节42.9—48.5分钟；全讲口读16740，较原16516净增224。理论密度与实际讲授速度仍需教师试讲判断，不宣称严格45分钟。",
+  "limits": "排除标题和课堂提示，保留全部正文材料、设问及讲评；数字另折算。正常停连和已计讲评不另加，未预写热烈互动填时。只调用计数函数，未运行旧稿生成器。"
+}

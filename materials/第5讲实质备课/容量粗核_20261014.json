@@ -1,5 +1,7 @@
 {
   "date": "2026-10-14",
+  "source_revision": "b3c33cd164302207b242422211b3f5fc03923459",
+  "snapshot_note": "原第五讲生产稿容量快照，数值及原提取口径保留。当前同路径正文已回查修订，新数见容量粗核_20261014_v049回查.json；复算本文件须读取source_revision中的旧正文。",
   "lesson_number": 5,
   "source": "materials/第5讲实质备课/01_完整讲述.md",
   "source_sha256": "d2f4fb0a01bbd649c9fab42961e9d9cf3596a68a2d6d0770cd9d8dead700b90e",
