@@ -318,47 +318,47 @@
       "upper": {
         "han": 7871,
         "spoken_han": 7873,
-        "speech_sha256": "",
-        "nonoverlap_thinking_minutes_range": [
-          1,
-          2
-        ],
+        "speech_sha256": "addb0ca54b21cfb70d63f2abba8535ba2b3af379dc659e1865795a53a14bfdd4",
         "estimated_minutes_by_speed": {
           "180": [
-            45.7,
+            44.7,
             45.7
           ],
           "200": [
             40.4,
-            40.4
+            41.4
           ]
         },
         "estimated_minutes_range": [
           40.4,
           45.7
+        ],
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
         ]
       },
       "lower": {
         "han": 8273,
         "spoken_han": 8276,
-        "speech_sha256": "",
-        "nonoverlap_thinking_minutes_range": [
-          1,
-          2
-        ],
+        "speech_sha256": "0b1062f1111520b7515061d370fa1284425d9b3813c8d11193123c62d93ca7da",
         "estimated_minutes_by_speed": {
           "180": [
-            48.0,
-            48.0
+            47,
+            48
           ],
           "200": [
             42.4,
-            42.4
+            43.4
           ]
         },
         "estimated_minutes_range": [
           42.4,
-          48.0
+          48
+        ],
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
         ]
       },
       "method_version": "v0.4.9",
@@ -373,39 +373,39 @@
       },
       "execution_note": "本轮实际连续教材阅读、必要原规范研究、完整独立读者检查、归属核证及合并全文检查见materials/第6讲实质备课/研究/20261014_v049解释论证回查.md；没有改技能或倒写原作者执行史。",
       "counting_note": "去标题及【课堂提示】，数字按既有函数折算；speech_sha256使用同一LF正文提取。",
-      "integration_note": "本讲有两轮改动叠加：本轮\"去除成段照搬\"（改前34.3%／最长122字）与并行会话的v0.4.9解释论证回查。表中数值与source_sha256按并行修订后的当前正文重算；去照搬本身的效果为该轮改后的2.5%／最长38字。speech_sha256 待按全课统一提取补录。"
+      "integration_note": "本讲有两轮改动叠加：本轮\"去除成段照搬\"（改前34.3%／最长122字）与并行会话的v0.4.9解释论证回查。表中数值与source_sha256按并行修订后的当前正文重算；去照搬本身的效果为该轮改后的2.5%／最长38字。speech_sha256已按全课统一提取补齐，双速度的活动端点按每节1—2分钟复核；本轮不重审第六讲内容。"
     },
     {
       "lesson_number": 7,
       "source": "materials/第7讲实质备课/01_完整讲述.md",
-      "source_sha256": "e5d0d02b1bac306004eb1f69edfabc77eca928d9e132d38683209a0d1ce079d2",
+      "source_sha256": "bb9884250939b8733ce34a7a9474cd40be4b36c8706f29e748d72e5940ee62a0",
       "upper": {
-        "han": 7858,
-        "spoken_han": 7866,
-        "speech_sha256": "0026e2fc3f726abf252d6e7b34f7b66b0c7a9dc5ca7b672a05bb8a807d5888c4",
+        "han": 7873,
+        "spoken_han": 7881,
+        "speech_sha256": "bf7bbc6d475cf9518ef7f44b61a1939b80aee6154e1b77fb63b1cf9aef2bc35e",
         "nonoverlap_thinking_minutes_range": [
           1,
           2
         ],
         "estimated_minutes_by_speed": {
           "180": [
-            44.7,
-            45.7
+            44.8,
+            45.8
           ],
           "200": [
-            40.3,
-            41.3
+            40.4,
+            41.4
           ]
         },
         "estimated_minutes_range": [
-          40.3,
-          45.7
+          40.4,
+          45.8
         ]
       },
       "lower": {
-        "han": 8290,
-        "spoken_han": 8308,
-        "speech_sha256": "25053bd9856a5801f23bf65f59879c0f4903531cc3c630045e5a9b85ffb9a6f3",
+        "han": 8292,
+        "spoken_han": 8310,
+        "speech_sha256": "ab2abb17ec34cd1f204b44404ee456b05f08d26ed972917d30e1632b33154a1c",
         "nonoverlap_thinking_minutes_range": [
           1,
           2
@@ -439,7 +439,7 @@
     }
   ],
   "remaining_lessons": "第八讲尚未按当前流程交付完整Markdown口述；既有成熟研究和教学材料保留，不以旧教案或PPT备注代填字数",
-  "limits": "第七讲本轮按同版v0.4.9实际回查、补研究和必要修订，前六讲当前正文及条目保持eb2553e；新稿继续待审，不移记旧认可或原作者核证。25份源绑定含7当前、18历史，历史按固定提交及当时口径读取。前轮已纠正第一讲两次活动相加3—4分钟、第七讲ASCII课堂提示误计，原快照保留；本轮不重复改其他讲次。原第七讲模型未提供，不继承第五讲wb、ds v4.1身份。假设语速与活动是条件粗估，未真人计时，不证明教学效果。",
+  "limits": "第七讲本轮按同版v0.4.9实际回查、补研究和必要修订，前六讲正文保持eb2553e，第一至五讲当前条目不变；第六讲新并行状态说明保留，缺失口述校验与双速活动端点按正文机械补齐；新稿继续待审，不移记旧认可或原作者核证。25份源绑定含7当前、18历史，历史按固定提交及当时口径读取。前轮已纠正第一讲两次活动相加3—4分钟、第七讲ASCII课堂提示误计，原快照保留；本轮不重复改其他讲次。原第七讲模型未提供，不继承第五讲wb、ds v4.1身份。假设语速与活动是条件粗估，未真人计时，不证明教学效果。",
   "retained_versions": [
     {
       "lesson_number": 1,
