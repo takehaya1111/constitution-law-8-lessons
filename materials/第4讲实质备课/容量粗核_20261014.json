@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-14",
+  "source": "materials/第4讲实质备课/01_完整讲述.md",
+  "source_sha256": "385c2f3528f71d48d8dc9e14f9142125e57fb56c3ce936e56969ec29ba19799e",
+  "course_input_revision": "5fd1f53af08e9eb971af2ff38d13ab77c2681f9f",
+  "method_version": "v0.4.8",
+  "method_revision": "484bcbc5896288aad0b02eb2d3c74057abdb1479",
+  "counter": "tools/check_dual45.py::spoken_count",
+  "speeds_assumed": [180, 200],
+  "upper": {
+    "han": 8234,
+    "spoken_han": 8270,
+    "speech_sha256": "985fca7fd4f3d720b9779192f614621df291aad1365a8a8e07ae57ab48c8247b",
+    "nonoverlap_thinking_minutes": 2,
+    "estimated_minutes": [47.9, 43.4]
+  },
+  "lower": {
+    "han": 8062,
+    "spoken_han": 8094,
+    "speech_sha256": "1af2d96ce152f1f22e582ec95aa4b570c0d0313645a8ccc5fa2e69f7ad9a492c",
+    "nonoverlap_thinking_minutes": 2,
+    "estimated_minutes": [47.0, 42.5]
+  },
+  "exclusions": "标题、【课堂提示】和标点不计入正文汉字；数字、年份和条号按既有函数折算，正文原文、提问、说明和讲评均计入",
+  "assessment": "按180假设上节偏长约3分钟、下节约2分钟；按200假设约43、42分钟，属教师允许的几分钟浮动。不是严格45分钟或实讲验收结论",
+  "limits": "每节一次2分钟独立思考，教师暂停讲述；正常停连和已计讲评不另加。语速是假设，未真人计时，未以空白活动或虚构反应填容量"
+}
