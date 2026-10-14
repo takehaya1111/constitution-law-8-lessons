@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-14",
+  "course_input_revision": "aade6a16b2572b0ef78dde00e135f3247c53c82f",
+  "method_version": "v0.4.9",
+  "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+  "counter": "tools/check_dual45.py::spoken_count",
+  "speeds_assumed": [
+    180,
+    200
+  ],
+  "lesson": {
+    "lesson_number": 2,
+    "source": "materials/第2讲实质备课/口播修订稿_20261014_依现行分纲.md",
+    "source_sha256": "38fc20396832dc6a769227199fa5192785a64e56b72a2d8e31dfef8403121c82",
+    "course_input_revision": "aade6a16b2572b0ef78dde00e135f3247c53c82f",
+    "method_version": "v0.4.9",
+    "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+    "based_on": {
+      "source": "materials/第2讲实质备课/口播修订稿_20261014_依现行分纲.md",
+      "source_revision": "aade6a16b2572b0ef78dde00e135f3247c53c82f",
+      "source_sha256": "8dd9f688562d68ddf4de4b6f18d424f607bf386155014a5ec7606bd52a705d31"
+    },
+    "status": "解释研究后重组下节，完整稿待教师审阅",
+    "upper": {
+      "han": 7795,
+      "spoken_han": 8121,
+      "speech_sha256": "c7471d3dd0bbcaa6f0c57a2720b5124c4c546cd79afe49dfa4f8195b088c3c4e",
+      "nonoverlap_reading_minutes": 3,
+      "estimated_minutes": [
+        48.1,
+        43.6
+      ],
+      "estimated_minutes_range": [
+        43.6,
+        48.1
+      ]
+    },
+    "lower": {
+      "han": 7532,
+      "spoken_han": 7757,
+      "speech_sha256": "de71f95441683c1ad7b1b85a56d78da4a58b413beeeec313c62ba5a0da4ebbf0",
+      "nonoverlap_reading_minutes": 3,
+      "estimated_minutes": [
+        46.1,
+        41.8
+      ],
+      "estimated_minutes_range": [
+        41.8,
+        46.1
+      ]
+    }
+  },
+  "lower_units_spoken_han": {
+    "八、所有权保留，使用安排怎样改变": 3267,
+    "九、五次修正中的承接与变化": 494,
+    "十、先试点，再把新机关写进宪法": 2123,
+    "十一、正式修改与普通立法怎样接续": 1182,
+    "十二、回到1982年宪法这个名称": 437,
+    "十三、从历史走向现行制度": 254
+  },
+  "limits": "上节与aade6a16版本相同；下节重新组织两组改革材料。每节仅加一次3分钟独立阅读，讲评和正常停连不另加；允许几分钟浮动，未真人计时。"
+}

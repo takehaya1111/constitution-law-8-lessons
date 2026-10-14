@@ -65,15 +65,16 @@
     {
       "lesson_number": 2,
       "source": "materials/第2讲实质备课/口播修订稿_20261014_依现行分纲.md",
-      "source_sha256": "8dd9f688562d68ddf4de4b6f18d424f607bf386155014a5ec7606bd52a705d31",
-      "course_input_revision": "b88f798f90787c4d9ef6aa34b36bbcd69482d817",
-      "method_version": "v0.4.8",
-      "method_revision": "484bcbc5896288aad0b02eb2d3c74057abdb1479",
+      "source_sha256": "38fc20396832dc6a769227199fa5192785a64e56b72a2d8e31dfef8403121c82",
+      "course_input_revision": "aade6a16b2572b0ef78dde00e135f3247c53c82f",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
       "based_on": {
-        "source": "materials/第2讲实质备课/01_完整讲述.md",
-        "source_sha256": "99df8f8c6efae7a3fa01ce301661cc809084bd61622fa98ec86005b98825a45f"
+        "source": "materials/第2讲实质备课/口播修订稿_20261014_依现行分纲.md",
+        "source_revision": "aade6a16b2572b0ef78dde00e135f3247c53c82f",
+        "source_sha256": "8dd9f688562d68ddf4de4b6f18d424f607bf386155014a5ec7606bd52a705d31"
       },
-      "status": "按现行分纲定点更新，待教师审阅",
+      "status": "解释研究后重组下节，完整稿待教师审阅",
       "upper": {
         "han": 7795,
         "spoken_han": 8121,
@@ -89,17 +90,17 @@
         ]
       },
       "lower": {
-        "han": 7456,
-        "spoken_han": 7714,
-        "speech_sha256": "58c3db43c357b8f3250d052330890bb6f2ddacfa644f82966a5ec2af53cfa878",
+        "han": 7532,
+        "spoken_han": 7757,
+        "speech_sha256": "de71f95441683c1ad7b1b85a56d78da4a58b413beeeec313c62ba5a0da4ebbf0",
         "nonoverlap_reading_minutes": 3,
         "estimated_minutes": [
-          45.9,
-          41.6
+          46.1,
+          41.8
         ],
         "estimated_minutes_range": [
-          41.6,
-          45.9
+          41.8,
+          46.1
         ]
       }
     },
@@ -175,7 +176,7 @@
     }
   ],
   "remaining_lessons": "第五至八讲尚未按当前流程交付完整Markdown口述，不以旧教案或PPT备注代填字数",
-  "limits": "本轮第一至三讲修订稿作为当前待审版本；原第一二讲认可稿和第三讲旧待审稿的原数据移存retained_versions，第四讲数据保持。语速及活动时长用于粗核，未真人计时或验证效果。",
+  "limits": "当前表第二讲为v0.4.9解释研究后重组稿，其他讲次及其执行版本保持。retained_versions保留旧稿；含source_revision的条目须从对应提交读取，不能拿当前同路径文件复算。语速与活动为粗估，未真人计时。",
   "retained_versions": [
     {
       "lesson_number": 1,
@@ -234,6 +235,48 @@
         ]
       },
       "status": "本次新稿，待教师审阅"
+    },
+    {
+      "lesson_number": 2,
+      "source": "materials/第2讲实质备课/口播修订稿_20261014_依现行分纲.md",
+      "source_sha256": "8dd9f688562d68ddf4de4b6f18d424f607bf386155014a5ec7606bd52a705d31",
+      "course_input_revision": "b88f798f90787c4d9ef6aa34b36bbcd69482d817",
+      "method_version": "v0.4.8",
+      "method_revision": "484bcbc5896288aad0b02eb2d3c74057abdb1479",
+      "based_on": {
+        "source": "materials/第2讲实质备课/01_完整讲述.md",
+        "source_sha256": "99df8f8c6efae7a3fa01ce301661cc809084bd61622fa98ec86005b98825a45f"
+      },
+      "status": "前三讲回查时的第二讲待审稿，后继改革论证已重组；按source_revision读取历史正文",
+      "upper": {
+        "han": 7795,
+        "spoken_han": 8121,
+        "speech_sha256": "c7471d3dd0bbcaa6f0c57a2720b5124c4c546cd79afe49dfa4f8195b088c3c4e",
+        "nonoverlap_reading_minutes": 3,
+        "estimated_minutes": [
+          48.1,
+          43.6
+        ],
+        "estimated_minutes_range": [
+          43.6,
+          48.1
+        ]
+      },
+      "lower": {
+        "han": 7456,
+        "spoken_han": 7714,
+        "speech_sha256": "58c3db43c357b8f3250d052330890bb6f2ddacfa644f82966a5ec2af53cfa878",
+        "nonoverlap_reading_minutes": 3,
+        "estimated_minutes": [
+          45.9,
+          41.6
+        ],
+        "estimated_minutes_range": [
+          41.6,
+          45.9
+        ]
+      },
+      "source_revision": "aade6a16b2572b0ef78dde00e135f3247c53c82f"
     }
   ]
 }
