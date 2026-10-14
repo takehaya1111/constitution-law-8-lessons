@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-14",
+  "counter": "tools/check_dual45.py::spoken_count",
+  "counting_scope": "实际当前完整Markdown口述正文；去标题和【课堂提示】后分别统计汉字及折算口读量，不计来源、备查或制作说明",
+  "lessons": [
+    {
+      "lesson_number": 1,
+      "source": "materials/第1讲整合试讲主版本/口播工作稿_20261011_上下节连续初稿.md",
+      "source_sha256": "bfd40e4a6def582ea37862b66f94019ea54c51e38d1e2c2b0f7a4e3bed72ff6f",
+      "upper": {
+        "han": 8430,
+        "spoken_han": 8430,
+        "speech_sha256": "391d02c3e564a22931cbd1cf0737ba9b64441a0f7c7a9142fa2c2130015bac7b"
+      },
+      "lower": {
+        "han": 7847,
+        "spoken_han": 7851,
+        "speech_sha256": "56867be68028bc4ce381a84ab5d9c342daf35a10b058783a31a9fdebf93c8950"
+      },
+      "status": "教师基本认可保留稿"
+    },
+    {
+      "lesson_number": 2,
+      "source": "materials/第2讲实质备课/01_完整讲述.md",
+      "source_sha256": "99df8f8c6efae7a3fa01ce301661cc809084bd61622fa98ec86005b98825a45f",
+      "upper": {
+        "han": 7373,
+        "spoken_han": 7691,
+        "speech_sha256": "9b869d0245018f9431f3a2d266beae40c6121aa58d6cb438855b4e4f7ecd8091"
+      },
+      "lower": {
+        "han": 7580,
+        "spoken_han": 7842,
+        "speech_sha256": "56e1e79f2179b6577f790d070c4de98e75357642ec431c59a290353fd6b9851a"
+      },
+      "status": "教师明确认可完整稿"
+    },
+    {
+      "lesson_number": 3,
+      "source": "materials/第3讲实质备课/01_完整讲述.md",
+      "source_sha256": "b7f6cd54bc7746202cf17a51a21e158416cd050ff2bae10a7e8c68f6f024bde2",
+      "upper": {
+        "han": 7554,
+        "spoken_han": 7563,
+        "speech_sha256": "ebf7a0bb497a79272885f2571763b0f7fc1cc26593da25e463568c506e4da09f",
+        "nonoverlap_reading_minutes": 3,
+        "estimated_minutes": [
+          45,
+          40.8
+        ]
+      },
+      "lower": {
+        "han": 7564,
+        "spoken_han": 7568,
+        "speech_sha256": "cfbb885d30e1214e51ed0e061d903611cafb9bbb96d00b9bff764cdd2d2604d4",
+        "nonoverlap_reading_minutes": 3,
+        "estimated_minutes": [
+          45,
+          40.8
+        ]
+      },
+      "status": "本次新稿，待教师审阅"
+    }
+  ],
+  "remaining_lessons": "第四至八讲尚未按本轮方法交付完整Markdown口述，不以旧教案或PPT备注代填字数",
+  "limits": "第一、二讲仅复数当前保留稿字数，本次没有重新试讲或调整其正文与课时"
+}

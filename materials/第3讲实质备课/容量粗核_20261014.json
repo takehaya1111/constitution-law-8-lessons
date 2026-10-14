@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-14",
+  "source": "materials/第3讲实质备课/01_完整讲述.md",
+  "source_sha256": "b7f6cd54bc7746202cf17a51a21e158416cd050ff2bae10a7e8c68f6f024bde2",
+  "method_revision": "83df1b33d872b9a0449cc81afee793a84b62447f",
+  "counter": "tools/check_dual45.py::spoken_count",
+  "speeds_assumed": [
+    180,
+    200
+  ],
+  "upper": {
+    "han": 7554,
+    "spoken_han": 7563,
+    "speech_sha256": "ebf7a0bb497a79272885f2571763b0f7fc1cc26593da25e463568c506e4da09f",
+    "nonoverlap_reading_minutes": 3,
+    "estimated_minutes": [
+      45,
+      40.8
+    ]
+  },
+  "lower": {
+    "han": 7564,
+    "spoken_han": 7568,
+    "speech_sha256": "cfbb885d30e1214e51ed0e061d903611cafb9bbb96d00b9bff764cdd2d2604d4",
+    "nonoverlap_reading_minutes": 3,
+    "estimated_minutes": [
+      45,
+      40.8
+    ]
+  },
+  "exclusions": "标题、课堂提示和标点不计入正文汉字；口读量按既有函数将数字、年份及条号折算，正文法条与讲评计入",
+  "limits": "每节仅加一次3分钟独立阅读，正常停连不另加，语速是假设，未真人计时；没有为填时增加空白或虚构学生反应，字数与估算不证明学习效果"
+}
