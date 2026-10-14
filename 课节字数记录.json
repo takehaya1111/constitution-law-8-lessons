@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "counter": "tools/check_dual45.py::spoken_count",
   "counting_scope": "实际当前完整Markdown口述正文；去标题、【课堂提示】及第七讲的ASCII方括号课堂提示后，统计正文汉字与折算口读量，不计制作说明",
   "lessons": [
@@ -377,65 +377,68 @@
     {
       "lesson_number": 7,
       "source": "materials/第7讲实质备课/01_完整讲述.md",
-      "source_sha256": "7a58ba6f00f538ec8a90cbe58f5eeef8c78ccb6980c98cec22aa5c82ea57d74f",
+      "source_sha256": "e5d0d02b1bac306004eb1f69edfabc77eca928d9e132d38683209a0d1ce079d2",
       "upper": {
-        "han": 8246,
-        "spoken_han": 8278,
-        "speech_sha256": "638efee83d3c7a2519bc22125816b4a684768c78e06beff02a8bd2ea7f86ebae",
-        "estimated_minutes_by_speed": {
-          "180": [
-            47,
-            48
-          ],
-          "200": [
-            42.4,
-            43.4
-          ]
-        },
-        "estimated_minutes_range": [
-          42.4,
-          48
-        ],
+        "han": 7858,
+        "spoken_han": 7866,
+        "speech_sha256": "0026e2fc3f726abf252d6e7b34f7b66b0c7a9dc5ca7b672a05bb8a807d5888c4",
         "nonoverlap_thinking_minutes_range": [
           1,
           2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            44.7,
+            45.7
+          ],
+          "200": [
+            40.3,
+            41.3
+          ]
+        },
+        "estimated_minutes_range": [
+          40.3,
+          45.7
         ]
       },
       "lower": {
-        "han": 8340,
-        "spoken_han": 8367,
-        "speech_sha256": "5d29f7201eb261ca0df77e7843e0f297c6c32923ac72465a9b9f81903259a8be",
-        "estimated_minutes_by_speed": {
-          "180": [
-            47.5,
-            48.5
-          ],
-          "200": [
-            42.8,
-            43.8
-          ]
-        },
-        "estimated_minutes_range": [
-          42.8,
-          48.5
-        ],
+        "han": 8290,
+        "spoken_han": 8308,
+        "speech_sha256": "25053bd9856a5801f23bf65f59879c0f4903531cc3c630045e5a9b85ffb9a6f3",
         "nonoverlap_thinking_minutes_range": [
           1,
           2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            47.2,
+            48.2
+          ],
+          "200": [
+            42.5,
+            43.5
+          ]
+        },
+        "estimated_minutes_range": [
+          42.5,
+          48.2
         ]
       },
-      "course_input_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
+      "course_input_revision": "eb2553e88f9d6f189e2771a38d28e7b7769b9c78",
       "method_version": "v0.4.9",
       "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
-      "status": "按现行分纲新组写、经独立审读上下文核对、并按口播体例去除成段照搬后，待教师审阅",
-      "execution_note": "本讲为按分纲新组写，非既有稿修订。整讲检查另开了两个不继承作者自评的独立审读上下文（首读、内容与事实核对），据其报告改正了第128/134条误用（应为第133/138条）、第79条并挂第82条、第95条并挂自治机关款、第70条引1982年旧表述、自治条例制定主体误记为人民政府等，以及四处把分纲概括冒称\"教材\"。此后又按教师意见做了一次\"口播体例\"清查：用tools/check_verbatim_overlap.py比对，与教材及宪法连续重合（>=16字）由29.2%（最长107字）降到14.6%（最长37字），删去的是成段照搬的条文与清单，补回的是讲解性内容，字数净增约135。计数口径先用第五、六讲复算逐字节复现后才使用。",
-      "source_revision": "9deed1abba6586f9755fc9f4f7681e32b52a4012",
-      "integration_counting_note": "正文及该讲原制作文件保持9deed1a提交字节；本轮仅接齐机械计数、双速度估算和版本绑定，不认领其制作或内容审查。",
-      "counting_note": "按全课去标题及课堂提示口径，另去掉本稿的ASCII方括号课堂提示；原容量文件不改，原计数快照保留。"
+      "based_on": {
+        "source": "materials/第7讲实质备课/01_完整讲述.md",
+        "source_revision": "eb2553e88f9d6f189e2771a38d28e7b7769b9c78",
+        "source_sha256": "7a58ba6f00f538ec8a90cbe58f5eeef8c78ccb6980c98cec22aa5c82ea57d74f"
+      },
+      "status": "按v0.4.9回查现稿，补研究与必要修订后完整上下节稿，待教师审阅",
+      "execution_note": "实际连续教材阅读、原规范核证、独立首读及完整返修、最后源核见materials/第7讲实质备课/研究/20261015_v049解释论证回查.md；原生成史保留，未改技能或其他讲次正文。",
+      "counting_note": "与全课既有口径一致，去标题及课堂提示、数字折算。两次正式思考分属上下节，各1—2分钟；原可选提示不计作额外活动。"
     }
   ],
   "remaining_lessons": "第八讲尚未按当前流程交付完整Markdown口述；既有成熟研究和教学材料保留，不以旧教案或PPT备注代填字数",
-  "limits": "第六讲本轮实际回查并补研究修订，合入9deed1a并行口述编辑；第一至五讲及第七讲正文保持该并行提交，本轮只校机械字数与估算，不认领其内容核稿。第六讲原模型未由教师提供，不继承第五讲wb、ds v4.1身份。历史条目按固定提交及当时计数口径读取，旧认可不移记新稿；第一讲活动相加为3—4分钟，第七讲原容量曾计入ASCII课堂提示，现全课记录纠正且保留原快照。未真人计时，不证明教学效果。",
+  "limits": "第七讲本轮按同版v0.4.9实际回查、补研究和必要修订，前六讲当前正文及条目保持eb2553e；新稿继续待审，不移记旧认可或原作者核证。25份源绑定含7当前、18历史，历史按固定提交及当时口径读取。前轮已纠正第一讲两次活动相加3—4分钟、第七讲ASCII课堂提示误计，原快照保留；本轮不重复改其他讲次。原第七讲模型未提供，不继承第五讲wb、ds v4.1身份。假设语速与活动是条件粗估，未真人计时，不证明教学效果。",
   "retained_versions": [
     {
       "lesson_number": 1,
@@ -1222,6 +1225,67 @@
       "source_revision": "9deed1abba6586f9755fc9f4f7681e32b52a4012",
       "reported_source_revision": null,
       "archive_note": "第七讲并行原计数快照；原提取未排除ASCII方括号课堂提示，当前仅修正机械口径，正文保持同一字节。"
+    },
+    {
+      "lesson_number": 7,
+      "source": "materials/第7讲实质备课/01_完整讲述.md",
+      "source_sha256": "7a58ba6f00f538ec8a90cbe58f5eeef8c78ccb6980c98cec22aa5c82ea57d74f",
+      "upper": {
+        "han": 8246,
+        "spoken_han": 8278,
+        "speech_sha256": "638efee83d3c7a2519bc22125816b4a684768c78e06beff02a8bd2ea7f86ebae",
+        "estimated_minutes_by_speed": {
+          "180": [
+            47,
+            48
+          ],
+          "200": [
+            42.4,
+            43.4
+          ]
+        },
+        "estimated_minutes_range": [
+          42.4,
+          48
+        ],
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ]
+      },
+      "lower": {
+        "han": 8340,
+        "spoken_han": 8367,
+        "speech_sha256": "5d29f7201eb261ca0df77e7843e0f297c6c32923ac72465a9b9f81903259a8be",
+        "estimated_minutes_by_speed": {
+          "180": [
+            47.5,
+            48.5
+          ],
+          "200": [
+            42.8,
+            43.8
+          ]
+        },
+        "estimated_minutes_range": [
+          42.8,
+          48.5
+        ],
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ]
+      },
+      "course_input_revision": "510a2f2d28fad98682dc1a06d076e494b95f186e",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "status": "按现行分纲新组写、经独立审读上下文核对、并按口播体例去除成段照搬后，待教师审阅",
+      "execution_note": "本讲为按分纲新组写，非既有稿修订。整讲检查另开了两个不继承作者自评的独立审读上下文（首读、内容与事实核对），据其报告改正了第128/134条误用（应为第133/138条）、第79条并挂第82条、第95条并挂自治机关款、第70条引1982年旧表述、自治条例制定主体误记为人民政府等，以及四处把分纲概括冒称\"教材\"。此后又按教师意见做了一次\"口播体例\"清查：用tools/check_verbatim_overlap.py比对，与教材及宪法连续重合（>=16字）由29.2%（最长107字）降到14.6%（最长37字），删去的是成段照搬的条文与清单，补回的是讲解性内容，字数净增约135。计数口径先用第五、六讲复算逐字节复现后才使用。",
+      "source_revision": "eb2553e88f9d6f189e2771a38d28e7b7769b9c78",
+      "integration_counting_note": "正文及该讲原制作文件保持9deed1a提交字节；本轮仅接齐机械计数、双速度估算和版本绑定，不认领其制作或内容审查。",
+      "counting_note": "按全课去标题及课堂提示口径，另去掉本稿的ASCII方括号课堂提示；原容量文件不改，原计数快照保留。",
+      "previous_source_revision": "9deed1abba6586f9755fc9f4f7681e32b52a4012",
+      "archive_note": "2026-10-15第七讲解释论证回查前的完整待审稿；采用前轮已经排除ASCII课堂提示的统一计数，原制作、独立审读与口述编辑声明保留，不拿当前同路径复算。"
     }
   ]
 }
