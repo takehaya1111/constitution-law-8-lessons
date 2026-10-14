@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-14",
+  "lesson_number": 6,
+  "source": "materials/第6讲实质备课/01_完整讲述.md",
+  "source_sha256": "790819044c20691e1a7e689ff254f6669bbab006929664789d94d700f02de4db",
+  "counter": "tools/check_dual45.py::spoken_count",
+  "counting_scope": "去标题、【课堂提示】与引用行后统计汉字及折算口读量",
+  "method_version": "v0.4.9",
+  "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+  "textbook_original": {
+    "file": "textbook/宪法学_马工程_第二版_完整教材.pdf",
+    "bytes": 54022789,
+    "pages": 373,
+    "sha256": "66ddd16f430bc1f8d7ffbaae62e092f3c1ce81096f3987478208d50e0b078f7b"
+  },
+  "read_scope": {
+    "main": "第六章第二节 印刷199—219（PDF214—240），从第199页正文第二节标题起",
+    "supplement": "第六章第三节 印刷219—226（PDF240—241），读到第226页正文结束、思考题前"
+  },
+  "status": "按现行分纲新组写完整口述，待教师审阅",
+  "upper": {
+    "han": 8338,
+    "spoken_han": 8338,
+    "speech_sha256": "8cd23369b90696060232baad8c92bb3ae465d30520374ad7de8fffec39a01bfc",
+    "nonoverlap_thinking_minutes_range": [
+      1,
+      2
+    ],
+    "estimated_minutes_by_speed": {
+      "180": [
+        47.3,
+        48.3
+      ],
+      "200": [
+        42.7,
+        43.7
+      ]
+    },
+    "estimated_minutes_range": [
+      42.7,
+      48.3
+    ]
+  },
+  "lower": {
+    "han": 8406,
+    "spoken_han": 8406,
+    "speech_sha256": "516f80b69dc8914c849109d8c647df49fef6835ccfba3dc2b102a8776b88f62e",
+    "nonoverlap_thinking_minutes_range": [
+      1,
+      2
+    ],
+    "estimated_minutes_by_speed": {
+      "180": [
+        47.7,
+        48.7
+      ],
+      "200": [
+        43.0,
+        44.0
+      ]
+    },
+    "estimated_minutes_range": [
+      43.0,
+      48.7
+    ]
+  },
+  "notes": [
+    "计数与课节字数记录.md一致。",
+    "每节一次独立思考，提示为“约一至两分钟”，故不重叠活动按区间1—2分钟计。",
+    "speech_sha256为本机按同口径自算；课程JSON另用全课统一提取，两者规范化不同。",
+    "未真人计时；容量按180—200口读字/分钟假设。"
+  ]
+}
