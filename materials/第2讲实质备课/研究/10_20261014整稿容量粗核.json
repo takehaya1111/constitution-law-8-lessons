@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-14",
+  "source": "materials/第2讲实质备课/01_完整讲述.md",
+  "source_sha256": "99df8f8c6efae7a3fa01ce301661cc809084bd61622fa98ec86005b98825a45f",
+  "baseline_commit": "6a29f696437ad98613df8a1e8c5400543e32d2c5",
+  "baseline_source_sha256": "c4461e78cd2b0f0b96ee39a68ef95fc5014c7dc059127bddeda892a9c3f9c648",
+  "approved_unit_source": "research/20261013_自由与分工_单元对照/修订稿.md",
+  "approved_unit_sha256": "fb7046e3bf65e68e66708e452ae999240b322d3a3d30556f1fea7d5cf490333c",
+  "approved_unit_spoken_count": 2825,
+  "approved_unit_preserved_verbatim": true,
+  "hypothetical_insertion_only": false,
+  "counter": "tools/check_dual45.py::spoken_count",
+  "exclusions": "标题与【教师提示】排除；数字、年份与条号按既有函数折算；正文法条、问题与讲评计入",
+  "speeds_assumed": [180, 200],
+  "upper": {
+    "han": 7373,
+    "spoken_han": 7691,
+    "speech_sha256": "9b869d0245018f9431f3a2d266beae40c6121aa58d6cb438855b4e4f7ecd8091",
+    "nonoverlap_reading_minutes": 3,
+    "estimated_minutes": [45.7, 41.5]
+  },
+  "lower": {
+    "han": 7580,
+    "spoken_han": 7842,
+    "speech_sha256": "56e1e79f2179b6577f790d070c4de98e75357642ec431c59a290353fd6b9851a",
+    "nonoverlap_reading_minutes": 3,
+    "estimated_minutes": [46.6, 42.2]
+  },
+  "limits": "实际读取最终整稿；每节仅加一次3分钟独立阅读。正常停连与口头讲评不重复加时，未真人计时，估算不证明学习效果。未运行10月7日旧映射生成器。"
+}
