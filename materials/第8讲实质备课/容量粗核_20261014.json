@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-14",
+  "lesson_number": 8,
+  "source": "materials/第8讲实质备课/01_完整讲述.md",
+  "source_sha256": "cb91c3fee2081b1783bd83f96ace74de2dd6d565e666683ad21dfea70c475455",
+  "counter": "tools/check_dual45.py::spoken_count",
+  "counting_scope": "去标题、【课堂提示】与引用行后统计汉字及折算口读量",
+  "method_version": "v0.4.9",
+  "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+  "textbook_original": {
+    "file": "textbook/宪法学_马工程_第二版_完整教材.pdf",
+    "bytes": 54022789,
+    "pages": 373,
+    "sha256": "66ddd16f430bc1f8d7ffbaae62e092f3c1ce81096f3987478208d50e0b078f7b"
+  },
+  "read_scope": {
+    "main": "第九章 印刷318—349页（PDF333—364），32页连续无缺页",
+    "supplement": "第一章第三节 宪法解释 印刷31—35页至修改正文标题前（PDF46—50）；主案原文 S06a《全国人大常委会公报》2022年第1号 印刷246页右栏；教育法第1、9条；宪法序言末段及第5、46、53、62、64、67、70、99、116条"
+  },
+  "status": "按现行分纲新组写、经独立审读上下文核对并据其报告修订后，待教师审阅",
+  "upper": {
+    "han": 8297,
+    "spoken_han": 8324,
+    "speech_sha256": "90998ef2a345d2294efb6fd6851891e22af2cdbfcb4475259f61f2d4762fc790",
+    "nonoverlap_thinking_minutes_range": [1, 2],
+    "estimated_minutes_by_speed": {
+      "180": [46.2, 48.2],
+      "200": [41.6, 43.6]
+    },
+    "estimated_minutes_range": [42.6, 48.2]
+  },
+  "lower": {
+    "han": 8314,
+    "spoken_han": 8344,
+    "speech_sha256": "73ebea4fa37e45c36722c2d9fcbf70c1a5142b421668b91b979c44a200768fde",
+    "nonoverlap_thinking_minutes_range": [1, 2],
+    "estimated_minutes_by_speed": {
+      "180": [46.4, 48.4],
+      "200": [41.7, 43.7]
+    },
+    "estimated_minutes_range": [42.7, 48.4]
+  },
+  "verbatim_overlap": {
+    "tool": "tools/check_verbatim_overlap.py",
+    "min_run": 16,
+    "sources": ["教材第九章印刷318—349页连续原文", "教材第一章第三节宪法解释部分", "仓内官方宪法文本", "S06a 2021年备案审查工作情况报告公报原文", "S10 教育法"],
+    "after": {"hit": 1313, "pct": 7.7, "longest": 33},
+    "note": "本条为全课唯一在初稿阶段即按「连续照搬≤约25字」写成的讲次，未经历先照搬后改写的返工。留存的最长几处均为宪法条文列举、法定定义与法定术语（如违法主体范围、专门委员会宪法依据、教材对宪法实施的定义）。"
+  },
+  "notes": [
+    "计数与课节字数记录.md一致；上节汉字8297、口读8324，下节汉字8314、口读8344。",
+    "每节一次独立思考，提示为「约一至两分钟」，故不重叠活动按区间1—2分钟计。",
+    "speech_sha256为本机按同口径自算；课程JSON另用全课统一提取，两者规范化不同。",
+    "未真人计时；容量按180—200口读字/分钟假设。",
+    "本稿另经两个不继承作者自评的独立审读上下文（听者首读、内容与事实核对）分别报告，据其报告修订。"
+  ]
+}
