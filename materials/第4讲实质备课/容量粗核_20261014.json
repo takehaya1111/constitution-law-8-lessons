@@ -1,5 +1,7 @@
 {
   "date": "2026-10-14",
+  "source_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
+  "snapshot_note": "v0.4.8原完整稿的历史容量；同路径当前稿已按v0.4.9修订，须从source_revision取旧正文复算。新数据见research/20261014_第一三四讲v049容量.json。",
   "source": "materials/第4讲实质备课/01_完整讲述.md",
   "source_sha256": "385c2f3528f71d48d8dc9e14f9142125e57fb56c3ce936e56969ec29ba19799e",
   "course_input_revision": "5fd1f53af08e9eb971af2ff38d13ab77c2681f9f",

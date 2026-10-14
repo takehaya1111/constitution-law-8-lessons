@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-14",
+  "course_input_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
+  "method_version": "v0.4.9",
+  "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+  "counter": "tools/check_dual45.py::spoken_count",
+  "counting_scope": "实际当前完整Markdown口述正文；去标题和【课堂提示】后分别统计汉字及折算口读量，不计来源、备查或制作说明",
+  "speeds_assumed": [
+    180,
+    200
+  ],
+  "lessons": [
+    {
+      "lesson_number": 1,
+      "source": "materials/第1讲整合试讲主版本/口播修订稿_20261014_合并版.md",
+      "source_sha256": "14002112f776f5bf67df60ec8e2fc2c331f139abf4ea12c433bab1505d0121be",
+      "upper": {
+        "han": 8186,
+        "spoken_han": 8186,
+        "speech_sha256": "73248ab6cf044ea4bb214e4e94a0bb28a1e0e6043f7f2aee3be1752efbf3f446",
+        "nonoverlap_activity_minutes_range": [
+          3,
+          4
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            48.5,
+            49.5
+          ],
+          "200": [
+            43.9,
+            44.9
+          ]
+        },
+        "estimated_minutes_range": [
+          43.9,
+          49.5
+        ],
+        "activity_cues": [
+          "【独立思考约一至两分钟：写出选择和一句理由。教师此时暂停讲述。】",
+          "【独立思考约两分钟：写一至两句理由。教师此时暂停讲述。】"
+        ]
+      },
+      "lower": {
+        "han": 8275,
+        "spoken_han": 8280,
+        "speech_sha256": "9aa3be33174ba6738280265a746a4cf843c0a3ae4dcae6d0468d27a427edb696",
+        "nonoverlap_activity_minutes_range": [
+          3,
+          4
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            49,
+            50
+          ],
+          "200": [
+            44.4,
+            45.4
+          ]
+        },
+        "estimated_minutes_range": [
+          44.4,
+          50
+        ],
+        "activity_cues": [
+          "【独立思考约一至两分钟：分别写出甲目前可以判断什么、乙还缺哪类事实。教师此时暂停讲述。】",
+          "【独立思考约两分钟：用三句话区分规范要求、工作部署、个案实际办理。教师此时暂停讲述。】"
+        ]
+      }
+    },
+    {
+      "lesson_number": 3,
+      "source": "materials/第3讲实质备课/口播修订稿_20261014_依现行分纲.md",
+      "source_sha256": "d00f1bfec72bf826c94a3e7a09bc0e778f04f9655aba711d493ced3b3b554787",
+      "upper": {
+        "han": 8191,
+        "spoken_han": 8200,
+        "speech_sha256": "d030d393ca52eea1e8c6a2bcf9c433904b57ff6cd86e7ba34fd9b1e59b1fe6e2",
+        "nonoverlap_activity_minutes_range": [
+          3,
+          3
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            48.6,
+            48.6
+          ],
+          "200": [
+            44,
+            44
+          ]
+        },
+        "estimated_minutes_range": [
+          44,
+          48.6
+        ],
+        "activity_cues": [
+          "【独立阅读与思考约三分钟。教师暂停讲述。】"
+        ]
+      },
+      "lower": {
+        "han": 8115,
+        "spoken_han": 8119,
+        "speech_sha256": "0891ccecc540f3b7713cceb99ecdcd3b9692dd0493d99f963e08de5f42f89561",
+        "nonoverlap_activity_minutes_range": [
+          3,
+          3
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            48.1,
+            48.1
+          ],
+          "200": [
+            43.6,
+            43.6
+          ]
+        },
+        "estimated_minutes_range": [
+          43.6,
+          48.1
+        ],
+        "activity_cues": [
+          "【独立阅读与思考约三分钟。教师暂停讲述。】"
+        ]
+      }
+    },
+    {
+      "lesson_number": 4,
+      "source": "materials/第4讲实质备课/01_完整讲述.md",
+      "source_sha256": "87dbc473ea7dc5c83a2ff7a0676a6d5933c0863a8ffdc66ead9e49be857b3b8a",
+      "upper": {
+        "han": 8506,
+        "spoken_han": 8558,
+        "speech_sha256": "b4c764fed8d23fb2696bffdd2995f2ea9bfa16a0011a6f8786fc4fd1bc018fa6",
+        "nonoverlap_activity_minutes_range": [
+          2,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            49.5,
+            49.5
+          ],
+          "200": [
+            44.8,
+            44.8
+          ]
+        },
+        "estimated_minutes_range": [
+          44.8,
+          49.5
+        ],
+        "activity_cues": [
+          "【独立对照与思考约两分钟：依据上文已提供的条文及设例，分别说明各项所问的关系。教师暂停讲述。】"
+        ]
+      },
+      "lower": {
+        "han": 8062,
+        "spoken_han": 8094,
+        "speech_sha256": "1af2d96ce152f1f22e582ec95aa4b570c0d0313645a8ccc5fa2e69f7ad9a492c",
+        "nonoverlap_activity_minutes_range": [
+          2,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            47,
+            47
+          ],
+          "200": [
+            42.5,
+            42.5
+          ]
+        },
+        "estimated_minutes_range": [
+          42.5,
+          47
+        ],
+        "activity_cues": [
+          "【独立思考约两分钟：依据上文第九十七、第一百零二条及其解释，写出两项判断的理由。教师暂停讲述。】"
+        ]
+      }
+    }
+  ],
+  "limits": "从实际保存全文计数；保留正文原文、设问和讲评，排除标题及课堂提示。正常停连不另加，仅加明确暂停讲述的活动。第一讲每节3—4分钟，第三讲每节3分钟，第四讲每节2分钟。较慢假设下第一讲下节约50分钟、第四讲上节约49.5分钟，须由教师实际试讲判断；不以表格证明严格45分钟或学习效果。"
+}

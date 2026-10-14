@@ -6,28 +6,15 @@
     {
       "lesson_number": 1,
       "source": "materials/第1讲整合试讲主版本/口播修订稿_20261014_合并版.md",
-      "source_sha256": "ffec4fb6c3694722def290d83825ba3f857ee9a2756da891951afa5cf4f56fb1",
-      "source_revision": "11d24885ff918fe144065775aae2b36fd52e35f0",
-      "method_note": "合并版由并行对话提交并设为本讲当前基准；该次提交未明确处理技能版本，本轮只核字数与版本绑定，不补写执行史或追加内容审查结论。",
-      "based_on": {
-        "source": "materials/第1讲整合试讲主版本/口播修订稿_20261014_依现行分纲.md",
-        "source_sha256": "d987a0985fd53e6a36efc61c1f2bd68f046e8dfe33b76d0e3bb8ec0f9597baf5",
-        "method_version": "v0.4.8",
-        "method_revision": "484bcbc5896288aad0b02eb2d3c74057abdb1479"
-      },
-      "status": "合并基准版，待教师审阅；正文原样保留并行提交",
+      "source_sha256": "14002112f776f5bf67df60ec8e2fc2c331f139abf4ea12c433bab1505d0121be",
       "upper": {
-        "han": 8170,
-        "spoken_han": 8170,
-        "speech_sha256": "aedbbcd2b64a2bc19c029f201dd8bb3e7664485c7c6325ee11778e9a426d9917",
-        "nonoverlap_thinking_minutes_range": [
-          3,
-          4
-        ],
+        "han": 8186,
+        "spoken_han": 8186,
+        "speech_sha256": "73248ab6cf044ea4bb214e4e94a0bb28a1e0e6043f7f2aee3be1752efbf3f446",
         "estimated_minutes_by_speed": {
           "180": [
-            48.4,
-            49.4
+            48.5,
+            49.5
           ],
           "200": [
             43.9,
@@ -36,32 +23,45 @@
         },
         "estimated_minutes_range": [
           43.9,
-          49.4
-        ]
-      },
-      "lower": {
-        "han": 8042,
-        "spoken_han": 8047,
-        "speech_sha256": "a91fb52bbf01b1789ca12fe48133afb6c729cb3df6bce883c473e64f7a2347bf",
+          49.5
+        ],
         "nonoverlap_thinking_minutes_range": [
           3,
           4
-        ],
+        ]
+      },
+      "lower": {
+        "han": 8275,
+        "spoken_han": 8280,
+        "speech_sha256": "9aa3be33174ba6738280265a746a4cf843c0a3ae4dcae6d0468d27a427edb696",
         "estimated_minutes_by_speed": {
           "180": [
-            47.7,
-            48.7
+            49,
+            50
           ],
           "200": [
-            43.2,
-            44.2
+            44.4,
+            45.4
           ]
         },
         "estimated_minutes_range": [
-          43.2,
-          48.7
+          44.4,
+          50
+        ],
+        "nonoverlap_thinking_minutes_range": [
+          3,
+          4
         ]
-      }
+      },
+      "course_input_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "based_on": {
+        "source": "materials/第1讲整合试讲主版本/口播修订稿_20261014_合并版.md",
+        "source_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
+        "source_sha256": "ffec4fb6c3694722def290d83825ba3f857ee9a2756da891951afa5cf4f56fb1"
+      },
+      "status": "按v0.4.9回查解释与论证后必要修订，待教师审阅"
     },
     {
       "lesson_number": 2,
@@ -108,76 +108,114 @@
     {
       "lesson_number": 3,
       "source": "materials/第3讲实质备课/口播修订稿_20261014_依现行分纲.md",
-      "source_sha256": "fa06b4ac9b7fca5e4aeeafaeb35830afe78dc52f71c7b922554d9fbd4854cea6",
-      "course_input_revision": "b88f798f90787c4d9ef6aa34b36bbcd69482d817",
-      "method_version": "v0.4.8",
-      "method_revision": "484bcbc5896288aad0b02eb2d3c74057abdb1479",
-      "based_on": {
-        "source": "materials/第3讲实质备课/01_完整讲述.md",
-        "source_sha256": "b7f6cd54bc7746202cf17a51a21e158416cd050ff2bae10a7e8c68f6f024bde2"
-      },
-      "status": "按现行分纲定点更新，待教师审阅",
+      "source_sha256": "d00f1bfec72bf826c94a3e7a09bc0e778f04f9655aba711d493ced3b3b554787",
       "upper": {
-        "han": 8046,
-        "spoken_han": 8055,
-        "speech_sha256": "fed32b99e655f157ad11ec4ac3224ee098687f6ac222c179d3df47345ab44f1b",
-        "nonoverlap_reading_minutes": 3,
-        "estimated_minutes": [
-          47.8,
-          43.3
-        ],
+        "han": 8191,
+        "spoken_han": 8200,
+        "speech_sha256": "d030d393ca52eea1e8c6a2bcf9c433904b57ff6cd86e7ba34fd9b1e59b1fe6e2",
+        "estimated_minutes_by_speed": {
+          "180": [
+            48.6,
+            48.6
+          ],
+          "200": [
+            44,
+            44
+          ]
+        },
         "estimated_minutes_range": [
-          43.3,
-          47.8
-        ]
+          44,
+          48.6
+        ],
+        "nonoverlap_reading_minutes": 3
       },
       "lower": {
-        "han": 7866,
-        "spoken_han": 7870,
-        "speech_sha256": "b74175b4a11e62715985d1b24bb6bd85148ae2088523ac4213fdc45b9625c742",
-        "nonoverlap_reading_minutes": 3,
-        "estimated_minutes": [
-          46.7,
-          42.4
-        ],
+        "han": 8115,
+        "spoken_han": 8119,
+        "speech_sha256": "0891ccecc540f3b7713cceb99ecdcd3b9692dd0493d99f963e08de5f42f89561",
+        "estimated_minutes_by_speed": {
+          "180": [
+            48.1,
+            48.1
+          ],
+          "200": [
+            43.6,
+            43.6
+          ]
+        },
         "estimated_minutes_range": [
-          42.4,
-          46.7
-        ]
-      }
+          43.6,
+          48.1
+        ],
+        "nonoverlap_reading_minutes": 3
+      },
+      "course_input_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "based_on": {
+        "source": "materials/第3讲实质备课/口播修订稿_20261014_依现行分纲.md",
+        "source_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
+        "source_sha256": "fa06b4ac9b7fca5e4aeeafaeb35830afe78dc52f71c7b922554d9fbd4854cea6"
+      },
+      "status": "按v0.4.9回查解释与论证后必要修订，待教师审阅"
     },
     {
       "lesson_number": 4,
       "source": "materials/第4讲实质备课/01_完整讲述.md",
-      "source_sha256": "385c2f3528f71d48d8dc9e14f9142125e57fb56c3ce936e56969ec29ba19799e",
-      "course_input_revision": "5fd1f53af08e9eb971af2ff38d13ab77c2681f9f",
-      "method_version": "v0.4.8",
-      "method_revision": "484bcbc5896288aad0b02eb2d3c74057abdb1479",
+      "source_sha256": "87dbc473ea7dc5c83a2ff7a0676a6d5933c0863a8ffdc66ead9e49be857b3b8a",
       "upper": {
-        "han": 8234,
-        "spoken_han": 8270,
-        "speech_sha256": "985fca7fd4f3d720b9779192f614621df291aad1365a8a8e07ae57ab48c8247b",
-        "nonoverlap_thinking_minutes": 2,
-        "estimated_minutes": [
-          47.9,
-          43.4
-        ]
+        "han": 8506,
+        "spoken_han": 8558,
+        "speech_sha256": "b4c764fed8d23fb2696bffdd2995f2ea9bfa16a0011a6f8786fc4fd1bc018fa6",
+        "estimated_minutes_by_speed": {
+          "180": [
+            49.5,
+            49.5
+          ],
+          "200": [
+            44.8,
+            44.8
+          ]
+        },
+        "estimated_minutes_range": [
+          44.8,
+          49.5
+        ],
+        "nonoverlap_thinking_minutes": 2
       },
       "lower": {
         "han": 8062,
         "spoken_han": 8094,
         "speech_sha256": "1af2d96ce152f1f22e582ec95aa4b570c0d0313645a8ccc5fa2e69f7ad9a492c",
-        "nonoverlap_thinking_minutes": 2,
-        "estimated_minutes": [
-          47,
-          42.5
-        ]
+        "estimated_minutes_by_speed": {
+          "180": [
+            47,
+            47
+          ],
+          "200": [
+            42.5,
+            42.5
+          ]
+        },
+        "estimated_minutes_range": [
+          42.5,
+          47
+        ],
+        "nonoverlap_thinking_minutes": 2
       },
-      "status": "按现行总纲与第四讲分纲完成，待教师审阅"
+      "course_input_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "based_on": {
+        "source": "materials/第4讲实质备课/01_完整讲述.md",
+        "source_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
+        "source_sha256": "385c2f3528f71d48d8dc9e14f9142125e57fb56c3ce936e56969ec29ba19799e"
+      },
+      "status": "按v0.4.9回查解释与论证后必要修订，待教师审阅"
     }
   ],
   "remaining_lessons": "第五至八讲尚未按当前流程交付完整Markdown口述，不以旧教案或PPT备注代填字数",
-  "limits": "当前表第二讲为v0.4.9解释研究后重组稿；第一讲接并行提交的合并基准版，本轮仅重计绑定，未改正文或补写该次执行史；第三四讲保持。retained_versions保留旧稿；含source_revision的条目须从对应提交读取，不能拿当前同路径文件复算。语速与活动为粗估，未真人计时。",
+  "limits": "第一、三、四讲为本轮v0.4.9据稿研究后修订，第二讲保留前轮v0.4.9重组稿；原生成史不倒写。retained_versions中的历史条目按source_revision取原正文，不能拿当前同路径文件复算。各节语速与独立活动为条件粗估，慢端部分接近50分钟，未真人计时。",
   "retained_versions": [
     {
       "lesson_number": 1,
@@ -297,6 +335,141 @@
         ]
       },
       "source_revision": "aade6a16b2572b0ef78dde00e135f3247c53c82f"
+    },
+    {
+      "lesson_number": 1,
+      "source": "materials/第1讲整合试讲主版本/口播修订稿_20261014_合并版.md",
+      "source_sha256": "ffec4fb6c3694722def290d83825ba3f857ee9a2756da891951afa5cf4f56fb1",
+      "source_revision": "11d24885ff918fe144065775aae2b36fd52e35f0",
+      "method_note": "合并版由并行对话提交并设为本讲当前基准；该次提交未明确处理技能版本，本轮只核字数与版本绑定，不补写执行史或追加内容审查结论。",
+      "based_on": {
+        "source": "materials/第1讲整合试讲主版本/口播修订稿_20261014_依现行分纲.md",
+        "source_sha256": "d987a0985fd53e6a36efc61c1f2bd68f046e8dfe33b76d0e3bb8ec0f9597baf5",
+        "method_version": "v0.4.8",
+        "method_revision": "484bcbc5896288aad0b02eb2d3c74057abdb1479"
+      },
+      "status": "合并基准版，待教师审阅；正文原样保留并行提交",
+      "upper": {
+        "han": 8170,
+        "spoken_han": 8170,
+        "speech_sha256": "aedbbcd2b64a2bc19c029f201dd8bb3e7664485c7c6325ee11778e9a426d9917",
+        "nonoverlap_thinking_minutes_range": [
+          3,
+          4
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            48.4,
+            49.4
+          ],
+          "200": [
+            43.9,
+            44.9
+          ]
+        },
+        "estimated_minutes_range": [
+          43.9,
+          49.4
+        ]
+      },
+      "lower": {
+        "han": 8042,
+        "spoken_han": 8047,
+        "speech_sha256": "a91fb52bbf01b1789ca12fe48133afb6c729cb3df6bce883c473e64f7a2347bf",
+        "nonoverlap_thinking_minutes_range": [
+          3,
+          4
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            47.7,
+            48.7
+          ],
+          "200": [
+            43.2,
+            44.2
+          ]
+        },
+        "estimated_minutes_range": [
+          43.2,
+          48.7
+        ]
+      },
+      "archive_note": "本轮v0.4.9回查前的完整待审稿；旧状态和执行史保留，正文按source_revision回查。"
+    },
+    {
+      "lesson_number": 3,
+      "source": "materials/第3讲实质备课/口播修订稿_20261014_依现行分纲.md",
+      "source_sha256": "fa06b4ac9b7fca5e4aeeafaeb35830afe78dc52f71c7b922554d9fbd4854cea6",
+      "course_input_revision": "b88f798f90787c4d9ef6aa34b36bbcd69482d817",
+      "method_version": "v0.4.8",
+      "method_revision": "484bcbc5896288aad0b02eb2d3c74057abdb1479",
+      "based_on": {
+        "source": "materials/第3讲实质备课/01_完整讲述.md",
+        "source_sha256": "b7f6cd54bc7746202cf17a51a21e158416cd050ff2bae10a7e8c68f6f024bde2"
+      },
+      "status": "按现行分纲定点更新，待教师审阅",
+      "upper": {
+        "han": 8046,
+        "spoken_han": 8055,
+        "speech_sha256": "fed32b99e655f157ad11ec4ac3224ee098687f6ac222c179d3df47345ab44f1b",
+        "nonoverlap_reading_minutes": 3,
+        "estimated_minutes": [
+          47.8,
+          43.3
+        ],
+        "estimated_minutes_range": [
+          43.3,
+          47.8
+        ]
+      },
+      "lower": {
+        "han": 7866,
+        "spoken_han": 7870,
+        "speech_sha256": "b74175b4a11e62715985d1b24bb6bd85148ae2088523ac4213fdc45b9625c742",
+        "nonoverlap_reading_minutes": 3,
+        "estimated_minutes": [
+          46.7,
+          42.4
+        ],
+        "estimated_minutes_range": [
+          42.4,
+          46.7
+        ]
+      },
+      "source_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
+      "archive_note": "本轮v0.4.9回查前的完整待审稿；旧状态和执行史保留，正文按source_revision回查。"
+    },
+    {
+      "lesson_number": 4,
+      "source": "materials/第4讲实质备课/01_完整讲述.md",
+      "source_sha256": "385c2f3528f71d48d8dc9e14f9142125e57fb56c3ce936e56969ec29ba19799e",
+      "course_input_revision": "5fd1f53af08e9eb971af2ff38d13ab77c2681f9f",
+      "method_version": "v0.4.8",
+      "method_revision": "484bcbc5896288aad0b02eb2d3c74057abdb1479",
+      "upper": {
+        "han": 8234,
+        "spoken_han": 8270,
+        "speech_sha256": "985fca7fd4f3d720b9779192f614621df291aad1365a8a8e07ae57ab48c8247b",
+        "nonoverlap_thinking_minutes": 2,
+        "estimated_minutes": [
+          47.9,
+          43.4
+        ]
+      },
+      "lower": {
+        "han": 8062,
+        "spoken_han": 8094,
+        "speech_sha256": "1af2d96ce152f1f22e582ec95aa4b570c0d0313645a8ccc5fa2e69f7ad9a492c",
+        "nonoverlap_thinking_minutes": 2,
+        "estimated_minutes": [
+          47,
+          42.5
+        ]
+      },
+      "status": "按现行总纲与第四讲分纲完成，待教师审阅",
+      "source_revision": "aadf24434f14a555f0793e91d4ad147d48ba542b",
+      "archive_note": "本轮v0.4.9回查前的完整待审稿；旧状态和执行史保留，正文按source_revision回查。"
     }
   ]
 }
