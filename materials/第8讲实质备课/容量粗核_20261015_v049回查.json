@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-15",
+  "lesson_number": 8,
+  "source": "materials/第8讲实质备课/01_完整讲述.md",
+  "source_sha256": "74b41f5907b9274e20e53fed366b36cfb537988e41986b51f7757807f2337a2e",
+  "course_input_revision": "894b3e74fad496ae12f380f18a6f85440fdaf8e6",
+  "method_version": "v0.4.9",
+  "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+  "based_on": {
+    "source": "materials/第8讲实质备课/01_完整讲述.md",
+    "source_revision": "894b3e74fad496ae12f380f18a6f85440fdaf8e6",
+    "source_sha256": "cb91c3fee2081b1783bd83f96ace74de2dd6d565e666683ad21dfea70c475455"
+  },
+  "upper": {
+    "han": 8337,
+    "spoken_han": 8388,
+    "speech_sha256": "0e1850c26e17de13cb82558d2164b511b34ed4912e4cf8087c9574480027da25",
+    "nonoverlap_thinking_minutes_range": [
+      1,
+      2
+    ],
+    "estimated_minutes_by_speed": {
+      "180": [
+        47.6,
+        48.6
+      ],
+      "200": [
+        42.9,
+        43.9
+      ]
+    },
+    "estimated_minutes_range": [
+      42.9,
+      48.6
+    ]
+  },
+  "lower": {
+    "han": 8217,
+    "spoken_han": 8264,
+    "speech_sha256": "1865dfee78ad9fa689faf113d4c5491bbe1f0330a62401b6f4fdfcd786f4e77e",
+    "nonoverlap_thinking_minutes_range": [
+      1,
+      2
+    ],
+    "estimated_minutes_by_speed": {
+      "180": [
+        46.9,
+        47.9
+      ],
+      "200": [
+        42.3,
+        43.3
+      ]
+    },
+    "estimated_minutes_range": [
+      42.3,
+      47.9
+    ]
+  },
+  "status": "按v0.4.9完成解释论证回查及必要修订，待教师审阅",
+  "execution_note": "保留八单元、上下节分工、教育三处对读和2021终身禁业主案；补教育履职、地方权限与限制理由、沟通不纠正后续、规范与个案衔接，区分教材论述、现行规范、后续报告和课堂分析。一次隔离首读及一次完整返修，另对改动段落作来源终核；不以重复率或旧审读证明新稿。",
+  "counting_note": "去标题及课堂提示，LF正文统一提取后用既有函数折算；每节一次独立思考1—2分钟，其他即时提问、讲评和正常停连不另加时间。未真人计时。",
+  "counter": "tools/check_dual45.py::spoken_count",
+  "counting_scope": "实际完整Markdown上下节；去标题、【课堂提示】及ASCII课堂提示，数字年份按既有函数折算；speech_sha256绑定LF换行正文",
+  "textbook_original": {
+    "file": "textbook/宪法学_马工程_第二版_完整教材.pdf",
+    "bytes": 54022789,
+    "pages": 373,
+    "sha256": "66ddd16f430bc1f8d7ffbaae62e092f3c1ce81096f3987478208d50e0b078f7b"
+  },
+  "report": "研究/20261015_v049解释论证回查.md",
+  "notes": [
+    "本讲原容量与原稿固定在894b3e74fad496ae12f380f18a6f85440fdaf8e6，不拿旧容量证明当前同路径正文。",
+    "上节独立任务为三处教育规范功能对读，下节为主案认可理由、条件及处理方式三栏；每节各1—2分钟，不要求抄全文；可选提问不重复加时。",
+    "180和200端点分别加入1、2分钟；区间不是现场实测，慢速假设上节约超45分钟3.6分钟，下节约2.9分钟，交教师实际试讲校准。",
+    "本次不复测字符串重合率；原7.7%属于回查前原稿，不改记为新稿结果或教学质量证明。"
+  ]
+}

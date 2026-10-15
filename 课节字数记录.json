@@ -440,62 +440,68 @@
     {
       "lesson_number": 8,
       "source": "materials/第8讲实质备课/01_完整讲述.md",
-      "source_sha256": "cb91c3fee2081b1783bd83f96ace74de2dd6d565e666683ad21dfea70c475455",
+      "source_sha256": "74b41f5907b9274e20e53fed366b36cfb537988e41986b51f7757807f2337a2e",
+      "course_input_revision": "894b3e74fad496ae12f380f18a6f85440fdaf8e6",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "based_on": {
+        "source": "materials/第8讲实质备课/01_完整讲述.md",
+        "source_revision": "894b3e74fad496ae12f380f18a6f85440fdaf8e6",
+        "source_sha256": "cb91c3fee2081b1783bd83f96ace74de2dd6d565e666683ad21dfea70c475455"
+      },
       "upper": {
-        "han": 8297,
-        "spoken_han": 8324,
-        "speech_sha256": "90998ef2a345d2294efb6fd6851891e22af2cdbfcb4475259f61f2d4762fc790",
+        "han": 8337,
+        "spoken_han": 8388,
+        "speech_sha256": "0e1850c26e17de13cb82558d2164b511b34ed4912e4cf8087c9574480027da25",
         "nonoverlap_thinking_minutes_range": [
           1,
           2
         ],
         "estimated_minutes_by_speed": {
           "180": [
-            46.2,
-            48.2
+            47.6,
+            48.6
           ],
           "200": [
-            41.6,
-            43.6
+            42.9,
+            43.9
           ]
         },
         "estimated_minutes_range": [
-          42.6,
-          48.2
+          42.9,
+          48.6
         ]
       },
       "lower": {
-        "han": 8314,
-        "spoken_han": 8344,
-        "speech_sha256": "73ebea4fa37e45c36722c2d9fcbf70c1a5142b421668b91b979c44a200768fde",
+        "han": 8217,
+        "spoken_han": 8264,
+        "speech_sha256": "1865dfee78ad9fa689faf113d4c5491bbe1f0330a62401b6f4fdfcd786f4e77e",
         "nonoverlap_thinking_minutes_range": [
           1,
           2
         ],
         "estimated_minutes_by_speed": {
           "180": [
-            46.4,
-            48.4
+            46.9,
+            47.9
           ],
           "200": [
-            41.7,
-            43.7
+            42.3,
+            43.3
           ]
         },
         "estimated_minutes_range": [
-          42.7,
-          48.4
+          42.3,
+          47.9
         ]
       },
-      "course_input_revision": "c17a2b0cc5c2ef82c780be74f5ca00dd5d06928b",
-      "method_version": "v0.4.9",
-      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
-      "status": "按现行分纲新组写、经独立审读上下文核对并据其报告修订后，待教师审阅",
-      "execution_note": "全课唯一在初稿阶段即按\"连续照搬不超过约25字\"写成的讲次；连续重合≥16字者占7.7%、最长33字。整讲检查另开两个不继承作者自评的独立审读上下文，据其报告改正引语来源错位、把现行立法法说成教材、第116条转述偏差、违法主体漏件等六类内容性问题。主案为2021年备案审查工作情况报告，公报原文已逐句核对；报告未公布法规地区名称、建议人身份与修后条文，正文未作补充。"
+      "status": "按v0.4.9完成解释论证回查及必要修订，待教师审阅",
+      "execution_note": "保留八单元、上下节分工、教育三处对读和2021终身禁业主案；补教育履职、地方权限与限制理由、沟通不纠正后续、规范与个案衔接，区分教材论述、现行规范、后续报告和课堂分析。一次隔离首读及一次完整返修，另对改动段落作来源终核；不以重复率或旧审读证明新稿。",
+      "counting_note": "去标题及课堂提示，LF正文统一提取后用既有函数折算；每节一次独立思考1—2分钟，其他即时提问、讲评和正常停连不另加时间。未真人计时。"
     }
   ],
   "remaining_lessons": "第一至八讲的完整Markdown口述已全部按当前流程交付，无剩余待交付讲次。",
-  "limits": "第七讲本轮按同版v0.4.9实际回查、补研究和必要修订，前六讲正文保持eb2553e，第一至五讲当前条目不变；第六讲新并行状态说明保留，缺失口述校验与双速活动端点按正文机械补齐；新稿继续待审，不移记旧认可或原作者核证。26份源绑定含8当前、18历史，历史按固定提交及当时口径读取。前轮已纠正第一讲两次活动相加3—4分钟、第七讲ASCII课堂提示误计，原快照保留；本轮不重复改其他讲次。原第七讲模型未提供，不继承第五讲wb、ds v4.1身份。假设语速与活动是条件粗估，未真人计时，不证明教学效果。",
+  "limits": "本轮仅实际回查第八讲，第一至七讲正文及当前计数条目保持894b3e7输入；8当前、19历史，共27份源绑定。第八讲回查前原稿固定894b3e74fad496ae12f380f18a6f85440fdaf8e6，原制作声明、旧容量及规范化差异保留为历史；新稿待教师审阅，不移记旧认可或原作者核证。已纠正的前轮活动相加与ASCII提示口径保持。模型身份未提供，不继承第五讲wb、ds v4.1身份；条件粗估未真人计时，不证明教学效果。",
   "retained_versions": [
     {
       "lesson_number": 1,
@@ -1343,6 +1349,76 @@
       "counting_note": "按全课去标题及课堂提示口径，另去掉本稿的ASCII方括号课堂提示；原容量文件不改，原计数快照保留。",
       "previous_source_revision": "9deed1abba6586f9755fc9f4f7681e32b52a4012",
       "archive_note": "2026-10-15第七讲解释论证回查前的完整待审稿；采用前轮已经排除ASCII课堂提示的统一计数，原制作、独立审读与口述编辑声明保留，不拿当前同路径复算。"
+    },
+    {
+      "lesson_number": 8,
+      "source": "materials/第8讲实质备课/01_完整讲述.md",
+      "source_sha256": "cb91c3fee2081b1783bd83f96ace74de2dd6d565e666683ad21dfea70c475455",
+      "upper": {
+        "han": 8297,
+        "spoken_han": 8324,
+        "speech_sha256": "90998ef2a345d2294efb6fd6851891e22af2cdbfcb4475259f61f2d4762fc790",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            46.2,
+            48.2
+          ],
+          "200": [
+            41.6,
+            43.6
+          ]
+        },
+        "estimated_minutes_range": [
+          42.6,
+          48.2
+        ]
+      },
+      "lower": {
+        "han": 8314,
+        "spoken_han": 8344,
+        "speech_sha256": "73ebea4fa37e45c36722c2d9fcbf70c1a5142b421668b91b979c44a200768fde",
+        "nonoverlap_thinking_minutes_range": [
+          1,
+          2
+        ],
+        "estimated_minutes_by_speed": {
+          "180": [
+            46.4,
+            48.4
+          ],
+          "200": [
+            41.7,
+            43.7
+          ]
+        },
+        "estimated_minutes_range": [
+          42.7,
+          48.4
+        ]
+      },
+      "course_input_revision": "c17a2b0cc5c2ef82c780be74f5ca00dd5d06928b",
+      "method_version": "v0.4.9",
+      "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+      "status": "按现行分纲新组写、经独立审读上下文核对并据其报告修订后，待教师审阅",
+      "execution_note": "全课唯一在初稿阶段即按\"连续照搬不超过约25字\"写成的讲次；连续重合≥16字者占7.7%、最长33字。整讲检查另开两个不继承作者自评的独立审读上下文，据其报告改正引语来源错位、把现行立法法说成教材、第116条转述偏差、违法主体漏件等六类内容性问题。主案为2021年备案审查工作情况报告，公报原文已逐句核对；报告未公布法规地区名称、建议人身份与修后条文，正文未作补充。",
+      "source_revision": "894b3e74fad496ae12f380f18a6f85440fdaf8e6",
+      "archive_note": "2026-10-15第八讲解释论证回查前原稿；原制作和原计数声明按固定提交保留，不套到当前稿。原分语速区间下端曾漏加1分钟，与当时总区间不一致；原值保留但不作为当前容量。原speech_sha256与全课规范化不同，另给统一提取复算值。",
+      "canonical_readback": {
+        "upper": {
+          "han": 8297,
+          "spoken_han": 8324,
+          "speech_sha256": "8956a8e467a67462dae2cabd0135664aa3f4886772c77896ba978a50476a9372"
+        },
+        "lower": {
+          "han": 8314,
+          "spoken_han": 8344,
+          "speech_sha256": "968b21e03e61801feb6381fd78d4bdd5dc3e366400f645f9460c52dcb0ec4551"
+        }
+      }
     }
   ]
 }
