@@ -1,0 +1,831 @@
+{
+  "date": "2026-10-15",
+  "input_revision": "6b862fd0c619513aa17b53b562efaa6ffd3fec4d",
+  "method_version": "v0.4.9",
+  "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
+  "counter": "tools/check_dual45.py::spoken_count",
+  "counting_scope": "八讲当前完整Markdown实际正文；去标题、【课堂提示】和ASCII课堂提示后，统计汉字并折算年份数字；speech_sha256为统一LF正文",
+  "extraction": "re.split(r'(?m)^## (?:上节|下节)[^\\n]*\\n',text)[1:]；逐节re.sub(r'(?m)^#{1,6}[^\\n]*\\n|【[^】]*】|\\[课堂提示[^\\]]*\\]','',section)，不额外strip",
+  "changed_lessons": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "lessons": [
+    {
+      "lesson_number": 1,
+      "source": "materials/第1讲整合试讲主版本/口播修订稿_20261014_合并版.md",
+      "source_sha256": "856758cfbeb9aaff4677f78ff0dffb86c5d5b7c1e74fbcb0eb70063f6149426d",
+      "sections": {
+        "upper": {
+          "han": 8220,
+          "spoken_han": 8220,
+          "speech_sha256": "abaf5bdd99d2161e4eecbcf51ed3cdb5e48adaa9771d1a70fea61350f3f48fab",
+          "nonoverlap_thinking_minutes_range": [
+            3,
+            4
+          ],
+          "estimated_minutes_by_speed": {
+            "180": [
+              48.7,
+              49.7
+            ],
+            "200": [
+              44.1,
+              45.1
+            ]
+          },
+          "estimated_minutes_range": [
+            44.1,
+            49.7
+          ]
+        },
+        "lower": {
+          "han": 8362,
+          "spoken_han": 8367,
+          "speech_sha256": "7f9ec5bc5d8b355b2710de7b48d4b722219f3c68f5ad0c3d4aaffd928357aefd",
+          "nonoverlap_thinking_minutes_range": [
+            3,
+            4
+          ],
+          "estimated_minutes_by_speed": {
+            "180": [
+              49.5,
+              50.5
+            ],
+            "200": [
+              44.8,
+              45.8
+            ]
+          },
+          "estimated_minutes_range": [
+            44.8,
+            50.5
+          ]
+        }
+      },
+      "name": "宪法总论",
+      "before": {
+        "source_sha256": "856758cfbeb9aaff4677f78ff0dffb86c5d5b7c1e74fbcb0eb70063f6149426d",
+        "upper": {
+          "han": 8220,
+          "spoken_han": 8220,
+          "speech_sha256": "abaf5bdd99d2161e4eecbcf51ed3cdb5e48adaa9771d1a70fea61350f3f48fab",
+          "estimated_minutes_by_speed": {
+            "180": [
+              48.7,
+              49.7
+            ],
+            "200": [
+              44.1,
+              45.1
+            ]
+          },
+          "estimated_minutes_range": [
+            44.1,
+            49.7
+          ],
+          "nonoverlap_thinking_minutes_range": [
+            3,
+            4
+          ]
+        },
+        "lower": {
+          "han": 8362,
+          "spoken_han": 8367,
+          "speech_sha256": "7f9ec5bc5d8b355b2710de7b48d4b722219f3c68f5ad0c3d4aaffd928357aefd",
+          "estimated_minutes_by_speed": {
+            "180": [
+              49.5,
+              50.5
+            ],
+            "200": [
+              44.8,
+              45.8
+            ]
+          },
+          "estimated_minutes_range": [
+            44.8,
+            50.5
+          ],
+          "nonoverlap_thinking_minutes_range": [
+            3,
+            4
+          ]
+        }
+      },
+      "activity_per_section": "两次思考合计3—4分钟",
+      "status": "全课统核后正文保持，待审"
+    },
+    {
+      "lesson_number": 2,
+      "source": "materials/第2讲实质备课/口播修订稿_20261014_依现行分纲.md",
+      "source_sha256": "43eaedee094a26f872243f2ac368e25ea74da60945bd157fd13b06d8a02fb89a",
+      "sections": {
+        "upper": {
+          "han": 7838,
+          "spoken_han": 8164,
+          "speech_sha256": "848a38fd8fecd02c3954b08fbab1107318d214f45a4b81dd97f275a02b52d782",
+          "nonoverlap_reading_minutes": 3,
+          "estimated_minutes_by_speed": {
+            "180": [
+              48.4,
+              48.4
+            ],
+            "200": [
+              43.8,
+              43.8
+            ]
+          },
+          "estimated_minutes_range": [
+            43.8,
+            48.4
+          ]
+        },
+        "lower": {
+          "han": 7545,
+          "spoken_han": 7770,
+          "speech_sha256": "1357dc5b9f27d71179f0569815f6cb5f19e83acd1a3c185fff6d8d955871c33b",
+          "nonoverlap_reading_minutes": 3,
+          "estimated_minutes_by_speed": {
+            "180": [
+              46.2,
+              46.2
+            ],
+            "200": [
+              41.9,
+              41.9
+            ]
+          },
+          "estimated_minutes_range": [
+            41.9,
+            46.2
+          ]
+        }
+      },
+      "name": "宪法的发展",
+      "before": {
+        "source_sha256": "43eaedee094a26f872243f2ac368e25ea74da60945bd157fd13b06d8a02fb89a",
+        "upper": {
+          "han": 7838,
+          "spoken_han": 8164,
+          "speech_sha256": "848a38fd8fecd02c3954b08fbab1107318d214f45a4b81dd97f275a02b52d782",
+          "estimated_minutes_by_speed": {
+            "180": [
+              48.4,
+              48.4
+            ],
+            "200": [
+              43.8,
+              43.8
+            ]
+          },
+          "estimated_minutes_range": [
+            43.8,
+            48.4
+          ],
+          "nonoverlap_reading_minutes": 3
+        },
+        "lower": {
+          "han": 7545,
+          "spoken_han": 7770,
+          "speech_sha256": "1357dc5b9f27d71179f0569815f6cb5f19e83acd1a3c185fff6d8d955871c33b",
+          "estimated_minutes_by_speed": {
+            "180": [
+              46.2,
+              46.2
+            ],
+            "200": [
+              41.9,
+              41.9
+            ]
+          },
+          "estimated_minutes_range": [
+            41.9,
+            46.2
+          ],
+          "nonoverlap_reading_minutes": 3
+        }
+      },
+      "activity_per_section": "3分钟阅读",
+      "status": "全课统核后正文保持，待审"
+    },
+    {
+      "lesson_number": 3,
+      "source": "materials/第3讲实质备课/口播修订稿_20261014_依现行分纲.md",
+      "source_sha256": "3af0ab5196d3bb96a3635029baaf70e12c6a2e07c7fb935d472121bb95dfc714",
+      "sections": {
+        "upper": {
+          "han": 8351,
+          "spoken_han": 8360,
+          "speech_sha256": "98d6324ef1c846faa2adc7ab91563b8df406c8fc8f9530e4331d1f2fa9a28c8f",
+          "nonoverlap_reading_minutes": 3,
+          "estimated_minutes_by_speed": {
+            "180": [
+              49.4,
+              49.4
+            ],
+            "200": [
+              44.8,
+              44.8
+            ]
+          },
+          "estimated_minutes_range": [
+            44.8,
+            49.4
+          ]
+        },
+        "lower": {
+          "han": 8294,
+          "spoken_han": 8298,
+          "speech_sha256": "b27bff3d9942b0bd2d0dcbe2207fecac1165113cbfaae182690db991755fde9c",
+          "nonoverlap_reading_minutes": 3,
+          "estimated_minutes_by_speed": {
+            "180": [
+              49.1,
+              49.1
+            ],
+            "200": [
+              44.5,
+              44.5
+            ]
+          },
+          "estimated_minutes_range": [
+            44.5,
+            49.1
+          ]
+        }
+      },
+      "name": "国家性质与国家形式",
+      "before": {
+        "source_sha256": "3af0ab5196d3bb96a3635029baaf70e12c6a2e07c7fb935d472121bb95dfc714",
+        "upper": {
+          "han": 8351,
+          "spoken_han": 8360,
+          "speech_sha256": "98d6324ef1c846faa2adc7ab91563b8df406c8fc8f9530e4331d1f2fa9a28c8f",
+          "estimated_minutes_by_speed": {
+            "180": [
+              49.4,
+              49.4
+            ],
+            "200": [
+              44.8,
+              44.8
+            ]
+          },
+          "estimated_minutes_range": [
+            44.8,
+            49.4
+          ],
+          "nonoverlap_reading_minutes": 3
+        },
+        "lower": {
+          "han": 8294,
+          "spoken_han": 8298,
+          "speech_sha256": "b27bff3d9942b0bd2d0dcbe2207fecac1165113cbfaae182690db991755fde9c",
+          "estimated_minutes_by_speed": {
+            "180": [
+              49.1,
+              49.1
+            ],
+            "200": [
+              44.5,
+              44.5
+            ]
+          },
+          "estimated_minutes_range": [
+            44.5,
+            49.1
+          ],
+          "nonoverlap_reading_minutes": 3
+        }
+      },
+      "activity_per_section": "3分钟阅读",
+      "status": "全课统核后正文保持，待审"
+    },
+    {
+      "lesson_number": 4,
+      "source": "materials/第4讲实质备课/01_完整讲述.md",
+      "source_sha256": "f582bac434eb38c8054f9cffb45ee300d1634eac12cc6f9b0fde76e3269b12cf",
+      "sections": {
+        "upper": {
+          "han": 8649,
+          "spoken_han": 8701,
+          "speech_sha256": "f0f294a52436c7c2e7352ccc48c270c753fbf9d42a298310e48a694ccd84d605",
+          "nonoverlap_thinking_minutes": 2,
+          "estimated_minutes_by_speed": {
+            "180": [
+              50.3,
+              50.3
+            ],
+            "200": [
+              45.5,
+              45.5
+            ]
+          },
+          "estimated_minutes_range": [
+            45.5,
+            50.3
+          ]
+        },
+        "lower": {
+          "han": 8131,
+          "spoken_han": 8163,
+          "speech_sha256": "036b7102ee843819060a5df7d7d4aed3e2695865ccad3d80b65384078b83da20",
+          "nonoverlap_thinking_minutes": 2,
+          "estimated_minutes_by_speed": {
+            "180": [
+              47.4,
+              47.4
+            ],
+            "200": [
+              42.8,
+              42.8
+            ]
+          },
+          "estimated_minutes_range": [
+            42.8,
+            47.4
+          ]
+        }
+      },
+      "name": "国家基本制度",
+      "before": {
+        "source_sha256": "f582bac434eb38c8054f9cffb45ee300d1634eac12cc6f9b0fde76e3269b12cf",
+        "upper": {
+          "han": 8649,
+          "spoken_han": 8701,
+          "speech_sha256": "f0f294a52436c7c2e7352ccc48c270c753fbf9d42a298310e48a694ccd84d605",
+          "estimated_minutes_by_speed": {
+            "180": [
+              50.3,
+              50.3
+            ],
+            "200": [
+              45.5,
+              45.5
+            ]
+          },
+          "estimated_minutes_range": [
+            45.5,
+            50.3
+          ],
+          "nonoverlap_thinking_minutes": 2
+        },
+        "lower": {
+          "han": 8131,
+          "spoken_han": 8163,
+          "speech_sha256": "036b7102ee843819060a5df7d7d4aed3e2695865ccad3d80b65384078b83da20",
+          "estimated_minutes_by_speed": {
+            "180": [
+              47.4,
+              47.4
+            ],
+            "200": [
+              42.8,
+              42.8
+            ]
+          },
+          "estimated_minutes_range": [
+            42.8,
+            47.4
+          ],
+          "nonoverlap_thinking_minutes": 2
+        }
+      },
+      "activity_per_section": "2分钟思考",
+      "status": "全课统核后正文保持，待审"
+    },
+    {
+      "lesson_number": 5,
+      "source": "materials/第5讲实质备课/01_完整讲述.md",
+      "source_sha256": "132b6136a922fb11054097ae2df504a49cf881eec3ff0729ad57bfeeb7c4c7b0",
+      "sections": {
+        "upper": {
+          "han": 8711,
+          "spoken_han": 8719,
+          "speech_sha256": "ca9403a207ebf833945facd9e8d210b48324e0f9f714da16b9a6b78b1fe5ba70",
+          "nonoverlap_thinking_minutes_range": [
+            1,
+            2
+          ],
+          "estimated_minutes_by_speed": {
+            "180": [
+              49.4,
+              50.4
+            ],
+            "200": [
+              44.6,
+              45.6
+            ]
+          },
+          "estimated_minutes_range": [
+            44.6,
+            50.4
+          ]
+        },
+        "lower": {
+          "han": 8413,
+          "spoken_han": 8418,
+          "speech_sha256": "90a8c3d74ca9d7e2eec38017508caf8bdda147496bc47a40f860664ef7d109a7",
+          "nonoverlap_thinking_minutes_range": [
+            1,
+            2
+          ],
+          "estimated_minutes_by_speed": {
+            "180": [
+              47.8,
+              48.8
+            ],
+            "200": [
+              43.1,
+              44.1
+            ]
+          },
+          "estimated_minutes_range": [
+            43.1,
+            48.8
+          ]
+        }
+      },
+      "name": "基本权利的一般原理",
+      "before": {
+        "source_sha256": "1a9c8c341ebd439ecfd86c230e8bb9a7325740d5fa1cb1b5b7630ffe48483fba",
+        "upper": {
+          "han": 8711,
+          "spoken_han": 8719,
+          "speech_sha256": "ca9403a207ebf833945facd9e8d210b48324e0f9f714da16b9a6b78b1fe5ba70",
+          "estimated_minutes_by_speed": {
+            "180": [
+              49.4,
+              50.4
+            ],
+            "200": [
+              44.6,
+              45.6
+            ]
+          },
+          "estimated_minutes_range": [
+            44.6,
+            50.4
+          ],
+          "nonoverlap_thinking_minutes_range": [
+            1,
+            2
+          ]
+        },
+        "lower": {
+          "han": 8346,
+          "spoken_han": 8351,
+          "speech_sha256": "1842203a46305e7d7f84196711fe0028c3b3b6e9f5cf200b2452f435b2795fdc",
+          "estimated_minutes_by_speed": {
+            "180": [
+              47.4,
+              48.4
+            ],
+            "200": [
+              42.8,
+              43.8
+            ]
+          },
+          "estimated_minutes_range": [
+            42.8,
+            48.4
+          ],
+          "nonoverlap_thinking_minutes_range": [
+            1,
+            2
+          ]
+        }
+      },
+      "activity_per_section": "1—2分钟思考",
+      "status": "全课统核后局部修订，待审"
+    },
+    {
+      "lesson_number": 6,
+      "source": "materials/第6讲实质备课/01_完整讲述.md",
+      "source_sha256": "734a6f8a6565a9daeb91ae9277039b6118826c8f722cd7363e4768a51bcf49ef",
+      "sections": {
+        "upper": {
+          "han": 7912,
+          "spoken_han": 7914,
+          "speech_sha256": "6a6e78c1ce52e02e6914dbf7c26fceba1072ea67e7e4563f056582d61b82a2da",
+          "nonoverlap_thinking_minutes_range": [
+            1,
+            2
+          ],
+          "estimated_minutes_by_speed": {
+            "180": [
+              45,
+              46
+            ],
+            "200": [
+              40.6,
+              41.6
+            ]
+          },
+          "estimated_minutes_range": [
+            40.6,
+            46
+          ]
+        },
+        "lower": {
+          "han": 8273,
+          "spoken_han": 8276,
+          "speech_sha256": "0b1062f1111520b7515061d370fa1284425d9b3813c8d11193123c62d93ca7da",
+          "nonoverlap_thinking_minutes_range": [
+            1,
+            2
+          ],
+          "estimated_minutes_by_speed": {
+            "180": [
+              47,
+              48
+            ],
+            "200": [
+              42.4,
+              43.4
+            ]
+          },
+          "estimated_minutes_range": [
+            42.4,
+            48
+          ]
+        }
+      },
+      "name": "具体基本权利与基本义务",
+      "before": {
+        "source_sha256": "f31a0f1504af53418556357fe633c0ad5b95ba274d187945c4e48f630ae20114",
+        "upper": {
+          "han": 7871,
+          "spoken_han": 7873,
+          "speech_sha256": "addb0ca54b21cfb70d63f2abba8535ba2b3af379dc659e1865795a53a14bfdd4",
+          "estimated_minutes_by_speed": {
+            "180": [
+              44.7,
+              45.7
+            ],
+            "200": [
+              40.4,
+              41.4
+            ]
+          },
+          "estimated_minutes_range": [
+            40.4,
+            45.7
+          ],
+          "nonoverlap_thinking_minutes_range": [
+            1,
+            2
+          ]
+        },
+        "lower": {
+          "han": 8273,
+          "spoken_han": 8276,
+          "speech_sha256": "0b1062f1111520b7515061d370fa1284425d9b3813c8d11193123c62d93ca7da",
+          "estimated_minutes_by_speed": {
+            "180": [
+              47,
+              48
+            ],
+            "200": [
+              42.4,
+              43.4
+            ]
+          },
+          "estimated_minutes_range": [
+            42.4,
+            48
+          ],
+          "nonoverlap_thinking_minutes_range": [
+            1,
+            2
+          ]
+        }
+      },
+      "activity_per_section": "1—2分钟思考",
+      "status": "全课统核后局部修订，待审"
+    },
+    {
+      "lesson_number": 7,
+      "source": "materials/第7讲实质备课/01_完整讲述.md",
+      "source_sha256": "c92111a2238d68941dc8abc13dd9ec599b40896827fbbd46de657322efcddf1f",
+      "sections": {
+        "upper": {
+          "han": 7871,
+          "spoken_han": 7879,
+          "speech_sha256": "ba73cae0dccdde01385d93e35bcc9d21595d1de910fcdec4ef334002d9a372d7",
+          "nonoverlap_thinking_minutes_range": [
+            1,
+            2
+          ],
+          "estimated_minutes_by_speed": {
+            "180": [
+              44.8,
+              45.8
+            ],
+            "200": [
+              40.4,
+              41.4
+            ]
+          },
+          "estimated_minutes_range": [
+            40.4,
+            45.8
+          ]
+        },
+        "lower": {
+          "han": 8292,
+          "spoken_han": 8310,
+          "speech_sha256": "ab2abb17ec34cd1f204b44404ee456b05f08d26ed972917d30e1632b33154a1c",
+          "nonoverlap_thinking_minutes_range": [
+            1,
+            2
+          ],
+          "estimated_minutes_by_speed": {
+            "180": [
+              47.2,
+              48.2
+            ],
+            "200": [
+              42.5,
+              43.5
+            ]
+          },
+          "estimated_minutes_range": [
+            42.5,
+            48.2
+          ]
+        }
+      },
+      "name": "国家机构",
+      "before": {
+        "source_sha256": "bb9884250939b8733ce34a7a9474cd40be4b36c8706f29e748d72e5940ee62a0",
+        "upper": {
+          "han": 7873,
+          "spoken_han": 7881,
+          "speech_sha256": "bf7bbc6d475cf9518ef7f44b61a1939b80aee6154e1b77fb63b1cf9aef2bc35e",
+          "nonoverlap_thinking_minutes_range": [
+            1,
+            2
+          ],
+          "estimated_minutes_by_speed": {
+            "180": [
+              44.8,
+              45.8
+            ],
+            "200": [
+              40.4,
+              41.4
+            ]
+          },
+          "estimated_minutes_range": [
+            40.4,
+            45.8
+          ]
+        },
+        "lower": {
+          "han": 8292,
+          "spoken_han": 8310,
+          "speech_sha256": "ab2abb17ec34cd1f204b44404ee456b05f08d26ed972917d30e1632b33154a1c",
+          "nonoverlap_thinking_minutes_range": [
+            1,
+            2
+          ],
+          "estimated_minutes_by_speed": {
+            "180": [
+              47.2,
+              48.2
+            ],
+            "200": [
+              42.5,
+              43.5
+            ]
+          },
+          "estimated_minutes_range": [
+            42.5,
+            48.2
+          ]
+        }
+      },
+      "activity_per_section": "1—2分钟思考",
+      "status": "全课统核后局部修订，待审"
+    },
+    {
+      "lesson_number": 8,
+      "source": "materials/第8讲实质备课/01_完整讲述.md",
+      "source_sha256": "38e73af4c06c234bd539b0b899318ca05bc3e718b41270fcccd6ec6a7a521c6c",
+      "sections": {
+        "upper": {
+          "han": 8324,
+          "spoken_han": 8427,
+          "speech_sha256": "16b7e68c4190b5e9b26c060a37be6262bf7658f6272dacefdc41dd34628e9866",
+          "nonoverlap_thinking_minutes_range": [
+            1,
+            2
+          ],
+          "estimated_minutes_by_speed": {
+            "180": [
+              47.8,
+              48.8
+            ],
+            "200": [
+              43.1,
+              44.1
+            ]
+          },
+          "estimated_minutes_range": [
+            43.1,
+            48.8
+          ]
+        },
+        "lower": {
+          "han": 8144,
+          "spoken_han": 8191,
+          "speech_sha256": "e2bdf9120b0b7203d7612d9f78a26fbb2c1669e7597e8e792af14b32664db88a",
+          "nonoverlap_thinking_minutes_range": [
+            1,
+            2
+          ],
+          "estimated_minutes_by_speed": {
+            "180": [
+              46.5,
+              47.5
+            ],
+            "200": [
+              42,
+              43
+            ]
+          },
+          "estimated_minutes_range": [
+            42,
+            47.5
+          ]
+        }
+      },
+      "name": "宪法实施与监督",
+      "before": {
+        "source_sha256": "c97f670cc54b1ed6b0216fbf1b25afec349f5d4c9a6604d85a1b204390b53490",
+        "upper": {
+          "han": 8324,
+          "spoken_han": 8427,
+          "speech_sha256": "16b7e68c4190b5e9b26c060a37be6262bf7658f6272dacefdc41dd34628e9866",
+          "nonoverlap_thinking_minutes_range": [
+            1,
+            2
+          ],
+          "estimated_minutes_by_speed": {
+            "180": [
+              47.8,
+              48.8
+            ],
+            "200": [
+              43.1,
+              44.1
+            ]
+          },
+          "estimated_minutes_range": [
+            43.1,
+            48.8
+          ]
+        },
+        "lower": {
+          "han": 8013,
+          "spoken_han": 8060,
+          "speech_sha256": "9b9da5153378a2c79bed3075df78a706c56e27e7a23df1639ee1d1b52123247e",
+          "nonoverlap_thinking_minutes_range": [
+            1,
+            2
+          ],
+          "estimated_minutes_by_speed": {
+            "180": [
+              45.8,
+              46.8
+            ],
+            "200": [
+              41.3,
+              42.3
+            ]
+          },
+          "estimated_minutes_range": [
+            41.3,
+            46.8
+          ]
+        }
+      },
+      "activity_per_section": "1—2分钟思考",
+      "status": "全课统核后局部修订，待审"
+    }
+  ],
+  "totals": {
+    "han": 131330,
+    "spoken_han": 132177
+  },
+  "notes": [
+    "第一至四讲字节与当前数据条目不变；第五下节、第六上节、第七上节、第八下节因必要接口改动重算，其余节口述不改。",
+    "每节180/200语速端点分别加入真实独立活动；不把正常停连、讲评、即时提问和同时呈现重复加时；无新活动。",
+    "第一讲下节、第四/第五讲上节在较慢假设下约50分钟；第六/第七讲上节较快假设约40分钟。应实际试讲校准，不把区间当全部可在45分钟内完成的证明，也不跨节借时。",
+    "不是全课所有法律时效、全部引文及全部教材原页的重新审计；来源身份与未核范围见统核报告；未真人计时，未验证学生效果。"
+  ]
+}
