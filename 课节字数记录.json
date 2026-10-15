@@ -440,7 +440,7 @@
     {
       "lesson_number": 8,
       "source": "materials/第8讲实质备课/01_完整讲述.md",
-      "source_sha256": "74b41f5907b9274e20e53fed366b36cfb537988e41986b51f7757807f2337a2e",
+      "source_sha256": "a39b6b2d88526bd5a7490e7855f333d64259cc84de127b5c3fc6b14793f4ed37",
       "course_input_revision": "894b3e74fad496ae12f380f18a6f85440fdaf8e6",
       "method_version": "v0.4.9",
       "method_revision": "97e3a774866e83d52425e6fdec1b6b243a5c45eb",
@@ -450,53 +450,53 @@
         "source_sha256": "cb91c3fee2081b1783bd83f96ace74de2dd6d565e666683ad21dfea70c475455"
       },
       "upper": {
-        "han": 8337,
-        "spoken_han": 8388,
-        "speech_sha256": "0e1850c26e17de13cb82558d2164b511b34ed4912e4cf8087c9574480027da25",
+        "han": 8839,
+        "spoken_han": 8919,
+        "speech_sha256": "d271a37ca9a6825e25579c16f00a5784c30d97c0bf9ba292a6d957d509084aea",
         "nonoverlap_thinking_minutes_range": [
           1,
           2
         ],
         "estimated_minutes_by_speed": {
           "180": [
-            47.6,
-            48.6
+            50.5,
+            51.5
           ],
           "200": [
-            42.9,
-            43.9
+            45.6,
+            46.6
           ]
         },
         "estimated_minutes_range": [
-          42.9,
-          48.6
+          45.6,
+          51.5
         ]
       },
       "lower": {
-        "han": 8217,
-        "spoken_han": 8264,
-        "speech_sha256": "1865dfee78ad9fa689faf113d4c5491bbe1f0330a62401b6f4fdfcd786f4e77e",
+        "han": 8397,
+        "spoken_han": 8444,
+        "speech_sha256": "120b854f0c1a0359484f2d1ecb35ea69285aef9a557e3e738af859098ba5941b",
         "nonoverlap_thinking_minutes_range": [
           1,
           2
         ],
         "estimated_minutes_by_speed": {
           "180": [
-            46.9,
-            47.9
+            47.9,
+            48.9
           ],
           "200": [
-            42.3,
-            43.3
+            43.2,
+            44.2
           ]
         },
         "estimated_minutes_range": [
-          42.3,
-          47.9
+          43.2,
+          48.9
         ]
       },
-      "status": "按v0.4.9完成解释论证回查及必要修订，待教师审阅",
-      "execution_note": "保留八单元、上下节分工、教育三处对读和2021终身禁业主案；补教育履职、地方权限与限制理由、沟通不纠正后续、规范与个案衔接，区分教材论述、现行规范、后续报告和课堂分析。一次隔离首读及一次完整返修，另对改动段落作来源终核；不以重复率或旧审读证明新稿。",
+      "status": "按现行分纲新组写（并行v0.4.9回查＋另一轮第二步补做）后，待教师审阅",
+      "execution_note": "本讲按现行分纲新组写，先经一轮v0.4.9解释论证回查（补现行制度、教育法相关条款、合宪性审查与附带审查的边界等），再经一轮第二步补做：补入教材明文的人物与名称（凯尔森、“凯尔森模式／奥地利模式”、“分散型／集中型”、教材括注“（美国除外）”）、马伯里案的人物处境与判决结果、杰弗逊的批评，以及1971年7月16日法国结社自由决定。连续重合≥16字由7.7%降为5.4%、最长36字。",
       "counting_note": "去标题及课堂提示，LF正文统一提取后用既有函数折算；每节一次独立思考1—2分钟，其他即时提问、讲评和正常停连不另加时间。未真人计时。"
     }
   ],
