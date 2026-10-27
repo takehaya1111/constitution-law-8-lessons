@@ -2,7 +2,7 @@
 
 ## 跨模型、跨电脑接续
 
-先读[记录与历史入口](记录与历史入口.md)及[最新课堂反馈汇总](handoff/20261027_课堂反馈与当前写作共识.md)，再进入目标讲的完整分纲、现稿、研究和教材。以“写第三讲”为例，使用[第三讲接续阅读说明](handoff/20261027_第三讲接续阅读说明.md)，不要把已有稿当空白课。WorkBuddy完整安装见[技能仓公开说明](https://github.com/takehaya1111/classroom-oral-skills/blob/main/INSTALL_WORKBUDDY.md)；发布与安装结果见[本日同步交接](handoff/20261027_GitHub同步与WorkBuddy接续.md)。旧记录中的本地盘符只记录当时环境，不是新电脑取资料的前提。
+先读[记录与历史入口](记录与历史入口.md)及[最新课堂反馈汇总](handoff/20261027_课堂反馈与当前写作共识.md)，再进入目标讲的完整分纲、现稿、研究和教材。以“写第三讲”为例，使用[第三讲接续阅读说明](handoff/20261027_第三讲接续阅读说明.md)，不要把已有稿当空白课。WorkBuddy安装先读[公开安装与接续说明](WorkBuddy安装与接续.md)：课程仓公开，技能仓私有，取得方法包需教师GitHub授权。发布与安装结果见[本日同步交接](handoff/20261027_GitHub同步与WorkBuddy接续.md)。旧记录中的本机盘符不是新电脑取资料的前提。
 
 ## 第二讲最新候选：2026年10月26日第三轮，上下节连续讲述修订
 
@@ -26,7 +26,7 @@
 
 ## 当前口播方法：2026年10月27日v0.4.18
 
-口播v0.4.18补实公开课程的接续读取和历史查找，原连续讲述及研究要求保持。[公开主入口](https://github.com/takehaya1111/classroom-oral-skills/blob/main/skills/classroom-oral-workflow/SKILL.md)｜[方法与固定版本](方法入口.md)｜[同步与本机核验](handoff/20261027_GitHub同步与WorkBuddy接续.md)。完整包386份源文件；本轮授权同步两仓并更新Codex、WorkBuddy，讲稿课件正文不改，不倒写历史制作版本。
+口播v0.4.18补实公开课程的接续读取和历史查找，原连续讲述及研究要求保持。[主技能（私有仓）](https://github.com/takehaya1111/classroom-oral-skills/blob/main/skills/classroom-oral-workflow/SKILL.md)｜[方法与固定版本](方法入口.md)｜[同步与本机核验](handoff/20261027_GitHub同步与WorkBuddy接续.md)。完整包386份源文件；本轮授权同步两仓并更新Codex、WorkBuddy，讲稿课件正文不改，不倒写历史制作版本。
 
 ## 第八讲最新审阅稿：2026年10月22日v0.4.15整讲多维加工
 
