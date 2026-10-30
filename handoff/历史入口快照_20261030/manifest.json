@@ -1,0 +1,98 @@
+[
+  {
+    "source_relative_path": "AGENTS.md",
+    "snapshot_relative_path": "AGENTS.md.txt",
+    "bytes": 11020,
+    "sha256": "ba532cd83bee0f03271a665d593ee55be2beda478a92f0bb89dc5916834151e0"
+  },
+  {
+    "source_relative_path": "START_HERE.md",
+    "snapshot_relative_path": "START_HERE.md.txt",
+    "bytes": 32197,
+    "sha256": "424ff1126ed3bebb2777a6939965a51b9d707309c8e99d8ddd3dfe2b7491da25"
+  },
+  {
+    "source_relative_path": "CURRENT_STATE.md",
+    "snapshot_relative_path": "CURRENT_STATE.md.txt",
+    "bytes": 88091,
+    "sha256": "4d3a3ffda6e2c1548b6d0713fd2a308837badb91e16e9072ee9aa3a9ef65022b"
+  },
+  {
+    "source_relative_path": "口播输入入口.md",
+    "snapshot_relative_path": "口播输入入口.md.txt",
+    "bytes": 29275,
+    "sha256": "9dfd5efae2cd243c1ed5c392b71a17b745f173397b11be1ec2c4c2b0ce5489d1"
+  },
+  {
+    "source_relative_path": "记录与历史入口.md",
+    "snapshot_relative_path": "记录与历史入口.md.txt",
+    "bytes": 11405,
+    "sha256": "0c8052dbdbc17dd0278501043c5f60ade4aed054b125c455abe0019371bf2a98"
+  },
+  {
+    "source_relative_path": "handoff/20261027_课堂反馈与当前写作共识.md",
+    "snapshot_relative_path": "handoff/20261027_课堂反馈与当前写作共识.md.txt",
+    "bytes": 9449,
+    "sha256": "ff304340dd790e2276a00101b06291adf252b5a71f713198dcf5157e522a5c26"
+  },
+  {
+    "source_relative_path": "口播需求与参照.md",
+    "snapshot_relative_path": "口播需求与参照.md.txt",
+    "bytes": 20315,
+    "sha256": "f5a4d2bce051a3763bb52be910ecfeb2fe2f696b58b03af3e8ef580842cdb99c"
+  },
+  {
+    "source_relative_path": "materials/第3讲实质备课/00_使用与审阅入口.md",
+    "snapshot_relative_path": "materials/第3讲实质备课/00_使用与审阅入口.md.txt",
+    "bytes": 5789,
+    "sha256": "755b37d8180c11546674a25494b85d7588442373976a899fd56bb45e571e9165"
+  },
+  {
+    "source_relative_path": "materials/第4讲实质备课/00_使用与审阅入口.md",
+    "snapshot_relative_path": "materials/第4讲实质备课/00_使用与审阅入口.md.txt",
+    "bytes": 9003,
+    "sha256": "608c0eff2441fedd7551899bf1ee87a4767400554698f514b079ce8315cf348d"
+  },
+  {
+    "source_relative_path": "materials/第5讲实质备课/00_使用与审阅入口.md",
+    "snapshot_relative_path": "materials/第5讲实质备课/00_使用与审阅入口.md.txt",
+    "bytes": 8889,
+    "sha256": "40f4f66d3f0eb032b7aa1ce857a44596ce10a8e98d759108df88bc425f8a4140"
+  },
+  {
+    "source_relative_path": "materials/第6讲实质备课/00_使用与审阅入口.md",
+    "snapshot_relative_path": "materials/第6讲实质备课/00_使用与审阅入口.md.txt",
+    "bytes": 8097,
+    "sha256": "aac4097ef14324076b92f3d5ff972461c935f38354188953238659b7e050fa80"
+  },
+  {
+    "source_relative_path": "materials/第7讲实质备课/00_使用与审阅入口.md",
+    "snapshot_relative_path": "materials/第7讲实质备课/00_使用与审阅入口.md.txt",
+    "bytes": 8649,
+    "sha256": "91901940b262888f19ffc5a8c412a9e4d164b120d4204fc86b96784e0ca0e606"
+  },
+  {
+    "source_relative_path": "materials/第8讲实质备课/00_使用与审阅入口.md",
+    "snapshot_relative_path": "materials/第8讲实质备课/00_使用与审阅入口.md.txt",
+    "bytes": 12979,
+    "sha256": "70538471f8565da076bdf32881436c462a2b4e832fb750c9f1ab8d65221f6ae3"
+  },
+  {
+    "source_relative_path": "README.md",
+    "snapshot_relative_path": "README.md.txt",
+    "bytes": 4240,
+    "sha256": "8e99f912497cd33dae66756adfefa6bcd51045cc3360c6e44cf91c7284f42583"
+  },
+  {
+    "source_relative_path": "方法入口.md",
+    "snapshot_relative_path": "方法入口.md.txt",
+    "bytes": 12809,
+    "sha256": "63301f596bb8d08e94cac3653d528633502419fbe4f847b951a67f2db8f1efc9"
+  },
+  {
+    "source_relative_path": "handoff/20261027_第三讲接续阅读说明.md",
+    "snapshot_relative_path": "第三讲接续阅读说明_原文.txt",
+    "bytes": 11424,
+    "sha256": "8d4c6e9d3bdc03acbf30783f6419bfbf17fe56fc613a86e0e2b5dd5f7de3003a"
+  }
+]
