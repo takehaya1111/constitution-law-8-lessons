@@ -1,0 +1,35 @@
+{
+  "file": "materials/第3讲实质备课/口播稿_20261101_v0421_独立组稿_配现有PPT.md",
+  "sha256": "dd8502c5ae5ab99687e88dbd20c8fb483184bacb1be416891b682a5c9bf55d37",
+  "sections": [
+    {
+      "han": 8422,
+      "zero_circle_count": 8,
+      "spoken_han": 8430,
+      "speech_sha256": "c856c229b86e0427569b5c1ad557eabbd2b7fb7004dca5fcc13fe67704d10bc6",
+      "section": "上节",
+      "independent_activity_minutes": 3,
+      "minutes_at_190": 47.37,
+      "range_180_200": [
+        45.15,
+        49.83
+      ]
+    },
+    {
+      "han": 8177,
+      "zero_circle_count": 1,
+      "spoken_han": 8178,
+      "speech_sha256": "df1bdea6a525beefa483dc5fffe9579f329451269c6ee59a6876fe504b208e19",
+      "section": "下节",
+      "independent_activity_minutes": 4.083333333333333,
+      "minutes_at_190": 47.13,
+      "range_180_200": [
+        44.97,
+        49.52
+      ]
+    }
+  ],
+  "PPT": "deliverables/宪法学八讲_授课净稿_20261015/03_第三讲_国家性质与国家形式.pptx",
+  "PPT_sha256": "43335e0a7b21ae7609627795c72749d7d536691a0a779d2404b820e9c94f90c9",
+  "human_timed": false
+}
