@@ -1,0 +1,29 @@
+{
+  "scope": "模块试样P18—19；不是已替换的上下节整稿",
+  "file": "02_民主集中制_完整口播试样.md",
+  "sha256": "a6e831cc3e7ab7532e6cf32c0b830d00c8b1d2eaf2031567d406cd001b3627a5",
+  "count": {
+    "han": 1974,
+    "zero_circle_count": 0,
+    "spoken_han": 1974,
+    "speech_sha256": "d4f01d3f8a9055d8762b5be0e8a6de3055a776350ae04d3265e2d01d7b1b7ff8"
+  },
+  "independent_activity_seconds": 20,
+  "minutes_at_spoken_rate": {
+    "180": 11.3,
+    "190": 10.72,
+    "200": 10.2
+  },
+  "baseline_file": "口播修订稿_20261101_v0422_原稿续修_配现有PPT.md",
+  "baseline_sha256": "713d9c1e98ac4a926a109af7f2ab9915fa7e49ca5a2f4fb9796f409eba209671",
+  "baseline_p18_19_count": {
+    "han": 1134,
+    "zero_circle_count": 0,
+    "spoken_han": 1134,
+    "speech_sha256": "a9ad3e07ac5cc40d2d21df89cc2f40eb95ac08af060765b4bb3b2625cf2f0dda"
+  },
+  "additional_spoken_han": 840,
+  "additional_minutes_at_190": 4.75,
+  "hypothetical_unedited_whole_upper_minutes_at_190": 51.62,
+  "convention": "排除标题、标点及【】提示，口读计入〇及数字外文换读；普通停连不重复加时；假设替入只作容量提醒，实际未替换整稿。"
+}
