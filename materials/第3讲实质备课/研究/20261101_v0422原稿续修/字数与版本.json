@@ -1,0 +1,43 @@
+{
+  "file": "口播修订稿_20261101_v0422_原稿续修_配现有PPT.md",
+  "sha256": "713d9c1e98ac4a926a109af7f2ab9915fa7e49ca5a2f4fb9796f409eba209671",
+  "convention": "排除标题与【】提示、标点；口读计入〇及数字外文换读；独立活动单列，普通停连不另加。",
+  "sections": [
+    {
+      "han": 8329,
+      "zero_circle_count": 5,
+      "spoken_han": 8334,
+      "speech_sha256": "ce96e67210b5cffb61344cc34627c8dc1fbf9f7eb0666b6eda848f94c32e1011",
+      "section": "上节",
+      "independent_activity_minutes": 3,
+      "total_minutes": {
+        "180": 49.3,
+        "190": 46.86,
+        "200": 44.67
+      },
+      "ppt_pages": [
+        1,
+        20
+      ],
+      "clicks": 29
+    },
+    {
+      "han": 8085,
+      "zero_circle_count": 0,
+      "spoken_han": 8085,
+      "speech_sha256": "e78a7a253168b31d525fe5da208fc58d3dbe0276a9f91bbfe38a228a572a6dd2",
+      "section": "下节",
+      "independent_activity_minutes": 3.75,
+      "total_minutes": {
+        "180": 48.67,
+        "190": 46.3,
+        "200": 44.17
+      },
+      "ppt_pages": [
+        21,
+        38
+      ],
+      "clicks": 24
+    }
+  ]
+}
