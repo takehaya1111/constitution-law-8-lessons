@@ -1,0 +1,85 @@
+{
+  "file": "口播修订稿_20261102_整讲故事与理解推进版.md",
+  "sha256": "69759d4d743850ce9b5038322359c7eb73632722de7bc7db873c48fcd66f86b5",
+  "convention": "排除标题、标点和【】提示；口读计入〇及数字外文折读；独立阅读观察单列，普通停连与翻页不重复计时；非真人计时。",
+  "sections": [
+    {
+      "han": 7942,
+      "zero_circle_count": 8,
+      "spoken_han": 7950,
+      "speech_sha256": "f2b7c31e3d013b2789cc1c5959a6f2ce94fa22026ca7cd7ec081ea2e0a6683d5",
+      "section": "上节",
+      "independent_activity_seconds": 200,
+      "total_minutes": {
+        "180": 47.5,
+        "190": 45.18,
+        "200": 43.08
+      },
+      "slide_sequence": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        15,
+        16,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19,
+        20
+      ],
+      "click_cues": 29
+    },
+    {
+      "han": 8181,
+      "zero_circle_count": 6,
+      "spoken_han": 8187,
+      "speech_sha256": "7c6a8514848db32d29c246688ae4ae8fd90e5483fb55770c2ca0b1b455bc93a8",
+      "section": "下节",
+      "independent_activity_seconds": 230,
+      "total_minutes": {
+        "180": 49.32,
+        "190": 46.92,
+        "200": 44.77
+      },
+      "slide_sequence": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "click_cues": 22
+    }
+  ],
+  "intentionally_not_triggered": {
+    "page": 37,
+    "click_groups": [
+      1,
+      2
+    ],
+    "reason": "本页只用初态国旗国徽图案，退出职权提醒；首都用口述接回第31页"
+  }
+}
