@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-03",
+  "inputs": {
+    "manuscript": {
+      "path": "C:\\Users\\tsunami\\Documents\\ChatGPT\\教学工作\\constitution-law-8-lessons\\materials\\第3讲实质备课\\口播修订稿_20261103_v0423_整讲重组_配现有PPT.md",
+      "bytes": 59506,
+      "sha256": "444f88bdfb686bb135ffb0f8b8d369ab04d1459af7441457a3918af4f5d8528a"
+    },
+    "pptx": {
+      "path": "C:\\Users\\tsunami\\Documents\\ChatGPT\\教学工作\\constitution-law-8-lessons\\deliverables\\宪法学八讲_授课净稿_20261015\\03_第三讲_国家性质与国家形式.pptx",
+      "bytes": 870559,
+      "sha256": "43335e0a7b21ae7609627795c72749d7d536691a0a779d2404b820e9c94f90c9"
+    }
+  },
+  "counts": {
+    "cue_count": 98,
+    "referenced_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "recognized_click_cues": 51,
+    "ppt_pages": 38,
+    "ppt_click_groups": 53,
+    "ppt_effect_targets": 53
+  },
+  "mechanical_binding_verified": true,
+  "mechanical_semantic_review": "NOT_PERFORMED",
+  "author_final_delta": "最后上节背景压缩、民主与专政联系补充及扩印设例明示已回源连读；未改变课件与下节。",
+  "independent_reviews": "首读候选700944bd；教师限定复核9c43ee65；配讲差量007d0821；这些报告保留其时点，不套给最终字节。",
+  "final_text_sha256": "444f88bdfb686bb135ffb0f8b8d369ab04d1459af7441457a3918af4f5d8528a",
+  "ppt_unchanged": true,
+  "real_presentation_run": false,
+  "human_timed_rehearsal": false,
+  "skill_version": "0.4.23",
+  "skill_commit": "82c465a244d0e61309c0dbb3ef2fd3d78e16c641"
+}
