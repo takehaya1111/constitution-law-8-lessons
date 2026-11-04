@@ -4,11 +4,15 @@ import argparse
 import hashlib
 import json
 import re
+import runpy
 import subprocess
 import sys
 from datetime import datetime, timezone
 
 ROOT = Path(__file__).resolve().parents[1]
+# 本工具也被仓外脚本按文件路径加载，取随包的同版清理器，无需改模块搜索路径。
+_oral_text = runpy.run_path(str(Path(__file__).with_name("oral_text.py")))
+speech_only = _oral_text["speech_only"]
 SPEEDS = [140, 150, 180, 200, 220]
 SCENARIOS = {"plan": "计划", "short": "回应较短", "slow": "推进较慢"}
 SECTIONS = {"upper": "上节", "lower": "下节"}
@@ -104,6 +108,7 @@ def spoken_count(text, overrides=None):
 
 
 def extract_blocks(source, definitions, overrides, continuous=False):
+    source = _oral_text["without_background"](source)
     headings = list(re.finditer(r"^## ([^\n]+)\n", source, re.M))
     sections = {}
     for i, match in enumerate(headings):
@@ -134,6 +139,7 @@ def extract_blocks(source, definitions, overrides, continuous=False):
                 if continuous:
                     line += body[:match.start()].count("\n") + 1
         speech = "\n\n".join(speeches)
+        speech = _oral_text["ACTIVITY"].sub("", speech)
         if continuous:
             require(len(speeches) == 1, "连续稿小标题须唯一：" + subheading)
             # 直接读当前Markdown正文；教师停留提示和来源脚注不进入口述。
@@ -250,7 +256,7 @@ def make_report(input_path):
                 rows.append({"section": section, "speed": speed, "scenario": scenario,
                              "original": calculate(section, "main", speed, scenario, blocks, activities),
                              "adjusted": calculate(section, choice, speed, scenario, blocks, activities)})
-    paths = [input_path, source_path, Path(__file__).resolve()]
+    paths = [input_path, source_path, Path(__file__).resolve(), Path(__file__).with_name("oral_text.py").resolve()]
     for name in config.get("supporting_sources", []):
         paths.append(input_path.parent / name)
     try:
